@@ -1,15 +1,17 @@
 cand9 degrees: [2, 7, 7, 7, 7, 7, 7, 7, 7]
-control: cube structure n=8 (realisable) [real]: restarts=40 time=1.9s  best normalised residual=2.45e-18 (raw 3.95e-17), min point separation=0.005, #restarts with residual<1e-10 and distinct points: 33
-   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [0.252255, -0.162286], [1.003216, 0.003237], [0.3188, -0.183496], [-0.008203, 0.99166], [-0.011223, 0.011481]]
-Traceback (most recent call last):
-  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/realise2.py", line 86, in <module>
-    attack("control: Pappus 9_3 (realisable)", lambda X, c: line_res(X, pappus, fxP, 9, c), 9, fxP, False, 40)
-  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/realise2.py", line 50, in attack
-    sol = least_squares(lambda X: resfun(X, cplx), x0, method="lm", xtol=1e-15, ftol=1e-15, gtol=1e-15, max_nfev=3000)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/scipy/_lib/_util.py", line 717, in inner
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/scipy/optimize/_lsq/least_squares.py", line 952, in least_squares
-    raise ValueError("Method 'lm' doesn't work when the number of "
-ValueError: Method 'lm' doesn't work when the number of residuals is less than the number of variables.
+control: cube structure n=8 (realisable) [real]: restarts=40 time=1.9s  best normalised residual=2.55e-18 (raw 5.42e-17), min point separation=0.120, #restarts with residual<1e-10 and all points >= 0.05 apart: 14
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [-0.20652, 0.471202], [0.212377, 1.145967], [0.163909, -0.122128], [0.871489, -0.101661], [0.27374, -0.16993]]
+control: Pappus 9_3 (realisable) [real]: restarts=40 time=0.7s  best normalised residual=7.59e-21 (raw 7.08e-18), min point separation=0.272, #restarts with residual<1e-10 and all points >= 0.05 apart: 28
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [2.429703, -0.0], [0.0, 1.0], [2.233799, -0.62702], [0.999052, 0.272326], [1.01576, -4.52553], [1.461651, 0.398424], [1.390234, -0.390234]]
+control: Mobius-Kantor over C (realisable over C) [complex]: restarts=40 time=1.1s  best normalised residual=8.00e-20 (raw 7.64e-17), min point separation=0.092, #restarts with residual<1e-10 and all points >= 0.05 apart: 35
+control: Fano over C? (no: Fano needs char 2)  [complex]: restarts=40 time=1.0s  NO solution with all points >= 0.05 apart at all (every restart collapsed points)
+target: Mobius-Kantor (8_3) lines [real]: restarts=150 time=24.9s  NO solution with all points >= 0.05 apart at all (every restart collapsed points)
+target: Fano plane lines [real]: restarts=150 time=13.0s  best normalised residual=5.05e-21 (raw 1.00e+00), min point separation=0.358, #restarts with residual<1e-10 and all points >= 0.05 apart: 5
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [-0.360209, 0.500004], [0.0, 1.0], [0.500005, -0.694043], [0.209373, 0.290627], [85473.831412, 118644.790897]]
+target: 9-point candidate structure (2x5-block + 12 four-blocks), real [real]: restarts=150 time=10.6s  best normalised residual=3.80e-18 (raw 8.71e-17), min point separation=0.055, #restarts with residual<1e-10 and all points >= 0.05 apart: 64
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [-0.205966, 0.459858], [-0.048044, 0.053181], [0.044683, 1.041005], [1.187666, 0.664669], [0.052172, -0.04722], [-0.081278, 0.097363]]
+control: 9-point candidate structure over C [complex]: restarts=40 time=5.6s  best normalised residual=9.15e-18 (raw 1.46e-16), min point separation=0.108, #restarts with residual<1e-10 and all points >= 0.05 apart: 37
+target: the 7 blocks through point 1 only (Fano-derived), real [real]: restarts=150 time=8.6s  best normalised residual=5.27e-18 (raw 1.18e-16), min point separation=0.088, #restarts with residual<1e-10 and all points >= 0.05 apart: 7
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [-0.20671, 0.476308], [0.546602, -0.205569], [0.290111, 1.175238], [0.141407, 1.109435], [-0.087059, 0.894159], [-0.13149, 0.818152]]
+info: candidate minus blocks through point 1, real [real]: restarts=60 time=2.2s  best normalised residual=1.15e-18 (raw 1.84e-17), min point separation=0.074, #restarts with residual<1e-10 and all points >= 0.05 apart: 20
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [0.420645, 0.25056], [-0.307813, 0.903957], [0.357303, 0.163654], [-0.478419, 0.682869], [0.303271, 0.112426], [-0.374361, 0.845686]]

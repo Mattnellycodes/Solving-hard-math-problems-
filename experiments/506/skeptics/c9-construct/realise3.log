@@ -1,0 +1,4 @@
+control cube n=8 (realisable) [R]: restarts=40 36s  no run ended with points >= 0.05 apart and |coords| <= 30.0
+control Pappus (realisable) [R]: restarts=40 65s  best residual=1.22e-17 (sep 0.701); runs with residual<1e-10, distinct, bounded, structure verified: 9
+   !!! REAL REALISATION: [[0.0, 0.0], [1.0, 0.0], [-12.400987, -0.0], [0.0, 1.0], [10.863048, -12.66054], [-10.765939, 14.538423], [11.547718, -13.033145], [-0.698789, 0.943651], [-6.043448, 7.043448]]
+control Mobius-Kantor over C (realisable over C) [C]: restarts=40 44s  best residual=1.55e-17 (sep 0.080); runs with residual<1e-10, distinct, bounded: 11

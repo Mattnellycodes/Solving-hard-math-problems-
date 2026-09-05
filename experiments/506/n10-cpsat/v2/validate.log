@@ -1,0 +1,1 @@
+n=8: built in 0.2s; constraint counts {'T': 56, 'L1': 162, 'L2': 28, 'PD': 28, 'PDl': 8, 'SG': 8, 'SGl': 1, 'dHSG7': 8, 'E11SG': 8, 'E11HSG7': 56, 'E11HSG8': 8, 'E11MK8': 8, 'lHSG7': 8, 'lHSG8': 1, 'lMK8': 1}

@@ -1,0 +1,14 @@
+run 1 pool=30: new best circles=51 pts=[(-2.0, -3.0), (0.0, -2.25), (3.75, 3.0), (-0.75, -2.5), (-1.83723, -2.83015), (3.49392, 1.9699), (3.60514, 2.84884), (-1.67596, -2.66187), (-0.33691, -2.37634)]
+run 2 pool=19: new best circles=49 pts=[(-3.25, -2.75), (-2.75, 1.75), (-1.5, 0.75), (0.0, -0.75), (0.00369, -0.45295), (-1.53035, -1.69175), (-1.14771, 1.45459), (-2.52752, 1.77752), (-2.28571, 1.53571)]
+run 3 pool=30: new best circles=27 pts=[(-0.25, -2.0), (1.75, 3.5), (3.5, 0.0), (-0.5, -1.0), (8.16667, 1.16667), (1.17952, -3.95152), (7.61765, 2.19608), (-0.52643, -0.09437), (6.76126, 3.0991)]
+run 14 pool=45: new best circles=26 pts=[(-2.5, -0.25), (0.5, -3.0), (3.0, 0.75), (3.25, 2.25), (2.83617, 0.23511), (-10.20046, -0.95004), (-8.5598, -2.88469), (1.57094, -1.96408), (-11.1446, 3.38983)]
+Traceback (most recent call last):
+  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/closure_search2.py", line 128, in <module>
+    sc, S = sa_search(pool, 3000, 1000 + runs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/closure_search2.py", line 109, in sa_search
+    S = set(random.sample(range(m), 9)); sc = score(S)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/random.py", line 456, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative

@@ -1,10 +1,20 @@
-== s=8
-/bin/bash: line 216: /usr/bin/time: No such file or directory
-== s=7
-/bin/bash: line 216: /usr/bin/time: No such file or directory
-== s=6
-/bin/bash: line 216: /usr/bin/time: No such file or directory
-== s=5
-/bin/bash: line 216: /usr/bin/time: No such file or directory
-== s=4
-/bin/bash: line 216: /usr/bin/time: No such file or directory
+== s=8  10:50:59
+s=8 target=24 ellcap=11 Dmin=49 ncand=0
+FINISHED nodes=1 families(D>=Dmin)=1 printed=0
+   end 10:50:59
+== s=7  10:50:59
+s=7 target=24 ellcap=11 Dmin=49 ncand=21
+FINISHED nodes=172 families(D>=Dmin)=0 printed=0
+   end 10:50:59
+== s=6  10:50:59
+s=6 target=24 ellcap=11 Dmin=49 ncand=66
+FINISHED nodes=120970 families(D>=Dmin)=0 printed=0
+   end 10:50:59
+== s=5  10:50:59
+s=5 target=24 ellcap=11 Dmin=49 ncand=126
+FINISHED nodes=34760422 families(D>=Dmin)=390 printed=30
+   end 10:51:14
+== s=4  10:51:14
+s=4 target=24 ellcap=11 Dmin=49 ncand=105
+FINISHED nodes=1 families(D>=Dmin)=0 printed=0
+   end 10:51:14

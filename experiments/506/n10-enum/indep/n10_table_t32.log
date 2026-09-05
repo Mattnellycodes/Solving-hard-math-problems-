@@ -1,0 +1,11 @@
+n=10 mode=table target=32 need=D+ell>=88 Caps(n=10, mode=table, capD=30, max4=10, capL=40, t3n=12, ellmax=12) big sizes=[5, 6, 7, 8, 9]
+  phase1 level 1: 5 classes
+  phase1 level 2: 7 classes
+  phase1 level 3: 4 classes
+  phase1 level 4: 4 classes
+  phase1 level 5: 1 classes
+  phase1 level 6: 1 classes
+  phase1 level 7: 0 classes
+phase 1: 23 classes of big-block families (incl. empty) [0.4s]
+[0] sizes=[] blocks=[] D0=0 cands=210 rootD<=75 (need D>=76) -> pruned at root
+[1] sizes=[5] blocks=[[0, 1, 2, 3, 4]] D0=9 cands=155 rootD<=75 (need D>=76) -> pruned at root

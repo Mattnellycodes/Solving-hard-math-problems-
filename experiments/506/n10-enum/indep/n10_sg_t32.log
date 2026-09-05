@@ -1,0 +1,10 @@
+n=10 mode=sg target=32 need=D+ell>=88 Caps(n=10, mode=sg, capD=35, max4=11, capL=44, t3n=1000000000, ellmax=14) big sizes=[5, 6, 7, 8, 9]
+  phase1 level 1: 5 classes
+  phase1 level 2: 7 classes
+  phase1 level 3: 4 classes
+  phase1 level 4: 4 classes
+  phase1 level 5: 1 classes
+  phase1 level 6: 1 classes
+  phase1 level 7: 0 classes
+phase 1: 23 classes of big-block families (incl. empty) [0.3s]
+[0] sizes=[] blocks=[] D0=0 cands=210 rootD<=81 (need D>=74) -> EMPTY FAMILY SKIPPED (all-4-block case not enumerated here)

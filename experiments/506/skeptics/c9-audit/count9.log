@@ -1,0 +1,6 @@
+antipodal 9-point set: n=9 circles=25 lines(>=3 pts)=4 D=55 identity C(n,3)-D-ell holds=True degenerate(all on one circle/line)=False
+   circle sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8] line sizes=[3, 3, 3, 3]
+8 concyclic points + interior point on 4 non-diameter chords: n=9 circles=25 lines(>=3 pts)=4 D=55 identity C(n,3)-D-ell holds=True degenerate(all on one circle/line)=False
+   circle sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8] line sizes=[3, 3, 3, 3]
+upper bound c(9) <= 25
+random grid sets: 200 tested, identity failures: 0

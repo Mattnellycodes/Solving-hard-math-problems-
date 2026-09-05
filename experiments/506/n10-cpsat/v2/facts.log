@@ -1,0 +1,7 @@
+F1 packing bounds on 9 points:
+   max five-lines: 2  max four-lines: 3
+   with 0 four-lines: max three-lines = 12
+   with 1 four-lines: max three-lines = 8
+   with 2 four-lines: max three-lines = 7
+   with 3 four-lines: max three-lines = 4
+F2: 7-triple packings on 7 points: 30 labelled, 1 class(es); all cover all 21 pairs: True
