@@ -131,3 +131,29 @@ computation). Segre's cube example is the two-concentric-squares configuration (
 CONFIRMED by an independent enumeration.
 
 **GitHub push now works** (the app was evidently granted access); branch pushed.
+
+## 2026-09-05 10:45 UTC — skeptic verdicts and n = 9 status
+
+**Adversarial verification (6 of 10 skeptic reports in; the rest were cut by the usage limit and are re-running):**
+| claim | construction-attack | proof-audit |
+|---|---|---|
+| c(6) = 8 | CONFIRMED — own enumeration with only the intersection axioms gives the unique 7-circle candidate; own slope algebra kills it; exact brute force over ~10⁹ six-subsets of a 7×7 grid and a 97-point rational set: minimum 8 | CONFIRMED — own brute-force + z3 enumeration, own two-chart Angle-Lemma certificate |
+| c(7) = 11 | CONFIRMED — every ≤10-circle structure is the Fano line system (impossible) or the (7,4,2) biplane, shown unrealisable by an all-chart Gröbner analysis | CONFIRMED — own labelled enumeration + own CP-SAT; Angle Lemma re-proved by hand and by Gröbner |
+| c(8) = 17 | CONFIRMED — CP-SAT optimum D+ℓ = 39 and a complete DFS (393,328 nodes) with the cube structure as the unique ≤17 class; searches over grids/polyhedra found nothing below 17 | CONFIRMED — own CP-SAT (different formulation, both cap regimes) and own orderly enumeration |
+
+Useful remarks from the skeptics: the algebraic Angle-Lemma certificates that fix L1 horizontal with finite
+slopes miss the chart where another line is perpendicular to L1; the synthetic directed-angle proof (which I
+checked by hand) is complete, and the c6-audit skeptic supplied a two-chart certificate. Also: the problem's
+non-degeneracy convention ("not all on a line" vs "no three collinear") is ambiguous on erdosproblems.com; all
+our results use the Lean/Elliott convention (points not all on one line or one circle; collinear triples
+determine no circle), and the constructions for n = 6, 7, 8 do contain collinear triples.
+
+**n = 9.** My symmetry-free enumeration (SG-only caps + "≤ 7 four-blocks through a point", the latter justified by the
+Möbius–Kantor lemma) found, before its 2-hour limit, only the theory agent's candidate (two 5-blocks through a
+common point + twelve 4-blocks + 6 lines, count 24), and my hereditary-SG checker kills it (a derived Fano plane at
+a degree-7 point). The run was cut off (status FEASIBLE), so completeness is not yet certified; re-running with
+symmetry breaking (some block of size ≥ 5 must exist, so fix one to contain {0,1,2,3,4}).
+
+**Survey.** All eight referees finished; the synthesis agent is re-running. The referees' top survivor is a
+refutation of Robert Israel's sign conjecture for OEIS A067857 at primorials with ≥ 92 prime factors (with a
+uniform bound argument) — a second promising target if time permits.
