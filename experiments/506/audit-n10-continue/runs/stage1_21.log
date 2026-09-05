@@ -1,0 +1,2 @@
+skeleton 21: sizes [5, 5, 5, 5, 5, 5] D_skel=54 b4 in [7,5] cands=5 base clauses=0 |Aut|=60 cap=True mk=True LB=75 solver=cadical153
+skeleton 21: 0 F-classes, 0 labelled solutions, 0.0s

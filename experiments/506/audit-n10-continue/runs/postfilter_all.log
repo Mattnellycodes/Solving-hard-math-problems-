@@ -1,0 +1,47 @@
+== runs/stage2_1.json: 8 (F,L) classes
+  #0: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #1: D=76 l=13 circles=31 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #2: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #3: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #4: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel', 'orchard']
+  #5: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #6: D=76 l=13 circles=31 b4=19 theorem-kills=['miquel']  cited-kills=['miquel']
+  #7: D=76 l=12 circles=32 b4=19 theorem-kills=['miquel']  cited-kills=['miquel', 'orchard']
+== runs/stage2_two5dfs.json: 16 (F,L) classes
+  #0: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #1: D=78 l=11 circles=31 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #2: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #3: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #4: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #5: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #6: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #7: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #8: D=78 l=11 circles=31 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #9: D=78 l=10 circles=32 b4=20 theorem-kills=['mk_8_3', 'orchard']  cited-kills=['mk_8_3', 'orchard']
+  #10: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #11: D=78 l=10 circles=32 b4=20 theorem-kills=NONE (survivor)  cited-kills=NONE
+  #12: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #13: D=78 l=11 circles=31 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #14: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+  #15: D=78 l=10 circles=32 b4=20 theorem-kills=['miquel']  cited-kills=['miquel']
+== runs/stage2_16.json: 13 (F,L) classes
+  #0: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #1: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #2: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #3: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #4: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #5: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']
+  #6: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']
+  #7: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']
+  #8: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #9: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #10: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #11: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'orchard']
+  #12: D=78 l=10 circles=32 b4=14 theorem-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']  cited-kills=['hereditary_sg', 'miquel', 'mk_8_3', 'orchard']
+== runs/stage2_7.json: 0 (F,L) classes
+== runs/stage2_13.json: 0 (F,L) classes
+== runs/stage2_14.json: 0 (F,L) classes
+== runs/stage2_18.json: 0 (F,L) classes
+== runs/stage2_11_lb74.json: 0 (F,L) classes
+total (F,L) classes: 37; survivors of theorem-only filters: 1
+SURVIVOR: {'file': 'runs/stage2_two5dfs.json', 'index': 11, 'F': [[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 6, 7], [1, 2, 8, 9], [1, 3, 5, 9], [1, 3, 6, 8], [1, 4, 5, 7], [1, 4, 6, 9], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 8], [2, 4, 7, 9], [3, 4, 6, 7], [3, 4, 8, 9]], 'L': [[0, 1, 9], [0, 2, 8], [0, 6, 7], [1, 3, 7], [1, 5, 8], [2, 4, 6], [2, 5, 9], [3, 4, 5], [3, 6, 9], [4, 7, 8]], 'circles': 32}

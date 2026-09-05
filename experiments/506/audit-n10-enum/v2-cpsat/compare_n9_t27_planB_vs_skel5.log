@@ -1,0 +1,10 @@
+my classes: 9; their classes: 9; common: 9
+  BOTH  [('out_planB_n9_t27_s0.json', 0, 27, 3, {'A': 3, 'AB': 2, 'ABK': 2, 'ABKC': 2})] <-> [('out_skel5_n9_t27.json', 0, 27, 3, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 1, 27, 2, {'A': 2, 'AB': 2, 'ABK': 2, 'ABKC': 2})] <-> [('out_skel5_n9_t27.json', 1, 27, 2, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 2, 27, 1, {'A': 1, 'AB': 0, 'ABK': 0, 'ABKC': 0})] <-> [('out_skel5_n9_t27.json', 2, 27, 1, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 3, 27, 1, {'A': 1, 'AB': 1, 'ABK': 1, 'ABKC': 1})] <-> [('out_skel5_n9_t27.json', 3, 27, 1, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 4, 27, 2, {'A': 2, 'AB': 2, 'ABK': 2, 'ABKC': 2})] <-> [('out_skel5_n9_t27.json', 4, 27, 2, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 5, 27, 5, {'A': 3, 'AB': 3, 'ABK': 3, 'ABKC': 3})] <-> [('out_skel5_n9_t27.json', 5, 27, 5, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 6, 26, 33, {'A': 33, 'AB': 2, 'ABK': 2, 'ABKC': 2})] <-> [('out_skel5_n9_t27.json', 6, 26, 33, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 7, 27, 4, {'A': 4, 'AB': 0, 'ABK': 0, 'ABKC': 0})] <-> [('out_skel5_n9_t27.json', 7, 27, 4, None)]
+  BOTH  [('out_planB_n9_t27_s0.json', 8, 27, 3, {'A': 0, 'AB': 0, 'ABK': 0, 'ABKC': 0})] <-> [('out_skel5_n9_t27.json', 8, 27, 3, None)]

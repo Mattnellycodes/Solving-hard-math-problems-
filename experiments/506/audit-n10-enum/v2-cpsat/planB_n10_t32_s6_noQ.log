@@ -1,0 +1,13 @@
+n=10 count<=32 need D+ell>=88; skeleton 6 = [[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] |Aut|=1152; q=0, orbit O=[0]
+  derived structures at q with 1 triples: 1 classes [0.0s]
+  derived structures at q with 2 triples: 1 classes [0.0s]
+  derived structures at q with 3 triples: 1 classes [0.0s]
+  derived structures at q with 4 triples: 1 classes [0.0s]
+  derived structures at q with 5 triples: 0 classes [0.0s]
+d=0 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=1 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=2 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=4 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.4s]
+
+0 isomorphism classes (skeleton 6) with some completion [0.6s]

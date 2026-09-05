@@ -1,0 +1,34 @@
+n=9 count<=27: need D+ell>=57; single 5-block: b4>=13, d in [3,7]
+  derived structures with 1 triples: 2 classes [0.0s]
+  derived structures with 2 triples: 4 classes [0.0s]
+  derived structures with 3 triples: 5 classes [0.0s]
+  derived structures with 4 triples: 6 classes [0.0s]
+  derived structures with 5 triples: 2 classes [0.0s]
+  derived structures with 6 triples: 2 classes [0.0s]
+  derived structures with 7 triples: 0 classes [0.0s]
+d=3 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #2: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #3: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #4: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #2: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #3: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #4: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #5: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=5 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=5 derived #1: status OPTIMAL, 57 (F4,L) solutions, 8 distinct F4 [1.2s]
+d=6 derived #0: status OPTIMAL, 24 (F4,L) solutions, 8 distinct F4 [0.4s]
+d=6 derived #1: status OPTIMAL, 44 (F4,L) solutions, 24 distinct F4 [1.3s]
+
+9 isomorphism classes (single 5-block) with some completion [3.2s]
+class 0: sizes [5, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=3
+class 1: sizes [5, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=2
+class 2: sizes [5, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=1
+class 3: sizes [5, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=1
+class 4: sizes [5, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=2
+class 5: sizes [5, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=5
+class 6: sizes [5, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] D=48 ell_max=10 count=26 #linesets=33
+class 7: sizes [5, 4, 4] b=14 deg [5, 5, 5, 7, 7, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=4
+class 8: sizes [5, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] D=48 ell_max=9 count=27 #linesets=3

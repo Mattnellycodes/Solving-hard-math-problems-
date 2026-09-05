@@ -1,0 +1,8 @@
+Aut of single 5-block on 10 points: 14400 (expect 14400)
+Aut of two disjoint 5-blocks: 28800 (expect 28800)
+Aut of 6-block: 17280 (expect 17280)
+time 1.0287821292877197
+
+real	0m5.490s
+user	0m5.476s
+sys	0m0.004s

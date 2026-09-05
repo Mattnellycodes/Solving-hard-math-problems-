@@ -1,0 +1,54 @@
+n=9 count<=27 need D+ell>=57; skeleton 0 = [[0, 1, 2, 3, 4]] |Aut|=2880; q=0, orbit O=[0, 1, 2, 3, 4]
+  derived structures at q with 1 triples: 2 classes [0.0s]
+  derived structures at q with 2 triples: 4 classes [0.0s]
+  derived structures at q with 3 triples: 5 classes [0.0s]
+  derived structures at q with 4 triples: 6 classes [0.0s]
+  derived structures at q with 5 triples: 2 classes [0.0s]
+  derived structures at q with 6 triples: 2 classes [0.0s]
+  derived structures at q with 7 triples: 0 classes [0.0s]
+d=0 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=1 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=1 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=2 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=2 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=2 derived #2: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=2 derived #3: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #2: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #3: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=3 derived #4: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #1: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #2: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #3: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #4: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=4 derived #5: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=5 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=5 derived #1: status OPTIMAL, 57 (F4,L) solutions, 8 distinct F4 [1.1s]
+d=6 derived #0: status OPTIMAL, 24 (F4,L) solutions, 8 distinct F4 [0.4s]
+d=6 derived #1: status OPTIMAL, 44 (F4,L) solutions, 24 distinct F4 [1.3s]
+
+9 isomorphism classes (skeleton 0) with some completion [3.2s]
+class 0: sizes [5, 4, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] |Aut| 2 D=48 ell_max=9 count=27 #linesets=3 survivors={'A': 3, 'AB': 2, 'ABK': 2, 'ABKC': 2}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 8], [1, 3, 6, 7], [1, 4, 5, 7], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 8], [3, 4, 6, 8], [5, 6, 7, 8]]
+class 1: sizes [5, 4, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] |Aut| 8 D=48 ell_max=9 count=27 #linesets=2 survivors={'A': 2, 'AB': 2, 'ABK': 2, 'ABKC': 2}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 8], [1, 3, 6, 7], [1, 4, 5, 8], [2, 3, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [3, 4, 6, 8], [5, 6, 7, 8]]
+class 2: sizes [5, 4, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] |Aut| 2 D=48 ell_max=9 count=27 #linesets=1 survivors={'A': 1, 'AB': 0, 'ABK': 0, 'ABKC': 0}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 8], [0, 3, 5, 8], [0, 4, 6, 7], [1, 3, 6, 7], [1, 4, 5, 8], [2, 3, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [3, 4, 6, 8], [5, 6, 7, 8]]
+class 3: sizes [5, 4, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] |Aut| 1 D=48 ell_max=9 count=27 #linesets=1 survivors={'A': 1, 'AB': 1, 'ABK': 1, 'ABKC': 1}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 8], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 7], [1, 3, 6, 8], [1, 4, 5, 8], [2, 3, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [5, 6, 7, 8]]
+class 4: sizes [5, 4, 4, 4] b=14 deg [5, 5, 6, 6, 7, 7, 7, 7, 7] |Aut| 1 D=48 ell_max=9 count=27 #linesets=2 survivors={'A': 2, 'AB': 2, 'ABK': 2, 'ABKC': 2}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 8], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 7], [1, 3, 5, 7], [1, 4, 5, 8], [2, 3, 5, 6], [2, 4, 7, 8], [3, 4, 6, 8], [5, 6, 7, 8]]
+class 5: sizes [5, 4, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] |Aut| 4 D=48 ell_max=9 count=27 #linesets=5 survivors={'A': 3, 'AB': 3, 'ABK': 3, 'ABKC': 3}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 7], [1, 3, 6, 8], [1, 4, 5, 8], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 6, 8], [3, 4, 5, 7], [5, 6, 7, 8]]
+class 6: sizes [5, 4, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] |Aut| 8 D=48 ell_max=10 count=26 #linesets=33 survivors={'A': 33, 'AB': 2, 'ABK': 2, 'ABKC': 2}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 6, 8], [1, 3, 6, 7], [1, 4, 5, 8], [2, 3, 7, 8], [2, 4, 5, 6], [3, 4, 5, 7], [3, 4, 6, 8], [5, 6, 7, 8]]
+class 7: sizes [5, 4, 4, 4] b=14 deg [5, 5, 5, 7, 7, 7, 7, 7, 7] |Aut| 4 D=48 ell_max=9 count=27 #linesets=4 survivors={'A': 4, 'AB': 0, 'ABK': 0, 'ABKC': 0}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 8], [0, 3, 5, 8], [0, 4, 6, 7], [1, 2, 5, 8], [1, 2, 6, 7], [2, 3, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [3, 6, 7, 8], [4, 5, 6, 8]]
+class 8: sizes [5, 4, 4, 4] b=14 deg [5, 6, 6, 6, 6, 7, 7, 7, 7] |Aut| 3 D=48 ell_max=9 count=27 #linesets=3 survivors={'A': 0, 'AB': 0, 'ABK': 0, 'ABKC': 0}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 8], [0, 3, 5, 8], [0, 3, 6, 7], [1, 2, 6, 7], [1, 3, 5, 7], [1, 4, 6, 8], [2, 3, 5, 6], [2, 4, 5, 8], [3, 4, 7, 8], [4, 5, 6, 7]]
+
+real	0m5.967s
+user	0m6.078s
+sys	0m0.080s

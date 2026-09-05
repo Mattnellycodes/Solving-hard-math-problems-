@@ -19,7 +19,7 @@ Mode 'with_inf':  S = 8 grid points + the point at infinity (then the centre O m
 """
 import sys, time, json
 from itertools import combinations
-from math import comb
+from math import comb, gcd
 import numpy as np
 sys.path.insert(0, "/home/user/Solving-hard-math-problems-/experiments/506/audit-search-local")
 from count_exact import block_key, on_block
@@ -29,19 +29,44 @@ GRID = [(x, y) for x in range(K) for y in range(K)]
 N = len(GRID)
 
 
-def grid_blocks():
+def line_key(p, q):
+    (x1, y1), (x2, y2) = p, q
+    B, C, D = y1 - y2, x2 - x1, x1 * y2 - x2 * y1
+    g = gcd(gcd(abs(B), abs(C)), abs(D))
+    B, C, D = B // g, C // g, D // g
+    for v in (B, C, D):
+        if v != 0:
+            if v < 0:
+                B, C, D = -B, -C, -D
+            break
+    return (0, B, C, D)
+
+
+def grid_blocks(with_two_point_lines=False):
     blocks = {}
     for i, j, k in combinations(range(N), 3):
         key = block_key(GRID[i], GRID[j], GRID[k])
         if key not in blocks:
             blocks[key] = sum(1 << t for t, p in enumerate(GRID) if on_block(key, p))
+    if with_two_point_lines:
+        # a line through exactly two grid points is a 3-block once infinity is a member of S
+        for i, j in combinations(range(N), 2):
+            key = line_key(GRID[i], GRID[j])
+            assert key == block_key(GRID[i], GRID[j], GRID[i]) if False else True
+            if key not in blocks:
+                blocks[key] = sum(1 << t for t, p in enumerate(GRID) if on_block(key, p))
+                assert bin(blocks[key]).count("1") == 2
     return blocks
 
 
 def main(mode, thresh=31):
     t0 = time.time()
-    blocks = grid_blocks()
+    blocks = grid_blocks(with_two_point_lines=(mode != 'pure'))
     keys = list(blocks)
+    for key in keys:
+        if key[0] == 0:
+            pts_on = [p for p in GRID if on_block(key, p)]
+            assert line_key(pts_on[0], pts_on[1]) == key, key
     masks = np.array([blocks[k] for k in keys], dtype=np.uint32)
     is_line = np.array([k[0] == 0 for k in keys])
     sizes = np.array([bin(int(m)).count("1") for m in masks])

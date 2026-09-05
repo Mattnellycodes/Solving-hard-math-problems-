@@ -1,0 +1,44 @@
+N=6 n=9: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [24.2s]
+  scanned 1307504 subsets; min R=29; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=40): 200 [30.5s]
+  RESULT N=6 n=9: min circles over universe = 25 (f(n)=25, gap +0); hits <= 25: 96 [32.4s]
+  hit structures Counter[(R, L, circles)]: Counter({(29, 4, 25): 96})
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-1, -2, -1), (-1, 2, -1), (1, -2, -1), (1, 2, -1), (2, -1, -1), (2, 1, -1)] Q=('-2', '1', '1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-1, -1, -2), (-1, -1, 2), (1, -1, -2), (1, -1, 2), (2, -1, -1), (2, -1, 1)] Q=('-2', '1', '1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, 1), (-1, -2, 1), (-1, 2, 1), (1, -2, 1), (1, 2, 1), (2, -1, 1), (2, 1, 1)] Q=('-2', '1', '-1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, 1), (-1, -1, -2), (-1, -1, 2), (1, -1, -2), (1, -1, 2), (2, -1, -1), (2, -1, 1)] Q=('-2', '1', '-1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-1, -2, -1), (-1, -1, -2), (-1, -1, 2), (1, -1, -2), (1, -1, 2), (2, -1, -1), (2, -1, 1)] Q=('-1', '-2', '1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+N=6 n=10: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.0s]
+  scanned 1961256 subsets; min R=52; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=66): 20304 [8.3s]
+  RESULT N=6 n=10: min circles over universe = 45 (f(n)=33, gap +12); hits <= 33: 0 [191.3s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-1, -2, -1), (-1, -2, 1), (-1, -1, -2), (-1, -1, 2), (-1, 1, -2), (-1, 1, 2), (-1, 2, -1), (-1, 2, 1)] Q=('-2', '1', '-1'): planar count circles=45 lines=8 (plane count R-L=45) OK max circle 8, lines [3, 3, 3, 3, 3, 3, 3, 3]
+N=6 n=11: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.0s]
+  scanned 2496144 subsets; min R=71; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=88): 12936 [10.8s]
+  RESULT N=6 n=11: min circles over universe = 59 (f(n)=41, gap +18); hits <= 41: 0 [132.8s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, 1, 1), (-1, -2, -1), (-1, 1, -2), (-1, 1, 2), (-1, 2, -1), (1, -2, 1), (1, -1, -2), (1, -1, 2), (1, 2, 1), (2, -1, -1)] Q=('2', '1', '1'): planar count circles=59 lines=12 (plane count R-L=59) OK max circle 6, lines [5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+N=6 n=12: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.0s]
+  scanned 2704156 subsets; min R=83; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=104): 528 [14.5s]
+  RESULT N=6 n=12: min circles over universe = 78 (f(n)=51, gap +27); hits <= 51: 0 [20.6s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, 1, 1), (-1, -2, -1), (-1, 1, -2), (-1, 1, 2), (-1, 2, -1), (1, -2, 1), (1, -1, -2), (1, -1, 2), (1, 2, 1), (2, -1, -1), (2, 1, 1)] Q=('-2', '-1', '1'): planar count circles=78 lines=5 (plane count R-L=78) OK max circle 6, lines [4, 4, 4, 3, 3]
+N=6 n=13: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.0s]
+  scanned 2496144 subsets; min R=125; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=150): 25608 [10.8s]
+  RESULT N=6 n=13: min circles over universe = 113 (f(n)=61, gap +52); hits <= 61: 0 [329.1s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-2, 1, 1), (-1, -2, -1), (-1, -2, 1), (-1, 2, -1), (-1, 2, 1), (1, -2, -1), (1, -2, 1), (1, 2, -1), (1, 2, 1), (2, -1, -1)] Q=('2', '-1', '1'): planar count circles=113 lines=15 (plane count R-L=113) OK max circle 7, lines [6, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+N=6 n=14: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.0s]
+  scanned 1961256 subsets; min R=149; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=178): 2844 [32.5s]
+  RESULT N=6 n=14: min circles over universe = 134 (f(n)=73, gap +61); hits <= 73: 0 [90.4s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-2, 1, 1), (-1, -2, -1), (-1, -2, 1), (-1, 2, -1), (-1, 2, 1), (1, -2, -1), (1, -2, 1), (1, 2, -1), (1, 2, 1), (2, -1, -1), (2, -1, 1)] Q=('2', '1', '-1'): planar count circles=134 lines=15 (plane count R-L=134) OK max circle 7, lines [7, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+N=6 n=15: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.1s]
+  scanned 1307504 subsets; min R=177; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=211): 800 [17.1s]
+  RESULT N=6 n=15: min circles over universe = 155 (f(n)=85, gap +70); hits <= 85: 0 [33.1s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-2, 1, 1), (-1, -2, -1), (-1, -2, 1), (-1, 2, -1), (-1, 2, 1), (1, -2, -1), (1, -2, 1), (1, 2, -1), (1, 2, 1), (2, -1, -1), (2, -1, 1), (2, 1, -1)] Q=('2', '1', '1'): planar count circles=155 lines=22 (plane count R-L=155) OK max circle 8, lines [7, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+N=6 n=16: |U|=24 rich planes=782 centre candidates=151597 (rational 43848) max planes through a candidate=110 [0.1s]
+  scanned 735471 subsets; min R=198; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=237): 3 [9.9s]
+  RESULT N=6 n=16: min circles over universe = 189 (f(n)=99, gap +90); hits <= 99: 0 [9.9s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-2, -1, -1), (-2, -1, 1), (-2, 1, -1), (-2, 1, 1), (-1, -2, -1), (-1, -2, 1), (-1, 2, -1), (-1, 2, 1), (1, -2, -1), (1, -2, 1), (1, 2, -1), (1, 2, 1), (2, -1, -1), (2, -1, 1), (2, 1, -1), (2, 1, 1)] Q=('-1', '-1', '-2'): planar count circles=189 lines=9 (plane count R-L=189) OK max circle 8, lines [4, 4, 4, 4, 4, 3, 3, 3, 3]

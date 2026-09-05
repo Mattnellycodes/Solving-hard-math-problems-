@@ -1,0 +1,24 @@
+survivor: runs/stage2_two5dfs.json 11 b4 = 20 l = 10 count 32
+rank(M) = 9  Q-kernel dim = 1  kernel = constants: True
+invariant factors: [1, 1, 1, 1, 1, 1, 1, 1, 10]  exponent e = 10  |torsion| = 10
+solutions in (Z/e)^10 with alpha_0 = 0: 10 (must equal |torsion| = 10 )
+labellings with 5 distinct angles on each circle: 8
+   S angles [0, 2, 8, 4, 6]  R angles [0, 2, 8, 4, 6] (units 2pi/10)
+   S angles [0, 2, 8, 4, 6]  R angles [5, 7, 3, 9, 1] (units 2pi/10)
+   S angles [0, 4, 6, 8, 2]  R angles [0, 4, 6, 8, 2] (units 2pi/10)
+   S angles [0, 4, 6, 8, 2]  R angles [5, 9, 1, 3, 7] (units 2pi/10)
+   S angles [0, 6, 4, 2, 8]  R angles [0, 6, 4, 2, 8] (units 2pi/10)
+   S angles [0, 6, 4, 2, 8]  R angles [5, 1, 9, 7, 3] (units 2pi/10)
+   S angles [0, 8, 2, 6, 4]  R angles [0, 8, 2, 6, 4] (units 2pi/10)
+   S angles [0, 8, 2, 6, 4]  R angles [5, 3, 7, 1, 9] (units 2pi/10)
+labelling S=[0, 2, 8, 4, 6] R=[0, 2, 8, 4, 6]: finite O: GB={1};  O=inf: GB={1}   [59.1s]
+labelling S=[0, 2, 8, 4, 6] R=[5, 7, 3, 9, 1]: finite O: GB={1};  O=inf: GB={1}   [347.5s]
+labelling S=[0, 4, 6, 8, 2] R=[0, 4, 6, 8, 2]: finite O: GB={1};  O=inf: GB={1}   [423.1s]
+labelling S=[0, 4, 6, 8, 2] R=[5, 9, 1, 3, 7]: finite O: GB={1};  O=inf: GB={1}   [508.4s]
+labelling S=[0, 6, 4, 2, 8] R=[0, 6, 4, 2, 8]: finite O: GB={1};  O=inf: GB={1}   [571.8s]
+labelling S=[0, 6, 4, 2, 8] R=[5, 1, 9, 7, 3]: finite O: GB={1};  O=inf: GB={1}   [641.3s]
+labelling S=[0, 8, 2, 6, 4] R=[0, 8, 2, 6, 4]: finite O: GB={1};  O=inf: GB={1}   [691.4s]
+labelling S=[0, 8, 2, 6, 4] R=[5, 3, 7, 1, 9]: finite O: GB={1};  O=inf: GB={1}   [857.4s]
+ALL LABELLINGS KILLED (no complex point with rho != 0, +-1 for any Galois conjugate): True
+control (one line only): finite-O GB == {1}? False (must be False)
+done 862.1s

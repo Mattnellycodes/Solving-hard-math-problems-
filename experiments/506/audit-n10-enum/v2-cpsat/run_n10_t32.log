@@ -1,0 +1,10 @@
+n=10 count<=32: need D+ell>=88; caps {'capD': 35, 'capL': 44}
+  skeleton level 1: 5 classes
+  skeleton level 2: 7 classes
+  skeleton level 3: 4 classes
+  skeleton level 4: 4 classes
+  skeleton level 5: 1 classes
+  skeleton level 6: 1 classes
+  skeleton level -: 0 classes
+22 nonempty skeleton classes: [[5], [5, 5], [5, 5], [5, 5], [5, 5, 5], [5, 5, 5], [5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5], [5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5], [5, 5, 5, 6], [5, 5, 6], [5, 6], [5, 6], [5, 7], [6], [6, 6], [7], [8], [9]] [3.3s]
+skeleton 0 sizes [5]: status UNKNOWN, 0 (F4,L) solutions, 0 distinct F4 [2400.0s]

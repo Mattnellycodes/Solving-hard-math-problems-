@@ -1,0 +1,7 @@
+skeleton 12: sizes [5, 5, 5] D_skel=27 b4 in [16,20] cands=63 base clauses=18760 |Aut|=32 cap=True mk=True LB=75 solver=cadical153
+  b4=20: 0 classes, 0 labelled solutions  (0.0s)
+  b4=19: 0 classes, 0 labelled solutions  (0.0s)
+  b4=18: 0 classes, 0 labelled solutions  (0.1s)
+  b4=17: 0 classes, 0 labelled solutions  (0.1s)
+  b4=16: 0 classes, 0 labelled solutions  (0.1s)
+skeleton 12: 0 F-classes, 0 labelled solutions, 0.1s

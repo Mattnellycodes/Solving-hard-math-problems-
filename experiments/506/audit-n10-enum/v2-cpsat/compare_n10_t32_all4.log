@@ -1,0 +1,2 @@
+my classes: 1; their classes: 1; common: 1
+  BOTH  [('out_all4_n10_t32.json', 0, 32, 6, {'A': 6, 'AB': 0, 'ABK': 0, 'ABKC': 0})] <-> [('n10_all4_sg_t32.json', 0, 32, 6, None)]

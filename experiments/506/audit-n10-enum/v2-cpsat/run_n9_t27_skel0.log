@@ -1,0 +1,6 @@
+n=9 count<=27: need D+ell>=57; caps {'capD': 27, 'capL': 35}
+  skeleton level 1: 4 classes
+  skeleton level 2: 3 classes
+  skeleton level 3: 1 classes
+  skeleton level -: 0 classes
+8 nonempty skeleton classes: [[5], [5, 5], [5, 5], [5, 5, 5], [5, 6], [6], [7], [8]] [0.7s]

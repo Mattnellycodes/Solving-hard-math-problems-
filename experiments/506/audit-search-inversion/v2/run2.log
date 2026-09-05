@@ -1,0 +1,16 @@
+N=2 n=9: |U|=12 rich planes=81 centre candidates=867 (rational 420) max planes through a candidate=23 [0.3s]
+  scanned 220 subsets; min R=36; survivors (R <= target+Lcap=48): 220 [0.3s]
+  RESULT N=2 n=9: min circles over universe = 31 (f(n)=25, gap +6); hits <= 25: 0 [0.3s]
+  hit structures Counter[(R, L, circles)]: Counter()
+N=2 n=10: |U|=12 rich planes=81 centre candidates=867 (rational 420) max planes through a candidate=23 [0.0s]
+  scanned 66 subsets; min R=51; survivors (R <= target+Lcap=56): 66 [0.0s]
+  RESULT N=2 n=10: min circles over universe = 44 (f(n)=33, gap +11); hits <= 33: 0 [0.0s]
+  hit structures Counter[(R, L, circles)]: Counter()
+N=2 n=11: |U|=12 rich planes=81 centre candidates=867 (rational 420) max planes through a candidate=23 [0.0s]
+  scanned 12 subsets; min R=67; survivors (R <= target+Lcap=64): 0 [0.0s]
+  RESULT N=2 n=11: min circles over universe = 1000000000 (f(n)=41, gap +999999959); hits <= 41: 0 [0.0s]
+  hit structures Counter[(R, L, circles)]: Counter()
+N=2 n=11: |U|=12 rich planes=81 centre candidates=867 (rational 420) max planes through a candidate=23 [0.3s]
+  scanned 12 subsets; min R=67; survivors (R <= max(target,Rmin-1)+Lcap=89): 12 [0.3s]
+  RESULT N=2 n=11: min circles over universe = 58 (f(n)=41, gap +17); hits <= 41: 0 [0.3s]
+  hit structures Counter[(R, L, circles)]: Counter()

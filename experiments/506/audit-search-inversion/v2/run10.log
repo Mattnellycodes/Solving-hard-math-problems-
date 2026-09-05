@@ -1,0 +1,14 @@
+N=10 n=9: |U|=24 rich planes=799 centre candidates=205473 (rational 72528) max planes through a candidate=113 [28.1s]
+  scanned 1307504 subsets; min R=29; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=40): 48 [35.2s]
+  RESULT N=10 n=9: min circles over universe = 25 (f(n)=25, gap +0); hits <= 25: 48 [35.8s]
+  hit structures Counter[(R, L, circles)]: Counter({(29, 4, 25): 48})
+   verify pts=[(-3, -1, 0), (-3, 0, -1), (-3, 0, 1), (-1, 0, -3), (-1, 0, 3), (1, 0, -3), (1, 0, 3), (3, 0, -1), (3, 0, 1)] Q=('0', '-1', '-3'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-3, -1, 0), (-3, 0, -1), (-3, 1, 0), (-1, -3, 0), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] Q=('0', '-3', '-1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-3, -1, 0), (-3, 0, 1), (-3, 1, 0), (-1, -3, 0), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] Q=('0', '-3', '1'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-3, -1, 0), (-3, 1, 0), (-1, -3, 0), (-1, 0, -3), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] Q=('0', '-1', '-3'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+   verify pts=[(-3, -1, 0), (-3, 1, 0), (-1, -3, 0), (-1, 0, 3), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] Q=('0', '-1', '3'): planar count circles=25 lines=4 (plane count R-L=25) OK max circle 8, lines [3, 3, 3, 3]
+N=10 n=10: |U|=24 rich planes=799 centre candidates=205473 (rational 72528) max planes through a candidate=113 [0.0s]
+  scanned 1961256 subsets; min R=53; survivors (R <= max(target,Rmin-1)+min(Lcap,C(n,2)//3)=67): 5832 [7.3s]
+  RESULT N=10 n=10: min circles over universe = 45 (f(n)=33, gap +12); hits <= 33: 0 [79.0s]
+  hit structures Counter[(R, L, circles)]: Counter()
+   verify pts=[(-3, -1, 0), (-3, 0, -1), (-3, 0, 1), (-1, 0, -3), (-1, 0, 3), (0, -1, -3), (1, 0, -3), (1, 0, 3), (3, 0, -1), (3, 0, 1)] Q=('0', '-1', '3'): planar count circles=45 lines=8 (plane count R-L=45) OK max circle 8, lines [3, 3, 3, 3, 3, 3, 3, 3]

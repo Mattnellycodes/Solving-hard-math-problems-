@@ -233,3 +233,22 @@ Workflow `erdos-506-n10-and-beyond` (resumed twice across usage-limit resets):
 Status: c(10) = 33 established by one agent and corroborated by two independent enumerations that reduce
 the question to the same single geometric structure; the dedicated audit of `n10-continue` is running now.
 So far the exceptions to the Elliott–Purdy–Smith formula are exactly n = 6, 7, 8 for n ≤ 10.
+
+**22:15 UTC — c(10) = 33 audited; session results written up.**
+- `audit-n10-continue`: CONFIRMED with an independent tool stack (pysat CaDiCaL/Glucose instead of CP-SAT, own
+  DFS, own Smith-normal-form and real-coordinate Gröbner computations): 18 skeletons → 37 (F, L) classes with
+  ≤ 32 circles, 36 killed by theorem-level filters, the single survivor (concentric regular pentagons + 10
+  three-point lines) has no real realisation for any radius ratio. Reporting defect found and recorded as an
+  erratum: the survivor list printed in the continuation report §4.2 was mis-transcribed; the machine record
+  (which everyone analysed) is correct. My own numeric scan of that record (`verify_independent/n10/pentagon_scan.py`)
+  agrees: residual bounded below by ≈ 0.036 away from the degenerate ratios 0 and 1.
+- `audit-search-local`: CONFIRMED all 23 certified coordinate lists; exhaustive 5×5-grid check for n = 9, 10.
+- Write-up agent: `experiments/506/RESULTS.md` (table, certificates, dependencies) and `docs/NOTE_506.md`
+  (self-contained note with an OEIS-style sequence draft 3, 5, 8, 11, 17, 25, 33 for n = 4..10 and a comment
+  draft for teorth/erdosproblems issue #297).
+
+**Final state of Erdős #506 after this session.** c(4..10) = 3, 5, 8, 11, 17, 25, 33; the Elliott–Purdy–Smith
+formula fails exactly at n = 6, 7, 8 (by 1, 2, 2) and holds at n = 9, 10; no configuration below the formula
+exists among extensive searches for 11 ≤ n ≤ 16; conjecture: c(n) = f(n) for all n ≥ 9. Suggested next steps
+are listed at the end of `experiments/506/RESULTS.md` (n = 11 by the same pipeline; structure theorem at n = 10;
+lowering Elliott's threshold 393 with modern ordinary-line bounds).

@@ -1,0 +1,16 @@
+n=10 count<=32 need D+ell>=88; skeleton 12 = [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9]] |Aut|=48; q=0, orbit O=[0]
+  derived structures at q with 1 triples: 1 classes [0.0s]
+  derived structures at q with 2 triples: 2 classes [0.0s]
+  derived structures at q with 3 triples: 1 classes [0.0s]
+  derived structures at q with 4 triples: 1 classes [0.0s]
+  derived structures at q with 5 triples: 0 classes [0.0s]
+d=0 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.0s]
+d=1 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=2 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.1s]
+d=2 derived #1: status OPTIMAL, 342 (F4,L) solutions, 1 distinct F4 [6.6s]
+d=3 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.2s]
+d=4 derived #0: status INFEASIBLE, 0 (F4,L) solutions, 0 distinct F4 [0.2s]
+
+1 isomorphism classes (skeleton 12) with some completion [7.2s]
+class 0: sizes [5, 5, 5, 4] b=20 deg [5, 8, 8, 8, 9, 9, 9, 9, 9, 9] |Aut| 12 D=78 ell_max=12 count=30 #linesets=342 survivors={'A': 32, 'AB': 0, 'ABK': 0, 'ABKC': 0}
+   blocks [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [0, 3, 6, 8], [0, 4, 7, 9], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 8], [1, 3, 6, 9], [1, 4, 5, 9], [1, 4, 7, 8], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 7], [2, 4, 6, 9], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 9], [4, 5, 6, 8], [6, 7, 8, 9]]

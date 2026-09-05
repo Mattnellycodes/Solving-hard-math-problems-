@@ -1,0 +1,10 @@
+F-class 0 (b4=14, |Aut|=32): need l >= 10: 32 labelled line sets, 8 new (F,L) classes
+F-class 1 (b4=14, |Aut|=32): need l >= 10: 20 labelled line sets, 5 new (F,L) classes
+F-class 2 (b4=13, |Aut|=8): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 3 (b4=13, |Aut|=8): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 4 (b4=13, |Aut|=16): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 5 (b4=13, |Aut|=8): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 6 (b4=13, |Aut|=8): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 7 (b4=13, |Aut|=4): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+F-class 8 (b4=13, |Aut|=16): need l >= 13: 0 labelled line sets, 0 new (F,L) classes
+runs/stage1_16.json: 13 (F,L) classes in total, 1.5s

@@ -206,3 +206,16 @@ CPU: stage 1 of [5,5] disjoint 367 s (1 worker); everything else seconds to a fe
   critical infeasible one ([5]) have been re-run without symmetry breaking with identical outcomes.
 * Total CPU used by this agent: about 1 CPU-hour (main pipeline ~10 min; robustness re-runs ~40 min), on a machine
   shared with other agents (load 6–12).
+
+---
+
+## Erratum (added by the orchestrating agent after the audit, 2026-09-05)
+
+The audit (`../audit-n10-continue/`, verdict CONFIRMED) found a reporting defect: the survivor block list
+printed in §4.2 above is mis-transcribed (four of the printed 3-lines lie inside printed 4-blocks). The
+structure actually analysed is the machine record `runs/post_all.json`, structure 12 (equivalently
+`runs/post_7.json` entry 4): two disjoint 5-blocks, the 20 four-blocks of the concentric-regular-pentagon
+family, and the 10 three-point lines listed in §4.2 under that record's labelling. The exact analysis, the
+numeric check (`pentagon_numeric.py`) and the auditor's independent re-derivation all used the machine
+record, so the proof is unaffected. The main agent's own checks of this structure are in
+`../verify_independent/n10/pentagon_check2.py` and `pentagon_scan.py`.

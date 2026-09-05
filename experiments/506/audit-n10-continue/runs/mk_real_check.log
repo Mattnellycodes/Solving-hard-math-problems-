@@ -1,0 +1,4 @@
+remaining line conditions: {(3, 4, 6): a + c - 1, (4, 5, 7): b*c - b - c, (6, 7, 1): -a + b}
+lex Gröbner basis: [a + c - 1, b + c - 1, c**2 - c + 1]
+univariate polynomial in c: c**2 - c + 1  real roots: []
+(8_3) has no real realisation of the required kind
