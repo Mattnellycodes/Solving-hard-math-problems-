@@ -1,0 +1,6 @@
+a(1..20) == OEIS data terms: True;  a(30) == OEIS value: True
+certificate a_first_40 and negative-index list (87 entries) reproduced exactly
+violations of 'a(n)<0 <=> omega(n) odd >= 3' for n <= 411: []
+violations of the Omega (with multiplicity) variant, first 10: [8, 12, 18, 20, 27, 28, 32, 44, 45, 48] count 102
+any a(n) == 0 for n <= 411: False
+F(30) = a(30)/30! = -199238355653/2329089562800  F(210) sign: 1  omega(210) = 4

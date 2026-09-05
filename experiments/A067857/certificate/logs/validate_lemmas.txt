@@ -1,0 +1,10 @@
+Bernoulli numbers from the recurrence agree with mpmath: {2: '1/6', 4: '-1/30', 6: '1/42', 8: '-1/30', 10: '5/66', 12: '-691/2730', 14: '7/6'}
+L1 (sign and magnitude of the digamma remainder): 135/135 cases pass
+H_d = psi(d) + 1/d + gamma verified numerically for several d
+L2 (sum (-1)^omega = 0 and sum (-1)^omega ln d = 0) checked numerically for k=2..10;
+L3 (Euler-product identities) checked EXACTLY for k=2..10, s in {1,2,...,14}
+   (and for k = 1 the ln-sum is -ln p, as expected: the closed form needs k >= 2)
+C: rational atanh-series enclosures of ln p contain mpmath's 100-digit log(p) for the first 200 primes (max width 1.7e-97)
+C: gamma enclosure from H_10000 (m=6) contains mpmath's 100-digit euler constant; width 1.7e-57
+C: gamma enclosure from H_100000 (m=4) contains mpmath's 100-digit euler constant; width 1.5e-52
+all lemma sanity checks passed

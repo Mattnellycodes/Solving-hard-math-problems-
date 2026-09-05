@@ -1,0 +1,4 @@
+n=8 target=18 capmode=1 fixm=4 maxsize=7: C(n,3)=56 capd=20 capl=27 ellmax<=9 Dmin=29
+candidates: 53
+nodes=105665 leaves(D>=Dmin)=6858 records=216
+elapsed 3 s

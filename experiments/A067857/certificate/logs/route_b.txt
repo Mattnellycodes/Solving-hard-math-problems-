@@ -1,0 +1,33 @@
+ln p enclosures: width(ln 2) = 1.405e-98, width(ln 1223) = 1.405e-97
+squarefree p_200-smooth d <= 10000: 4126 divisors
+exact H_d for all divisors and H_D done (denominator of H_D has 4345 digits)   [5.7s]
+gamma in [0.5772156649015328606065120900824024310421, 0.5772156649015328606065120900824024310422] (width 1.667e-57)
+k=  2 p_k=   3  G in [+1.166667e-01, +1.166667e-01]  width 0.0e+00  sign +1  conjecture holds at n=p_k#
+k=  3 p_k=   5  G in [+8.554345e-02, +8.554345e-02]  width 0.0e+00  sign +1  conjecture holds at n=p_k#
+k=  4 p_k=   7  G in [+6.758109e-02, +6.758109e-02]  width 0.0e+00  sign +1  conjecture holds at n=p_k#
+k=  5 p_k=  11  G in [+5.762273e-02, +5.762273e-02]  width 0.0e+00  sign +1  conjecture holds at n=p_k#
+k= 25 p_k=  97  G in [+1.494510e-02, +1.494510e-02]  width 3.1e-55  sign +1  conjecture holds at n=p_k#
+k= 50 p_k= 229  G in [+5.863663e-03, +5.863663e-03]  width 3.5e-55  sign +1  conjecture holds at n=p_k#
+k= 75 p_k= 379  G in [+1.758828e-03, +1.758828e-03]  width 3.5e-55  sign +1  conjecture holds at n=p_k#
+k= 85 p_k= 439  G in [+6.341514e-04, +6.341514e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 86 p_k= 443  G in [+5.310876e-04, +5.310876e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 87 p_k= 449  G in [+4.296279e-04, +4.296279e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 88 p_k= 457  G in [+3.301624e-04, +3.301624e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 89 p_k= 461  G in [+2.317742e-04, +2.317742e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 90 p_k= 463  G in [+1.340230e-04, +1.340230e-04]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 91 p_k= 467  G in [+3.731691e-05, +3.731691e-05]  width 3.3e-55  sign +1  conjecture holds at n=p_k#
+k= 92 p_k= 479  G in [-5.676981e-05, -5.676981e-05]  width 3.3e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k= 93 p_k= 487  G in [-1.491209e-04, -1.491209e-04]  width 3.2e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k= 94 p_k= 491  G in [-2.405328e-04, -2.405328e-04]  width 3.2e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k= 95 p_k= 499  G in [-3.302989e-04, -3.302989e-04]  width 3.3e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k= 96 p_k= 503  G in [-4.191739e-04, -4.191739e-04]  width 3.4e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k= 97 p_k= 509  G in [-5.068286e-04, -5.068286e-04]  width 3.4e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k= 98 p_k= 521  G in [-5.923001e-04, -5.923001e-04]  width 3.5e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k= 99 p_k= 523  G in [-6.772818e-04, -6.772818e-04]  width 3.5e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k=100 p_k= 541  G in [-7.592845e-04, -7.592845e-04]  width 3.6e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k=125 p_k= 691  G in [-2.521244e-03, -2.521244e-03]  width 4.5e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k=150 p_k= 863  G in [-3.858816e-03, -3.858816e-03]  width 5.7e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+k=175 p_k=1039  G in [-4.920857e-03, -4.920857e-03]  width 6.6e-55  sign -1  VIOLATION of 'if' (a(n)>0 with omega odd >= 3)
+k=200 p_k=1223  G in [-5.800641e-03, -5.800641e-03]  width 7.6e-55  sign -1  VIOLATION of 'only if' (a(n)<0 with omega even)
+first k with certified G(k) < 0: 92   [111.2s]
+wrote cert_route_b.json  [111.4s]

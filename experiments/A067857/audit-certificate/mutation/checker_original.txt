@@ -1,0 +1,33 @@
+== cert_route_a.json : route a: mpmath.iv interval arithmetic on the closed form ; m=4 D=100000 KMAX=200
+   own gamma enclosure width 1.52e-52 ; ln p widths <= 1.40e-97 ; 27505 small divisors ; H_D width 3.87e-116   [1.9s]
+   k=  2 p_k=   3  re-derived G in [+1.166666667e-01, +1.166666667e-01] (width 6.1e-52)  sign +1  JSON sign +1  ok
+   k=  3 p_k=   5  re-derived G in [+8.554344961e-02, +8.554344961e-02] (width 1.2e-51)  sign +1  JSON sign +1  ok
+   k= 88 p_k= 457  re-derived G in [+3.301624306e-04, +3.301624306e-04] (width 3.0e-48)  sign +1  JSON sign +1  ok
+   k= 89 p_k= 461  re-derived G in [+2.317742332e-04, +2.317742332e-04] (width 3.1e-48)  sign +1  JSON sign +1  ok
+   k= 90 p_k= 463  re-derived G in [+1.340230285e-04, +1.340230285e-04] (width 3.1e-48)  sign +1  JSON sign +1  ok
+   k= 91 p_k= 467  re-derived G in [+3.731690833e-05, +3.731690833e-05] (width 3.1e-48)  sign +1  JSON sign +1  ok
+   k= 92 p_k= 479  re-derived G in [-5.676981111e-05, -5.676981111e-05] (width 3.1e-48)  sign -1  JSON sign -1  ok
+   k= 93 p_k= 487  re-derived G in [-1.491208776e-04, -1.491208776e-04] (width 3.1e-48)  sign -1  JSON sign -1  ok
+   k= 94 p_k= 491  re-derived G in [-2.405327977e-04, -2.405327977e-04] (width 3.2e-48)  sign -1  JSON sign -1  ok
+   k= 95 p_k= 499  re-derived G in [-3.302989013e-04, -3.302989013e-04] (width 3.2e-48)  sign -1  JSON sign -1  ok
+   k= 96 p_k= 503  re-derived G in [-4.191738994e-04, -4.191738994e-04] (width 3.2e-48)  sign -1  JSON sign -1  ok
+   k=200 p_k=1223  re-derived G in [-5.800641126e-03, -5.800641126e-03] (width 4.5e-48)  sign -1  JSON sign -1  ok
+   re-derived: G(k) > 0 for k in [2..91] (90 values), G(k) < 0 for k in [92..200] (109 values), undecided: []
+   199/199 certificates verified   [4.9s]
+== cert_route_b.json : route b: exact rational arithmetic (fractions), no floating point ; m=6 D=10000 KMAX=200
+   own gamma enclosure width 1.67e-57 ; ln p widths <= 1.40e-97 ; 4126 small divisors ; H_D width 3.87e-117   [1.4s]
+   k=  2 p_k=   3  re-derived G in [+1.166666667e-01, +1.166666667e-01] (width 6.7e-57)  sign +1  JSON sign +1  ok
+   k=  3 p_k=   5  re-derived G in [+8.554344961e-02, +8.554344961e-02] (width 1.3e-56)  sign +1  JSON sign +1  ok
+   k= 88 p_k= 457  re-derived G in [+3.301624306e-04, +3.301624306e-04] (width 5.6e-54)  sign +1  JSON sign +1  ok
+   k= 89 p_k= 461  re-derived G in [+2.317742332e-04, +2.317742332e-04] (width 5.6e-54)  sign +1  JSON sign +1  ok
+   k= 90 p_k= 463  re-derived G in [+1.340230285e-04, +1.340230285e-04] (width 5.6e-54)  sign +1  JSON sign +1  ok
+   k= 91 p_k= 467  re-derived G in [+3.731690833e-05, +3.731690833e-05] (width 5.6e-54)  sign +1  JSON sign +1  ok
+   k= 92 p_k= 479  re-derived G in [-5.676981111e-05, -5.676981111e-05] (width 5.7e-54)  sign -1  JSON sign -1  ok
+   k= 93 p_k= 487  re-derived G in [-1.491208776e-04, -1.491208776e-04] (width 5.7e-54)  sign -1  JSON sign -1  ok
+   k= 94 p_k= 491  re-derived G in [-2.405327977e-04, -2.405327977e-04] (width 5.7e-54)  sign -1  JSON sign -1  ok
+   k= 95 p_k= 499  re-derived G in [-3.302989013e-04, -3.302989013e-04] (width 5.7e-54)  sign -1  JSON sign -1  ok
+   k= 96 p_k= 503  re-derived G in [-4.191738994e-04, -4.191738994e-04] (width 5.8e-54)  sign -1  JSON sign -1  ok
+   k=200 p_k=1223  re-derived G in [-5.800641126e-03, -5.800641126e-03] (width 7.3e-54)  sign -1  JSON sign -1  ok
+   re-derived: G(k) > 0 for k in [2..91] (90 values), G(k) < 0 for k in [92..200] (109 values), undecided: []
+   199/199 certificates verified   [2.4s]
+ALL CHECKS PASSED

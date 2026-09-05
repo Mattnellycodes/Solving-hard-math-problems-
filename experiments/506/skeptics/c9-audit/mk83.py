@@ -30,17 +30,15 @@ def rec(F, start):
         if all(len(t & u) <= 1 for u in F):
             rec(F + [t], j + 1)
 rec([], 0)
-perms = list(itertools.permutations(range(n)))
-def canon(F):
-    return min(tuple(sorted(tuple(sorted(s[i] for i in t)) for t in F)) for s in perms)
 MK = [frozenset({i, (i + 1) % 8, (i + 3) % 8}) for i in range(8)]
-cMK = canon(MK)
-classes = {}
-for F in fams:
-    classes.setdefault(canon(F), 0)
-    classes[canon(F)] += 1
+# S_8-orbit of MK (as sets of frozensets) versus the set of all 840 families found by brute force
+orbit = set()
+for s in itertools.permutations(range(n)):
+    orbit.add(frozenset(frozenset(s[i] for i in t) for t in MK))
+famset = set(frozenset(F) for F in fams)
 print("Part A: families of 8 triples on 8 points pairwise sharing <=1 point:", len(fams),
-      "labelled; isomorphism classes:", len(classes), "; equals MK:", list(classes) == [cMK])
+      "labelled; |S_8-orbit of MK| =", len(orbit), "(so |Aut(MK)| =", 40320 // len(orbit), ");",
+      "every family is a relabelling of MK:", famset == orbit)
 # 9 triples impossible: each point in <= 3 triples (3 triples through p use 6 other points), so <= 24/3 = 8
 nine = 0
 def rec9(F, start):

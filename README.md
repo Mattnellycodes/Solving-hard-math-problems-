@@ -32,6 +32,24 @@ from scratch by the main agent and by two independent skeptic agents.
 
 Explicit 8-point configuration with 17 circles: (0,0), (0,5), (0,10), (0,15), (3,6), (3,9), (5,5), (5,10).
 
+
+## Second result: OEIS A067857 sign conjecture refuted (2026-09-05)
+
+The problem-selection survey ranked first a conjecture of Robert Israel (OEIS A067857, 2015; formalised as
+research-open in google-deepmind/formal-conjectures): with a(n) defined by Σ_{k|n} a(k)/k! = H_n, the claim was
+that a(n) < 0 **iff** ω(n) is odd and ≥ 3. It is false in both directions:
+
+- a(479#) < 0 although ω(479#) = 92 is even; a(487#) > 0 although ω(487#) = 93 is odd (p₉₂ = 479, p₉₃ = 487);
+- **Theorem:** sign a(p_k#) = (−1)^{k+1} for every k ≥ 92 (uniform monotone bound, one finite exact-rational
+  computation UB(92) < 0; no Mertens-type input);
+- corrected sign law: for squarefree n with ω(n) ≥ 2, a(n)/n! = (−1)^{ω(n)} G(n) with G an explicit alternating
+  sum of Euler products plus a bounded error, so the sign flips once ∏_{p|n}(1+1/p) exceeds ≈ 6.74;
+- the conjecture holds for all n ≤ 4000 and every counterexample has ω(n) ≥ 52; minimality of 479# is open.
+
+Certificates: five independent implementations (mpmath interval arithmetic, exact rationals, a pure-Python
+fixed-point checker, MPFR directed rounding, and the main agent's own check) agree; both hostile audits
+returned CONFIRMED. See `experiments/A067857/RESULTS.md`, `proof/PROOF.md`, `certificate/`.
+
 ## Layout
 
 - `docs/JOURNAL.md` — chronological research journal (every experiment, every result, including negative ones)
@@ -41,4 +59,5 @@ Explicit 8-point configuration with 17 circles: (0,0), (0,5), (0,10), (0,15), (3
 - `experiments/506/literature/` — literature report
 - `experiments/506/verify_independent/` — main agent's independent verification (CP-SAT model, certificates)
 - `experiments/506/skeptics/` — adversarial verification by independent agents
+- `experiments/A067857/` — refutation of the A067857 sign conjecture (proof, certificates, audits)
 - `scripts/` — shared tooling

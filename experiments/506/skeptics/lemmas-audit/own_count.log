@@ -1,0 +1,13 @@
+== constructions ==
+n=6 (report): n=6 circles=8 f(n)=9 lines=3 D=9 identity=True degenerate=False csizes=[3, 3, 3, 3, 3, 4, 4, 4] lsizes=[3, 3, 3]
+    ordinary derived lines per point (must all be >= 1): [4, 4, 4, 4, 4, 4]; ordinary lines at infinity: 6
+n=7 (report): n=7 circles=11 f(n)=13 lines=6 D=18 identity=True degenerate=False csizes=[3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4] lsizes=[3, 3, 3, 3, 3, 3]
+    ordinary derived lines per point (must all be >= 1): [6, 6, 6, 3, 3, 3, 6]; ordinary lines at infinity: 3
+n=8 (report): n=8 circles=17 f(n)=19 lines=3 D=36 identity=True degenerate=False csizes=[3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] lsizes=[3, 3, 4]
+    ordinary derived lines per point (must all be >= 1): [3, 3, 3, 3, 3, 3, 3, 3]; ordinary lines at infinity: 16
+n=8 two squares: n=8 circles=18 f(n)=19 lines=2 D=36 identity=True degenerate=False csizes=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] lsizes=[4, 4]
+    ordinary derived lines per point (must all be >= 1): [3, 3, 3, 3, 3, 3, 3, 3]; ordinary lines at infinity: 16
+n=9 antipodal: n=9 circles=25 f(n)=25 lines=4 D=55 identity=True degenerate=False csizes=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8] lsizes=[3, 3, 3, 3]
+    ordinary derived lines per point (must all be >= 1): [28, 7, 7, 7, 7, 7, 7, 7, 7]; ordinary lines at infinity: 24
+== identity (i) on random structured sets ==
+tested 376 non-degenerate random sets; identity/cap violations: 0

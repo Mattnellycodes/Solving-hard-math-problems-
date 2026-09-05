@@ -1,0 +1,4 @@
+options {'n': 8, 'sg': False, 'sg1': True, 'fix': None, 'maxsize': None, 'maxdeg4': None}
+n 8 sg False status OPTIMAL obj 39.0 bound 39.0 circles 17.0 time 453.01059694300005
+blocks [(0, 1, 2, 3), (0, 1, 5, 7), (0, 2, 4, 5), (0, 2, 6, 7), (0, 3, 4, 7), (0, 3, 5, 6), (1, 2, 4, 7), (1, 2, 5, 6), (1, 3, 4, 5), (1, 3, 6, 7), (2, 3, 4, 6), (4, 5, 6, 7)]
+lines [(0, 4, 6), (2, 5, 7), (0, 1, 2, 3)]

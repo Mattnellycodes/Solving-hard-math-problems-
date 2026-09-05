@@ -1,0 +1,8 @@
+uniform bound UB(k) >= G(k), UB strictly decreasing in k (exact rationals; pi, gamma enclosed)
+  m=3: eps(1)-A_m(1) = +1.75258907e-03, uniform tail bound = 1.693e-05, UB(91) = +8.1136e-05, UB(92) = -1.3172e-05  ->  UB(k) < 0 for all k >= 92 (p_k0 = 479)
+  m=4: eps(1)-A_m(1) = -2.41407760e-03, uniform tail bound = 7.527e-06, UB(91) = +5.4818e-05, UB(92) = -3.9489e-05  ->  UB(k) < 0 for all k >= 92 (p_k0 = 479)
+  m=5: eps(1)-A_m(1) = +5.16167998e-03, uniform tail bound = 5.189e-06, UB(91) = +6.0007e-05, UB(92) = -3.4300e-05  ->  UB(k) < 0 for all k >= 92 (p_k0 = 479)
+  m=6: eps(1)-A_m(1) = -1.59311161e-02, uniform tail bound = 5.104e-06, UB(91) = +5.4732e-05, UB(92) = -3.9575e-05  ->  UB(k) < 0 for all k >= 92 (p_k0 = 479)
+  m=7: eps(1)-A_m(1) = +6.74022172e-02, uniform tail bound = 6.774e-06, UB(91) = +6.1506e-05, UB(92) = -3.2801e-05  ->  UB(k) < 0 for all k >= 92 (p_k0 = 479)
+CONCLUSION: G(k) <= UB(k) < 0 for every k >= 92, hence sign a(p_k#) = (-1)^{k+1} for all k >= 92.
+wrote results_uniform_bound.json

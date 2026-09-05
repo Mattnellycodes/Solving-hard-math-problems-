@@ -1,0 +1,6 @@
+type offset 0.0: histogram of max #blocks through a non-configuration point: {2: 1100}; max 2 at rho=0.02; grid values with >=5: []
+type offset 36.0: histogram of max #blocks through a non-configuration point: {2: 1100}; max 2 at rho=0.02; grid values with >=5: []
+
+real	6m46.336s
+user	2m12.347s
+sys	0m0.056s

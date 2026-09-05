@@ -1,0 +1,14 @@
+brute force G(7) (60 dps): 0.04447375531881264583385431491186633034441
+certificate value        : 0.0444737553188126458338543149118663303444
+my route C value         : 0.0444737553188126483919...
+D=  3000: closed + corr = 0.0444737553188126458338543149119   diff from brute = 2.1158e-59
+D=  3100: closed + corr = 0.0444737553188126458338543149119   diff from brute = 2.1158e-59
+D= 10000: closed + corr = 0.0444737553188126458338543149119   diff from brute = 2.1158e-59
+D=600000: closed + corr = 0.0444737553188126458338543149119   diff from brute = 2.1158e-59
+eps(d) - A_10(d) for divisors d > 3000:
+   d=  3003 omega=4  eps-A = 9.1228e-61   bound C/d^22 = 8.774e-75
+   d=  3094 omega=4  eps-A = 1.0265e-60   bound C/d^22 = 4.5496e-75
+   d=  3315 omega=4  eps-A = 6.2063e-62   bound C/d^22 = 9.9719e-76
+   d=  3570 omega=5  eps-A = 3.2218e-61   bound C/d^22 = 1.9531e-76
+   d=  3927 omega=4  eps-A = 1.3947e-61   bound C/d^22 = 2.3993e-77
+   d=  4290 omega=5  eps-A = -2.0646e-61   bound C/d^22 = 3.4305e-78

@@ -1,0 +1,34 @@
+re-check of the (x, m) cases that failed at 110 digits, now at 260 digits:
+   x=65536.0 m= 8  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m= 9  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=10  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=11  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=12  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=13  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=14  ratio |R|/bound = 1.000000  sign ok = True  
+   x=65536.0 m=15  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m= 8  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m= 9  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=10  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=11  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=12  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=13  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=14  ratio |R|/bound = 1.000000  sign ok = True  
+   x=100000.0 m=15  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m= 8  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m= 9  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=10  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=11  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=12  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=13  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=14  ratio |R|/bound = 1.000000  sign ok = True  
+   x=10000.0 m=15  ratio |R|/bound = 1.000000  sign ok = True  
+   x=3000.0  m= 8  ratio |R|/bound = 0.999999  sign ok = True  
+   x=3000.0  m= 9  ratio |R|/bound = 0.999999  sign ok = True  
+   x=3000.0  m=10  ratio |R|/bound = 0.999999  sign ok = True  
+   x=3000.0  m=11  ratio |R|/bound = 0.999998  sign ok = True  
+   x=3000.0  m=12  ratio |R|/bound = 0.999998  sign ok = True  
+   x=3000.0  m=13  ratio |R|/bound = 0.999998  sign ok = True  
+   x=3000.0  m=14  ratio |R|/bound = 0.999997  sign ok = True  
+   x=3000.0  m=15  ratio |R|/bound = 0.999997  sign ok = True  
+largest ratio: 0.9999999991337064

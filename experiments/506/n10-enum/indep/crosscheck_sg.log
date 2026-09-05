@@ -1,0 +1,20 @@
+mine: 9 candidates; theirs: 9 candidates
+  mine[0] sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ellmax=13 -> theirs [7] (their ell_max=13, count_min=31)
+  mine[1] sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ellmax=13 -> theirs [8] (their ell_max=13, count_min=31)
+  mine[2] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 -> theirs [0] (their ell_max=10, count_min=32)
+  mine[3] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 -> theirs [4] (their ell_max=11, count_min=31)
+  mine[4] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 -> theirs [5] (their ell_max=11, count_min=31)
+  mine[5] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 -> theirs [6] (their ell_max=11, count_min=31)
+  mine[6] sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=12 -> theirs [1] (their ell_max=12, count_min=30)
+  mine[7] sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 -> theirs [2] (their ell_max=10, count_min=32)
+  mine[8] sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 -> theirs [3] (their ell_max=10, count_min=32)
+  theirs[0] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 -> mine [2]
+  theirs[1] sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=12 -> mine [6]
+  theirs[2] sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 -> mine [7]
+  theirs[3] sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 -> mine [8]
+  theirs[4] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 -> mine [3]
+  theirs[5] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 -> mine [4]
+  theirs[6] sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 -> mine [5]
+  theirs[7] sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ell_max=13 -> mine [0]
+  theirs[8] sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ell_max=13 -> mine [1]
+isomorphic pairs among my candidates: []

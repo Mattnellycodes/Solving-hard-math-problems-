@@ -1,0 +1,4 @@
+structure 0: n=9 D+l=60 target circles=24 blocks>=4: 14 lines: 6
+  no realisation in 40 tries; best residual 5.81e-05 (dmin 0.0123)
+structure 1: n=9 D+l=60 target circles=24 blocks>=4: 14 lines: 6
+  no realisation in 40 tries; best residual 5.25e-05 (dmin 0.00811)

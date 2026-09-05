@@ -1,10 +1,6 @@
-V2 n=8 mode=table R=[[0, 1, 2, 3, 4]] |Aut(R)|=720 candidates=35: labelled families=10716 orbits=43 [35.7s]; phase-2 nodes=43 families=43 lexmin_ok=True [0.0s] => MATCH
+V2 n=8 mode=table R=[[0, 1, 2, 3, 4]] |Aut(R)|=720 candidates=35: labelled families=10716 orbits=43 [49.5s]; phase-2 nodes=43 families=43 lexmin_ok=True [0.1s] => MATCH
 V2 n=8 mode=table R=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] |Aut(R)|=144 candidates=9: labelled families=34 orbits=4 [0.0s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
 V2 n=8 mode=sg R=[[0, 1, 2, 3, 4], [0, 4, 5, 6, 7]] |Aut(R)|=144 candidates=9: labelled families=34 orbits=4 [0.0s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
-V2 n=8 mode=table R=[[0, 1, 2, 3, 4, 5]] |Aut(R)|=1440 candidates=15: labelled families=76 orbits=4 [0.2s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
-V2 n=8 mode=sg R=[[0, 1, 2, 3, 4, 5]] |Aut(R)|=1440 candidates=15: labelled families=76 orbits=4 [0.2s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
+V2 n=8 mode=table R=[[0, 1, 2, 3, 4, 5]] |Aut(R)|=1440 candidates=15: labelled families=76 orbits=4 [0.4s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
+V2 n=8 mode=sg R=[[0, 1, 2, 3, 4, 5]] |Aut(R)|=1440 candidates=15: labelled families=76 orbits=4 [0.3s]; phase-2 nodes=4 families=4 lexmin_ok=True [0.0s] => MATCH
 V2 overall: ALL MATCH
-
-real	0m37.011s
-user	0m24.294s
-sys	0m0.012s

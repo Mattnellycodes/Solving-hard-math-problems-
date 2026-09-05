@@ -1,0 +1,9 @@
+Q1 = c*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)*(m2*m3*m4 + m2 + m3 - m4)
+Q2 = c*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)*(m2*m3*m4 + m2 - m3 + m4)
+Q3 = c*m2**2*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)*(m2*m3*m4 - m2 + m3 + m4)
+angle-form factors: -m2*m3*m4 - m2 - m3 + m4 | -m2*m3*m4 - m2 + m3 - m4 | -m2*m3*m4 + m2 - m3 - m4
+  remainder zero: True  cofactor: -c*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)
+  remainder zero: True  cofactor: -c*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)
+  remainder zero: True  cofactor: -c*m2**2*(c*m3 - m4)*(c*m2 - c*m3 - m2 + m4)
+Groebner of angle conditions + non-parallel saturation: [1]  unit ideal: True
+A1 - A2 = -2*(m3 - m4)    A1 + A3 = -2*m3*(m2*m4 + 1)   A2 + A3 = -2*m4*(m2*m3 + 1)

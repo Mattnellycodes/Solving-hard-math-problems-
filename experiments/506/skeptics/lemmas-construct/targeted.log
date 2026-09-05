@@ -1,0 +1,13 @@
+== n6_quadrilateral_7circles blocks 3 lines 4
+  no realisation in 40 tries; best residual 4.89e-05 (dmin 0.0456)
+   -> not realised residual 4.8869945283727815e-05 circles None
+== n7_fano_complement_4blocks blocks 7 lines 0
+  no realisation in 40 tries; best residual 4.22e-05 (dmin 0.0513)
+   -> not realised residual 4.2222675682278835e-05 circles None
+== n7_control_six_complements blocks 6 lines 0
+  try 1: residual 4.50e-16 dmin 0.363 -> |B(Q)|=38 deg(inf)=21 EUCLIDEAN CIRCLES = 17
+   -> REALISED residual 4.499930953385737e-16 circles 17
+== n7_fano_lines blocks 0 lines 7
+  no realisation in 40 tries; best residual 3.17e-05 (dmin 0.0501)
+   -> not realised residual 3.1677008779939105e-05 circles None
+== n8_MK_lines blocks 0 lines 8

@@ -1,0 +1,20 @@
+a(1..12) = [Fraction(1, 1), Fraction(1, 1), Fraction(5, 1), Fraction(14, 1), Fraction(154, 1), Fraction(84, 1), Fraction(8028, 1), Fraction(25584, 1), Fraction(361296, 1), Fraction(528480, 1), Fraction(80627040, 1), Fraction(33471360, 1)]
+all integers n<=40: True
+a(30) = -22690644647302814715858124800000  (OEIS: -22690644647302814715858124800000)
+Moebius inversion consistent n<=40: True
+violations of conjecture for n<=40: []
+(B.2): 1882 squarefree n<=4000, omega>=2: max |G_exact-G_main|/E_bound = 0.99924
+(6.1): 1528 non-squarefree n<=4000, omega>=2: max ratio = 0.99992
+violations of bound or G<=0: []
+k= 2 brute G=+1.166666666666667e-01 closed=+1.166619493014414e-01 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 3 brute G=+8.554344961018946e-02 closed=+8.553873154500186e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 4 brute G=+6.758108985751599e-02 closed=+6.757637176694825e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 5 brute G=+5.762273171263459e-02 closed=+5.761801362178157e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 6 brute G=+4.993704144675373e-02 closed=+4.993232335584669e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 7 brute G=+4.447375531881265e-02 closed=+4.446903722790189e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 8 brute G=+3.986521272032441e-02 closed=+3.986049462941244e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k= 9 brute G=+3.624403186895876e-02 closed=+3.623931377804659e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k=10 brute G=+3.348428321962952e-02 closed=+3.347956512871735e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k=11 brute G=+3.098983853083041e-02 closed=+3.098512043991822e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+k=12 brute G=+2.896150039905975e-02 closed=+2.895678230814756e-02 |diff|=4.72e-06 <= E_bound=7.53e-06: True
+zeta(10)-1 = 0.0009945751278180853371459589003190170060195315644788

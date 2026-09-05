@@ -1,0 +1,29 @@
+Bernoulli/coefficients ok; C_tail = |B_22|/22 = 77683/276 = 281.4601   [0.0s]
+ln p (chain of 1222 atanh series) widths <= 3.71e-123, all consistent with MPFR log   [2.3s]
+gamma: G1 (Ein, no E-M) width 1.45e-113, G2 (E-M at 2^16, m=10) width 6.14e-104, consistent; intersection width 1.45e-113; contains published digits   [5.6s]
+certificate constants (gamma, ln p for 200 primes, routes a and b) all intersect my enclosures
+exact Euler products done   [5.9s]
+1555 squarefree p_200-smooth d <= 3000   [6.6s]
+k=  2 p_k=   3  G in [0.1166666666666666666666, 0.1166666666666666666667]  width 0.0e+00  T=0.0e+00  sign +1  inside a/b: True/True
+k=  3 p_k=   5  G in [0.0855434496101894600787, 0.0855434496101894600788]  width 0.0e+00  T=0.0e+00  sign +1  inside a/b: True/True
+k=  4 p_k=   7  G in [0.0675810898575159922522, 0.0675810898575159922523]  width 0.0e+00  T=0.0e+00  sign +1  inside a/b: True/True
+k=  5 p_k=  11  G in [0.0576227317126345961624, 0.0576227317126345961625]  width 0.0e+00  T=0.0e+00  sign +1  inside a/b: True/True
+k=  6 p_k=  13  G in [0.0499370414467537303626, 0.0499370414467537303627]  width 1.8e-74  T=8.8e-75  sign +1  inside a/b: True/True
+k=  7 p_k=  17  G in [0.0444737553188126458338, 0.0444737553188126458339]  width 2.9e-74  T=1.5e-74  sign +1  inside a/b: True/True
+k= 50 p_k= 229  G in [0.0058636625999063700088, 0.0058636625999063700089]  width 6.6e-73  T=3.3e-73  sign +1  inside a/b: True/True
+k= 88 p_k= 457  G in [0.0003301624306226877306, 0.0003301624306226877307]  width 8.4e-73  T=4.2e-73  sign +1  inside a/b: True/True
+k= 89 p_k= 461  G in [0.0002317742331506428582, 0.0002317742331506428583]  width 8.4e-73  T=4.2e-73  sign +1  inside a/b: True/True
+k= 90 p_k= 463  G in [0.0001340230285222599514, 0.0001340230285222599515]  width 8.5e-73  T=4.2e-73  sign +1  inside a/b: True/True
+k= 91 p_k= 467  G in [0.0000373169083329271974, 0.0000373169083329271975]  width 8.5e-73  T=4.2e-73  sign +1  inside a/b: True/True
+k= 92 p_k= 479  G in [-0.0000567698111073538087, -0.0000567698111073538086]  width 8.5e-73  T=4.2e-73  sign -1  inside a/b: True/True
+k= 93 p_k= 487  G in [-0.0001491208775678869601, -0.0001491208775678869600]  width 8.5e-73  T=4.3e-73  sign -1  inside a/b: True/True
+k= 94 p_k= 491  G in [-0.0002405327976702515407, -0.0002405327976702515406]  width 8.5e-73  T=4.3e-73  sign -1  inside a/b: True/True
+k= 95 p_k= 499  G in [-0.0003302989012738409547, -0.0003302989012738409546]  width 8.5e-73  T=4.3e-73  sign -1  inside a/b: True/True
+k= 96 p_k= 503  G in [-0.0004191738994044059044, -0.0004191738994044059043]  width 8.7e-73  T=4.3e-73  sign -1  inside a/b: True/True
+k=100 p_k= 541  G in [-0.0007592844578431809198, -0.0007592844578431809197]  width 9.0e-73  T=4.5e-73  sign -1  inside a/b: True/True
+k=150 p_k= 863  G in [-0.0038588159761314157698, -0.0038588159761314157697]  width 1.0e-72  T=5.0e-73  sign -1  inside a/b: True/True
+k=200 p_k=1223  G in [-0.0058006411262831749334, -0.0058006411262831749333]  width 1.1e-72  T=5.7e-73  sign -1  inside a/b: True/True
+first k with G(k) < 0: 92    [18.5s]
+brute force over all 2^k divisors (60 digits) for k = 2..12: all within 1e-50 of my enclosures
+ALL 199 enclosures sign-definite, contained in BOTH certificate enclosures, signs agree; G>0 for 2<=k<=91, G<0 for 92<=k<=200
+wrote results_routeC.json   [19.1s]

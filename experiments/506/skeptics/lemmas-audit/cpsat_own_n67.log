@@ -1,0 +1,4 @@
+n=6 capmode=1 maxsize=5: status=OPTIMAL best D+ell=13 bound=13 => min circles (relaxation) = 7, proven lower bound 7; time 0.0s
+n=6 capmode=2 maxsize=5: status=OPTIMAL best D+ell=13 bound=13 => min circles (relaxation) = 7, proven lower bound 7; time 0.0s
+n=7 capmode=1 maxsize=6: status=OPTIMAL best D+ell=27 bound=27 => min circles (relaxation) = 8, proven lower bound 8; time 0.4s
+n=7 capmode=2 maxsize=6: status=OPTIMAL best D+ell=27 bound=27 => min circles (relaxation) = 8, proven lower bound 8; time 0.4s

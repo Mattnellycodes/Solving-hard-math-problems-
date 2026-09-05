@@ -1,0 +1,6 @@
+(a) 8 triples on 8 points pairwise <=1: 840 labelled families, 1 iso class(es); MK in classes: True; 8!/|Aut(MK)| = 48
+    families of 8 pairwise<=1 sets of size>=3 on 8 points containing a set of size >=4: 0
+(b) 7 triples on 7 points: 30 labelled, 1 class(es); Fano: True; 8 triples possible: False (max packing 7)
+(c) 6 triples on 7 points pairwise <=1: 1 iso class(es) (expect 1 = Fano minus a line)
+(d) max packings of triples: n=5: 2, n=6: 4, n=8: 8
+(e) 7 four-subsets of a 7-set pairwise <=2: 1 class(es); 8 possible: False

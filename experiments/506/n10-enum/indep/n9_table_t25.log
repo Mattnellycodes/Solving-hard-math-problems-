@@ -1,12 +1,20 @@
-[6] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] D0=18 cands=36 rootD<=57 (need D>=49) |Aut|=1152 nodes=89 evals=2 candidates=1 [0.0s]
-[7] sizes=[5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8]] D0=28 cands=18 rootD<=55 (need D>=49) |Aut|=288 nodes=9 evals=0 candidates=0 [0.0s]
-[8] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] D0=27 cands=18 rootD<=57 (need D>=49) |Aut|=48 nodes=25 evals=0 candidates=0 [0.0s]
-TOTAL phase-2 nodes=14628; candidate structures (count <= 25): 2 [5.1s]
+n=9 mode=table target=25 need=D+ell>=59 Caps(n=9, mode=table, capD=24, max4=7, capL=30, t3n=10, ellmax=10) big sizes=[5, 6, 7, 8]
+  phase1 level 1: 4 classes
+  phase1 level 2: 3 classes
+  phase1 level 3: 1 classes
+  phase1 level 4: 0 classes
+phase 1: 9 classes of big-block families (incl. empty) [0.1s]
+[0] sizes=[] blocks=[] D0=0 cands=126 rootD<=45 (need D>=49) -> pruned at root
+[1] sizes=[5] blocks=[[0, 1, 2, 3, 4]] D0=9 cands=81 rootD<=51 (need D>=49) |Aut|=2880 nodes=162 evals=0 candidates=0 [0.2s]
+[2] sizes=[6] blocks=[[0, 1, 2, 3, 4, 5]] D0=19 cands=51 rootD<=52 (need D>=49) |Aut|=4320 nodes=12 evals=0 candidates=0 [0.2s]
+[3] sizes=[7] blocks=[[0, 1, 2, 3, 4, 5, 6]] D0=34 cands=21 rootD<=58 (need D>=49) |Aut|=10080 nodes=3 evals=0 candidates=0 [0.4s]
+[4] sizes=[8] blocks=[[0, 1, 2, 3, 4, 5, 6, 7]] D0=55 cands=0 rootD<=55 (need D>=49) |Aut|=40320 nodes=1 evals=1 candidates=1 [1.2s]
+[5] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] D0=18 cands=45 rootD<=54 (need D>=49) |Aut|=144 nodes=25 evals=0 candidates=0 [0.0s]
+[6] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] D0=18 cands=36 rootD<=57 (need D>=49) |Aut|=1152 nodes=31 evals=2 candidates=1 [0.1s]
+[7] sizes=[5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8]] D0=28 cands=18 rootD<=55 (need D>=49) |Aut|=288 nodes=1 evals=0 candidates=0 [0.0s]
+[8] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] D0=27 cands=18 rootD<=57 (need D>=49) |Aut|=48 nodes=3 evals=0 candidates=0 [0.0s]
+TOTAL phase-2 nodes=238; candidate structures (count <= 25): 2 [2.1s]
   cand 0: sizes=[8] D=55 ellmax=4 count=25 degrees=[1, 1, 1, 1, 1, 1, 1, 1, 0]
      blocks=[[0, 1, 2, 3, 4, 5, 6, 7]]
   cand 1: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ellmax=6 count=24 degrees=[2, 7, 7, 7, 7, 7, 7, 7, 7]
-     blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8], [1, 2, 5, 6], [3, 4, 5, 6], [1, 3, 5, 7], [2, 4, 5, 7], [2, 3, 6, 7], [1, 4, 6, 7], [2, 3, 5, 8], [1, 4, 5, 8], [1, 3, 6, 8], [2, 4, 6, 8], [1, 2, 7, 8], [3, 4, 7, 8]]
-
-real	0m5.247s
-user	0m3.670s
-sys	0m0.032s
+     blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8], [1, 2, 5, 6], [1, 2, 7, 8], [1, 3, 5, 7], [1, 3, 6, 8], [1, 4, 5, 8], [1, 4, 6, 7], [2, 3, 5, 8], [2, 3, 6, 7], [2, 4, 5, 7], [2, 4, 6, 8], [3, 4, 5, 6], [3, 4, 7, 8]]

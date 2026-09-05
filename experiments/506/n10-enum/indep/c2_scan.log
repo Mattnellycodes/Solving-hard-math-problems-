@@ -1,0 +1,6 @@
+type 0 (B offset 0.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 789, 3: 7, 4: 16, 6: 3, 15: 185}; max = 15 at rho = 7.628140703517587
+type 1 (B offset 0.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 787, 3: 7, 4: 16, 6: 3, 15: 187}; max = 15 at rho = 7.628140703517587
+type 2 (B offset 0.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 784, 3: 7, 4: 16, 6: 3, 15: 190}; max = 15 at rho = 8.170854271356784
+type 3 (B offset 0.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 788, 3: 7, 4: 16, 6: 3, 15: 186}; max = 15 at rho = 7.628140703517587
+type 4 (B offset 36.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 801, 3: 12, 15: 187}; max = 15 at rho = 6.814070351758794
+type 5 (B offset 36.0 deg): histogram of max #blocks through a non-configuration point over rho grid: {2: 802, 3: 12, 15: 186}; max = 15 at rho = 8.984924623115578

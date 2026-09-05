@@ -1,0 +1,3 @@
+options {'n': 9, 'sg': True, 'sg1': False, 'fix': None, 'maxsize': 4, 'maxdeg4': 7}
+n 9 sg True threshold 60 status INFEASIBLE labelled solutions 0 time 0.132699064
+iso classes: 0

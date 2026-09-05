@@ -1,0 +1,9 @@
+enum9_strong_m4.txt: 6480 labelled families with count <= 24; END m=4 nodes=210370600 leaves=6480 found=6480 complete=1
+   (D, ellmax, maxdeg) -> count: {(51, 10, 8): 6120, (54, 10, 8): 360}
+   families with NO point in >= 8 four-blocks (would survive the (8_3) lemma): 0
+enum9_sg_m4.txt: 6480 labelled families with count <= 24; END m=4 nodes=210370600 leaves=6480 found=6480 complete=1
+   (D, ellmax, maxdeg) -> count: {(51, 11, 8): 6120, (54, 11, 8): 360}
+   families with NO point in >= 8 four-blocks (would survive the (8_3) lemma): 0
+enum9_none_m4.txt: 55440 labelled families with count <= 24; END m=4 nodes=316835312 leaves=95760 found=55440 complete=1
+   (D, ellmax, maxdeg) -> count: {(48, 12, 8): 48960, (51, 12, 8): 6120, (54, 12, 8): 360}
+   families with NO point in >= 8 four-blocks (would survive the (8_3) lemma): 0

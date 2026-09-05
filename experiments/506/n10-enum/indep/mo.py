@@ -262,16 +262,27 @@ def phase2(n, caps, R, aut, need, collect_all=False, quad_filter=None, verbose=F
     """R: fixed block family (list of bitmasks); aut: list of permutations preserving R (must contain
     the identity).  need = C(n,3) - target: a family F is a *candidate* iff D(F) + ellmax(F) >= need.
     collect_all: return every generated family instead (validation).  quad_filter: optional predicate
-    restricting the candidate 4-blocks (must be Aut-invariant)."""
+    restricting the candidate 4-blocks (must be Aut-invariant).
+
+    Candidate 4-blocks are indexed in lexicographic order of their sorted point tuples (so all blocks
+    through point 0 come first).  Upper bounds on the number of 4-blocks that can still be added below
+    a node (avail = candidates compatible with the current family and with index > last):
+      r_p  = min( (capD - usage_p)//3,  max4 - deg4_p,  floor( sum_q floor(|X_pq|/2) / 3 ) )
+             where X_pq = { x : {p,q,x} is contained in some available candidate }: additional blocks
+             through {p,q} pairwise share exactly {p,q}, so their other point pairs are disjoint
+             subsets of X_pq; a block through p contains three pairs {p,q};
+      a_p^(j) = number of available candidates with index >= the j-th available one that contain p;
+      additional blocks in the subtree of the j-th child  <=  floor( sum_p min(r_p, a_p^(j)) / 4 ).
+    Prune (break, the bound is monotone in j) when D + 3*bound_j + ellmax < need."""
     assert tuple(range(n)) in aut
-    quads = [m for m in masks_of_size(n, 4) if all(popcount(m & b) <= 2 for b in R)]
+    quads = [mask(c) for c in itertools.combinations(range(n), 4)]
+    quads = [m for m in quads if all(popcount(m & b) <= 2 for b in R)]
     if quad_filter is not None:
         quads = [m for m in quads if quad_filter(m)]
     M = len(quads)
     idx = {m: i for i, m in enumerate(quads)}
     G = len(aut)
     max4 = caps.max4 if max4_override is None else max4_override
-    # permutation table on candidate indices
     T = np.empty((G, M), dtype=np.int16)
     if M:
         pts = np.array([bits(m) for m in quads], dtype=np.int64)
@@ -290,33 +301,30 @@ def phase2(n, caps, R, aut, need, collect_all=False, quad_filter=None, verbose=F
                 x |= 1 << j
         compat.append(x)
     qpts = [bits(m) for m in quads]
+    qpairs = [[(p, q, m & ~(1 << p) & ~(1 << q)) for p, q in itertools.combinations(bits(m), 2)] for m in quads]
     usage = point_usage(n, R)
     deg4 = [0] * n
     D0 = deficit(R)
     D_min = need - caps.ellmax
     F4 = []
     results = []
-    stats = {'nodes': 0, 'evals': 0, 'M': M, 'G': G, 'D0': D0}
+    stats = {'nodes': 0, 'evals': 0, 'M': M, 'G': G, 'D0': D0, 'canon_tests': 0}
 
-    def canonical():
-        if G == 1:
+    def canonical(newF, rel):
+        """newF = F4 + [c] (sorted, c largest).  rel: boolean array of the automorphisms sigma with
+        min_{b in newF} T[sigma, b] <= newF[0]; only those can give sorted(sigma(newF)) <= newF."""
+        stats['canon_tests'] += 1
+        ids = np.flatnonzero(rel)
+        if len(ids) <= 1:
             return True
-        img = T[:, F4]
-        rowmin = img.min(axis=1)
-        f0 = F4[0]
-        if (rowmin < f0).any():
-            return False
-        sel = np.nonzero(rowmin == f0)[0]
-        if len(sel) <= 1:
-            return True
-        sub = np.sort(img[sel], axis=1)
-        Farr = np.array(F4, dtype=np.int16)
-        diff = sub != Farr
+        rows = np.sort(T[ids][:, newF], axis=1)
+        Farr = np.array(newF, dtype=np.int16)
+        diff = rows != Farr
         has = diff.any(axis=1)
         if not has.any():
             return True
         first = diff.argmax(axis=1)
-        vals = sub[np.arange(len(sel)), first]
+        vals = rows[np.arange(len(ids)), first]
         return not (has & (vals < Farr[first])).any()
 
     def evaluate(D):
@@ -326,7 +334,7 @@ def phase2(n, caps, R, aut, need, collect_all=False, quad_filter=None, verbose=F
             results.append({'blocks': [bits(b) for b in F], 'D': D, 'ellmax': ell,
                             'count': math.comb(n, 3) - D - ell, 'example_lines': [bits(l) for l in L]})
 
-    def dfs(last, avail, D):
+    def dfs(last, avail, D, rel):
         stats['nodes'] += 1
         if collect_all:
             results.append([bits(b) for b in list(R) + [quads[i] for i in F4]])
@@ -334,28 +342,57 @@ def phase2(n, caps, R, aut, need, collect_all=False, quad_filter=None, verbose=F
             stats['evals'] += 1
             evaluate(D)
         hi = avail & ~((1 << (last + 1)) - 1) if last >= 0 else avail
-        if not collect_all:
-            cnt = popcount(hi)
-            slack = sum(min((caps.capD - usage[p]) // 3, max4 - deg4[p]) for p in range(n))
-            add = min(cnt, slack // 4)
-            if D + 3 * add + caps.ellmax < need:
-                return
+        if not hi:
+            return
+        Rl = []
         x = hi
         while x:
-            low = x & -x; i = low.bit_length() - 1; x ^= low
+            low = x & -x; Rl.append(low.bit_length() - 1); x ^= low
+        r = [min((caps.capD - usage[p]) // 3, max4 - deg4[p]) for p in range(n)]
+        Rl = [i for i in Rl if all(r[p] > 0 for p in qpts[i])]
+        if not Rl:
+            return
+        bounds = None
+        if not collect_all:
+            X = [[0] * n for _ in range(n)]
+            for i in Rl:
+                for p, q, other in qpairs[i]:
+                    X[p][q] |= other
+                    X[q][p] |= other
+            for p in range(n):
+                s = 0
+                for q in range(n):
+                    if q != p:
+                        s += popcount(X[p][q]) // 2
+                r[p] = min(r[p], s // 3)
+            suffix = [0] * len(Rl)
+            acc = [0] * n
+            for j in range(len(Rl) - 1, -1, -1):
+                for p in qpts[Rl[j]]:
+                    acc[p] += 1
+                suffix[j] = sum(min(r[p], acc[p]) for p in range(n)) // 4
+            bounds = suffix
+        c0 = F4[0] if F4 else None
+        for j, i in enumerate(Rl):
+            if bounds is not None and D + 3 * bounds[j] + caps.ellmax < need:
+                break
             ps = qpts[i]
-            if any(usage[p] + 3 > caps.capD or deg4[p] >= max4 for p in ps):
-                continue
-            F4.append(i)
-            if canonical():
+            newF = F4 + [i]
+            if G > 1:
+                cc0 = c0 if c0 is not None else i
+                newrel = rel | (T[:, i] <= cc0)
+            else:
+                newrel = rel
+            if G == 1 or canonical(newF, newrel):
+                F4.append(i)
                 for p in ps:
                     usage[p] += 3; deg4[p] += 1
-                dfs(i, avail & compat[i], D + 3)
+                dfs(i, avail & compat[i], D + 3, newrel)
                 for p in ps:
                     usage[p] -= 3; deg4[p] -= 1
-            F4.pop()
+                F4.pop()
 
-    dfs(-1, (1 << M) - 1, D0)
+    dfs(-1, (1 << M) - 1, D0, np.zeros(G, dtype=bool))
     return results, stats
 
 

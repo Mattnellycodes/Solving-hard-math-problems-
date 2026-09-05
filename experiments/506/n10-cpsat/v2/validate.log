@@ -1,1 +1,3 @@
 n=8: built in 0.2s; constraint counts {'T': 56, 'L1': 162, 'L2': 28, 'PD': 28, 'PDl': 8, 'SG': 8, 'SGl': 1, 'dHSG7': 8, 'E11SG': 8, 'E11HSG7': 56, 'E11HSG8': 8, 'E11MK8': 8, 'lHSG7': 8, 'lHSG8': 1, 'lMK8': 1}
+   status=OPTIMAL opt D+l=39 bound=39 -> circles >= 17; example blocks [[0, 1, 2, 3], [0, 1, 4, 7], [0, 1, 5, 6], [0, 2, 4, 5], [0, 2, 6, 7], [0, 3, 5, 7], [1, 2, 4, 6], [1, 3, 4, 5], [1, 3, 6, 7], [2, 3, 4, 7], [2, 3, 5, 6], [4, 5, 6, 7]] lines [[0, 1, 2, 3], [0, 4, 6], [2, 5, 7]]  [506s]
+n=9: built in 1.7s; constraint counts {'T': 84, 'L1': 381, 'L2': 36, 'PD': 36, 'PDl': 9, 'SG': 9, 'SGl': 1, 'dHSG7': 72, 'dHSG8': 9, 'dMK8': 9, 'E11SG': 9, 'E11HSG7': 252, 'E11HSG8': 72, 'E11MK8': 72, 'E11O9': 9, 'lHSG7': 36, 'lHSG8': 9, 'lMK8': 9, 'lO9': 1}

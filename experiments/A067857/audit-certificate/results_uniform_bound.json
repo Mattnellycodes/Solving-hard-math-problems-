@@ -1,0 +1,67 @@
+{
+ "pi_enclosure_width": 3.975284231020467e-136,
+ "gamma_enclosure_width": 1.4542410846114665e-113,
+ "per_m": {
+  "3": {
+   "first_k_with_UB_negative": 92,
+   "UB_91": "8.1135918534e-05",
+   "UB_92": "-1.3171665024e-05",
+   "strictly_decreasing_k_le_300": true,
+   "max_rel_diff_vs_certificate_table": 3.778103111821259e-07,
+   "G_le_UB_for_all_my_enclosures_k_le_200": true,
+   "G_le_UB_for_route_a_enclosures": true,
+   "min_margin_UB_minus_G_hi": 3.422639637248113e-05,
+   "const_part": "-5.279168322988e-02",
+   "C_m_tail": "1.693e-05"
+  },
+  "4": {
+   "first_k_with_UB_negative": 92,
+   "UB_91": "5.4818299692e-05",
+   "UB_92": "-3.9489283865e-05",
+   "strictly_decreasing_k_le_300": true,
+   "max_rel_diff_vs_certificate_table": 1.57972303237982e-07,
+   "G_le_UB_for_all_my_enclosures_k_le_200": true,
+   "G_le_UB_for_route_a_enclosures": true,
+   "min_margin_UB_minus_G_hi": 7.908777531135657e-06,
+   "const_part": "-5.696774752008e-02",
+   "C_m_tail": "7.527e-06"
+  },
+  "5": {
+   "first_k_with_UB_negative": 92,
+   "UB_91": "6.0007443396e-05",
+   "UB_92": "-3.4300140161e-05",
+   "strictly_decreasing_k_le_300": true,
+   "max_rel_diff_vs_certificate_table": 2.1210101058318638e-07,
+   "G_le_UB_for_all_my_enclosures_k_le_200": true,
+   "G_le_UB_for_route_a_enclosures": true,
+   "min_margin_UB_minus_G_hi": 1.3097921234753173e-05,
+   "const_part": "-5.696255837638e-02",
+   "C_m_tail": "5.189e-06"
+  },
+  "6": {
+   "first_k_with_UB_negative": 92,
+   "UB_91": "5.4732371856e-05",
+   "UB_92": "-3.9575211702e-05",
+   "strictly_decreasing_k_le_300": true,
+   "max_rel_diff_vs_certificate_table": 3.3776465475318294e-07,
+   "G_le_UB_for_all_my_enclosures_k_le_200": true,
+   "G_le_UB_for_route_a_enclosures": true,
+   "min_margin_UB_minus_G_hi": 7.822849694391945e-06,
+   "const_part": "-7.805544016426e-02",
+   "C_m_tail": "5.104e-06"
+  },
+  "7": {
+   "first_k_with_UB_negative": 92,
+   "UB_91": "6.1506277830e-05",
+   "UB_92": "-3.2801305728e-05",
+   "strictly_decreasing_k_le_300": true,
+   "max_rel_diff_vs_certificate_table": 3.083612938151943e-07,
+   "G_le_UB_for_all_my_enclosures_k_le_200": true,
+   "G_le_UB_for_route_a_enclosures": true,
+   "min_margin_UB_minus_G_hi": 1.4596755668557712e-05,
+   "const_part": "-7.804866625828e-02",
+   "C_m_tail": "6.774e-06"
+  }
+ },
+ "conclusion": "UB_m(k) < 0 for all k >= 92 for each m in 3..7 (UB strictly decreasing), hence G(k) < 0 and sign a(p_k#) = (-1)^{k+1} for all k >= 92"
+}

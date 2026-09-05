@@ -1,0 +1,5 @@
+options {'n': 9, 'sg': True, 'sg1': False, 'fix': [0, 1, 2, 3, 4], 'maxsize': 5, 'maxdeg4': 7}
+n 9 sg True threshold 60 status OPTIMAL labelled solutions 720 time 379.477148021
+iso classes: 2
+ D+l 60 circles 24 mult 360 sizes [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] nlines 6 linesizes [3, 3, 3, 3, 4, 4]
+ D+l 60 circles 24 mult 360 sizes [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] nlines 6 linesizes [3, 3, 3, 3, 4, 4]

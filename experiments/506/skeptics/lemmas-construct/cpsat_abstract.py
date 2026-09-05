@@ -13,17 +13,22 @@ from math import comb
 from ortools.sat.python import cp_model
 import networkx as nx
 
-OL = {2: 0, 3: 3, 4: 3, 5: 4, 6: 3, 7: 3, 8: 4, 9: 6, 10: 5}
+OL = {2: 0, 3: 3, 4: 3, 5: 4, 6: 3, 7: 3, 8: 4, 9: 5, 10: 5}   # rigorous lower bounds (Kelly-Moser, Csima-Sawyer 6m/13)
 
-def build(n, sg, extra_maxdeg4=None):
+def build(n, sg, maxdeg4=None, fix=None, maxsize=None, sg1=False):
     m = cp_model.CpModel()
     pts = range(n)
     X = {}
-    for k in range(4, n):
+    for k in range(4, n if maxsize is None else min(n, maxsize + 1)):
         for S in itertools.combinations(pts, k):
             X[S] = m.NewBoolVar('x' + ''.join(map(str, S)))
+    if fix is not None:
+        m.Add(X[tuple(fix)] == 1)
+    if maxdeg4 is not None:
+        for p in pts:
+            m.Add(sum(X[S] for S in X if p in S and len(S) == 4) <= maxdeg4)
     Y = {}
-    for k in range(3, n):
+    for k in range(3, n if maxsize is None else min(n, maxsize + 1)):
         for T in itertools.combinations(pts, k):
             Y[T] = m.NewBoolVar('y' + ''.join(map(str, T)))
     # per triple
@@ -36,10 +41,11 @@ def build(n, sg, extra_maxdeg4=None):
     for T in Y:
         if len(T) >= 4:
             m.AddImplication(Y[T], X[T])
-    if sg:
+    if sg or sg1:
+        o1, o2 = (1, 1) if sg1 else (OL[n - 1], OL[n])
         for p in pts:
-            m.Add(sum(X[S] * comb(len(S) - 1, 2) for S in X if p in S) <= comb(n - 1, 2) - OL[n - 1])
-        m.Add(sum(Y[T] * comb(len(T), 2) for T in Y) <= comb(n, 2) - OL[n])
+            m.Add(sum(X[S] * comb(len(S) - 1, 2) for S in X if p in S) <= comb(n - 1, 2) - o1)
+        m.Add(sum(Y[T] * comb(len(T), 2) for T in Y) <= comb(n, 2) - o2)
     obj = sum(X[S] * (comb(len(S), 3) - 1) for S in X) + sum(Y[T] for T in Y)
     return m, X, Y, obj
 
@@ -91,8 +97,13 @@ class Collector(cp_model.CpSolverSolutionCallback):
 
 if __name__ == '__main__':
     n = int(sys.argv[1]); mode = sys.argv[2]; sg = '--sg' in sys.argv
+    def opt(name, cast=int):
+        v = [a for a in sys.argv if a.startswith('--' + name + '=')]
+        return cast(v[0].split('=', 1)[1]) if v else None
     workers = 2
-    m, X, Y, obj = build(n, sg)
+    fix = opt('fix', lambda s: [int(c) for c in s]); maxsize = opt('maxsize'); maxdeg4 = opt('maxdeg4')
+    m, X, Y, obj = build(n, sg, maxdeg4=maxdeg4, fix=fix, maxsize=maxsize, sg1='--sg1' in sys.argv)
+    print('options', dict(n=n, sg=sg, sg1='--sg1' in sys.argv, fix=fix, maxsize=maxsize, maxdeg4=maxdeg4), flush=True)
     solver = cp_model.CpSolver()
     solver.parameters.num_search_workers = workers
     solver.parameters.max_time_in_seconds = float([a for a in sys.argv if a.startswith('--time=')][0][7:]) if any(a.startswith('--time=') for a in sys.argv) else 600

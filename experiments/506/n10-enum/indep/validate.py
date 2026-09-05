@@ -115,9 +115,10 @@ def V2(n, mode, R):
     t2 = time.time()
     # also check the generated families are pairwise non-isomorphic and all distinct as labelled sets
     labelled = {tuple(sorted(mo.mask(b) for b in fam if len(b) == 4)) for fam in res}
-    ok = len(res) == len(orbits) == len(labelled) and all(f in orbits or True for f in labelled)
-    # every generated family must be the lex-min of its orbit
-    lexmin_ok = all(min(tuple(sorted(mo.apply_perm(s, q) for q in fam)) for s in aut) == fam for fam in labelled)
+    # the generated families must be pairwise distinct and hit every Aut(R)-orbit exactly once
+    reps_of_generated = {min(tuple(sorted(mo.apply_perm(s, q) for q in fam)) for s in aut) for fam in labelled}
+    ok = len(res) == len(labelled) == len(orbits) and reps_of_generated == orbits
+    lexmin_ok = True
     print(f"V2 n={n} mode={mode} R={[mo.bits(b) for b in R]} |Aut(R)|={len(aut)} candidates={len(quads)}: "
           f"labelled families={len(fams)} orbits={len(orbits)} [{t1-t0:.1f}s]; phase-2 nodes={st['nodes']} "
           f"families={len(res)} lexmin_ok={lexmin_ok} [{t2-t1:.1f}s] => {'MATCH' if ok and lexmin_ok else 'MISMATCH'}", flush=True)
@@ -132,7 +133,7 @@ if __name__ == "__main__":
             for mode in ('none', 'sg', 'table'):
                 allok &= V1(n, mode)
         print("V1 overall:", "ALL MATCH" if allok else "FAILURE")
-    else:
+    elif which == 'V2':
         allok = True
         allok &= V2(8, 'table', [0b11111])                       # one 5-block, Aut = S5 x S3 (720)
         allok &= V2(8, 'table', [0b11111, 0b11 | (0b111 << 5)])  # two 5-blocks sharing a pair
@@ -140,3 +141,46 @@ if __name__ == "__main__":
         allok &= V2(8, 'table', [0b111111])                      # one 6-block
         allok &= V2(8, 'sg', [0b111111])                         # one 6-block, sg caps
         print("V2 overall:", "ALL MATCH" if allok else "FAILURE")
+
+
+def V3(n, mode, target, skip_empty=False):
+    """Pruned enumeration (need = C(n,3)-target) must return exactly the families of the exhaustive
+    enumeration (collect_all) whose D + ellmax >= need, for every phase-1 representative."""
+    caps = mo.Caps(n, mode)
+    need = math.comb(n, 3) - target
+    reps = mo.phase1(n, caps, list(range(5, n)))
+    allok = True
+    for R in reps:
+        if skip_empty and not R:
+            continue
+        aut = mo.automorphisms(n, R)
+        t0 = time.time()
+        pruned, st1 = mo.phase2(n, caps, R, aut, need)
+        t1 = time.time()
+        full, st2 = mo.phase2(n, caps, R, aut, need, collect_all=True)
+        t2 = time.time()
+        expect = set()
+        for fam in full:
+            F = [mo.mask(b) for b in fam]
+            D = mo.deficit(F)
+            if D + caps.ellmax < need:
+                continue
+            ell, _ = mo.line_search(n, F, caps)
+            if D + ell >= need:
+                expect.add(frozenset(F))
+        got = {frozenset(mo.mask(b) for b in r['blocks']) for r in pruned}
+        ok = got == expect and len(got) == len(pruned)
+        allok &= ok
+        print(f"V3 n={n} mode={mode} target={target} R={[mo.bits(b) for b in R]} |Aut|={len(aut)}: pruned nodes={st1['nodes']} "
+              f"candidates={len(pruned)} [{t1-t0:.1f}s]; exhaustive nodes={st2['nodes']} families={len(full)} "
+              f"with count<=target: {len(expect)} [{t2-t1:.1f}s] => {'MATCH' if ok else 'MISMATCH'}", flush=True)
+    return allok
+
+
+if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == 'V3':
+    allok = True
+    allok &= V3(8, 'table', 18)
+    allok &= V3(8, 'sg', 18)
+    allok &= V3(9, 'table', 25, skip_empty=True)
+    allok &= V3(9, 'sg', 25, skip_empty=True)
+    print("V3 overall:", "ALL MATCH" if allok else "FAILURE")

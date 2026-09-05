@@ -1,0 +1,9 @@
+DONE nodes=70 leaves=21 records=15
+15 labelled records
+1 isomorphism classes
+
+CLASS: sizes=[4, 4, 4] D=9 ell_max=4 count=7 degrees=[2, 2, 2, 2, 2, 2] labelled copies=15
+  blocks: [[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]]
+  own ell_max=4 (enumerator said 4); #maximum line sets=2; example=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]]
+  no derived-structure violation (structure survives block-level filters)
+  maximum line sets violating hereditary SG: 0 of 2

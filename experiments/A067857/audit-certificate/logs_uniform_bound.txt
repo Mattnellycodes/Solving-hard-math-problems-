@@ -1,0 +1,7 @@
+m=3: UB(91)=+8.113592e-05 UB(92)=-1.317167e-05 first negative k=92, strictly decreasing to k=300: True, max rel diff vs cert table 3.8e-07, G<=UB (mine/route a): True/True, min margin 3.42e-05
+m=4: UB(91)=+5.481830e-05 UB(92)=-3.948928e-05 first negative k=92, strictly decreasing to k=300: True, max rel diff vs cert table 1.6e-07, G<=UB (mine/route a): True/True, min margin 7.91e-06
+m=5: UB(91)=+6.000744e-05 UB(92)=-3.430014e-05 first negative k=92, strictly decreasing to k=300: True, max rel diff vs cert table 2.1e-07, G<=UB (mine/route a): True/True, min margin 1.31e-05
+m=6: UB(91)=+5.473237e-05 UB(92)=-3.957521e-05 first negative k=92, strictly decreasing to k=300: True, max rel diff vs cert table 3.4e-07, G<=UB (mine/route a): True/True, min margin 7.82e-06
+m=7: UB(91)=+6.150628e-05 UB(92)=-3.280131e-05 first negative k=92, strictly decreasing to k=300: True, max rel diff vs cert table 3.1e-07, G<=UB (mine/route a): True/True, min margin 1.46e-05
+P_s(300) >= 1/zeta(s) and prod(1+p^-s)(300) <= zeta(s)/zeta(2s), s in {2,4,6,10}: s=2 ok; s=4 ok; s=6 ok; s=10 ok; 
+CONCLUSION reproduced: G(k) <= UB(k) < 0 for all k >= 92; wrote results_uniform_bound.json

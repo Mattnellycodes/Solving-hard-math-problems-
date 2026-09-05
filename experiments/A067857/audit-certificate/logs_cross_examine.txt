@@ -1,0 +1,9 @@
+   route a k=91: G in [0.0000373169083329271974, 0.0000373169083329271974] width 3.1e-48, |G|/width = 1.2e+43, sign_G=+1 sign_a=-1 status='conjecture holds at n=p_k#', T=1.14e-49 (exact 1.14e-49), divisors 18979
+   route a k=92: G in [-0.000056769811107353808, -0.000056769811107353808] width 3.1e-48, |G|/width = 1.8e+43, sign_G=-1 sign_a=-1 status="VIOLATION of 'only if' (a(n)<0 with omega even)", T=1.15e-49 (exact 1.15e-49), divisors 19106
+   route a k=93: G in [-0.000149120877567886960, -0.000149120877567886960] width 3.1e-48, |G|/width = 4.7e+43, sign_G=-1 sign_a=+1 status="VIOLATION of 'if' (a(n)>0 with omega odd >= 3)", T=1.16e-49 (exact 1.16e-49), divisors 19232
+route a (m=4, D=100000): 0 problems over k=2..200; divisor counts, Euler products, tail bounds, bookkeeping, containment of my enclosures all verified; smallest |G|/width = 1.2e+43
+   route b k=91: G in [0.0000373169083329271974, 0.0000373169083329271974] width 3.3e-55, |G|/width = 1.1e+50, sign_G=+1 sign_a=-1 status='conjecture holds at n=p_k#', T=1.57e-55 (exact 1.57e-55), divisors 3196
+   route b k=92: G in [-0.000056769811107353808, -0.000056769811107353808] width 3.3e-55, |G|/width = 1.7e+50, sign_G=-1 sign_a=-1 status="VIOLATION of 'only if' (a(n)<0 with omega even)", T=1.59e-55 (exact 1.59e-55), divisors 3209
+   route b k=93: G in [-0.000149120877567886960, -0.000149120877567886960] width 3.2e-55, |G|/width = 4.6e+50, sign_G=-1 sign_a=+1 status="VIOLATION of 'if' (a(n)>0 with omega odd >= 3)", T=1.60e-55 (exact 1.60e-55), divisors 3222
+route b (m=6, D=10000): 0 problems over k=2..200; divisor counts, Euler products, tail bounds, bookkeeping, containment of my enclosures all verified; smallest |G|/width = 1.1e+50
+cross-examination of both JSON certificates passed

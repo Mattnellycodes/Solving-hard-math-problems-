@@ -1,1 +1,2 @@
 enum9: m=4 forced={0..3} cap_point=28 cap_lines=36 target=24 ellcap=12 Dmin=48 ncand=125
+enum9: done m=4 nodes=316835312 leaves(D>=Dmin)=95760 found=55440 time=223.2s

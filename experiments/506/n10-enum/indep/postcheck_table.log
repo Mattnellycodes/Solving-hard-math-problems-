@@ -1,0 +1,186 @@
+n10_table_t32.json: n=10 mode=table target=32 need=88 candidates=9 Caps(n=10, mode=table, capD=30, max4=10, capL=40, t3n=12, ellmax=12)
+
+=== candidate 0: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10] ellmax=12 count_min=32; line sets with |L|>=12: 26
+    blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7], [0, 1, 8, 9], [0, 2, 6, 8], [0, 3, 6, 9], [0, 4, 7, 8], [0, 5, 7, 9], [1, 2, 6, 9], [1, 3, 7, 8], [1, 4, 7, 9], [1, 5, 6, 8], [2, 3, 7, 9], [2, 4, 6, 7], [2, 4, 8, 9], [2, 5, 7, 8], [3, 4, 6, 8], [3, 5, 6, 7], [3, 5, 8, 9], [4, 5, 6, 9], [6, 7, 8, 9]]
+    [A1(SG+8_3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A1(SG+8_3)] => SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    [A2(SG+8_3+t3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] violation: cube labelling (0, 1, 3, 5, 6, 7, 9, 8) faces [[0, 1, 3, 5], [6, 7, 8, 9], [0, 1, 6, 7], [3, 5, 8, 9], [0, 3, 6, 9], [1, 5, 7, 8]] -> face 5 [1, 5, 7, 8] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 1: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10] ellmax=12 count_min=32; line sets with |L|>=12: 26
+    blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7], [0, 1, 8, 9], [0, 2, 6, 8], [0, 3, 6, 9], [0, 4, 7, 8], [0, 5, 7, 9], [1, 2, 7, 9], [1, 3, 7, 8], [1, 4, 6, 9], [1, 5, 6, 8], [2, 3, 6, 7], [2, 4, 8, 9], [2, 5, 6, 9], [2, 5, 7, 8], [3, 4, 6, 8], [3, 4, 7, 9], [3, 5, 8, 9], [4, 5, 6, 7], [6, 7, 8, 9]]
+    [A1(SG+8_3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A1(SG+8_3)] => SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    [A2(SG+8_3+t3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] violation: cube labelling (0, 1, 2, 3, 8, 9, 6, 7) faces [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 8, 9], [2, 3, 6, 7], [0, 2, 6, 8], [1, 3, 7, 9]] -> face 5 [1, 3, 7, 9] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 2: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[8, 8, 9, 9, 9, 9, 9, 9, 10, 10] ellmax=10 count_min=32; line sets with |L|>=10: 3
+    blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 1, 8, 9], [0, 2, 5, 8], [0, 2, 6, 9], [0, 3, 5, 9], [0, 3, 6, 8], [0, 4, 7, 8], [1, 2, 5, 9], [1, 2, 7, 8], [1, 3, 6, 9], [1, 4, 5, 8], [1, 4, 7, 9], [2, 3, 5, 6], [2, 3, 7, 9], [2, 4, 5, 7], [2, 4, 6, 8], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 8], [4, 5, 6, 9], [6, 7, 8, 9]]
+    [A1(SG+8_3)] derived structure at point 0: SG violation on subset [1, 2, 3, 5, 6, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 5, 6], [1, 8, 9], [2, 5, 8], [2, 6, 9], [3, 5, 9], [3, 6, 8]]
+    [A1(SG+8_3)] derived structure at point 1: SG violation on subset [0, 2, 4, 5, 7, 8, 9] (all pairs covered) lines [[0, 2, 4], [0, 5, 7], [0, 8, 9], [2, 5, 9], [2, 7, 8], [4, 5, 8], [4, 7, 9]]
+    [A1(SG+8_3)] derived structure at point 3: 8_3 violation on subset [0, 2, 4, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 4: 8_3 violation on subset [1, 2, 3, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 6: 8_3 violation on subset [0, 2, 3, 4, 5, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 7: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 8, 9] 8
+    [A1(SG+8_3)] line sets: 3 total, 3 pass, violations by kind {}
+    [A1(SG+8_3)] => EXCLUDED (derived structure at points [0, 1, 3, 4, 6, 7])
+    [A2(SG+8_3+t3)] derived structure at point 0: SG violation on subset [1, 2, 3, 5, 6, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 5, 6], [1, 8, 9], [2, 5, 8], [2, 6, 9], [3, 5, 9], [3, 6, 8]]
+    [A2(SG+8_3+t3)] derived structure at point 1: SG violation on subset [0, 2, 4, 5, 7, 8, 9] (all pairs covered) lines [[0, 2, 4], [0, 5, 7], [0, 8, 9], [2, 5, 9], [2, 7, 8], [4, 5, 8], [4, 7, 9]]
+    [A2(SG+8_3+t3)] derived structure at point 3: 8_3 violation on subset [0, 2, 4, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 4: 8_3 violation on subset [1, 2, 3, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 6: 8_3 violation on subset [0, 2, 3, 4, 5, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 7: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 8, 9] 8
+    [A2(SG+8_3+t3)] line sets: 3 total, 3 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => EXCLUDED (derived structure at points [0, 1, 3, 4, 6, 7])
+    cross-check hereditary SG (derived, points violating): mine=[0, 1] theory/hereditary_sg.py=[0, 1] AGREE
+    [Miquel] violation: cube labelling (0, 1, 2, 3, 8, 9, 5, 6) faces [[0, 1, 2, 3], [5, 6, 8, 9], [0, 1, 8, 9], [2, 3, 5, 6], [0, 2, 5, 8], [1, 3, 6, 9]] -> face 1 [5, 6, 8, 9] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 3: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] ellmax=11 count_min=31; line sets with |L|>=10: 30
+    blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 5, 8], [1, 2, 7, 9], [1, 3, 5, 9], [1, 3, 6, 8], [1, 4, 6, 7], [1, 4, 8, 9], [2, 3, 6, 7], [2, 3, 8, 9], [2, 4, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [3, 4, 6, 9]]
+    [A1(SG+8_3)] line sets: 30 total, 30 pass, violations by kind {}
+    [A1(SG+8_3)] => SURVIVES (surviving line sets 30, max |L|=11, min count=31)
+    [A2(SG+8_3+t3)] line sets: 30 total, 30 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => SURVIVES (surviving line sets 30, max |L|=11, min count=31)
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] violation: cube labelling (0, 1, 2, 3, 5, 6, 7, 8) faces [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 5, 6], [2, 3, 7, 8], [0, 2, 5, 7], [1, 3, 6, 8]] -> face 3 [2, 3, 7, 8] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 4: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] ellmax=11 count_min=31; line sets with |L|>=10: 31
+    blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 6, 7], [1, 2, 8, 9], [1, 3, 5, 9], [1, 3, 6, 8], [1, 4, 5, 7], [1, 4, 6, 9], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 8], [2, 4, 7, 9], [3, 4, 6, 7], [3, 4, 8, 9]]
+    [A1(SG+8_3)] line sets: 31 total, 31 pass, violations by kind {}
+    [A1(SG+8_3)] => SURVIVES (surviving line sets 31, max |L|=11, min count=31)
+    [A2(SG+8_3+t3)] line sets: 31 total, 31 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => SURVIVES (surviving line sets 31, max |L|=11, min count=31)
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] Miquel-closed (no violation)
+
+=== candidate 5: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] ellmax=11 count_min=31; line sets with |L|>=10: 26
+    blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 9], [1, 3, 6, 7], [1, 4, 5, 7], [1, 4, 8, 9], [2, 3, 5, 6], [2, 3, 8, 9], [2, 4, 5, 8], [2, 4, 6, 7], [3, 4, 6, 9], [3, 4, 7, 8]]
+    [A1(SG+8_3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A1(SG+8_3)] => SURVIVES (surviving line sets 26, max |L|=11, min count=31)
+    [A2(SG+8_3+t3)] line sets: 26 total, 26 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => SURVIVES (surviving line sets 26, max |L|=11, min count=31)
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] violation: cube labelling (0, 1, 2, 3, 7, 8, 5, 6) faces [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [2, 3, 5, 6], [0, 2, 5, 7], [1, 3, 6, 8]] -> face 5 [1, 3, 6, 8] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 6: sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[5, 8, 8, 9, 9, 8, 9, 9, 9, 9] ellmax=11 count_min=31; line sets with |L|>=10: 341
+    blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [0, 3, 6, 8], [0, 4, 7, 9], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 8], [1, 3, 6, 9], [1, 4, 5, 9], [1, 4, 7, 8], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 7], [2, 4, 6, 9], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 9], [4, 5, 6, 8], [6, 7, 8, 9]]
+    [A1(SG+8_3)] derived structure at point 1: 8_3 violation on subset [2, 3, 4, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 2: 8_3 violation on subset [1, 3, 4, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 3: 8_3 violation on subset [1, 2, 4, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 4: 8_3 violation on subset [1, 2, 3, 5, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 5: 8_3 violation on subset [1, 2, 3, 4, 6, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 6: 8_3 violation on subset [1, 2, 3, 4, 5, 7, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 7: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 8, 9] 8
+    [A1(SG+8_3)] derived structure at point 8: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 7, 9] 8
+    [A1(SG+8_3)] derived structure at point 9: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 7, 8] 8
+    [A1(SG+8_3)] line sets: 341 total, 257 pass, violations by kind {'8_3': 84}
+    [A1(SG+8_3)] => EXCLUDED (derived structure at points [1, 2, 3, 4, 5, 6, 7, 8, 9])
+    [A2(SG+8_3+t3)] derived structure at point 1: 8_3 violation on subset [2, 3, 4, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 2: 8_3 violation on subset [1, 3, 4, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 3: 8_3 violation on subset [1, 2, 4, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 4: 8_3 violation on subset [1, 2, 3, 5, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 5: 8_3 violation on subset [1, 2, 3, 4, 6, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 6: 8_3 violation on subset [1, 2, 3, 4, 5, 7, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 7: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 8, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 8: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 7, 9] 8
+    [A2(SG+8_3+t3)] derived structure at point 9: 8_3 violation on subset [1, 2, 3, 4, 5, 6, 7, 8] 8
+    [A2(SG+8_3+t3)] line sets: 341 total, 257 pass, violations by kind {'8_3': 84}
+    [A2(SG+8_3+t3)] => EXCLUDED (derived structure at points [1, 2, 3, 4, 5, 6, 7, 8, 9])
+    cross-check hereditary SG (derived, points violating): mine=[] theory/hereditary_sg.py=[] AGREE
+    [Miquel] violation: cube labelling (0, 1, 3, 2, 6, 7, 8, 9) faces [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 6, 7], [2, 3, 8, 9], [0, 3, 6, 8], [1, 2, 7, 9]] -> face 3 [2, 3, 8, 9] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 7: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8] ellmax=10 count_min=32; line sets with |L|>=10: 32
+    blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9], [0, 1, 8, 9], [0, 2, 6, 8], [0, 2, 7, 9], [0, 3, 6, 9], [0, 3, 7, 8], [0, 4, 5, 8], [1, 2, 6, 9], [1, 2, 7, 8], [1, 3, 6, 8], [1, 3, 7, 9], [1, 4, 5, 9], [2, 3, 6, 7], [2, 4, 5, 6], [3, 4, 5, 7]]
+    [A1(SG+8_3)] derived structure at point 0: SG violation on subset [1, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 6, 7], [1, 8, 9], [2, 6, 8], [2, 7, 9], [3, 6, 9], [3, 7, 8]]
+    [A1(SG+8_3)] derived structure at point 1: SG violation on subset [0, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 2, 3], [0, 6, 7], [0, 8, 9], [2, 6, 9], [2, 7, 8], [3, 6, 8], [3, 7, 9]]
+    [A1(SG+8_3)] derived structure at point 2: SG violation on subset [0, 1, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 3], [3, 8, 9], [0, 6, 8], [0, 7, 9], [1, 6, 9], [1, 7, 8], [3, 6, 7]]
+    [A1(SG+8_3)] derived structure at point 3: SG violation on subset [0, 1, 2, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 2], [2, 8, 9], [0, 6, 9], [0, 7, 8], [1, 6, 8], [1, 7, 9], [2, 6, 7]]
+    [A1(SG+8_3)] derived structure at point 6: SG violation on subset [0, 1, 2, 3, 7, 8, 9] (all pairs covered) lines [[0, 1, 7], [7, 8, 9], [0, 2, 8], [0, 3, 9], [1, 2, 9], [1, 3, 8], [2, 3, 7]]
+    [A1(SG+8_3)] derived structure at point 7: SG violation on subset [0, 1, 2, 3, 6, 8, 9] (all pairs covered) lines [[0, 1, 6], [6, 8, 9], [0, 2, 9], [0, 3, 8], [1, 2, 8], [1, 3, 9], [2, 3, 6]]
+    [A1(SG+8_3)] derived structure at point 8: SG violation on subset [0, 1, 2, 3, 6, 7, 9] (all pairs covered) lines [[2, 3, 9], [6, 7, 9], [0, 1, 9], [0, 2, 6], [0, 3, 7], [1, 2, 7], [1, 3, 6]]
+    [A1(SG+8_3)] derived structure at point 9: SG violation on subset [0, 1, 2, 3, 6, 7, 8] (all pairs covered) lines [[2, 3, 8], [6, 7, 8], [0, 1, 8], [0, 2, 7], [0, 3, 6], [1, 2, 6], [1, 3, 7]]
+    [A1(SG+8_3)] line sets: 32 total, 32 pass, violations by kind {}
+    [A1(SG+8_3)] => EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    [A2(SG+8_3+t3)] derived structure at point 0: SG violation on subset [1, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 6, 7], [1, 8, 9], [2, 6, 8], [2, 7, 9], [3, 6, 9], [3, 7, 8]]
+    [A2(SG+8_3+t3)] derived structure at point 1: SG violation on subset [0, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 2, 3], [0, 6, 7], [0, 8, 9], [2, 6, 9], [2, 7, 8], [3, 6, 8], [3, 7, 9]]
+    [A2(SG+8_3+t3)] derived structure at point 2: SG violation on subset [0, 1, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 3], [3, 8, 9], [0, 6, 8], [0, 7, 9], [1, 6, 9], [1, 7, 8], [3, 6, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 3: SG violation on subset [0, 1, 2, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 2], [2, 8, 9], [0, 6, 9], [0, 7, 8], [1, 6, 8], [1, 7, 9], [2, 6, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 6: SG violation on subset [0, 1, 2, 3, 7, 8, 9] (all pairs covered) lines [[0, 1, 7], [7, 8, 9], [0, 2, 8], [0, 3, 9], [1, 2, 9], [1, 3, 8], [2, 3, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 7: SG violation on subset [0, 1, 2, 3, 6, 8, 9] (all pairs covered) lines [[0, 1, 6], [6, 8, 9], [0, 2, 9], [0, 3, 8], [1, 2, 8], [1, 3, 9], [2, 3, 6]]
+    [A2(SG+8_3+t3)] derived structure at point 8: SG violation on subset [0, 1, 2, 3, 6, 7, 9] (all pairs covered) lines [[2, 3, 9], [6, 7, 9], [0, 1, 9], [0, 2, 6], [0, 3, 7], [1, 2, 7], [1, 3, 6]]
+    [A2(SG+8_3+t3)] derived structure at point 9: SG violation on subset [0, 1, 2, 3, 6, 7, 8] (all pairs covered) lines [[2, 3, 8], [6, 7, 8], [0, 1, 8], [0, 2, 7], [0, 3, 6], [1, 2, 6], [1, 3, 7]]
+    [A2(SG+8_3+t3)] line sets: 32 total, 32 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    cross-check hereditary SG (derived, points violating): mine=[0, 1, 2, 3, 6, 7, 8, 9] theory/hereditary_sg.py=[0, 1, 2, 3, 6, 7, 8, 9] AGREE
+    [Miquel] violation: cube labelling (0, 1, 2, 4, 8, 9, 6, 5) faces [[0, 1, 2, 4], [5, 6, 8, 9], [0, 1, 8, 9], [2, 4, 5, 6], [0, 2, 6, 8], [1, 4, 5, 9]] -> face 1 [5, 6, 8, 9] lies in no block  => EXCLUDED by Miquel's theorem
+
+=== candidate 8: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8] ellmax=10 count_min=32; line sets with |L|>=10: 20
+    blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9], [0, 1, 8, 9], [0, 2, 6, 8], [0, 2, 7, 9], [0, 3, 6, 9], [0, 3, 7, 8], [0, 4, 5, 8], [1, 2, 6, 9], [1, 2, 7, 8], [1, 3, 6, 8], [1, 3, 7, 9], [1, 4, 5, 9], [2, 3, 6, 7], [2, 4, 5, 7], [3, 4, 5, 6]]
+    [A1(SG+8_3)] derived structure at point 0: SG violation on subset [1, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 6, 7], [1, 8, 9], [2, 6, 8], [2, 7, 9], [3, 6, 9], [3, 7, 8]]
+    [A1(SG+8_3)] derived structure at point 1: SG violation on subset [0, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 2, 3], [0, 6, 7], [0, 8, 9], [2, 6, 9], [2, 7, 8], [3, 6, 8], [3, 7, 9]]
+    [A1(SG+8_3)] derived structure at point 2: SG violation on subset [0, 1, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 3], [3, 8, 9], [0, 6, 8], [0, 7, 9], [1, 6, 9], [1, 7, 8], [3, 6, 7]]
+    [A1(SG+8_3)] derived structure at point 3: SG violation on subset [0, 1, 2, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 2], [2, 8, 9], [0, 6, 9], [0, 7, 8], [1, 6, 8], [1, 7, 9], [2, 6, 7]]
+    [A1(SG+8_3)] derived structure at point 6: SG violation on subset [0, 1, 2, 3, 7, 8, 9] (all pairs covered) lines [[0, 1, 7], [7, 8, 9], [0, 2, 8], [0, 3, 9], [1, 2, 9], [1, 3, 8], [2, 3, 7]]
+    [A1(SG+8_3)] derived structure at point 7: SG violation on subset [0, 1, 2, 3, 6, 8, 9] (all pairs covered) lines [[0, 1, 6], [6, 8, 9], [0, 2, 9], [0, 3, 8], [1, 2, 8], [1, 3, 9], [2, 3, 6]]
+    [A1(SG+8_3)] derived structure at point 8: SG violation on subset [0, 1, 2, 3, 6, 7, 9] (all pairs covered) lines [[2, 3, 9], [6, 7, 9], [0, 1, 9], [0, 2, 6], [0, 3, 7], [1, 2, 7], [1, 3, 6]]
+    [A1(SG+8_3)] derived structure at point 9: SG violation on subset [0, 1, 2, 3, 6, 7, 8] (all pairs covered) lines [[2, 3, 8], [6, 7, 8], [0, 1, 8], [0, 2, 7], [0, 3, 6], [1, 2, 6], [1, 3, 7]]
+    [A1(SG+8_3)] line sets: 20 total, 20 pass, violations by kind {}
+    [A1(SG+8_3)] => EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    [A2(SG+8_3+t3)] derived structure at point 0: SG violation on subset [1, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[1, 2, 3], [1, 6, 7], [1, 8, 9], [2, 6, 8], [2, 7, 9], [3, 6, 9], [3, 7, 8]]
+    [A2(SG+8_3+t3)] derived structure at point 1: SG violation on subset [0, 2, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 2, 3], [0, 6, 7], [0, 8, 9], [2, 6, 9], [2, 7, 8], [3, 6, 8], [3, 7, 9]]
+    [A2(SG+8_3+t3)] derived structure at point 2: SG violation on subset [0, 1, 3, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 3], [3, 8, 9], [0, 6, 8], [0, 7, 9], [1, 6, 9], [1, 7, 8], [3, 6, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 3: SG violation on subset [0, 1, 2, 6, 7, 8, 9] (all pairs covered) lines [[0, 1, 2], [2, 8, 9], [0, 6, 9], [0, 7, 8], [1, 6, 8], [1, 7, 9], [2, 6, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 6: SG violation on subset [0, 1, 2, 3, 7, 8, 9] (all pairs covered) lines [[0, 1, 7], [7, 8, 9], [0, 2, 8], [0, 3, 9], [1, 2, 9], [1, 3, 8], [2, 3, 7]]
+    [A2(SG+8_3+t3)] derived structure at point 7: SG violation on subset [0, 1, 2, 3, 6, 8, 9] (all pairs covered) lines [[0, 1, 6], [6, 8, 9], [0, 2, 9], [0, 3, 8], [1, 2, 8], [1, 3, 9], [2, 3, 6]]
+    [A2(SG+8_3+t3)] derived structure at point 8: SG violation on subset [0, 1, 2, 3, 6, 7, 9] (all pairs covered) lines [[2, 3, 9], [6, 7, 9], [0, 1, 9], [0, 2, 6], [0, 3, 7], [1, 2, 7], [1, 3, 6]]
+    [A2(SG+8_3+t3)] derived structure at point 9: SG violation on subset [0, 1, 2, 3, 6, 7, 8] (all pairs covered) lines [[2, 3, 8], [6, 7, 8], [0, 1, 8], [0, 2, 7], [0, 3, 6], [1, 2, 6], [1, 3, 7]]
+    [A2(SG+8_3+t3)] line sets: 20 total, 20 pass, violations by kind {}
+    [A2(SG+8_3+t3)] => EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    cross-check hereditary SG (derived, points violating): mine=[0, 1, 2, 3, 6, 7, 8, 9] theory/hereditary_sg.py=[0, 1, 2, 3, 6, 7, 8, 9] AGREE
+    [Miquel] violation: cube labelling (0, 2, 4, 1, 8, 6, 5, 9) faces [[0, 1, 2, 4], [5, 6, 8, 9], [0, 2, 6, 8], [1, 4, 5, 9], [0, 4, 5, 8], [1, 2, 6, 9]] -> face 1 [5, 6, 8, 9] lies in no block  => EXCLUDED by Miquel's theorem
+
+==== SUMMARY ====
+candidate 0: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ellmax=12 count_min=32 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10]
+    A1(SG+8_3): SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    A2(SG+8_3+t3): SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    Miquel: VIOLATION (excluded)
+candidate 1: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ellmax=12 count_min=32 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10]
+    A1(SG+8_3): SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    A2(SG+8_3+t3): SURVIVES (surviving line sets 26, max |L|=12, min count=32)
+    Miquel: VIOLATION (excluded)
+candidate 2: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 count_min=32 degrees=[8, 8, 9, 9, 9, 9, 9, 9, 10, 10]
+    A1(SG+8_3): EXCLUDED (derived structure at points [0, 1, 3, 4, 6, 7])
+    A2(SG+8_3+t3): EXCLUDED (derived structure at points [0, 1, 3, 4, 6, 7])
+    Miquel: VIOLATION (excluded)
+candidate 3: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+    A1(SG+8_3): SURVIVES (surviving line sets 30, max |L|=11, min count=31)
+    A2(SG+8_3+t3): SURVIVES (surviving line sets 30, max |L|=11, min count=31)
+    Miquel: VIOLATION (excluded)
+candidate 4: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+    A1(SG+8_3): SURVIVES (surviving line sets 31, max |L|=11, min count=31)
+    A2(SG+8_3+t3): SURVIVES (surviving line sets 31, max |L|=11, min count=31)
+    Miquel: closed
+candidate 5: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+    A1(SG+8_3): SURVIVES (surviving line sets 26, max |L|=11, min count=31)
+    A2(SG+8_3+t3): SURVIVES (surviving line sets 26, max |L|=11, min count=31)
+    Miquel: VIOLATION (excluded)
+candidate 6: sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=11 count_min=31 degrees=[5, 8, 8, 9, 9, 8, 9, 9, 9, 9]
+    A1(SG+8_3): EXCLUDED (derived structure at points [1, 2, 3, 4, 5, 6, 7, 8, 9])
+    A2(SG+8_3+t3): EXCLUDED (derived structure at points [1, 2, 3, 4, 5, 6, 7, 8, 9])
+    Miquel: VIOLATION (excluded)
+candidate 7: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 count_min=32 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8]
+    A1(SG+8_3): EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    A2(SG+8_3+t3): EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    Miquel: VIOLATION (excluded)
+candidate 8: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ellmax=10 count_min=32 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8]
+    A1(SG+8_3): EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    A2(SG+8_3+t3): EXCLUDED (derived structure at points [0, 1, 2, 3, 6, 7, 8, 9])
+    Miquel: VIOLATION (excluded)
+survivors under A1(SG+8_3): [0, 1, 3, 4, 5]
+survivors under A2(SG+8_3+t3): [0, 1, 3, 4, 5]
+survivors under A1(SG+8_3) + Miquel: [4]
+survivors under A2(SG+8_3+t3) + Miquel: [4]

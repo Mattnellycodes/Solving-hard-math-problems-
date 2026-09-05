@@ -1,0 +1,10 @@
+DONE nodes=15206162 leaves=390 records=30
+30 labelled records
+1 isomorphism classes
+
+CLASS: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=6 count=24 degrees=[7, 7, 7, 7, 2, 7, 7, 7, 7] labelled copies=30
+  blocks: [[0, 1, 2, 3, 4], [0, 1, 5, 6], [2, 3, 5, 6], [0, 2, 5, 7], [1, 3, 5, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 2, 5, 8], [0, 3, 5, 8], [0, 2, 6, 8], [1, 3, 6, 8], [0, 1, 7, 8], [2, 3, 7, 8], [4, 5, 6, 7, 8]]
+  own ell_max=6 (enumerator said 6); #maximum line sets=24; example=[[0, 1, 5, 6], [2, 3, 7, 8], [0, 4, 7], [1, 4, 8], [2, 4, 5], [3, 4, 6]]
+  point 0: hereditary SG violated on S=(1, 2, 3, 5, 6, 7, 8) (derived lines [[1, 2, 3, 4], [1, 5, 6], [2, 5, 7], [3, 6, 7], [3, 5, 8], [2, 6, 8], [1, 7, 8]])
+  maximum line sets: 24; killed by (8_3)-at-infinity: 0; killed by Angle Lemma at infinity (n=6 pattern): 0
+  maximum line sets violating hereditary SG: 0 of 24

@@ -20,10 +20,16 @@ idx = list(range(len(sk))) if args.only is None else [int(t) for t in args.only.
 results = []
 for i in idx:
     rec = sk[i]
-    sizes = (4, 5, 6) if rec['case'] == 'A' else (4, 5)
+    # sizes / forbidden sizes per case: A (6-block, sizes 4-6), B (5-block, sizes 4-5), C (largest block 4),
+    # D (largest block m >= 7: sizes 4..m, other m-blocks forbidden, smaller big blocks free)
+    if rec['case'] == 'A': sizes, forbid = (4, 5, 6), (5, 6)
+    elif rec['case'] == 'B': sizes, forbid = (4, 5), (5,)
+    elif rec['case'] == 'C': sizes, forbid = (4,), ()
+    else:
+        mmax = max(len(B) for B in rec['blocks']); sizes, forbid = tuple(range(4, mmax + 1)), (mmax,)
     t0 = time.time()
     M = Relaxation(n=10, sizes=sizes, o=args.omode, threshold=args.thr, skeleton=rec['blocks'], orchard10=args.orchard10,
-                   e11=not args.no_e11)
+                   e11=not args.no_e11, forbid_sizes=forbid)
     tb = time.time() - t0
     s = cp_model.CpSolver(); s.parameters.num_workers = args.workers; s.parameters.max_time_in_seconds = args.time
     st = s.Solve(M.m)

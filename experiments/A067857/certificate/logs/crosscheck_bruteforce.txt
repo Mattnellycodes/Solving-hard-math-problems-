@@ -1,0 +1,24 @@
+(i) exact rational brute force, k <= 7 (containment in the certified enclosures is required)
+k=2 n=6       G exact = +1.166666666666666685e-01  route a: inside (margin 3.0e-52)  route b: inside (margin 3.3e-81)   [0.0s]
+k=3 n=30      G exact = +8.554344961018946203e-02  route a: inside (margin 6.1e-52)  route b: inside (margin 4.8e-81)   [0.0s]
+k=4 n=210     G exact = +6.758108985751598574e-02  route a: inside (margin 1.2e-51)  route b: inside (margin 3.7e-81)   [0.0s]
+k=5 n=2310    G exact = +5.762273171263459365e-02  route a: inside (margin 2.4e-51)  route b: inside (margin 3.5e-81)   [0.0s]
+k=6 n=30030   G exact = +4.993704144675373269e-02  route a: inside (margin 4.8e-51)  route b: inside (margin 1.6e-57)   [0.8s]
+k=7 n=510510  G exact = +4.447375531881264665e-02  route a: inside (margin 9.4e-51)  route b: inside (margin 1.7e-57)   [210.4s]
+
+(ii) 60-digit mpmath brute force over all 2^k divisors, k <= 14 (distance 0 = inside enclosure)
+k= 2  G (brute, 60 dps) = 0.1166666666666666666666667   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 3.3e-59   [0.0s]
+k= 3  G (brute, 60 dps) = 0.08554344961018946007875692   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 7.7e-61   [0.0s]
+k= 4  G (brute, 60 dps) = 0.06758108985751599225223675   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 3.5e-62   [0.0s]
+k= 5  G (brute, 60 dps) = 0.05762273171263459616243699   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 5.2e-60   [0.0s]
+k= 6  G (brute, 60 dps) = 0.04993704144675373036261024   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.0s]
+k= 7  G (brute, 60 dps) = 0.04447375531881264583385431   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.0s]
+k= 8  G (brute, 60 dps) = 0.03986521272032441142726891   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.0s]
+k= 9  G (brute, 60 dps) = 0.03624403186895875784024738   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.0s]
+k=10  G (brute, 60 dps) = 0.03348428321962952170451478   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.1s]
+k=11  G (brute, 60 dps) = 0.03098983853083040729420387   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.2s]
+k=12  G (brute, 60 dps) = 0.02896150039905975305512263   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.3s]
+k=13  G (brute, 60 dps) = 0.02717812916560291533592597   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [0.6s]
+k=14  G (brute, 60 dps) = 0.02551852392265870225813933   dist to route a enclosure: 0.0e+00   dist to route b enclosure: 0.0e+00   [1.2s]
+
+all brute-force cross-checks consistent; wrote results_crosscheck_bruteforce.json

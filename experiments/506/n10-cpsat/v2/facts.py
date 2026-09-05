@@ -123,42 +123,37 @@ if __name__ == '__main__':
             ok_mk = False
     print(f"   every 11-packing = STS(9) minus a line: {ok_ag};  every 11-packing contains an (8_3): {ok_mk}")
     print("   => 9 real points carry at most 10 three-point lines (t3(9) <= 10), given F3.")
-    # ---- F5 Miquel identity
+    # ---- F5 Miquel identity.  For a face with cyclic vertex order (a,b,c,d) the EDGE cross-ratio
+    #   cr = (a-b)(c-d) / ((b-c)(d-a))  ( = (a,c;b,d) )  is real iff a,b,c,d are concyclic/collinear.
+    # Orientation rule: faces x=const use (y-edges)/(z-edges), y=const use (z-edges)/(x-edges), z=const use
+    # (x-edges)/(y-edges).  Every edge then occurs in exactly two faces with exponents +1 and -1, so the product
+    # of the six face cross-ratios is +-1 identically; five real cross-ratios force the sixth to be real.
     verts = list(itertools.product((0, 1), repeat=3))
     z = {v: sp.Symbol('z' + ''.join(map(str, v))) for v in verts}
-    def cr(a, b, c, d):
-        return (a - c) * (b - d) / ((a - d) * (b - c))
-    # cyclic order around each face
-    def face_cycle(i, val):
+    def edge_prod(edges):
+        return sp.Mul(*[(z[u] - z[v]) for u, v in edges])
+    def face_cr(i, val):
         f = [v for v in verts if v[i] == val]
-        # order cyclically: use the two other coordinates
-        j, k = [c for c in range(3) if c != i]
-        order = [(0, 0), (0, 1), (1, 1), (1, 0)]
-        out = []
-        for o in order:
-            for v in f:
-                if (v[j], v[k]) == o:
-                    out.append(v)
-        return out
-    faces = [face_cycle(i, val) for i in range(3) for val in (0, 1)]
-    crs = [cr(*[z[v] for v in f]) for f in faces]
-    import random
-    random.seed(0)
-    vals = {s: complex(random.uniform(-2, 2), random.uniform(-2, 2)) for s in z.values()}
-    num = [complex(c.subs(vals)) for c in crs]
-    found = None
-    for signs in itertools.product((1, -1), repeat=6):
-        prod = 1
-        for c, s_ in zip(num, signs):
-            prod *= c ** s_
-        if abs(prod - 1) < 1e-9 or abs(prod + 1) < 1e-9:
-            found = (signs, round(prod.real))
-            break
-    print("F5: numerically found sign pattern", found)
-    if found:
-        signs, target = found
-        expr = sp.Integer(1)
-        for c, s_ in zip(crs, signs):
-            expr *= c ** s_
-        print("   symbolic product simplifies to:", sp.simplify(expr), " (target", target, ")")
+        j, k = [c for c in range(3) if c != i]          # j < k; edges in direction j and direction k
+        ej = [(u, v) for u in f for v in f if u[k] == v[k] and u[j] == 0 and v[j] == 1]   # j-edges
+        ek = [(u, v) for u in f for v in f if u[j] == v[j] and u[k] == 0 and v[k] == 1]   # k-edges
+        # rule: x-face: y/z (j=1,k=2 -> ej/ek); y-face: z/x (j=0,k=2 -> ek/ej); z-face: x/y (j=0,k=1 -> ej/ek)
+        num, den = (ej, ek) if i != 1 else (ek, ej)
+        return edge_prod(num) / edge_prod(den)
+    crs = [face_cr(i, val) for i in range(3) for val in (0, 1)]
+    prod = sp.simplify(sp.Mul(*crs))
+    print("F5: Miquel: product of the six oriented edge cross-ratios =", prod)
+    # each factor is a cross-ratio of its face: check against the definition (p,q;r,s) = (p-r)(q-s)/((p-s)(q-r))
+    def cr4(p, q, r, s): return (p - r) * (q - s) / ((p - s) * (q - r))
+    ok = True
+    for i in range(3):
+        for val in (0, 1):
+            f = [v for v in verts if v[i] == val]
+            j, k = [c for c in range(3) if c != i]
+            a = [v for v in f if (v[j], v[k]) == (0, 0)][0]; b = [v for v in f if (v[j], v[k]) == (1, 0)][0]
+            c = [v for v in f if (v[j], v[k]) == (1, 1)][0]; d = [v for v in f if (v[j], v[k]) == (0, 1)][0]
+            expr = face_cr(i, val)
+            cands = [cr4(z[a], z[c], z[b], z[d]), 1 / cr4(z[a], z[c], z[b], z[d])]
+            ok &= any(sp.simplify(expr - cnd) == 0 for cnd in cands)
+    print("   each factor is a cross-ratio (a,c;b,d) or its inverse of its face's cyclic order (a,b,c,d):", ok)
     print(f"done [{time.time()-t0:.0f}s]")

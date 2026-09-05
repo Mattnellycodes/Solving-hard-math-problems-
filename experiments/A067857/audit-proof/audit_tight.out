@@ -1,0 +1,25 @@
+H_D width: 6.475203146048434e-43  [0.8s]
+k=2 n=6: G in [1.16666666666666669e-01, 1.16666666666666669e-01] width=1.7e-47  exact G=+1.166666666666667e-01 inside: True
+k=3 n=30: G in [8.55434496101894620e-02, 8.55434496101894620e-02] width=1.5e-46  exact G=+8.554344961018946e-02 inside: True
+k=4 n=210: G in [6.75810898575159996e-02, 6.75810898575159996e-02] width=2.3e-45  exact G=+6.758108985751599e-02 inside: True
+k=5 n=2310: G in [5.76227317126346006e-02, 5.76227317126346006e-02] width=3.9e-44  exact G=+5.762273171263459e-02 inside: True
+k=6 n=30030: G in [4.99370414467537327e-02, 4.99370414467537327e-02] width=8.7e-43  exact G=+4.993704144675373e-02 inside: True
+k=7 n=510510: G in [4.44737553188126467e-02, 4.44737553188126467e-02] width=5.4e-42
+k=88 p_k=457: G(p_k#) in [3.30162430622687737e-04, 3.30162430622687737e-04]  width=3.5e-39  #divisors<=D: 12684  tail=1.4e-47  sign=+  [6.0s]
+k=89 p_k=461: G(p_k#) in [2.31774233150642883e-04, 2.31774233150642883e-04]  width=3.5e-39  #divisors<=D: 12764  tail=1.4e-47  sign=+  [6.7s]
+k=90 p_k=463: G(p_k#) in [1.34023028522259953e-04, 1.34023028522259953e-04]  width=3.6e-39  #divisors<=D: 12843  tail=1.4e-47  sign=+  [7.5s]
+k=91 p_k=467: G(p_k#) in [3.73169083329271981e-05, 3.73169083329271981e-05]  width=3.6e-39  #divisors<=D: 12921  tail=1.4e-47  sign=+  [8.2s]
+k=92 p_k=479: G(p_k#) in [-5.67698111073538061e-05, -5.67698111073538061e-05]  width=3.6e-39  #divisors<=D: 12998  tail=1.4e-47  sign=-  [9.0s]
+k=93 p_k=487: G(p_k#) in [-1.49120877567886939e-04, -1.49120877567886939e-04]  width=3.6e-39  #divisors<=D: 13075  tail=1.4e-47  sign=-  [9.8s]
+k=94 p_k=491: G(p_k#) in [-2.40532797670251527e-04, -2.40532797670251527e-04]  width=3.7e-39  #divisors<=D: 13151  tail=1.4e-47  sign=-  [10.6s]
+k=95 p_k=499: G(p_k#) in [-3.30298901273840906e-04, -3.30298901273840906e-04]  width=3.7e-39  #divisors<=D: 13226  tail=1.5e-47  sign=-  [11.4s]
+k=96 p_k=503: G(p_k#) in [-4.19173899404405885e-04, -4.19173899404405885e-04]  width=3.7e-39  #divisors<=D: 13301  tail=1.5e-47  sign=-  [12.1s]
+Traceback (most recent call last):
+  File "/home/user/Solving-hard-math-problems-/experiments/A067857/audit-proof/audit_tight.py", line 56, in <module>
+    print(f"k={k} p_k={primes[k-1]}: G(p_k#) in {G}  width={float(G.width()):.1e}  #divisors<=D: {nd}  tail={float(tail):.1e}  sign={'+' if G.lo>0 else ('-' if G.hi<0 else '?')}  [%.1fs]" % (time.time()-t0))
+                       ~~~~~~^^^^^
+IndexError: list index out of range
+k=95 p_k=499: G(p_k#) in [-3.30298901273840906e-04, -3.30298901273840906e-04]  width=3.7e-39  #divisors<=D: 13226  tail=1.5e-47  sign=-  [17.0s]
+k=96 p_k=503: G(p_k#) in [-4.19173899404405885e-04, -4.19173899404405885e-04]  width=3.7e-39  #divisors<=D: 13301  tail=1.5e-47  sign=-  [17.8s]
+k=120 p_k=659: G(p_k#) in [-2.20563313993018401e-03, -2.20563313993018401e-03]  width=4.2e-39  #divisors<=D: 14820  tail=1.7e-47  sign=-  [19.1s]
+k=200 p_k=1223: G(p_k#) in [-5.80064112628317450e-03, -5.80064112628317450e-03]  width=5.2e-39  #divisors<=D: 18066  tail=2.2e-47  sign=-  [21.5s]

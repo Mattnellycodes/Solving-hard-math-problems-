@@ -1,0 +1,10 @@
+control (n=8 cube + 3 lines, realisable): best residual 2.347e-04
+C-2 alone: 24 concyclicity + 0 collinearity equations; best residual over 60 starts = 2.120e-33  [122s]
+   found realisation, points: [(0.0, 0.0), (1.0, 0.0), (1.0055, -0.0519), (0.8013, 0.3274), (0.2703, 0.3717), (0.0365, 0.1242), (0.3469, 0.4031), (0.9638, 0.1236), (0.0589, 0.169), (0.0958, 0.2253)]
+C-2 + line set orbit 0 (|L|=10): 22 concyclicity + 12 collinearity equations; best residual over 60 starts = 4.602e-03  [90s]
+C-2 + line set orbit 1 (|L|=11): 22 concyclicity + 13 collinearity equations; best residual over 60 starts = 3.896e-03  [82s]
+C-2 + line set orbit 2 (|L|=10): 22 concyclicity + 12 collinearity equations; best residual over 60 starts = 2.746e-03  [89s]
+C-2 + line set orbit 3 (|L|=10): 24 concyclicity + 10 collinearity equations; best residual over 60 starts = 3.562e-03  [83s]
+C-2 + line set orbit 4 (|L|=10): 24 concyclicity + 10 collinearity equations; best residual over 60 starts = 1.393e-03  [81s]
+candidate 0 (Miquel-excluded) blocks only: 22 concyclicity + 0 collinearity equations; best residual over 60 starts = 5.085e-34  [136s]
+candidate 3 (Miquel-excluded) blocks only: 24 concyclicity + 0 collinearity equations; best residual over 60 starts = 3.571e-33  [104s]

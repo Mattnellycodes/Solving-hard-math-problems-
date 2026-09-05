@@ -174,3 +174,17 @@ Elliott–Purdy–Smith formula among n ≤ 9 are exactly n = 6, 7, 8.
 3–5. Spencer constant C10c, ring-loading constant (AlphaEvolve P61), covering-design records.
 Amusingly, Erdős #506 ranked 17th in the scouts' scoring ("not advanced" to referees) — a reminder that
 tractability is hard to judge before trying.
+
+**12:20 UTC — second target closed: OEIS A067857 sign conjecture refuted** (`experiments/A067857/`).
+Workflow `a067857-refutation` (certificate builder + proof writer, each hostilely audited, then write-up):
+- Certificates: sign-definite enclosures of G(k) = (−1)^k a(p_k#)/p_k#! for all 2 ≤ k ≤ 200 by mpmath
+  interval arithmetic (256-bit) and by exact rationals, re-derived by a standalone pure-Python fixed-point
+  checker; G(k) > 0 for k ≤ 91, G(k) < 0 for 92 ≤ k ≤ 200. Exact check of the conjecture for n ≤ 411
+  (later n ≤ 4000). Brute force over all 2^k divisors for k ≤ 7 (exact) and k ≤ 14 (60 digits) lies inside
+  the enclosures.
+- Proof (`proof/PROOF.md`): Theorem A, sign a(p_k#) = (−1)^{k+1} for all k ≥ 92, via a uniform monotone bound
+  UB(k) with UB(92) < 0; Theorem B, the corrected sign law. External facts: Euler–Maclaurin/digamma remainder
+  bound (DLMF 5.11(ii), also derived from Binet's formula), Möbius identities, Euler products.
+- Audits: both CONFIRMED with no gap (independent MPFR directed-rounding intervals; own uniform bound).
+- My own sanity check (`main_agent_check/check.py`) reproduced G(92) = −5.67698e−5 before the workflow ran.
+Not claimed: that 479# is the least counterexample (only ω ≥ 52 is proved for any counterexample).

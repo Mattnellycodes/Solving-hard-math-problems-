@@ -1,14 +1,14 @@
 V1 n=5 mode=none Caps(n=5, mode=none, capD=1000000000, max4=1000000000, capL=1000000000, t3n=1000000000, ellmax=1000000000): brute-force labelled families=6 classes=2 [0.0s]; generator: phase-1 reps=1 phase-2 nodes=2 families=2 distinct=2 duplicates=0 [0.0s] => MATCH
 V1 n=5 mode=sg Caps(n=5, mode=sg, capD=5, max4=1, capL=9, t3n=1000000000, ellmax=3): brute-force labelled families=6 classes=2 [0.0s]; generator: phase-1 reps=1 phase-2 nodes=2 families=2 distinct=2 duplicates=0 [0.0s] => MATCH
 V1 n=5 mode=table Caps(n=5, mode=table, capD=3, max4=1, capL=6, t3n=2, ellmax=2): brute-force labelled families=6 classes=2 [0.0s]; generator: phase-1 reps=1 phase-2 nodes=2 families=2 distinct=2 duplicates=0 [0.0s] => MATCH
-V1 n=6 mode=none Caps(n=6, mode=none, capD=1000000000, max4=1000000000, capL=1000000000, t3n=1000000000, ellmax=1000000000): brute-force labelled families=82 classes=5 [0.1s]; generator: phase-1 reps=2 phase-2 nodes=5 families=5 distinct=5 duplicates=0 [0.0s] => MATCH
-V1 n=6 mode=sg Caps(n=6, mode=sg, capD=9, max4=3, capL=14, t3n=1000000000, ellmax=4): brute-force labelled families=82 classes=5 [0.1s]; generator: phase-1 reps=2 phase-2 nodes=5 families=5 distinct=5 duplicates=0 [0.0s] => MATCH
+V1 n=6 mode=none Caps(n=6, mode=none, capD=1000000000, max4=1000000000, capL=1000000000, t3n=1000000000, ellmax=1000000000): brute-force labelled families=82 classes=5 [0.2s]; generator: phase-1 reps=2 phase-2 nodes=5 families=5 distinct=5 duplicates=0 [0.0s] => MATCH
+V1 n=6 mode=sg Caps(n=6, mode=sg, capD=9, max4=3, capL=14, t3n=1000000000, ellmax=4): brute-force labelled families=82 classes=5 [0.1s]; generator: phase-1 reps=2 phase-2 nodes=5 families=5 distinct=5 duplicates=0 [0.1s] => MATCH
 V1 n=6 mode=table Caps(n=6, mode=table, capD=6, max4=2, capL=12, t3n=4, ellmax=4): brute-force labelled families=82 classes=5 [0.1s]; generator: phase-1 reps=2 phase-2 nodes=5 families=5 distinct=5 duplicates=0 [0.0s] => MATCH
-V1 n=7 mode=none Caps(n=7, mode=none, capD=1000000000, max4=1000000000, capL=1000000000, t3n=1000000000, ellmax=1000000000): brute-force labelled families=6149 classes=18 [8.3s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.1s] => MATCH
-V1 n=7 mode=sg Caps(n=7, mode=sg, capD=14, max4=4, capL=20, t3n=1000000000, ellmax=6): brute-force labelled families=6149 classes=18 [8.6s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.1s] => MATCH
-V1 n=7 mode=table Caps(n=7, mode=table, capD=12, max4=4, capL=18, t3n=6, ellmax=6): brute-force labelled families=6149 classes=18 [10.2s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.1s] => MATCH
+V1 n=7 mode=none Caps(n=7, mode=none, capD=1000000000, max4=1000000000, capL=1000000000, t3n=1000000000, ellmax=1000000000): brute-force labelled families=6149 classes=18 [22.8s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.2s] => MATCH
+V1 n=7 mode=sg Caps(n=7, mode=sg, capD=14, max4=4, capL=20, t3n=1000000000, ellmax=6): brute-force labelled families=6149 classes=18 [11.3s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.2s] => MATCH
+V1 n=7 mode=table Caps(n=7, mode=table, capD=12, max4=4, capL=18, t3n=6, ellmax=6): brute-force labelled families=6149 classes=18 [9.9s]; generator: phase-1 reps=3 phase-2 nodes=18 families=18 distinct=18 duplicates=0 [0.2s] => MATCH
 V1 overall: ALL MATCH
 
-real	0m28.254s
-user	0m19.576s
-sys	0m0.048s
+real	0m45.961s
+user	0m20.222s
+sys	0m0.028s

@@ -1,0 +1,108 @@
+{
+ "statement": "for all k >= k0: G(k) = (-1)^k F(p_k#) < 0, i.e. a(p_k#) < 0 for even k >= k0 and a(p_k#) > 0 for odd k >= k0",
+ "k0": 92,
+ "pi_enclosure": [
+  "3.141592653589793115997963468544185161590576171875000000000000",
+  "3.141592653589793115997963468544185161590576171875000000000000"
+ ],
+ "pi_enclosure_width": 1.2475941369807342e-101,
+ "gamma_enclosure_width": 1.6666666666666667e-57,
+ "per_m": {
+  "3": {
+   "first_k_with_UB_negative": 92,
+   "p_k0": 479,
+   "UB_table_86_96": {
+    "86": "5.761079e-04",
+    "87": "4.743967e-04",
+    "88": "3.746886e-04",
+    "89": "2.760620e-04",
+    "90": "1.780744e-04",
+    "91": "8.113592e-05",
+    "92": "-1.317167e-05",
+    "93": "-1.057364e-04",
+    "94": "-1.973585e-04",
+    "95": "-2.873281e-04",
+    "96": "-3.764034e-04"
+   },
+   "tail_constant_C_m_times_(zeta(2m+2)/zeta(4m+4)-1)": "1.693e-05",
+   "eps1_minus_A_m(1)_lower": "1.752589066721e-03"
+  },
+  "4": {
+   "first_k_with_UB_negative": 92,
+   "p_k0": 479,
+   "UB_table_86_96": {
+    "86": "5.497903e-04",
+    "87": "4.480791e-04",
+    "88": "3.483710e-04",
+    "89": "2.497444e-04",
+    "90": "1.517568e-04",
+    "91": "5.481830e-05",
+    "92": "-3.948928e-05",
+    "93": "-1.320540e-04",
+    "94": "-2.236761e-04",
+    "95": "-3.136458e-04",
+    "96": "-4.027210e-04"
+   },
+   "tail_constant_C_m_times_(zeta(2m+2)/zeta(4m+4)-1)": "7.527e-06",
+   "eps1_minus_A_m(1)_lower": "-2.414077599946e-03"
+  },
+  "5": {
+   "first_k_with_UB_negative": 92,
+   "p_k0": 479,
+   "UB_table_86_96": {
+    "86": "5.549794e-04",
+    "87": "4.532683e-04",
+    "88": "3.535602e-04",
+    "89": "2.549335e-04",
+    "90": "1.569459e-04",
+    "91": "6.000744e-05",
+    "92": "-3.430014e-05",
+    "93": "-1.268649e-04",
+    "94": "-2.184870e-04",
+    "95": "-3.084566e-04",
+    "96": "-3.975319e-04"
+   },
+   "tail_constant_C_m_times_(zeta(2m+2)/zeta(4m+4)-1)": "5.189e-06",
+   "eps1_minus_A_m(1)_lower": "5.161679975812e-03"
+  },
+  "6": {
+   "first_k_with_UB_negative": 92,
+   "p_k0": 479,
+   "UB_table_86_96": {
+    "86": "5.497043e-04",
+    "87": "4.479932e-04",
+    "88": "3.482851e-04",
+    "89": "2.496585e-04",
+    "90": "1.516709e-04",
+    "91": "5.473237e-05",
+    "92": "-3.957521e-05",
+    "93": "-1.321399e-04",
+    "94": "-2.237621e-04",
+    "95": "-3.137317e-04",
+    "96": "-4.028070e-04"
+   },
+   "tail_constant_C_m_times_(zeta(2m+2)/zeta(4m+4)-1)": "5.104e-06",
+   "eps1_minus_A_m(1)_lower": "-1.593111611698e-02"
+  },
+  "7": {
+   "first_k_with_UB_negative": 92,
+   "p_k0": 479,
+   "UB_table_86_96": {
+    "86": "5.564782e-04",
+    "87": "4.547671e-04",
+    "88": "3.550590e-04",
+    "89": "2.564324e-04",
+    "90": "1.584448e-04",
+    "91": "6.150628e-05",
+    "92": "-3.280131e-05",
+    "93": "-1.253660e-04",
+    "94": "-2.169882e-04",
+    "95": "-3.069578e-04",
+    "96": "-3.960331e-04"
+   },
+   "tail_constant_C_m_times_(zeta(2m+2)/zeta(4m+4)-1)": "6.774e-06",
+   "eps1_minus_A_m(1)_lower": "6.740221721635e-02"
+  }
+ },
+ "justification": "\nBonus (rigorous, exact rationals): a uniform-in-k upper bound proving G(k) < 0 for ALL k >= k0.\n\nWith D = 1 the closed form (k >= 2) reads\n    G(k) = sum_s c_s P_s(k) + (eps(1) - A_m(1)) + E(k),   |E(k)| <= C_m ( prod_{i<=k}(1+p_i^{-(2m+2)}) - 1 ),\n    c_1 = 1/2, c_{2j} = -B_{2j}/(2j),  C_m = |B_{2m+2}|/(2m+2),  eps(1) = 1 - gamma,\n    P_s(k) = prod_{i<=k} (1 - p_i^{-s}).\nFacts (s >= 2):  P_s(k) is strictly decreasing in k;  P_s(k) >= prod_{all p}(1-p^{-s}) = 1/zeta(s);\n                 prod_{i<=k}(1+p_i^{-s}) <= prod_{all p}(1+p^{-s}) = zeta(s)/zeta(2s).\nHence, with S+ = {s : c_s > 0} and S- = {s : c_s < 0},\n    G(k) <= UB(k) := sum_{s in S+} c_s P_s(k) + sum_{s in S-} c_s / zeta(s) + (1 - gamma - A_m(1)) + C_m (zeta(2m+2)/zeta(4m+4) - 1),\nand UB(k) is strictly decreasing in k.  So UB(k0) < 0 implies G(k) < 0 for every k >= k0, i.e.\n    sign a(p_k#) = (-1)^{k+1} for all k >= k0\n(a(p_k#) < 0 for even k >= k0 and a(p_k#) > 0 for odd k >= k0: infinitely many counterexamples to\nboth directions of the conjecture).  No Mertens-type estimate is used.\n\nzeta(2n) = |B_{2n}| (2 pi)^{2n} / (2 (2n)!) with pi enclosed by Machin's formula\npi = 16 arctan(1/5) - 4 arctan(1/239) (alternating series: the sum lies between consecutive partial sums).\ngamma: enclosure derived from H_D, D = 10^4, m = 6 (lemma L1), as in route (b).\n"
+}

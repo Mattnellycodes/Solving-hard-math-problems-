@@ -1,0 +1,10 @@
+Part A: families of 8 triples on 8 points pairwise sharing <=1 point: 840 labelled; |S_8-orbit of MK| = 840 (so |Aut(MK)| = 48 ); every family is a relabelling of MK: True
+Part A: families of 9 such triples: 0
+Part B: non-adjacent partner of each point: {0: [4], 1: [5], 2: [6], 3: [7], 4: [0], 5: [1], 6: [2], 7: [3]}
+Part B1: triples outside MK with all three pairs non-adjacent: []
+Part B2: (MK line, extra point) extensions not creating a 2-point intersection: []
+Part C: remaining incidence equations: [a + c - 1, b*c - b - c, -a + b]
+Part C: Groebner basis (lex): [a + c - 1, b + c - 1, c**2 - c + 1]
+Part C: univariate in c: c**2 - c + 1 ; real roots: []
+Part C: all complex solutions: [{a: 1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2}, {a: 1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2}] ; real: []
+Part C': charts admitting complex solutions of the incidences: 1 ; real solutions with 8 distinct points found: 0

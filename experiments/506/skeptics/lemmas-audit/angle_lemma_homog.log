@@ -1,0 +1,13 @@
+--- chart A (no line perpendicular to L1); non-degeneracy factors: ['c3', 'c3*m2 - c3*m4 - c4*m2 + c4*m3', 'c3*m4 - c4*m3', 'c4', 'm2', 'm2 - m3', 'm2 - m4', 'm3', 'm3 - m4', 'm4']
+  Q1: degenerate factors [c3, c4, m2, c3*m2 - c3*m4 - c4*m2 + c4*m3, c3*m4 - c4*m3]; essential [m2*m3*m4 + m2 + m3 - m4]
+  Q2: degenerate factors [c3, c4, m2, c3*m2 - c3*m4 - c4*m2 + c4*m3, c3*m4 - c4*m3]; essential [m2*m3*m4 + m2 - m3 + m4]
+  Q3: degenerate factors [c3, c4, m2, c3*m2 - c3*m4 - c4*m2 + c4*m3, c3*m4 - c4*m3]; essential [m2*m3*m4 - m2 + m3 + m4]
+  lex Groebner basis of essential factors: [m2 - m4, m3 - m4, m4**3 + m4]
+  saturated by non-degeneracy -> unit ideal: True
+--- chart B (L1 perpendicular to L2); non-degeneracy factors: ['c3', 'c3 - c4', 'c3*m4 - c4*m3', 'c4', 'm3', 'm3 - m4', 'm4']
+  Q1: degenerate factors [c3, c4, c3 - c4, c3*m4 - c4*m3]; essential [m3*m4 + 1]
+  Q2: degenerate factors [c3, c4, c3 - c4, c3*m4 - c4*m3]; essential [m3*m4 + 1]
+  Q3: degenerate factors [c3, c4, c3 - c4, c3*m4 - c4*m3]; essential [m3*m4 - 1]
+  lex Groebner basis of essential factors: [1]
+  saturated by non-degeneracy -> unit ideal: True
+ANGLE LEMMA CERTIFIED IN BOTH CHARTS: True

@@ -43,9 +43,8 @@ def deficit(k):
 
 
 class Relaxation:
-    def __init__(self, n=10, sizes=(4, 5, 6), o='sg', threshold=None, skeleton=None, forbid_other_big=True,
-                 hsg=True, mk=True, orchard9=True, e11=True, orchard10=False, pairdeg=True, degree_order=True,
-                 hsg_lines_r9=True):
+    def __init__(self, n=10, sizes=(4, 5, 6), o='sg', threshold=None, skeleton=None, forbid_other_big=True, forbid_sizes=None,
+                 hsg=True, mk=True, orchard9=True, e11=True, orchard10=False, pairdeg=True, degree_order=True):
         self.n = n
         PTS = self.PTS = tuple(range(n))
         self.sizes = sizes
@@ -78,6 +77,16 @@ class Relaxation:
         if pairdeg:
             for p in PTS:
                 m.Add(sum((len(S) - 1) * y[S] for S in self.ln_by_point[p]) <= n - 1); cnt('PDl')
+        # (LPK) local packing at a point (facts.py F1 and the extra table: with (d6, d5) derived 5-/4-lines on the
+        # 9 other points the number of derived 3-lines is <= 10 (MK), 8, 7, 4 for d5 = 0..3 (d6 = 0), <= 6, 3 for
+        # (d6, d5) = (1, 0), (1, 1), and 0 for (2, 0); (1, 2), (2, 1) impossible).  Valid linear cuts (n = 10 only):
+        if n == 10:
+            for p in PTS:
+                d4 = sum(x[B] for B in self.bl_by_point[p] if len(B) == 4)
+                d5 = sum(x[B] for B in self.bl_by_point[p] if len(B) == 5)
+                d6 = sum(x[B] for B in self.bl_by_point[p] if len(B) == 6)
+                m.Add(2 * d4 + 3 * d5 + 8 * d6 <= 20); cnt('LPK')
+                m.Add(d5 + 2 * d6 <= 3); cnt('LPK')
         # (SG)
         for p in PTS:
             m.Add(sum(math.comb(len(B) - 1, 2) * x[B] for B in self.bl_by_point[p]) <= math.comb(n - 1, 2) - self.o(n - 1)); cnt('SG')
@@ -104,29 +113,39 @@ class Relaxation:
             dl = [(B - {p}, x[B]) for B in self.bl_by_point[p]]
             add_subset_caps(others, dl, 'd')
             if e11:
-                # derived structure at p of P ∪ {∞}: extra lines (S - p) ∪ {∞'}, ∞' = n
+                # derived structure at p of the 11-point Möbius set P ∪ {∞}: a real n-point set (P - p) ∪ {∞'}.
+                # Its >= 3-point lines: for a rich block B ∋ p the line B - p, extended by ∞' iff B is also a line
+                # (y_B = 1, which implies x_B = 1); for a 3-line S ∋ p the 3-point line (S - p) ∪ {∞'}.
+                # (A rich line through p is ONE line of the derived set — no double counting.)
                 INF = n
-                dl11 = dl + [((S - {p}) | {INF}, y[S]) for S in self.ln_by_point[p]]
-                # SG cap on the n-point derived set
-                m.Add(sum(math.comb(len(Ls), 2) * v for Ls, v in dl11) <= math.comb(n, 2) - self.o(n)); cnt('E11SG')
-                # subsets containing ∞'
+                rich = self.bl_by_point[p]
+                three = [S for S in self.ln_by_point[p] if len(S) == 3]
+                m.Add(sum(math.comb(len(B) - 1, 2) * x[B] + (len(B) - 1) * y[B] for B in rich)
+                      + sum(3 * y[S] for S in three) <= math.comb(n, 2) - self.o(n)); cnt('E11SG')
                 for r in (7, 8, 9):
                     for S0 in itertools.combinations(sorted(others), r - 1):
-                        S = frozenset(S0) | {INF}
-                        terms3 = [v for (Ls, v) in dl11 if len(Ls & S) == 3]
-                        if hsg and r in (7, 8):
-                            terms = [(math.comb(len(Ls & S), 2), v) for (Ls, v) in dl11 if len(Ls & S) >= 3]
-                            if sum(c for c, _ in terms) > math.comb(r, 2) - 1:
-                                m.Add(sum(c * v for c, v in terms) <= math.comb(r, 2) - 1); cnt(f'E11HSG{r}')
-                        if mk and r == 8 and len(terms3) > 7:
-                            m.Add(sum(terms3) <= 7); cnt('E11MK8')
-                        if mk and orchard9 and r == 9 and len(terms3) > 10:
-                            m.Add(sum(terms3) <= 10); cnt('E11O9')
+                        S0 = frozenset(S0)
+                        pair_terms = []; three_terms = []
+                        for B in rich:
+                            k = len((B - {p}) & S0)
+                            if k >= 3:
+                                pair_terms += [(math.comb(k, 2), x[B]), (k, y[B])]
+                                if k == 3:
+                                    three_terms += [(1, x[B]), (-1, y[B])]
+                            elif k == 2:
+                                pair_terms.append((3, y[B])); three_terms.append((1, y[B]))
+                        for S in three:
+                            if len((S - {p}) & S0) == 2:
+                                pair_terms.append((3, y[S])); three_terms.append((1, y[S]))
+                        if hsg and r in (7, 8) and sum(c for c, _ in pair_terms if c > 0) > math.comb(r, 2) - 1:
+                            m.Add(sum(c * v for c, v in pair_terms) <= math.comb(r, 2) - 1); cnt(f'E11HSG{r}')
+                        if mk and r == 8 and sum(c for c, _ in three_terms if c > 0) > 7:
+                            m.Add(sum(c * v for c, v in three_terms) <= 7); cnt('E11MK8')
+                        if mk and orchard9 and r == 9 and sum(c for c, _ in three_terms if c > 0) > 10:
+                            m.Add(sum(c * v for c, v in three_terms) <= 10); cnt('E11O9')
                 if orchard10:
-                    m.Add(sum(x[B] for B in self.bl_by_point[p] if len(B) == 4)
-                          + sum(y[S] for S in self.ln_by_point[p] if len(S) == 3) <= T3_CITED[10]); cnt('E11O10')
-        if hsg_lines_r9 or True:
-            add_subset_caps(frozenset(PTS), [(S, y[S]) for S in self.lines], 'l')
+                    m.Add(sum(x[B] - y[B] for B in rich if len(B) == 4) + sum(y[S] for S in three) <= T3_CITED[10]); cnt('E11O10')
+        add_subset_caps(frozenset(PTS), [(S, y[S]) for S in self.lines], 'l')
         if orchard10:
             m.Add(sum(y[S] for S in self.lines if len(S) == 3) <= T3_CITED[10]); cnt('O10')
         # skeleton: fixed big blocks
@@ -136,8 +155,9 @@ class Relaxation:
             for B in self.skeleton:
                 m.Add(x[B] == 1)
             if forbid_other_big:
+                fs = set(forbid_sizes) if forbid_sizes is not None else {s for s in sizes if s >= 5}
                 for B in self.blocks:
-                    if len(B) >= 5 and B not in self.skeleton:
+                    if len(B) in fs and B not in self.skeleton:
                         m.Add(x[B] == 0)
             # cells and degree ordering
             if degree_order:

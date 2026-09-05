@@ -1,0 +1,10 @@
+n=6: structures checked=81; Lemma C: 81 checked, 0 violations, tight in 21, min slack 0.0 at [[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]]
+      Lemma B (m=n-2): 75 checked, 0 violations; Lemma A (m=n-1): 6 checked, 0 violations
+n=7: structures checked=6148; Lemma C: 6148 checked, 0 violations, tight in 37, min slack 0.0 at [[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6], [0, 3, 5, 6]]
+      Lemma B (m=n-2): 546 checked, 0 violations; Lemma A (m=n-1): 7 checked, 0 violations
+n=8: structures checked=11056; Lemma C: 11056 checked, 0 violations, tight in 0, min slack 1.5 at [[0, 1, 2, 3, 4], [0, 1, 5, 6], [2, 3, 5, 6], [0, 2, 5, 7], [1, 3, 5, 7], [1, 2, 6, 7], [0, 3, 6, 7]]
+      Lemma B (m=n-2): 0 checked, 0 violations; Lemma A (m=n-1): 0 checked, 0 violations
+n=8: structures checked=76; Lemma C: 76 checked, 0 violations, tight in 15, min slack 0.0 at [[0, 1, 2, 3, 4, 5], [0, 1, 6, 7], [2, 3, 6, 7], [4, 5, 6, 7]]
+      Lemma B (m=n-2): 76 checked, 0 violations; Lemma A (m=n-1): 0 checked, 0 violations
+n=8: structures checked=1; Lemma C: 1 checked, 0 violations, tight in 1, min slack 0.0 at [[0, 1, 2, 3, 4, 5, 6]]
+      Lemma B (m=n-2): 0 checked, 0 violations; Lemma A (m=n-1): 1 checked, 0 violations
