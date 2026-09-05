@@ -38,3 +38,29 @@ OEIS conjectures / other formal-conjectures collections / classical computationa
 then two referee lenses per shortlisted candidate (already-done check; tractability check with small calibration
 experiments allowed), then a synthesis agent producing a ranked list and a survey report.
 
+
+**Push blocked.** `git push` and the GitHub API both return 403 for this repository ("Claude doesn't have
+GitHub access ... / Resource not accessible by integration"). The Claude GitHub App appears not to be
+installed for the `Mattnellycodes` account or not granted this repo. Committing locally; will retry pushes.
+
+**Pre-research on a-priori favourite, Erdős #475 (Graham's rearrangement conjecture).**
+Status has moved fast in 2024–2026:
+- Costa–Della Fiore–Ollis–Rovner-Frydman (EJC 2022): true for |A| ≤ 12, all primes, via the polynomial method
+  (Alon's Combinatorial Nullstellensatz; polynomial of degree k²−k−1 in k variables).
+- Kravitz (Integers 2024): |A| ≤ log p / log log p. Bedert–Kravitz (Israel J. Math 2025): |A| ≤ exp((log p)^{1/4}).
+- Costa–Della Fiore (arXiv 2602.19989, Feb 2026): |A| ≤ exp(c (log p)^{1/3}).
+- **Pham–Sauermann (arXiv 2602.15797, Feb 2026): |A| ≤ p^{1−α} for |A| large given α; with earlier results this
+  resolves the conjecture for all sufficiently large primes.** So what remains is small primes (ineffective
+  threshold) and the non-prime cyclic / general abelian case ("Graham conjecture on small sets in abelian groups",
+  arXiv 2603.20961, Mar 2026). Extending the all-p verification from |A| ≤ 12 to 13 is well-defined but of
+  reduced interest now. Left to the judges.
+
+**Pre-research on Erdős #742 (Murty–Simon).** Fan's n ≤ 24 is a proof, not an enumeration. Kirchweger–Szeider
+(2024, SAT modulo symmetries) enumerated all diameter-2-critical graphs up to 13 vertices. Extending either
+route (proof for n = 25, or enumeration to n = 14) is far beyond 4 CPUs. Deprioritized.
+
+**Pre-research on Erdős #506 (minimum number of circles).** Sanity-checked the large-n formula
+C(n−1,2) + 1 − ⌊(n−1)/2⌋: it is attained by n−1 points on a circle in antipodal pairs plus the centre (the
+⌊(n−1)/2⌋ collinear triples through the centre determine no circle). For n = 4 the minimum is 3 (matches).
+Open question for n ≤ 393 is whether some configuration with many concyclic quadruples beats this. This is a
+"find a construction" problem — attractive because any construction is a certificate.
