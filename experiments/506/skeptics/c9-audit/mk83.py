@@ -91,11 +91,18 @@ print("Part C: univariate in c:", sp.factor(uni[0]), "; real roots:", sp.real_ro
 sols = sp.solve(eqs, [a, b, c], dict=True)
 print("Part C: all complex solutions:", sols, "; real:", [s for s in sols if all(sp.im(v) == 0 for v in s.values())])
 
-# ---- Part C': all charts, projective coordinates, distinctness by Rabinowitsch ----
-t = sp.Symbol('t')
+# ---- Part C': all 81 charts for the 4 free points (projective coordinates), incidence equations only,
+# then every solution component is inspected for coincident points (no heavy saturation polynomial).
 free = [3, 4, 6, 7]
 syms = {p: sp.symbols(f'x{p} y{p} z{p}') for p in free}
-nonunit = []
+def distinct_ok(Q, sol):
+    for p, q in itertools.combinations(range(n), 2):
+        A = Q[p].subs(sol); B = Q[q].subs(sol)
+        minors = [sp.simplify(A[i] * B[j] - A[j] * B[i]) for i, j in ((0, 1), (0, 2), (1, 2))]
+        if all(mm == 0 for mm in minors):
+            return False
+    return True
+total_real_distinct = 0; charts_with_solutions = 0
 for chart in itertools.product(range(3), repeat=4):
     Q = {k: v for k, v in P.items() if k in frame}
     for p, ch in zip(free, chart):
@@ -105,20 +112,25 @@ for chart in itertools.product(range(3), repeat=4):
             v[k] = syms[p][k]
         Q[p] = sp.Matrix(v)            # canonical representative: first nonzero coordinate = 1
     E = [sp.expand(sp.Matrix.hstack(*[Q[i] for i in sorted(L)]).det()) for L in MK]
-    prod = sp.Integer(1)
-    for p, q in itertools.combinations(range(n), 2):
-        A, B = Q[p], Q[q]
-        minors = [A[i] * B[j] - A[j] * B[i] for i, j in ((0, 1), (0, 2), (1, 2))]
-        prod *= sum(mm ** 2 for mm in minors)     # zero iff the two points coincide (real coordinates)
+    if any(e.is_number and e != 0 for e in E):
+        continue                        # an incidence is identically violated in this chart
+    E = [e for e in E if e != 0]
     vars_ = sorted({s for p in free for s in Q[p].free_symbols}, key=str)
-    Gb = sp.groebner(E + [t * sp.expand(prod) - 1], *vars_, t, order='grevlex')
-    if list(Gb) != [1]:
-        nonunit.append((chart, list(Gb)))
-print("Part C': charts (of 81) whose saturated ideal is not the unit ideal:", len(nonunit))
-for chart, basis in nonunit:
-    print("   chart", chart, "basis:", basis)
-    # solve and show all solutions are non-real
-    vars_ = sorted({s for g in basis for s in g.free_symbols if s != t}, key=str)
-    sols = sp.solve([g for g in basis], vars_ + [t], dict=True)
-    print("   solutions:", [{k: v for k, v in s.items() if k != t} for s in sols])
-    print("   any real solution:", any(all(sp.im(sp.nsimplify(v)) == 0 for k, v in s.items() if k != t) for s in sols))
+    Gb = sp.groebner(E, *vars_, order='grevlex') if E else [sp.Integer(0)]
+    if list(Gb) == [1]:
+        continue
+    charts_with_solutions += 1
+    sols = sp.solve(E, vars_, dict=True) if E else [dict()]
+    # a solution family may have free parameters; substitute a couple of generic rational values for them
+    for s in sols:
+        freev = [v for v in vars_ if v not in s]
+        trials = [dict()] if not freev else [dict(zip(freev, vals)) for vals in itertools.product([sp.Rational(k, 7) for k in (2, 3, 5)], repeat=len(freev))]
+        for tr in trials:
+            full = {k: sp.simplify(v.subs(tr)) for k, v in s.items()}; full.update(tr)
+            real = all(sp.im(sp.nsimplify(v)) == 0 for v in full.values())
+            dist = distinct_ok(Q, full)
+            if real and dist:
+                total_real_distinct += 1
+                print("   REAL solution with distinct points in chart", chart, ":", full)
+print("Part C': charts admitting complex solutions of the incidences:", charts_with_solutions,
+      "; real solutions with 8 distinct points found:", total_real_distinct)
