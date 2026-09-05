@@ -1,2 +1,12 @@
-/usr/local/lib/python3.11/dist-packages/numpy/linalg/_linalg.py:2407: RuntimeWarning: divide by zero encountered in det
-  r = _umath_linalg.det(a, signature=signature)
+smallest residuals (residual, min pairwise distance, trial) -- degenerate = collapsed points:
+    (np.float64(0.0), np.float64(0.0), 29)
+    (np.float64(0.0), np.float64(0.0), 49)
+    (np.float64(0.0), np.float64(0.0), 92)
+    (np.float64(0.0), np.float64(0.0), 124)
+    (np.float64(0.0), np.float64(0.0), 211)
+    (np.float64(0.0), np.float64(0.0), 279)
+    (np.float64(0.0), np.float64(0.0), 327)
+    (np.float64(0.0), np.float64(0.0), 333)
+    (np.float64(0.0), np.float64(0.0), 335)
+    (np.float64(0.0), np.float64(0.0), 383)
+best residual among solutions with min pairwise distance > 1e-2: (np.float64(0.0), np.float64(0.010480883085611348), 297)

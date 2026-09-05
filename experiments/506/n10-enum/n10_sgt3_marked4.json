@@ -1,0 +1,5 @@
+{
+ "params": "n=10 target=32 mode=sg_t3 C(n,3)=120 cap_derived=35 max4/pt=10 cap_lines=44 max3lines=12 ell_max=13 D_min=75 big_sizes=[5, 6, 7, 8, 9] marked4",
+ "results": [],
+ "complete": true
+}

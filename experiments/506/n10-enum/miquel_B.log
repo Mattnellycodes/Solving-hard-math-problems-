@@ -1,0 +1,3 @@
+numerical check of Miquel's theorem: max |Im cr(6th face)| = 3.83e-14 (generic), 1.47e-12 (two faces on one circle)
+structure 0: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] count_min=32: Miquel violations = 44; e.g. faces [[0, 1, 3, 5], [6, 7, 8, 9], [0, 1, 6, 7], [3, 5, 8, 9], [0, 3, 6, 9], [1, 5, 7, 8]]
+structure 1: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] count_min=32: Miquel violations = 48; e.g. faces [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 8, 9], [2, 3, 6, 7], [0, 2, 6, 8], [1, 3, 7, 9]]

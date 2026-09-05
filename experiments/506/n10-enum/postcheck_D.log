@@ -1,0 +1,14 @@
+1 candidate structures
+structure 0: sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 count_min=31 degrees=[5, 8, 8, 9, 9, 8, 9, 9, 9, 9] -> EXCLUDED
+   blocks: [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [0, 3, 6, 8], [0, 4, 7, 9], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 8], [1, 3, 6, 9], [1, 4, 5, 9], [1, 4, 7, 8], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 7], [2, 4, 6, 9], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 9], [4, 5, 6, 8], [6, 7, 8, 9]]
+   derived structure at point 1: 1 violations, e.g. H2: subset [2, 3, 4, 5, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 2: 1 violations, e.g. H2: subset [1, 3, 4, 5, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 3: 1 violations, e.g. H2: subset [1, 2, 4, 5, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 4: 1 violations, e.g. H2: subset [1, 2, 3, 5, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 5: 1 violations, e.g. H2: subset [1, 2, 3, 4, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 6: 1 violations, e.g. H2: subset [1, 2, 3, 4, 5, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 7: 1 violations, e.g. H2: subset [1, 2, 3, 4, 5, 6, 8, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 8: 1 violations, e.g. H2: subset [1, 2, 3, 4, 5, 6, 7, 9] has 8 three-point lines > t3(8) = 7
+   derived structure at point 9: 1 violations, e.g. H2: subset [1, 2, 3, 4, 5, 6, 7, 8] has 8 three-point lines > t3(8) = 7
+   line sets: 341 total, 84 violate; e.g. H2: subset [1, 2, 4, 5, 6, 7, 8, 9] has 8 three-point lines > t3(8) = 7
+survivors: 0

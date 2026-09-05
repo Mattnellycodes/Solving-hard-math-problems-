@@ -1,0 +1,3 @@
+validate n=5: orderly classes=2 brute classes=2 equal=True
+validate n=6: orderly classes=5 brute classes=5 equal=True
+validate n=7: orderly classes=18 brute classes=18 equal=True

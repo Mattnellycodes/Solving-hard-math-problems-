@@ -1,0 +1,6 @@
+A = (0, 1, 2, 3, 4)  B = (5, 6, 7, 8, 9)  #4-blocks = 20
+rank over Q of the 20 x 10 system: 9
+case (ii) tangent circles: real solution space of dimension 1: basis [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+   -> only the constant solution (all points coincide): case (ii) impossible; case (iii) impossible too (|x_i| would all be equal, so at most 2 distinct signed coordinates on each line)
+Smith normal form diagonal: [1, 1, 1, 1, 1, 1, 1, 1, 10, 0]
+exponent of the torsion part: 10 ; dimension of the continuous part: 1

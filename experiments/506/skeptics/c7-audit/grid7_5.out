@@ -1,0 +1,30 @@
+new min 22: (0,0) (1,0) (2,0) (3,0) (4,0) (0,1) (1,1) 
+new min 19: (0,0) (1,0) (2,0) (3,0) (4,0) (0,1) (3,1) 
+new min 18: (0,0) (1,0) (2,0) (3,0) (4,0) (2,1) (2,2) 
+new min 17: (0,0) (1,0) (2,0) (0,1) (1,1) (2,1) (1,3) 
+new min 14: (0,0) (1,0) (2,0) (0,1) (3,1) (0,2) (3,2) 
+new min 13: (0,0) (2,0) (3,1) (2,2) (3,3) (0,4) (2,4) 
+grid 5x5: 480700 subsets, min circles (non-degenerate) = 13
+  circles=13 : 28 sets
+  circles=14 : 780 sets
+  circles=15 : 1552 sets
+  circles=16 : 308 sets
+  circles=17 : 1182 sets
+  circles=18 : 3480 sets
+  circles=19 : 3620 sets
+  circles=20 : 6684 sets
+  circles=21 : 17770 sets
+  circles=22 : 14100 sets
+  circles=23 : 19796 sets
+  circles=24 : 44352 sets
+  circles=25 : 35368 sets
+  circles=26 : 35692 sets
+  circles=27 : 69076 sets
+  circles=28 : 50660 sets
+  circles=29 : 32520 sets
+  circles=30 : 56300 sets
+  circles=31 : 43992 sets
+  circles=32 : 14688 sets
+  circles=33 : 14264 sets
+  circles=34 : 11456 sets
+  circles=35 : 2992 sets

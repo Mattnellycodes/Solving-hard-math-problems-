@@ -1,0 +1,9 @@
+complements are 7 triples covering each of the 21 pairs exactly once (STS(7) = Fano): True
+p=0: quadrilateral=True; blocks avoiding p = [[1, 2, 5, 6], [1, 3, 4, 6], [2, 3, 4, 5]]; opposite pairs = [[1, 6], [2, 5], [3, 4]]; equal to the 3 diagonal quadruples: True
+p=1: quadrilateral=True; blocks avoiding p = [[0, 2, 4, 6], [0, 3, 5, 6], [2, 3, 4, 5]]; opposite pairs = [[0, 6], [2, 4], [3, 5]]; equal to the 3 diagonal quadruples: True
+p=2: quadrilateral=True; blocks avoiding p = [[0, 1, 4, 5], [0, 3, 5, 6], [1, 3, 4, 6]]; opposite pairs = [[0, 5], [1, 4], [3, 6]]; equal to the 3 diagonal quadruples: True
+p=3: quadrilateral=True; blocks avoiding p = [[0, 1, 4, 5], [0, 2, 4, 6], [1, 2, 5, 6]]; opposite pairs = [[0, 4], [1, 5], [2, 6]]; equal to the 3 diagonal quadruples: True
+p=4: quadrilateral=True; blocks avoiding p = [[0, 1, 2, 3], [0, 3, 5, 6], [1, 2, 5, 6]]; opposite pairs = [[0, 3], [1, 2], [5, 6]]; equal to the 3 diagonal quadruples: True
+p=5: quadrilateral=True; blocks avoiding p = [[0, 1, 2, 3], [0, 2, 4, 6], [1, 3, 4, 6]]; opposite pairs = [[0, 2], [1, 3], [4, 6]]; equal to the 3 diagonal quadruples: True
+p=6: quadrilateral=True; blocks avoiding p = [[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]]; opposite pairs = [[0, 1], [2, 3], [4, 5]]; equal to the 3 diagonal quadruples: True
+REDUCTION TO ANGLE LEMMA HOLDS AT EVERY POINT: True

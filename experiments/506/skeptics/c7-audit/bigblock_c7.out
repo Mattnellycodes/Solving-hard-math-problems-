@@ -1,0 +1,3 @@
+families with largest block 6: 7  min circles = 13  (Lemma A claims >= 13)
+families with largest block 5: 546  min circles = 15  (Lemma B claims >= 15)
+Lemma C inequality holds for all 6148 non-empty families: True ; min slack = 0.0

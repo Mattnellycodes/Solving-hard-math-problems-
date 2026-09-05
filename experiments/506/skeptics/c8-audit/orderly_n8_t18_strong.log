@@ -1,0 +1,4 @@
+n=8 target=18 mode=strong: capd=18 capl=24 ell_max_global=8 Dmin=30
+  FOUND sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=36 ell_max=3 count=17 degrees=[6, 6, 6, 6, 6, 6, 6, 6] #max-line-sets=48
+  FOUND sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=30 ell_max=8 count=18 degrees=[5, 5, 5, 5, 5, 5, 5, 5] #max-line-sets=2
+nodes=204 families with D>=Dmin checked=15 structures with count<=18: 2 time=4.6s

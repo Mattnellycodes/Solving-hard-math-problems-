@@ -1,0 +1,8 @@
+8-triple systems containing {0,1,2}: 120
+isomorphism classes: 1 ; equals MK: True
+MK lines: [[0, 1, 3], [1, 2, 4], [2, 3, 5], [3, 4, 6], [4, 5, 7], [0, 5, 6], [1, 6, 7], [0, 2, 7]]
+remaining equations: [a + c - 1, a*b - a - b, b - c]
+solutions over C: []
+Groebner basis: [a2 + c2 - 1, b2 - c2, c2**2 - c2 + 1]
+univariate: [c2**2 - c2 + 1]  real roots: [[]]
+Conclusion: no real projective realisation of MK with distinct points.

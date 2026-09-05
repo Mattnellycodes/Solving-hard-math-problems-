@@ -1,0 +1,16 @@
+antipodal (8 on circle + centre): |B|=29 lines=4 circles(as is)=25  max concurrency at a non-point=3  -> best count 26
+regular 9-gon minus? no: 9-gon+...: |B|=29 lines=0 circles(as is)=29  max concurrency at a non-point=2  -> best count 27
+two squares + centre: |B|=36 lines=2 circles(as is)=34  max concurrency at a non-point=3  -> best count 33
+two squares rotated + centre: |B|=54 lines=4 circles(as is)=50  max concurrency at a non-point=3  -> best count 51
+two squares (r=sqrt2 rot) + centre: |B|=42 lines=8 circles(as is)=34  max concurrency at a non-point=4  -> best count 38
+3x3 grid: |B|=42 lines=8 circles(as is)=34  max concurrency at a non-point=4  -> best count 38
+hexagon + centre + 2: |B|=44 lines=3 circles(as is)=41  max concurrency at a non-point=7  -> best count 37
+two triangles + centre + 2: |B|=57 lines=7 circles(as is)=50  max concurrency at a non-point=6  -> best count 51
+cube record + centre-ish: |B|=36 lines=5 circles(as is)=31  max concurrency at a non-point=7  -> best count 29
+orthocentric 7 + 2: |B|=66 lines=7 circles(as is)=59  max concurrency at a non-point=6  -> best count 60
+pappus: |B|=66 lines=9 circles(as is)=57  max concurrency at a non-point=5  -> best count 61
+3 concentric triangles: |B|=57 lines=3 circles(as is)=54  max concurrency at a non-point=3  -> best count 54
+3 conc. triangles alt: |B|=57 lines=6 circles(as is)=51  max concurrency at a non-point=6  -> best count 51
+square+centre+4 midpoints: |B|=42 lines=8 circles(as is)=34  max concurrency at a non-point=4  -> best count 38
+nine-point-ish: triangle, feet, midpoints: |B|=47 lines=3 circles(as is)=44  max concurrency at a non-point=5  -> best count 42
+orthocentric ABCH + feet + midpoints(2): |B|=48 lines=6 circles(as is)=42  max concurrency at a non-point=6  -> best count 42

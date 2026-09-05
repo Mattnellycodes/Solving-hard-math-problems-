@@ -1,0 +1,6 @@
+n=5 mode=none (cap_derived=1000000000, max4=1000000000): labelled families=6, brute-force classes=2 [0.0s]; generator: phase-1 families=1, phase-2 nodes=2, distinct classes=2, duplicates=0 [0.0s]  => MATCH
+n=5 mode=table (cap_derived=3, max4=1): labelled families=6, brute-force classes=2 [0.0s]; generator: phase-1 families=1, phase-2 nodes=2, distinct classes=2, duplicates=0 [0.0s]  => MATCH
+n=6 mode=none (cap_derived=1000000000, max4=1000000000): labelled families=82, brute-force classes=5 [0.0s]; generator: phase-1 families=2, phase-2 nodes=5, distinct classes=5, duplicates=0 [0.0s]  => MATCH
+n=6 mode=table (cap_derived=6, max4=2): labelled families=82, brute-force classes=5 [0.0s]; generator: phase-1 families=2, phase-2 nodes=5, distinct classes=5, duplicates=0 [0.0s]  => MATCH
+n=7 mode=none (cap_derived=1000000000, max4=1000000000): labelled families=6149, brute-force classes=18 [14.8s]; generator: phase-1 families=3, phase-2 nodes=18, distinct classes=18, duplicates=0 [0.2s]  => MATCH
+n=7 mode=table (cap_derived=12, max4=4): labelled families=6149, brute-force classes=18 [13.6s]; generator: phase-1 families=3, phase-2 nodes=18, distinct classes=18, duplicates=0 [0.2s]  => MATCH

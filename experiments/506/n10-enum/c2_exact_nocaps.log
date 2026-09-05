@@ -1,0 +1,22 @@
+sets of >= 9 pairwise <=1-intersecting blocks (no caps): 351 (maximum size 11)
+orbits under Aut(C-2): 19
+orbit 0 (size 10, |L| = 9): impossible for all labellings  [15s]
+orbit 1 (size 20, |L| = 9): impossible for all labellings  [24s]
+orbit 2 (size 40, |L| = 9): impossible for all labellings  [33s]
+orbit 3 (size 20, |L| = 9): impossible for all labellings  [44s]
+orbit 4 (size 20, |L| = 9): impossible for all labellings  [61s]
+orbit 5 (size 40, |L| = 9): impossible for all labellings  [80s]
+orbit 6 (size 20, |L| = 9): impossible for all labellings  [98s]
+orbit 7 (size 40, |L| = 9): impossible for all labellings  [121s]
+orbit 8 (size 10, |L| = 9): impossible for all labellings  [140s]
+orbit 9 (size 20, |L| = 9): impossible for all labellings  [148s]
+orbit 10 (size 20, |L| = 9): impossible for all labellings  [157s]
+orbit 11 (size 20, |L| = 9): impossible for all labellings  [165s]
+orbit 12 (size 20, |L| = 9): impossible for all labellings  [175s]
+orbit 13 (size 20, |L| = 9): impossible for all labellings  [186s]
+orbit 14 (size 20, |L| = 10): impossible for all labellings  [196s]
+orbit 15 (size 5, |L| = 10): impossible for all labellings  [216s]
+orbit 16 (size 2, |L| = 10): impossible for all labellings  [226s]
+orbit 17 (size 2, |L| = 10): impossible for all labellings  [240s]
+orbit 18 (size 2, |L| = 11): impossible for all labellings  [252s]
+RESULT: no realisation of C-2 has a point on >= 9 blocks (no caps assumed)

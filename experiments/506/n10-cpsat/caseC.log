@@ -1,0 +1,2 @@
+case C (largest block 4) omode=sg orchard10: status=INFEASIBLE in 216s
+case C (largest block 4) omode=table orchard10: status=INFEASIBLE in 3s

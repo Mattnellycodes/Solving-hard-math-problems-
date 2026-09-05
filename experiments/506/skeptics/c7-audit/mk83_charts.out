@@ -1,0 +1,3 @@
+chart (0, 0, 1, 0): solution {x0: 0, x1: 1/2 - sqrt(3)*I/2, x2: 1/2 - sqrt(3)*I/2, x4: 1, y0: 1/2 - sqrt(3)*I/2, y1: 1/2 - sqrt(3)*I/2, y4: 0} free=set() coincident=[] real=False
+chart (0, 0, 1, 0): solution {x0: 0, x1: 1/2 + sqrt(3)*I/2, x2: 1/2 + sqrt(3)*I/2, x4: 1, y0: 1/2 + sqrt(3)*I/2, y1: 1/2 + sqrt(3)*I/2, y4: 0} free=set() coincident=[] real=False
+solutions with 8 distinct points found (all charts): 2 ; REAL ones: 0

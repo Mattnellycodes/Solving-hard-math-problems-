@@ -46,7 +46,7 @@ def min_pair_dist(P):
     return min(d)
 
 
-def lm(z, iters=200):
+def lm(z, iters=60):
     lam = 1e-3
     for _ in range(iters):
         r = residuals(z); J = jac(z)
@@ -66,7 +66,7 @@ def lm(z, iters=200):
 if __name__ == "__main__":
     random.seed(7); np.random.seed(7)
     best = []
-    for trial in range(3000):
+    for trial in range(400):
         z = np.random.uniform(-3, 3, 8)
         z = lm(z)
         P = unpack(z)

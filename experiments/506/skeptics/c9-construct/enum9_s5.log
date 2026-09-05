@@ -1,0 +1,6 @@
+s=5 target=24 ellcap=11 Dmin=49 ncand=126
+nodes=34760422 families(D>=Dmin)=390 printed=30
+
+real	0m34.400s
+user	0m12.105s
+sys	0m0.004s

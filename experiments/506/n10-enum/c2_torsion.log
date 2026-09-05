@@ -1,0 +1,10 @@
+kernel sizes: mod 2: 4, mod 5: 25; solutions mod 10: 100 (expected 100 = 10 rotations x 10 torsion classes)
+solutions with a_0 = 0, distinct a's and distinct b's: 8
+  angles in units of 2pi/10: a = (0, 2, 8, 4, 6)  b = (0, 2, 8, 4, 6) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: False
+  angles in units of 2pi/10: a = (0, 2, 8, 4, 6)  b = (5, 7, 3, 9, 1) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: True
+  angles in units of 2pi/10: a = (0, 4, 6, 8, 2)  b = (0, 4, 6, 8, 2) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: False
+  angles in units of 2pi/10: a = (0, 4, 6, 8, 2)  b = (5, 9, 1, 3, 7) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: True
+  angles in units of 2pi/10: a = (0, 6, 4, 2, 8)  b = (0, 6, 4, 2, 8) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: False
+  angles in units of 2pi/10: a = (0, 6, 4, 2, 8)  b = (5, 1, 9, 7, 3) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: True
+  angles in units of 2pi/10: a = (0, 8, 2, 6, 4)  b = (0, 8, 2, 6, 4) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: False
+  angles in units of 2pi/10: a = (0, 8, 2, 6, 4)  b = (5, 3, 7, 1, 9) | a regular pentagon: True | b regular pentagon: True | B rotated by 36 deg relative to A: True

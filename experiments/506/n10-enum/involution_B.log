@@ -1,0 +1,27 @@
+   outside pair (6, 7): matching ((0, 1), (2, 4), (3, 5))
+   outside pair (6, 8): matching ((0, 2), (1, 5), (3, 4))
+   outside pair (6, 9): matching ((0, 3), (1, 2), (4, 5))
+   outside pair (7, 8): matching ((0, 4), (1, 3), (2, 5))
+   outside pair (7, 9): matching ((0, 5), (1, 4), (2, 3))
+   outside pair (8, 9): matching ((0, 1), (2, 4), (3, 5))
+   5 distinct matchings
+   case point-at-infinity=None: equations=5, saturated Groebner basis = (1)  -> no complex solution
+   case point-at-infinity=3: equations=5, saturated Groebner basis = (1)  -> no complex solution
+   case point-at-infinity=4: equations=5, saturated Groebner basis = (1)  -> no complex solution
+   case point-at-infinity=5: equations=5, saturated Groebner basis = (1)  -> no complex solution
+   => NOT REALISABLE over R (no real solution with distinct points)
+   outside pair (6, 7): matching ((0, 1), (2, 3), (4, 5))
+   outside pair (6, 8): matching ((0, 2), (1, 5), (3, 4))
+   outside pair (6, 9): matching ((0, 3), (1, 4), (2, 5))
+   outside pair (7, 8): matching ((0, 4), (1, 3), (2, 5))
+   outside pair (7, 9): matching ((0, 5), (1, 2), (3, 4))
+   outside pair (8, 9): matching ((0, 1), (2, 4), (3, 5))
+   6 distinct matchings
+   case point-at-infinity=None: equations=6, saturated Groebner basis = [67108864*z**2 + 576650390625, 3796875*x3 + 16384*z - 759375, 3796875*x4 - 16384*z - 759375, 3*x5 - 1]
+      exact solutions: [{x3: 1/5 - 2*I/5, x4: 1/5 + 2*I/5, x5: 1/3, z: 759375*I/8192}, {x3: 1/5 + 2*I/5, x4: 1/5 - 2*I/5, x5: 1/3, z: -759375*I/8192}]
+      real solutions: 0  -> no real solution
+   case point-at-infinity=3: equations=6, saturated Groebner basis = (1)  -> no complex solution
+   case point-at-infinity=4: equations=6, saturated Groebner basis = (1)  -> no complex solution
+   case point-at-infinity=5: equations=6, saturated Groebner basis = (1)  -> no complex solution
+   => NOT REALISABLE over R (no real solution with distinct points)
+ALL 6-BLOCK CANDIDATES EXCLUDED

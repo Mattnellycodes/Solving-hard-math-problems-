@@ -1,0 +1,9 @@
+labelled 8-triple systems on 8 points pairwise sharing <=1 point: 840
+degree sequences occurring: {(3, 3, 3, 3, 3, 3, 3, 3)}
+isomorphism classes: 1 ; MK class present: True ; labelled copies per class: [840]
+
+MK lines: [[0, 1, 3], [1, 2, 4], [2, 3, 5], [3, 4, 6], [4, 5, 7], [0, 5, 6], [1, 6, 7], [0, 2, 7]]
+p3 = [-1, -1, 0]
+incidence equations: [-a - c + 1, b*c - b - c, -a + b]
+all complex solutions: [{a: 1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2}, {a: 1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2}]
+any real solution: False

@@ -90,3 +90,81 @@
 9-gon+center inv2                             N= 9 best 7-subset circles=999 
 9-gon+center inv3                             N= 9 best 7-subset circles=999 
 9-gon+center inv4                             N=10 best 7-subset circles=999 
+9-gon+center+midpoints                        N=19 best 7-subset circles=999 
+9-gon+center+midpoints inv0                   N=18 best 7-subset circles=999 
+9-gon+center+midpoints inv1                   N=18 best 7-subset circles=999 
+9-gon+center+midpoints inv2                   N=18 best 7-subset circles=999 
+9-gon+center+midpoints inv3                   N=18 best 7-subset circles=999 
+9-gon+center+midpoints inv4                   N=19 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2                    N=19 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2 inv0               N=18 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2 inv1               N=18 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2 inv2               N=18 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2 inv3               N=18 best 7-subset circles=999 
+9-gon+concentric 9-gon r=2 inv4               N=19 best 7-subset circles=999 
+9-gon+concentric rotated                      N=19 best 7-subset circles=11 [[1.0, 0.0], [-0.5, 0.866], [-0.5, -0.866], [1.0, 1.7321], [-2.0, 0.0], [1.0, -1.7321], [0.0, 0.0]]
+9-gon+concentric rotated inv0                 N=18 best 7-subset circles=999 
+9-gon+concentric rotated inv1                 N=18 best 7-subset circles=999 
+9-gon+concentric rotated inv2                 N=18 best 7-subset circles=999 
+9-gon+concentric rotated inv3                 N=18 best 7-subset circles=999 
+9-gon+concentric rotated inv4                 N=19 best 7-subset circles=999 
+10-gon+center                                 N=11 best 7-subset circles=999 
+10-gon+center inv0                            N=10 best 7-subset circles=999 
+10-gon+center inv1                            N=10 best 7-subset circles=999 
+10-gon+center inv2                            N=10 best 7-subset circles=999 
+10-gon+center inv3                            N=10 best 7-subset circles=999 
+10-gon+center inv4                            N=11 best 7-subset circles=999 
+10-gon+center+midpoints                       N=21 best 7-subset circles=999 
+10-gon+center+midpoints inv0                  N=20 best 7-subset circles=999 
+10-gon+center+midpoints inv1                  N=20 best 7-subset circles=999 
+10-gon+center+midpoints inv2                  N=20 best 7-subset circles=999 
+10-gon+center+midpoints inv3                  N=20 best 7-subset circles=999 
+10-gon+center+midpoints inv4                  N=21 best 7-subset circles=999 
+10-gon+concentric 10-gon r=2                  N=21 best 7-subset circles=999 
+10-gon+concentric 10-gon r=2 inv0             N=20 best 7-subset circles=999 
+10-gon+concentric 10-gon r=2 inv1             N=20 best 7-subset circles=11 [[0.45, 1.6927], [0.45, 0.0], [0.45, -0.1787], [2.1, 0.0], [1.3854, 0.7331], [0.6333, 0.0], [0.6503, -0.157]]
+10-gon+concentric 10-gon r=2 inv2             N=20 best 7-subset circles=11 [[1.409, -1.2588], [0.209, 0.3928], [0.3236, 0.2351], [1.6192, 0.1879], [1.7798, 1.2931], [0.3997, 0.5021], [0.4854, 0.3527]]
+10-gon+concentric 10-gon r=2 inv3             N=20 best 7-subset circles=11 [[0.959, 0.0564], [-0.341, 0.4788], [0.1082, 0.3329], [0.8931, 0.6226], [0.7107, 2.1874], [-0.1723, 0.7528], [0.1751, 0.5389]]
+10-gon+concentric 10-gon r=2 inv4             N=21 best 7-subset circles=999 
+10-gon+concentric rotated                     N=21 best 7-subset circles=999 
+10-gon+concentric rotated inv0                N=20 best 7-subset circles=999 
+10-gon+concentric rotated inv1                N=20 best 7-subset circles=999 
+10-gon+concentric rotated inv2                N=20 best 7-subset circles=999 
+10-gon+concentric rotated inv3                N=20 best 7-subset circles=999 
+10-gon+concentric rotated inv4                N=21 best 7-subset circles=999 
+11-gon+center                                 N=12 best 7-subset circles=999 
+11-gon+center inv0                            N=11 best 7-subset circles=999 
+11-gon+center inv1                            N=11 best 7-subset circles=999 
+11-gon+center inv2                            N=11 best 7-subset circles=999 
+11-gon+center inv3                            N=11 best 7-subset circles=999 
+11-gon+center inv4                            N=12 best 7-subset circles=999 
+11-gon+center+midpoints                       N=23 best 7-subset circles=999 
+11-gon+center+midpoints inv0                  N=22 best 7-subset circles=999 
+11-gon+center+midpoints inv1                  N=22 best 7-subset circles=999 
+11-gon+center+midpoints inv2                  N=22 best 7-subset circles=999 
+11-gon+center+midpoints inv3                  N=22 best 7-subset circles=999 
+11-gon+center+midpoints inv4                  N=23 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2                  N=23 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2 inv0             N=22 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2 inv1             N=22 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2 inv2             N=22 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2 inv3             N=22 best 7-subset circles=999 
+11-gon+concentric 11-gon r=2 inv4             N=23 best 7-subset circles=999 
+11-gon+concentric rotated                     N=23 best 7-subset circles=999 
+11-gon+concentric rotated inv0                N=22 best 7-subset circles=999 
+11-gon+concentric rotated inv1                N=22 best 7-subset circles=999 
+11-gon+concentric rotated inv2                N=22 best 7-subset circles=999 
+11-gon+concentric rotated inv3                N=22 best 7-subset circles=999 
+11-gon+concentric rotated inv4                N=23 best 7-subset circles=999 
+12-gon+center                                 N=13 best 7-subset circles=999 
+12-gon+center inv0                            N=12 best 7-subset circles=999 
+12-gon+center inv1                            N=12 best 7-subset circles=999 
+12-gon+center inv2                            N=12 best 7-subset circles=999 
+12-gon+center inv3                            N=12 best 7-subset circles=999 
+12-gon+center inv4                            N=13 best 7-subset circles=999 
+12-gon+center+midpoints                       N=25 best 7-subset circles=999 
+12-gon+center+midpoints inv0                  N=24 best 7-subset circles=999 
+12-gon+center+midpoints inv1                  N=24 best 7-subset circles=999 
+12-gon+center+midpoints inv2                  N=24 best 7-subset circles=999 
+12-gon+center+midpoints inv3                  N=24 best 7-subset circles=999 
+12-gon+center+midpoints inv4                  N=25 best 7-subset circles=999 

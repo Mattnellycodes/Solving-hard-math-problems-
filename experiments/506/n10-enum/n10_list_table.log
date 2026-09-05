@@ -1,0 +1,25 @@
+n=10 target=32 mode=table C(n,3)=120 cap_derived=30 max4/pt=10 cap_lines=40 max3lines=12 ell_max=12 D_min=76 big_sizes=[5, 6, 7, 8, 9]
+phase 1: 23 canonical big-block families (incl. empty)
+[0] empty family (Aut = S_n)
+[1] sizes=[5] blocks=[[0, 1, 2, 3, 4]] D0=9 |Aut|=14400 root_bound=22 need=23 SKIP #cands=155
+[2] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] D0=18 |Aut|=288 root_bound=20 need=20 RUN #cands=109
+[3] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] D0=27 |Aut|=48 root_bound=17 need=17 RUN #cands=72
+[4] sizes=[5, 5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8], [2, 4, 5, 7, 9]] D0=36 |Aut|=8 root_bound=15 need=14 RUN #cands=42
+[5] sizes=[5, 5, 5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8], [2, 4, 5, 7, 9], [0, 4, 6, 8, 9]] D0=45 |Aut|=10 root_bound=12 need=11 RUN #cands=20
+[6] sizes=[5, 5, 5, 5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8], [2, 4, 5, 7, 9], [0, 4, 6, 8, 9], [1, 3, 7, 8, 9]] D0=54 |Aut|=60 root_bound=5 need=8 SKIP #cands=5
+[7] sizes=[5, 5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8], [0, 4, 7, 8, 9]] D0=36 |Aut|=8 root_bound=15 need=14 RUN #cands=34
+[8] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9]] D0=27 |Aut|=48 root_bound=17 need=17 RUN #cands=71
+[9] sizes=[5, 5, 5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [3, 4, 6, 7, 8, 9]] D0=46 |Aut|=48 root_bound=10 need=10 RUN #cands=12
+[10] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9]] D0=27 |Aut|=32 root_bound=17 need=17 RUN #cands=63
+[11] sizes=[5, 5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9]] D0=36 |Aut|=128 root_bound=15 need=14 RUN #cands=26
+[12] sizes=[5, 5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8, 9]] D0=37 |Aut|=32 root_bound=14 need=13 RUN #cands=38
+[13] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] D0=18 |Aut|=1152 root_bound=20 need=20 RUN #cands=100
+[14] sizes=[5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8]] D0=28 |Aut|=288 root_bound=16 need=16 RUN #cands=72
+[15] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]] D0=18 |Aut|=28800 root_bound=20 need=20 RUN #cands=100
+[16] sizes=[5, 6] blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8, 9]] D0=28 |Aut|=2880 root_bound=15 need=16 SKIP #cands=60
+[17] sizes=[5, 7] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8, 9]] D0=43 |Aut|=1440 root_bound=12 need=11 RUN #cands=30
+[18] sizes=[6] blocks=[[0, 1, 2, 3, 4, 5]] D0=19 |Aut|=17280 root_bound=19 need=19 RUN #cands=115
+[19] sizes=[6, 6] blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8, 9]] D0=38 |Aut|=2304 root_bound=12 need=13 SKIP #cands=36
+[20] sizes=[7] blocks=[[0, 1, 2, 3, 4, 5, 6]] D0=34 |Aut|=30240 root_bound=16 need=14 RUN #cands=70
+[21] sizes=[8] blocks=[[0, 1, 2, 3, 4, 5, 6, 7]] D0=55 |Aut|=80640 root_bound=11 need=7 RUN #cands=28
+[22] sizes=[9] blocks=[[0, 1, 2, 3, 4, 5, 6, 7, 8]] D0=83 |Aut|=362880 root_bound=0 need=0 RUN #cands=0

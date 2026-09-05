@@ -1,1 +1,7 @@
 === (a) point parametrisation, 2000 random restarts
+  max|incidence residual|=1.522e-17  min point separation=5.000e-01  points=[[0.0, 0.0], [1.0, 0.0], [0.5, -0.0], [-348.5454, -0.0], [294.6273, 0.0], [552.6837, 0.0]]
+  max|incidence residual|=2.784e-17  min point separation=5.000e-01  points=[[0.0, 0.0], [1.0, 0.0], [-258.1346, -0.0], [0.5, -0.0], [307.3771, -0.0], [-485.0756, -0.0]]
+  max|incidence residual|=3.450e-17  min point separation=5.000e-01  points=[[0.0, 0.0], [1.0, 0.0], [0.5, -0.0], [-231.8679, -0.0], [196.349, 0.0], [368.1832, 0.0]]
+  max|incidence residual|=3.828e-17  min point separation=5.000e-01  points=[[0.0, 0.0], [1.0, 0.0], [262.2375, -0.0], [-413.673, -0.0], [-220.0596, 0.0], [0.5, 0.0]]
+  max|incidence residual|=4.054e-17  min point separation=5.000e-01  points=[[0.0, 0.0], [1.0, 0.0], [-134.9705, -0.0], [114.6785, -0.0], [0.5, -0.0], [214.8538, 0.0]]
+=== (b) line parametrisation: lines y = m_i x + b_i, 5000 random restarts

@@ -1,0 +1,12 @@
+/usr/local/lib/python3.11/dist-packages/numpy/linalg/_linalg.py:2407: RuntimeWarning: divide by zero encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+/usr/local/lib/python3.11/dist-packages/numpy/linalg/_linalg.py:2407: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+structure 0 seed 0 realised: False best residual 4.397247112972e-311
+structure 0 seed 1 realised: False best residual 3.805651945849872e-290
+structure 0 seed 2 realised: False best residual 1.1656224308143e-310
+/home/user/Solving-hard-math-problems-/experiments/506/n10-cpsat/realise.py:51: RuntimeWarning: invalid value encountered in scalar divide
+  nr = math.hypot(A, Bc); A, Bc, C = A / nr, Bc / nr, C / nr
+structure 1 seed 0 realised: False best residual 8.83452883749326e-225
+structure 1 seed 1 realised: False best residual 1.2499e-319
+structure 1 seed 2 realised: False best residual 2.6831667609669656e-306

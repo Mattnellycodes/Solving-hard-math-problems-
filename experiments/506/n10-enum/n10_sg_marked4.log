@@ -1,0 +1,7 @@
+n=10 target=32 mode=sg C(n,3)=120 cap_derived=35 max4/pt=11 cap_lines=44 max3lines=1000000000 ell_max=14 D_min=74 big_sizes=[5, 6, 7, 8, 9]
+marked first 4-block [0, 1, 2, 3]: |Stab|=17280 root bound 26 need >= 24 #cands=185
+nodes=187606 leaves=2439 candidates=4 time=225.0s
+
+real	3m45.445s
+user	2m23.087s
+sys	0m1.461s

@@ -1,0 +1,30 @@
+skeleton 3 (k=2) blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]] | feas(D+l>=88) status=OPTIMAL (10s)
+    [38s] class #1 (labelled 1) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 4, 4) count=32
+    [49s] class #2 (labelled 2) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [62s] class #3 (labelled 4) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [91s] class #4 (labelled 9) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [95s] class #5 (labelled 10) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=31
+    [101s] class #6 (labelled 11) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [110s] class #7 (labelled 13) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [126s] class #8 (labelled 16) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=31
+    [132s] class #9 (labelled 17) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=31
+    [135s] class #10 (labelled 18) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [240s] class #11 (labelled 34) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [255s] class #12 (labelled 36) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [343s] class #13 (labelled 49) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [353s] class #14 (labelled 51) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [422s] class #15 (labelled 61) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [438s] class #16 (labelled 63) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    enum status=FEASIBLE labelled=238 classes=16 (1551s)
+skeleton 0 (k=1) blocks=[[0, 1, 2, 3, 4]] | feas(D+l>=88) status=INFEASIBLE (494s)
+skeleton 1 (k=2) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] | feas(D+l>=88) status=INFEASIBLE (466s)
+skeleton 2 (k=2) blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] | feas(D+l>=88) status=INFEASIBLE (1s)
+skeleton 4 (k=3) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9]] | feas(D+l>=88) status=INFEASIBLE (10s)
+skeleton 5 (k=3) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] | feas(D+l>=88) status=INFEASIBLE (5s)
+skeleton 6 (k=3) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9]] | feas(D+l>=88) status=INFEASIBLE (1s)
+skeleton 7 (k=4) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9]] | feas(D+l>=88) status=INFEASIBLE (1s)
+skeleton 8 (k=4) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [3, 4, 6, 7, 8]] | feas(D+l>=88) status=INFEASIBLE (1s)
+skeleton 9 (k=4) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9]] | feas(D+l>=88) status=INFEASIBLE (8s)
+skeleton 10 (k=5) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9], [2, 4, 6, 7, 8]] | feas(D+l>=88) status=INFEASIBLE (1s)
+skeleton 11 (k=6) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9], [2, 4, 6, 7, 8], [3, 4, 5, 7, 9]] | feas(D+l>=88) status=INFEASIBLE (0s)
+done in 2539s; survivors=16

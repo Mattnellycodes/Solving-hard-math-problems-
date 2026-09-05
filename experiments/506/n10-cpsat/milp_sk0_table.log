@@ -1,0 +1,1 @@
+skeleton 0 omode table orchard10=False: status=1 (Time limit reached. (HiGHS Status 13: Time limit reached)) opt D+l=84.00000000000057 dual bound=86.0 gap=0.026666666666658886 time=1500s vars=541 rows=1081

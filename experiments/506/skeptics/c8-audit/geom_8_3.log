@@ -1,0 +1,10 @@
+labelled 8-triple systems containing {0,1,2}: 120; isomorphism classes: 1; MK is the class: True
+p3 forced = [-1, -1, 0]
+p6 = p0 + a*p5 = [a + 1, a, a] (excluded value = p0 itself)
+p7 = p0 + b*p2 = [1, 0, b] (excluded value = p0 itself)
+p4 = p1 + c*p2 = [0, 1, c] (excluded value = p1 itself)
+incidence equations: [-a - c, -b - c + 1, -a*b + a - b]
+solutions: [{a: -1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2}, {a: -1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2}]
+eliminant in c: [c**2 - c + 1]  real roots: [[]]
+REAL solutions: [] => MK realisable over R: False
+complex solution: distinct points: True  all 8 incidences hold: True

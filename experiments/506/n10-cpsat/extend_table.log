@@ -1,0 +1,15 @@
+skeleton 0 (k=1) blocks=[[0, 1, 2, 3, 4]] | feas(D+l>=88) status=INFEASIBLE (332s)
+skeleton 1 (k=2) blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] | feas(D+l>=88) status=INFEASIBLE (207s)
+skeleton 2 (k=2) blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] | feas(D+l>=88) status=INFEASIBLE (2s)
+skeleton 3 (k=2) blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]] | feas(D+l>=88) status=OPTIMAL (2s)
+    [7s] class #1 (labelled 1) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 4, 4) count=32
+    [9s] class #2 (labelled 2) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [11s] class #3 (labelled 3) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=31
+    [19s] class #4 (labelled 12) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [21s] class #5 (labelled 13) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=31
+    [24s] class #6 (labelled 15) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [25s] class #7 (labelled 16) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [26s] class #8 (labelled 17) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [27s] class #9 (labelled 18) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32
+    [29s] class #10 (labelled 19) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) count=32
+    [33s] class #11 (labelled 22) sizes=(4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5) lines=(3, 3, 3, 3, 3, 3, 3, 3, 3, 5) count=32

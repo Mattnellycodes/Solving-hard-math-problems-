@@ -1,0 +1,6 @@
+antipodal n=9: {'n': 9, 'circles': 25, 'lines': 4, 'D': 55, 'identity': True, 'circle_sizes': [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8], 'line_sizes': [3, 3, 3, 3], 'degenerate': False}
+n=8 record {'n': 8, 'circles': 17, 'lines': 3, 'D': 36, 'identity': True, 'circle_sizes': [3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'line_sizes': [3, 3, 4], 'degenerate': False}
+n=7 record {'n': 7, 'circles': 11, 'lines': 6, 'D': 18, 'identity': True, 'circle_sizes': [3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4], 'line_sizes': [3, 3, 3, 3, 3, 3], 'degenerate': False}
+n=6 record {'n': 6, 'circles': 8, 'lines': 3, 'D': 9, 'identity': True, 'circle_sizes': [3, 3, 3, 3, 3, 4, 4, 4], 'line_sizes': [3, 3, 3], 'degenerate': False}
+two squares n=8 {'n': 8, 'circles': 18, 'lines': 2, 'D': 36, 'identity': True, 'circle_sizes': [3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4], 'line_sizes': [4, 4], 'degenerate': False}
+random small-grid sets checked: 300, identity failures: 0

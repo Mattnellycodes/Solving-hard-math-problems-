@@ -1,0 +1,21 @@
+orthocentric7 (report) + inf: |B|=20, best inversion count 17 (centre [-0.63148  0.40345], degree 3)
+equilateral+midpoints+centroid + inf: |B|=20, best inversion count 18 (centre [1.18322 0.68313], degree 2)
+random orthocentric 7 + inf: counts [18]
+grid7 (0,0),(0,3),(1,1),(1,2),(2,1),(2,2),(3,0) + inf: |B|=29, best inversion count 23 (centre [1.1767 1.1767], degree 6)
+  grid7+inf new best 39 [(3, 4), (1, 3), (2, 1), (4, 0), (3, 1), (0, 0), (2, 4)]
+  grid7+inf new best 30 [(3, 0), (1, 2), (2, 2), (3, 2), (0, 3), (3, 3), (4, 3)]
+  grid7+inf new best 27 [(2, 0), (1, 0), (0, 2), (3, 0), (1, 3), (3, 1), (3, 2)]
+  grid7+inf new best 26 [(1, 4), (2, 2), (2, 4), (2, 3), (1, 2), (0, 2), (0, 4)]
+  grid7+inf new best 23 [(3, 3), (2, 3), (4, 4), (1, 4), (4, 1), (1, 1), (3, 2)]
+random 7-subsets of 5x5 + inf: best 23
+record17: 8 finite + inf, best over dropped point & inversions: 22
+two squares: 8 finite + inf, best over dropped point & inversions: 23
+3x3 grid minus 0: 8 finite + inf, best over dropped point & inversions: 27
+3x3 grid minus 1: 8 finite + inf, best over dropped point & inversions: 26
+3x3 grid minus 2: 8 finite + inf, best over dropped point & inversions: 27
+3x3 grid minus 3: 8 finite + inf, best over dropped point & inversions: 26
+3x3 grid minus 4: 8 finite + inf, best over dropped point & inversions: 26
+3x3 grid minus 5: 8 finite + inf, best over dropped point & inversions: 26
+3x3 grid minus 6: 8 finite + inf, best over dropped point & inversions: 27
+3x3 grid minus 7: 8 finite + inf, best over dropped point & inversions: 26
+3x3 grid minus 8: 8 finite + inf, best over dropped point & inversions: 27

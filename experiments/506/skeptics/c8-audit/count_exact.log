@@ -1,0 +1,14 @@
+points: [(0, 0), (0, 5), (0, 10), (0, 15), (3, 6), (3, 9), (5, 5), (5, 10)]
+#circles (>=3 points): 17
+circle sizes: [3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+#lines (>=3 points): 3 line sizes: [3, 3, 4]
+   line (0, 1, 0, 0) points [(0, 0), (0, 5), (0, 10), (0, 15)]
+   line (0, 2, -1, 0) points [(0, 0), (3, 6), (5, 10)]
+   line (0, 2, 1, -15) points [(0, 15), (3, 9), (5, 5)]
+blocks of size>=4: 12  D = 36  ell = 3  C(8,3)-D-ell = 17
+all on one circle/line? False
+degrees in big blocks: [6, 6, 6, 6, 6, 6, 6, 6]
+max |B∩B'| = 2  max |L∩L'| = 1
+affine copy count: 17
+two concentric squares (expected 18): 18
+antipodal n=9 (expected 25): 25

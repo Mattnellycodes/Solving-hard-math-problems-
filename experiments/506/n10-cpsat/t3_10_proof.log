@@ -1,0 +1,9 @@
+system 0: frame (0, 1, 2, 4), free parameters [t6, t3], 6 residual equations
+  Groebner basis: [-t3**2 + t6**2 + 2*t6 + 1, t3**2*t6 + t3**2, t3**3]
+  solutions over C: [{t3: 0, t6: -1}]
+   solution {t3: 0, t6: -1}: real=True distinct points=False nonzero=False
+system 1: frame (0, 1, 2, 3), free parameters [t4, t6], 6 residual equations
+  Groebner basis: [t4**2 + 2*t4 + 1, t4*t6 + t6, t6**3 - t6**2]
+  solutions over C: [{t4: -1, t6: 0}, {t4: -1, t6: 1}]
+   solution {t4: -1, t6: 0}: real=True distinct points=False nonzero=False
+   solution {t4: -1, t6: 1}: real=True distinct points=False nonzero=False

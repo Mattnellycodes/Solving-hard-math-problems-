@@ -1,0 +1,3 @@
+n=10 target=32 mode=sg_t3 C(n,3)=120 cap_derived=35 max4/pt=10 cap_lines=44 max3lines=12 ell_max=13 D_min=75 big_sizes=[5, 6, 7, 8, 9]
+marked first 4-block [0, 1, 2, 3]: |Stab|=17280 root bound 24 need >= 24 #cands=185
+nodes=5135 leaves=24 candidates=0 time=16.1s

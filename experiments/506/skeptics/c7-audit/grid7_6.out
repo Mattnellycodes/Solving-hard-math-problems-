@@ -1,0 +1,27 @@
+new min 15: (0,0) (1,0) (2,0) (3,0) (4,0) (5,0) (0,1) 
+new min 14: (0,0) (1,0) (2,0) (0,1) (3,1) (0,2) (3,2) 
+new min 13: (0,0) (2,0) (3,1) (2,2) (3,3) (0,4) (2,4) 
+grid 6x6: 8347680 subsets, min circles (non-degenerate) = 13
+  circles=13 : 76 sets
+  circles=14 : 2820 sets
+  circles=15 : 8076 sets
+  circles=16 : 2488 sets
+  circles=17 : 3984 sets
+  circles=18 : 13792 sets
+  circles=19 : 18888 sets
+  circles=20 : 27764 sets
+  circles=21 : 97144 sets
+  circles=22 : 104456 sets
+  circles=23 : 110508 sets
+  circles=24 : 342856 sets
+  circles=25 : 377464 sets
+  circles=26 : 308520 sets
+  circles=27 : 803488 sets
+  circles=28 : 843212 sets
+  circles=29 : 492292 sets
+  circles=30 : 1137332 sets
+  circles=31 : 1422088 sets
+  circles=32 : 580512 sets
+  circles=33 : 541256 sets
+  circles=34 : 779616 sets
+  circles=35 : 328928 sets

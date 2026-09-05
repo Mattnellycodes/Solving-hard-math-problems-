@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/user/Solving-hard-math-problems-/experiments/506/n10-cpsat/stepC.py", line 52, in <module>
+    patterns.add(frozenset(frozenset(pm[x] for x in S_) for S_ in L))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Solving-hard-math-problems-/experiments/506/n10-cpsat/stepC.py", line 52, in <genexpr>
+    patterns.add(frozenset(frozenset(pm[x] for x in S_) for S_ in L))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Solving-hard-math-problems-/experiments/506/n10-cpsat/stepC.py", line 52, in <genexpr>
+    patterns.add(frozenset(frozenset(pm[x] for x in S_) for S_ in L))
+                                     ~~^^^
+KeyError: 0

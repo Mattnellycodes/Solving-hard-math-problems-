@@ -1,0 +1,38 @@
+S4 symmetry of {Q1,Q2,Q3} under relabelling lines: True
+chart-1 non-degeneracy polynomials: [a, b, c, a - b, a - c, b - c, d, -b*d + c, a*d - a - b*d + c]
+=== chart 1: L1: y=0, L2: y=ax, L3: y=bx+1, L4: y=cx+d
+   P12 = (0, 0) / (a)
+   P13 = (-1, 0) / (b)
+   P14 = (-d, 0) / (c)
+   P23 = (-1, -a) / (-a + b)
+   P24 = (-d, -a*d) / (-a + c)
+   P34 = (1 - d, -b*d + c) / (-b + c)
+   Q1 (times denominators) = a**2*d*(b*d - c)*(a*d - a - b*d + c)*(a*b*c + a + b - c)
+      essential factor A1 = a*b*c + a + b - c   (all other factors are non-degeneracy polynomials)
+   Q2 (times denominators) = a**2*d*(b*d - c)*(a*d - a - b*d + c)*(a*b*c + a - b + c)
+      essential factor A2 = a*b*c + a - b + c   (all other factors are non-degeneracy polynomials)
+   Q3 (times denominators) = a**2*d*(b*d - c)*(a*d - a - b*d + c)*(a*b*c - a + b + c)
+      essential factor A3 = a*b*c - a + b + c   (all other factors are non-degeneracy polynomials)
+   A1 - A2 = 2*(b - c) ;  A1 - A3 = 2*(a - c) ;  A2 - A3 = 2*(a - b)
+   Groebner(A1, A2, A3, non-parallel) == {1}: True
+   Groebner(A1, A2, non-parallel) == {1} (any TWO conditions impossible in chart 1): True
+   Groebner(A1, A3, non-parallel) == {1} (any TWO conditions impossible in chart 1): True
+   Groebner(A2, A3, non-parallel) == {1} (any TWO conditions impossible in chart 1): True
+chart-2 non-degeneracy polynomials: [b, c, b - c, d, -b*d + c, 1 - d]
+=== chart 2: L1: y=0, L2: x=0, L3: y=bx+1, L4: y=cx+d
+   P12 = (0, 0) / (-1)
+   P13 = (-1, 0) / (b)
+   P14 = (-d, 0) / (c)
+   P23 = (0, 1) / (1)
+   P24 = (0, d) / (1)
+   P34 = (1 - d, -b*d + c) / (-b + c)
+   Q1 (times denominators) = d*(d - 1)*(b*c + 1)*(b*d - c)
+      essential factor A1 = b*c + 1   (all other factors are non-degeneracy polynomials)
+   Q2 (times denominators) = d*(d - 1)*(b*c + 1)*(b*d - c)
+      essential factor A2 = b*c + 1   (all other factors are non-degeneracy polynomials)
+   Q3 (times denominators) = d*(d - 1)*(b*c - 1)*(b*d - c)
+      essential factor A3 = b*c - 1   (all other factors are non-degeneracy polynomials)
+   Groebner(A1, A2, A3) in chart 2: [1]  == {1}: True
+   Groebner(A1, A2) in chart 2 (the two-condition family): [b*c + 1]
+   numeric chart 1: min over 50000 random non-degenerate quadrilaterals of max_k |A_k| = (0.5459641015206255, [-0.20129091703006718, 0.2928726309268459, -0.055045637008941384, 3.0947779163019318])
+   numeric chart 2 on the exact family L3 ⊥ L4 (A1 = A2 = 0): min |A3| = (2.0, (-2.217917512266448, 0.45087339563774803, 2.109063033386489), [0.0, 0.0, -2.0])

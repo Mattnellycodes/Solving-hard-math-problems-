@@ -1,0 +1,27 @@
+7-point records: (11, 11) (11, 11)
+orthocentric 7 (A,B,C,H,D,E,F): 104 candidate points
+  best 8-point count after augmentation: 22
+equilateral+midpoints+centroid: 51 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 0: 129 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 1: 129 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 2: 129 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 3: 129 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 4: 129 candidate points
+  best 8-point count after augmentation: 23
+random orthocentric 7: (11, 11)
+random orthocentric 5: 129 candidate points
+  best 8-point count after augmentation: 23
+record17: 221 candidate 9th points
+  best 8-subset containing the new point: 22
+two squares 18: 197 candidate 9th points
+  best 8-subset containing the new point: 23

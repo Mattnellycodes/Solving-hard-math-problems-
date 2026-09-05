@@ -1,0 +1,18 @@
+record8 b=1.0: base |B|=17, 40 candidate 9th points; best 9-point count after optimal inversion = 17  detail=((2.2204460492503136e-16, 0.9999999999999998), 20, 3, 3)
+orthocentric+feet+O b=1.0: base |B|=29, 149 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((1.2000000000000002, 0.6000000000000005), 39, 8, 7)
+record8 b=0.5: base |B|=17, 40 candidate 9th points; best 9-point count after optimal inversion = 17  detail=((-8.074349270001167e-17, 0.9999999999999993), 20, 3, 3)
+orthocentric+feet+O b=0.5: base |B|=29, 187 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((0.6486486486486488, 0.8918918918918923), 39, 8, 7)
+record8 b=1.5: base |B|=17, 40 candidate 9th points; best 9-point count after optimal inversion = 17  detail=((3.66373598126302e-15, 0.999999999999994), 20, 3, 3)
+orthocentric+feet+O b=1.5: base |B|=29, 191 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((1.5999999999999999, 0.19999999999999996), 39, 8, 7)
+record8 b=0.6666666666666666: base |B|=17, 40 candidate 9th points; best 9-point count after optimal inversion = 17  detail=((0.0, 1.0000000000000004), 20, 3, 3)
+orthocentric+feet+O b=0.6666666666666666: base |B|=29, 187 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((0.8470588235294119, 0.8117647058823534), 39, 8, 7)
+record8 b=1.2: base |B|=17, 40 candidate 9th points; best 9-point count after optimal inversion = 17  detail=((0.0, 0.9999999999999996), 20, 3, 3)
+orthocentric+feet+O b=1.2: base |B|=29, 187 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((1.3793103448275863, 0.4482758620689653), 39, 8, 7)
+two squares: base |B|=20, 69 candidate 9th points; best 9-point count after optimal inversion = 32  detail=((-0.9999999999999998, 1.0), 36, 3, 4)
+two squares rot: base |B|=26, 144 candidate 9th points; best 9-point count after optimal inversion = 37  detail=((-4.0, 3.700743415417188e-16), 42, 1, 5)
+antipodal 8: base |B|=1, 0 candidate 9th points; best 9-point count after optimal inversion = 1000000000  detail=None
+cube projection (generic): base |B|=50, 926 candidate 9th points; best 9-point count after optimal inversion = 46  detail=((0.9869704799225696, 1.1767192238302084), 72, 0, 26)
+3x3 grid minus corner: base |B|=32, 230 candidate 9th points; best 9-point count after optimal inversion = 38  detail=((2.0, 2.0), 42, 8, 4)
+hexagon+centre+1: base |B|=31, 167 candidate 9th points; best 9-point count after optimal inversion = 36  detail=((0.9285714285714285, -0.3711537444790451), 41, 4, 5)
+square+centre+3 mid: base |B|=35, 272 candidate 9th points; best 9-point count after optimal inversion = 38  detail=((0.0, -1.0), 42, 8, 4)
+overall minimum: 17
