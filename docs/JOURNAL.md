@@ -95,3 +95,39 @@ lower-bound theorist (rigorous c(n) for n = 5,6,7, attempt 8, computer-assisted 
 searchers (symmetric orbits with continuous parameters; subset/local search over rich universes incl. exhaustive
 8-subsets of 4×4 and 5×5 grids; classical configurations and stereographic projections of polyhedra; hybrid
 near-pencil families), an independent exact verifier per searcher, and a synthesis agent.
+
+## 2026-09-05 (continued) — verification of the #506 results
+
+The usage limit interrupted both workflows at ~01:50 UTC (all 10 scouts and the #506 literature and
+theory agents had finished; referees, searchers and synthesis had not). Resumed at 05:50 UTC.
+
+**Theory agent's claims** (`experiments/506/theory/REPORT.md`): c(5)=5, **c(6)=8, c(7)=11, c(8)=17**
+(all three below the large-n formula), c(9)=25 (= formula); explicit integer constructions; lower bounds
+by enumerating abstract Möbius block structures under Sylvester–Gallai-derived necessary conditions,
+finished by an "Angle Lemma" (n=6,7) and by non-realisability of the Fano and Möbius–Kantor configurations
+(n=9). Conjecture: c(n) = f(n) for all n ≥ 9.
+
+**Literature agent** (`experiments/506/literature/REPORT.md`): no exact value of c(n) for any 4 ≤ n ≤ 393
+exists in the literature; no OEIS sequence (teorth/erdosproblems issue #297 asks for exactly this
+computation). Segre's cube example is the two-concentric-squares configuration (18 circles), so my
+18 was a rediscovery; 17 is new.
+
+**Independent verification by the main agent** (`experiments/506/verify_independent/`):
+- Constructions recounted exactly: 8, 11, 17 circles. ✔
+- Own CP-SAT model of the relaxation: optimum D+ℓ = 13, 27, 39 for n = 6, 7, 8 (identical with SG-only
+  and with the Kelly–Moser table caps). So **c(8) ≥ 17 follows from Sylvester–Gallai alone; c(8) = 17 is
+  established.** For n = 6, 7 the relaxation leaves exactly the Angle-Lemma structures (verified by
+  enumeration: matching-complement blocks + complete quadrilateral; Fano-complement blocks).
+- Angle Lemma: my own factorisation of the three concyclicity determinants gives essential factors with
+  A1 − A2 = 2(m3 − m4); hand-checked the directed-angle proof too. ✔ ⇒ **c(6) = 8, c(7) = 11 established.**
+- (8_3): all 840 admissible 8-triple systems on 8 points form one S_8-orbit (Möbius–Kantor, |Aut| = 48);
+  realisation forces t² − t + 1 = 0 ⇒ not realisable over ℝ. ✔ (First attempt used a wrong chart; fixed.)
+- n = 9: my SG-only relaxation gives only ≥ 19 (optimum uses 18 four-blocks with every point in 8, i.e.
+  (8_3) derived structures). Added the (8_3)-derived constraint and an independent hereditary-SG checker;
+  enumeration of all structures with ≤ 24 circles is running.
+
+**Adversarial workflow** (`erdos-506-adversarial-verify`, run wf_c96534f2-39f): two skeptics per claim
+(construction attack / proof audit with own code) plus adjudication — running. First verdict in: c(6)=8
+CONFIRMED by an independent enumeration.
+
+**GitHub push now works** (the app was evidently granted access); branch pushed.

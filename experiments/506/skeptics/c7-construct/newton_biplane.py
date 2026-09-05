@@ -43,6 +43,9 @@ best.sort(key=lambda t:t[0])
 print("top 15 by scale-free residual (residual, mindist/size):")
 for r,md,v in best[:15]:
     print(f"  res={r:.3e}  mindist/size={md:.3e}  v={np.round(v,4)}")
-good=[(r,md,v) for r,md,v in best if r<1e-9 and md>1e-4]
+def spread(v):
+    P=pts(v); s=max(maxnorm(v),1.0); return max(abs(P[k][1]) for k in P)/s
+good=[(r,md,v) for r,md,v in best if r<1e-9 and md>1e-4 and spread(v)>1e-3]
+print('solutions on the real axis (all collinear, degenerate):',sum(1 for r,md,v in best if r<1e-9 and md>1e-4 and spread(v)<=1e-3))
 print("non-degenerate solutions (res<1e-9, mindist/size>1e-4):",len(good))
 for r,md,v in good[:10]: print("  ",r,md,np.round(v,6))
