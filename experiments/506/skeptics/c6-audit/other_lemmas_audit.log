@@ -1,0 +1,18 @@
+[8_3] isomorphism classes of 8 triples on 8 points pairwise sharing <=1 point: 1; MK among them: True
+[8_3] remaining incidence equations: [-v + w, u*w - 1, r*u - 1, r*v - v + 1]
+[8_3] lex Groebner basis: [-r + v, -r + w, r + u - 1, r**2 - r + 1]
+[8_3] univariate r: r**2 - r + 1  real roots: []
+[8_3] all complex solutions: [{r: 1/2 - sqrt(3)*I/2, u: 1/2 + sqrt(3)*I/2, v: 1/2 - sqrt(3)*I/2, w: 1/2 - sqrt(3)*I/2}, {r: 1/2 + sqrt(3)*I/2, u: 1/2 - sqrt(3)*I/2, v: 1/2 + sqrt(3)*I/2, w: 1/2 + sqrt(3)*I/2}]
+[8_3] real solutions: []
+[Fano] classes of 7 triples on 7 points pairwise sharing <=1 point: 1; classes covering all 21 pairs (Fano): 1 -> such a derived structure has no ordinary line, contradicting Sylvester-Gallai
+[hereditary SG, n=6 candidate] point 0: derived lines [[1, 2, 3], [1, 4, 5]] violations: []
+[hereditary SG, n=6 candidate] point 1: derived lines [[0, 2, 3], [0, 4, 5]] violations: []
+[hereditary SG, n=6 candidate] point 2: derived lines [[0, 1, 3], [3, 4, 5]] violations: []
+[hereditary SG, n=6 candidate] point 3: derived lines [[0, 1, 2], [2, 4, 5]] violations: []
+[hereditary SG, n=6 candidate] point 4: derived lines [[0, 1, 5], [2, 3, 5]] violations: []
+[hereditary SG, n=6 candidate] point 5: derived lines [[0, 1, 4], [2, 3, 4]] violations: []
+[hereditary SG, n=6 candidate] lines at infinity [[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] violations: []
+[Lemma A] n=5: (n-1)-block a circle -> min circles 5 (ell_max=2); a line -> 6; f(n)=5; Lemma A claims min = f(n): True
+[Lemma A] n=6: (n-1)-block a circle -> min circles 9 (ell_max=2); a line -> 10; f(n)=9; Lemma A claims min = f(n): True
+[Lemma A] n=7: (n-1)-block a circle -> min circles 13 (ell_max=3); a line -> 15; f(n)=13; Lemma A claims min = f(n): True
+[Lemma A] n=8: (n-1)-block a circle -> min circles 19 (ell_max=3); a line -> 21; f(n)=19; Lemma A claims min = f(n): True

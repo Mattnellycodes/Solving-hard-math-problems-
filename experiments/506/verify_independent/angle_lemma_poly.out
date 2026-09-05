@@ -1,0 +1,23 @@
+det1: const -1
+    c3*m4 - c4*m3 ^ 1
+    m2*m3*m4 + m2 + m3 - m4 ^ 1
+    c2*m3 - c3*m2 ^ 1
+    c2*m3 - c2*m4 - c3*m2 + c3*m4 + c4*m2 - c4*m3 ^ 1
+    c2*m4 - c4*m2 ^ 1
+   essential: [m2*m3*m4 + m2 + m3 - m4]
+det2: const -1
+    c3*m4 - c4*m3 ^ 1
+    m2*m3*m4 + m2 - m3 + m4 ^ 1
+    c2*m3 - c3*m2 ^ 1
+    c2*m3 - c2*m4 - c3*m2 + c3*m4 + c4*m2 - c4*m3 ^ 1
+    c2*m4 - c4*m2 ^ 1
+   essential: [m2*m3*m4 + m2 - m3 + m4]
+det3: const -1
+    c3*m4 - c4*m3 ^ 1
+    m2*m3*m4 - m2 + m3 + m4 ^ 1
+    c2*m3 - c3*m2 ^ 1
+    c2*m3 - c2*m4 - c3*m2 + c3*m4 + c4*m2 - c4*m3 ^ 1
+    c2*m4 - c4*m2 ^ 1
+   essential: [m2*m3*m4 - m2 + m3 + m4]
+A1-A2: 2*m3 - 2*m4
+A1-A3: 2*m2 - 2*m4

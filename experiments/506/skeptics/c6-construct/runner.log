@@ -1,2 +1,18 @@
 == grid10 (exact)
 N=100 triples=157252 distinct circles=90874
+subsets=1192052400 degenerate=24796 found(<=7)=0
+  circles=8 : 240
+  circles=9 : 105416
+  circles=10 : 1634154
+  circles=11 : 1912764
+  circles=12 : 1060380
+  circles=13 : 6165440
+  circles=14 : 4393824
+  circles=15 : 14076388
+  circles=16 : 90931150
+  circles=17 : 104188708
+  circles=18 : 49389332
+  circles=19 : 343853592
+  circles=20 : 574316216
+== tri (exact)
+N=127 triples=325872 distinct circles=185469
