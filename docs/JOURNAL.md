@@ -157,3 +157,10 @@ symmetry breaking (some block of size ≥ 5 must exist, so fix one to contain {0
 **Survey.** All eight referees finished; the synthesis agent is re-running. The referees' top survivor is a
 refutation of Robert Israel's sign conjecture for OEIS A067857 at primorials with ≥ 92 prime factors (with a
 uniform bound argument) — a second promising target if time permits.
+
+**11:00 UTC — c(9) = 25 independently confirmed.** Symmetry-broken complete enumeration
+(`experiments/506/verify_independent/cpsat_n9_sym.py`, status OPTIMAL, 197 s): the only abstract structure with
+≤ 24 circles compatible with Sylvester–Gallai caps and the (8_3) lemma is the two-5-block structure, and all
+720 labelled copies fail hereditary Sylvester–Gallai. Together with the antipodal configuration this gives
+c(9) = 25 = f(9), using only Sylvester–Gallai and the Möbius–Kantor lemma. So the exceptions to the
+Elliott–Purdy–Smith formula among n ≤ 9 are exactly n = 6, 7, 8.

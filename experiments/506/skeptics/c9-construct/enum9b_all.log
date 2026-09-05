@@ -1,0 +1,10 @@
+== s=8
+/bin/bash: line 216: /usr/bin/time: No such file or directory
+== s=7
+/bin/bash: line 216: /usr/bin/time: No such file or directory
+== s=6
+/bin/bash: line 216: /usr/bin/time: No such file or directory
+== s=5
+/bin/bash: line 216: /usr/bin/time: No such file or directory
+== s=4
+/bin/bash: line 216: /usr/bin/time: No such file or directory

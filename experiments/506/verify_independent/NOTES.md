@@ -45,5 +45,13 @@ the integer construction.
   triples on 8 points = one S_8-orbit of size 8!/48 (Aut of Möbius–Kantor has order 48), so every such
   family is Möbius–Kantor. With frame p0,p1,p2,p5 and forced coordinates, realisability requires
   s = 1 and t² − t + 1 = 0 — no real solution. (My first attempt used a wrong chart and is discarded.)
-* **n = 9**: `cpsat_n9.py` adds "≤ 7 four-blocks through any point" (valid by (8_3)) and applies an
-  independent hereditary-SG check to every structure with ≤ 24 circles. Result: see `n9_maxdeg7_*.out`.
+* **n = 9** (`cpsat_n9.py`, `cpsat_n9_sym.py`): adds "≤ 7 four-blocks through any point" (valid by (8_3))
+  and applies an independent hereditary-SG check to every structure with ≤ 24 circles. The symmetry-free
+  run hit its 2-hour limit (status FEASIBLE, incomplete). The symmetry-broken run — justified because
+  D + ℓ ≥ 60 with b₄ ≤ 15 and ℓ ≤ 11 forces a block of size ≥ 5, which we relabel to contain {0,1,2,3,4} —
+  finished in 197 s with status OPTIMAL (complete): 720 labelled solutions, all one isomorphism class
+  (two 5-blocks sharing a point + twelve 4-blocks + 6 lines, count 24), and **all 720 fail hereditary SG**
+  (a derived Fano plane at a degree-7 point). Hence no structure with ≤ 24 circles is realisable, and with
+  the antipodal configuration (25) we get **c(9) = 25**, independently verified with SG-only caps.
+  Dependencies: Sylvester–Gallai (for the caps and the hereditary check) and the (8_3) non-realisability
+  lemma (`mk_unrealisable2.py`). No orchard or Kelly–Moser values are used.

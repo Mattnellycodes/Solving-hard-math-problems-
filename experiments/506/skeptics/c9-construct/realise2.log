@@ -1,0 +1,15 @@
+cand9 degrees: [2, 7, 7, 7, 7, 7, 7, 7, 7]
+control: cube structure n=8 (realisable) [real]: restarts=40 time=1.9s  best normalised residual=2.45e-18 (raw 3.95e-17), min point separation=0.005, #restarts with residual<1e-10 and distinct points: 33
+   !!! REAL REALISATION FOUND: [[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [0.252255, -0.162286], [1.003216, 0.003237], [0.3188, -0.183496], [-0.008203, 0.99166], [-0.011223, 0.011481]]
+Traceback (most recent call last):
+  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/realise2.py", line 86, in <module>
+    attack("control: Pappus 9_3 (realisable)", lambda X, c: line_res(X, pappus, fxP, 9, c), 9, fxP, False, 40)
+  File "/home/user/Solving-hard-math-problems-/experiments/506/skeptics/c9-construct/realise2.py", line 50, in attack
+    sol = least_squares(lambda X: resfun(X, cplx), x0, method="lm", xtol=1e-15, ftol=1e-15, gtol=1e-15, max_nfev=3000)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/scipy/_lib/_util.py", line 717, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/scipy/optimize/_lsq/least_squares.py", line 952, in least_squares
+    raise ValueError("Method 'lm' doesn't work when the number of "
+ValueError: Method 'lm' doesn't work when the number of residuals is less than the number of variables.
