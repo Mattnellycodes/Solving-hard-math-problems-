@@ -1,0 +1,2 @@
+/usr/local/lib/python3.11/dist-packages/numpy/linalg/_linalg.py:2407: RuntimeWarning: divide by zero encountered in det
+  r = _umath_linalg.det(a, signature=signature)
