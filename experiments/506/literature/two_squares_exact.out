@@ -1,0 +1,9 @@
+two squares ratio 2 (ours): exact circles = 18 degenerate? False
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 2 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 3 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 5 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 7 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 5/2 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 7/3 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 10/3 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}
+ axis-aligned squares (+-1,+-1),(+-r,+-r), r = 37/10 : circles = 18 collinear triples = 8 circle sizes = {4: 10, 3: 8}

@@ -1,0 +1,20 @@
+n=9 target=24: C(n,3)=84 cap_derived=24 cap_lines=31 ell_max=10 D_min=50 big sizes=[5, 6, 7, 8] include_empty=False
+phase 1: 8 canonical big-block families
+F_big sizes=[5] D0=9 |Aut|=2880
+   done in 3.3s, nodes so far 4517
+F_big sizes=[5, 5] D0=18 |Aut|=144
+   done in 0.1s, nodes so far 4855
+F_big sizes=[5, 5, 5] D0=27 |Aut|=48
+   done in 0.0s, nodes so far 4866
+F_big sizes=[5, 5] D0=18 |Aut|=1152
+  candidate: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=6 count=24 degrees=[2, 7, 7, 7, 7, 7, 7, 7, 7] #line-sets=24
+   done in 0.0s, nodes so far 4920
+F_big sizes=[5, 6] D0=28 |Aut|=288
+   done in 0.0s, nodes so far 4924
+F_big sizes=[6] D0=19 |Aut|=4320
+   done in 0.1s, nodes so far 4977
+F_big sizes=[7] D0=34 |Aut|=10080
+   done in 0.0s, nodes so far 4980
+F_big sizes=[8] D0=55 |Aut|=40320
+   done in 0.0s, nodes so far 4981
+nodes 4981; candidates with count <= 24: 1

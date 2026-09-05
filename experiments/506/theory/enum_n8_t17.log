@@ -1,0 +1,3 @@
+n=8 target=17: C(n,3)=56, cap_derived=18, cap_lines=24, ell_max=8, D_min=31
+  candidate: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=36 ell_max=3 count=17 degrees=[6, 6, 6, 6, 6, 6, 6, 6] #line-sets=48
+nodes visited: 166; candidate structures with count <= 17: 1

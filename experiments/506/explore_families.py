@@ -72,11 +72,15 @@ def evaluate(pts):
     cand=defaultdict(int)
     ptkeys=set((key(x),key(y)) for x,y in pts)
     seen=defaultdict(set)
+    def near_P(x,y):
+        # BUG FIX (2026-09-05): reject inversion centres within 1e-5 of a point of P
+        # (exact key match failed on rounded intersection coordinates and let points of P be chosen as O).
+        return any(abs(x-px)<1e-5 and abs(y-py)<1e-5 for px,py in pts)
     for i in range(len(bl)):
         for j in range(i+1,len(bl)):
             for (x,y) in circ_line_intersections(bl[i],bl[j]):
+                if near_P(x,y): continue
                 k=(round(x/1e-5),round(y/1e-5))
-                if (key(x),key(y)) in ptkeys: continue
                 seen[k].add(i); seen[k].add(j)
     bestdeg=lines; bestO='inf'
     for k,s in seen.items():
@@ -116,83 +120,84 @@ def dedupe(pts):
     for p in pts:
         if all(abs(p[0]-q[0])>1e-7 or abs(p[1]-q[1])>1e-7 for q in out): out.append(p)
     return out
-ratios=[2,3,1.5,math.sqrt(2),math.sqrt(3),(1+math.sqrt(5))/2,2.5,1/math.cos(math.pi/4),1/math.cos(math.pi/3),1/math.cos(math.pi/5),1/math.cos(math.pi/6),1/math.cos(math.pi/8),1/math.cos(math.pi/10),1/math.cos(math.pi/12)]
-# (A) concentric polygons
-for m in range(3,11):
-    for k in (1,2,3):
-        for rots in itertools.product([0,1],repeat=k):
-            for rs in itertools.product(range(len(ratios)),repeat=k-1):
-                radii=[1.0]
-                for i in rs: radii.append(radii[-1]*ratios[i])
-                pts=[]
-                for layer in range(k): pts+=poly(m,radii[layer],rots[layer]*math.pi/m)
-                for centre in (0,1):
-                    P=pts+([(0.0,0.0)] if centre else [])
-                    consider(f"{k}x{m}-gon rot={rots} radii={[round(x,3) for x in radii]} centre={centre}",P)
-print("done A",flush=True)
-# (B) star polygons: m-gon + intersections of step-s diagonals
-for m in range(4,11):
-    V=poly(m,1.0,0)
-    for s in range(2,m//2+1):
-        diag=[(V[i],V[(i+s)%m]) for i in range(m)]
-        inter=[]
-        for d1,d2 in itertools.combinations(diag,2):
-            q=seg_inter(*d1,*d2)
-            if q is not None and math.hypot(*q)<0.999: inter.append(q)
-        inter=dedupe(inter)
-        for centre in (0,1):
-            P=dedupe(V+inter+([(0.0,0.0)] if centre else []))
-            consider(f"star {m}/{s} +inner({len(inter)}) centre={centre}",P)
-            P2=dedupe(inter+([(0.0,0.0)] if centre else []))
-            consider(f"star {m}/{s} inner only({len(inter)}) centre={centre}",P2)
-print("done B",flush=True)
-# (C) grids and cube/hypercube projections
-for a in range(2,6):
-    for b in range(2,6):
-        P=[(float(i),float(j)) for i in range(a) for j in range(b)]
-        consider(f"grid {a}x{b}",P)
-        consider(f"grid {a}x{b} + centre",dedupe(P+[((a-1)/2,(b-1)/2)]))
-for d in [(1,1,1),(1,1,0.5),(1,0.5,0.3),(1,2,3),(0.2,0.3,1),(1,1,0.001),(1,0.3,0)]:
-    nd=math.sqrt(sum(y*y for y in d)); d=[x/nd for x in d]
-    u=[-d[1],d[0],0]; nu=math.hypot(*u)
-    if nu<1e-9: continue
-    u=[x/nu for x in u]
-    v=[d[1]*u[2]-d[2]*u[1], d[2]*u[0]-d[0]*u[2], d[0]*u[1]-d[1]*u[0]]
-    for dim in (3,4):
-        P=[]
-        for c in itertools.product([0,1],repeat=dim):
-            cc=list(c)+[0]*(3-dim) if dim<3 else c
-            # for dim 4 use a 4d->3d projection first: (x,y,z,w)->(x+0.3w, y+0.6w, z+0.9w)
-            if dim==4: cc=(c[0]+0.3*c[3], c[1]+0.6*c[3], c[2]+0.9*c[3])
-            P.append((sum(cc[i]*u[i] for i in range(3)), sum(cc[i]*v[i] for i in range(3))))
-        consider(f"{dim}-cube proj d={[round(x,3) for x in d]}",dedupe(P))
-print("done C",flush=True)
-# (D) greedy deletion from rich seeds
-seeds=[("grid4x4",[(float(i),float(j)) for i in range(4) for j in range(4)]),
-       ("grid5x5",[(float(i),float(j)) for i in range(5) for j in range(5)]),
-       ("2x8gon+c",poly(8,1,0)+poly(8,math.sqrt(2),0)+[(0.0,0.0)]),
-       ("2x6gon+c",poly(6,1,0)+poly(6,2,0)+[(0.0,0.0)]),
-       ("3x4gon+c",poly(4,1,0)+poly(4,2,0)+poly(4,3,0)+[(0.0,0.0)]),
-       ("2x5+2x5",poly(5,1,0)+poly(5,(1+math.sqrt(5))/2,math.pi/5)+poly(5,2.2,0)+poly(5,2.2*(1+math.sqrt(5))/2,math.pi/5)),
-       ("2x10gon",poly(10,1,0)+poly(10,1/math.cos(math.pi/10),math.pi/10)),
-       ("grid4x4+diagcentres",[(float(i),float(j)) for i in range(4) for j in range(4)]+[(1.5,1.5)]),
-       ]
-for name,S in seeds:
-    S=dedupe(S)
-    cur=list(S)
-    consider(name,cur)
-    while len(cur)>5:
-        bestc=None
-        for i in range(len(cur)):
-            Q=cur[:i]+cur[i+1:]
-            r=evaluate(Q)
-            if r is None: continue
-            if bestc is None or r[0]<bestc[0]: bestc=(r[0],i)
-        if bestc is None: break
-        cur=cur[:bestc[1]]+cur[bestc[1]+1:]
-        consider(f"{name} greedy-del -> {len(cur)}",cur)
-print("done D",flush=True)
-for n in sorted(best):
-    c,eu,nb,O,name=best[n]
-    flag="  <-- BELOW FORMULA" if c<formula(n) else ""
-    print(f"n={n:2d} formula={formula(n):3d} best={c:3d} (euclid={eu}, blocks={nb}, O={O if O=='inf' else tuple(round(v,4) for v in O)}) {name}{flag}")
+if __name__ == '__main__':
+    ratios=[2,3,1.5,math.sqrt(2),math.sqrt(3),(1+math.sqrt(5))/2,2.5,1/math.cos(math.pi/4),1/math.cos(math.pi/3),1/math.cos(math.pi/5),1/math.cos(math.pi/6),1/math.cos(math.pi/8),1/math.cos(math.pi/10),1/math.cos(math.pi/12)]
+    # (A) concentric polygons
+    for m in range(3,11):
+        for k in (1,2,3):
+            for rots in itertools.product([0,1],repeat=k):
+                for rs in itertools.product(range(len(ratios)),repeat=k-1):
+                    radii=[1.0]
+                    for i in rs: radii.append(radii[-1]*ratios[i])
+                    pts=[]
+                    for layer in range(k): pts+=poly(m,radii[layer],rots[layer]*math.pi/m)
+                    for centre in (0,1):
+                        P=pts+([(0.0,0.0)] if centre else [])
+                        consider(f"{k}x{m}-gon rot={rots} radii={[round(x,3) for x in radii]} centre={centre}",P)
+    print("done A",flush=True)
+    # (B) star polygons: m-gon + intersections of step-s diagonals
+    for m in range(4,11):
+        V=poly(m,1.0,0)
+        for s in range(2,m//2+1):
+            diag=[(V[i],V[(i+s)%m]) for i in range(m)]
+            inter=[]
+            for d1,d2 in itertools.combinations(diag,2):
+                q=seg_inter(*d1,*d2)
+                if q is not None and math.hypot(*q)<0.999: inter.append(q)
+            inter=dedupe(inter)
+            for centre in (0,1):
+                P=dedupe(V+inter+([(0.0,0.0)] if centre else []))
+                consider(f"star {m}/{s} +inner({len(inter)}) centre={centre}",P)
+                P2=dedupe(inter+([(0.0,0.0)] if centre else []))
+                consider(f"star {m}/{s} inner only({len(inter)}) centre={centre}",P2)
+    print("done B",flush=True)
+    # (C) grids and cube/hypercube projections
+    for a in range(2,6):
+        for b in range(2,6):
+            P=[(float(i),float(j)) for i in range(a) for j in range(b)]
+            consider(f"grid {a}x{b}",P)
+            consider(f"grid {a}x{b} + centre",dedupe(P+[((a-1)/2,(b-1)/2)]))
+    for d in [(1,1,1),(1,1,0.5),(1,0.5,0.3),(1,2,3),(0.2,0.3,1),(1,1,0.001),(1,0.3,0)]:
+        nd=math.sqrt(sum(y*y for y in d)); d=[x/nd for x in d]
+        u=[-d[1],d[0],0]; nu=math.hypot(*u)
+        if nu<1e-9: continue
+        u=[x/nu for x in u]
+        v=[d[1]*u[2]-d[2]*u[1], d[2]*u[0]-d[0]*u[2], d[0]*u[1]-d[1]*u[0]]
+        for dim in (3,4):
+            P=[]
+            for c in itertools.product([0,1],repeat=dim):
+                cc=list(c)+[0]*(3-dim) if dim<3 else c
+                # for dim 4 use a 4d->3d projection first: (x,y,z,w)->(x+0.3w, y+0.6w, z+0.9w)
+                if dim==4: cc=(c[0]+0.3*c[3], c[1]+0.6*c[3], c[2]+0.9*c[3])
+                P.append((sum(cc[i]*u[i] for i in range(3)), sum(cc[i]*v[i] for i in range(3))))
+            consider(f"{dim}-cube proj d={[round(x,3) for x in d]}",dedupe(P))
+    print("done C",flush=True)
+    # (D) greedy deletion from rich seeds
+    seeds=[("grid4x4",[(float(i),float(j)) for i in range(4) for j in range(4)]),
+           ("grid5x5",[(float(i),float(j)) for i in range(5) for j in range(5)]),
+           ("2x8gon+c",poly(8,1,0)+poly(8,math.sqrt(2),0)+[(0.0,0.0)]),
+           ("2x6gon+c",poly(6,1,0)+poly(6,2,0)+[(0.0,0.0)]),
+           ("3x4gon+c",poly(4,1,0)+poly(4,2,0)+poly(4,3,0)+[(0.0,0.0)]),
+           ("2x5+2x5",poly(5,1,0)+poly(5,(1+math.sqrt(5))/2,math.pi/5)+poly(5,2.2,0)+poly(5,2.2*(1+math.sqrt(5))/2,math.pi/5)),
+           ("2x10gon",poly(10,1,0)+poly(10,1/math.cos(math.pi/10),math.pi/10)),
+           ("grid4x4+diagcentres",[(float(i),float(j)) for i in range(4) for j in range(4)]+[(1.5,1.5)]),
+           ]
+    for name,S in seeds:
+        S=dedupe(S)
+        cur=list(S)
+        consider(name,cur)
+        while len(cur)>5:
+            bestc=None
+            for i in range(len(cur)):
+                Q=cur[:i]+cur[i+1:]
+                r=evaluate(Q)
+                if r is None: continue
+                if bestc is None or r[0]<bestc[0]: bestc=(r[0],i)
+            if bestc is None: break
+            cur=cur[:bestc[1]]+cur[bestc[1]+1:]
+            consider(f"{name} greedy-del -> {len(cur)}",cur)
+    print("done D",flush=True)
+    for n in sorted(best):
+        c,eu,nb,O,name=best[n]
+        flag="  <-- BELOW FORMULA" if c<formula(n) else ""
+        print(f"n={n:2d} formula={formula(n):3d} best={c:3d} (euclid={eu}, blocks={nb}, O={O if O=='inf' else tuple(round(v,4) for v in O)}) {name}{flag}")

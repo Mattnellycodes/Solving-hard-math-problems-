@@ -1,0 +1,66 @@
+57 families
+D7 A n=7 p=1 K=15: 0 roots, 1 evals, 0.0s
+D7 A I n=8 p=1 K=15: 0 roots, 1 evals, 0.0s
+D7 A C n=8 p=1 K=15: 0 roots, 1 evals, 0.0s
+D8 A n=8 p=1 K=22: 0 roots, 1 evals, 0.0s
+D7 A C I n=9 p=1 K=15: 0 roots, 1 evals, 0.0s
+D8 A I n=9 p=1 K=22: 0 roots, 1 evals, 0.0s
+D8 A C n=9 p=1 K=22: 0 roots, 1 evals, 0.0s
+D9 A n=9 p=1 K=28: 0 roots, 1 evals, 0.0s
+D8 A C I n=10 p=1 K=22: 0 roots, 1 evals, 0.0s
+D9 A I n=10 p=1 K=28: 0 roots, 1 evals, 0.0s
+D9 A C n=10 p=1 K=28: 0 roots, 1 evals, 0.0s
+D10 A n=10 p=1 K=37: 0 roots, 1 evals, 0.0s
+D9 A C I n=11 p=1 K=28: 0 roots, 1 evals, 0.0s
+D10 A I n=11 p=1 K=37: 0 roots, 1 evals, 0.0s
+D10 A C n=11 p=1 K=37: 0 roots, 1 evals, 0.0s
+D11 A n=11 p=1 K=45: 0 roots, 1 evals, 0.0s
+D10 A C I n=12 p=1 K=37: 0 roots, 1 evals, 0.0s
+D11 A I n=12 p=1 K=45: 0 roots, 1 evals, 0.0s
+D11 A C n=12 p=1 K=45: 0 roots, 1 evals, 0.0s
+D12 A n=12 p=1 K=59: 0 roots, 1 evals, 0.0s
+D11 A C I n=13 p=1 K=45: 0 roots, 1 evals, 0.0s
+D12 A I n=13 p=1 K=59: 0 roots, 1 evals, 0.0s
+D12 A C n=13 p=1 K=59: 0 roots, 1 evals, 0.0s
+D7 G n=14 p=2 K=144: 6 roots, 6 evals, 0.9s
+D7 A A n=14 p=2 K=156: 50 roots, 15 evals, 1.9s
+D7 A B n=14 p=2 K=156: 90 roots, 18 evals, 2.1s
+D12 A C I n=14 p=1 K=59: 0 roots, 1 evals, 0.0s
+D7 A A I n=15 p=2 K=156: 50 roots, 15 evals, 2.9s
+D7 A A C n=15 p=2 K=156: 50 roots, 15 evals, 2.9s
+D7 G I n=15 p=2 K=144: 6 roots, 6 evals, 0.8s
+D7 G C n=15 p=2 K=144: 6 roots, 6 evals, 0.8s
+D7 A B I n=15 p=2 K=156: 90 roots, 18 evals, 3.1s
+D7 A B C n=15 p=2 K=156: 90 roots, 18 evals, 3.1s
+D7 A B C I n=16 p=2 K=156: 90 roots, 18 evals, 5.0s
+D7 A A C I n=16 p=2 K=156: 50 roots, 15 evals, 4.5s
+D7 G C I n=16 p=2 K=144: 6 roots, 6 evals, 1.3s
+D8 A B n=16 p=2 K=226: 90 roots, 18 evals, 3.6s
+D8 G n=16 p=2 K=212: 0 roots, 6 evals, 1.0s
+D8 A A n=16 p=2 K=233: 50 roots, 14 evals, 3.0s
+D8 A B I n=17 p=2 K=226: 90 roots, 18 evals, 6.4s
+D8 A B C n=17 p=2 K=226: 90 roots, 18 evals, 5.5s
+D8 A A I n=17 p=2 K=233: 50 roots, 14 evals, 4.2s
+D8 A A C n=17 p=2 K=233: 50 roots, 14 evals, 4.1s
+D8 G I n=17 p=2 K=212: 0 roots, 6 evals, 1.2s
+D8 G C n=17 p=2 K=212: 0 roots, 6 evals, 1.3s
+D8 A A C I n=18 p=2 K=233: 50 roots, 14 evals, 6.9s
+D8 G C I n=18 p=2 K=212: 0 roots, 6 evals, 1.9s
+D8 A B C I n=18 p=2 K=226: 90 roots, 18 evals, 11.4s
+D9 A B n=18 p=2 K=309: 130 roots, 20 evals, 5.6s
+D9 G n=18 p=2 K=293: 6 roots, 6 evals, 1.5s
+D9 A A n=18 p=2 K=309: 90 roots, 19 evals, 5.3s
+D9 A A I n=19 p=2 K=309: 90 roots, 19 evals, 10.3s
+D9 A A C n=19 p=2 K=309: 90 roots, 19 evals, 10.2s
+D9 G I n=19 p=2 K=293: 6 roots, 6 evals, 1.7s
+D9 G C n=19 p=2 K=293: 6 roots, 6 evals, 1.9s
+D9 A B I n=19 p=2 K=309: 130 roots, 20 evals, 10.6s
+D9 A B C n=19 p=2 K=309: 130 roots, 20 evals, 10.2s
+SUMMARY
+n= 9 formula= 25 best= 25 D8 A C params=[1.0] (2 structures)
+n=11 formula= 41 best= 41 D10 A C params=[1.0] (2 structures)
+n=13 formula= 61 best= 61 D12 A C params=[1.0] (2 structures)
+n=15 formula= 85 best= 85 D7 A B C params=[1.0, 1.0] (2 structures)
+n=17 formula=113 best=113 D8 A B I params=[1.0, 1.0] (2 structures)
+n=19 formula=145 best=145 D9 G I params=[1.0, 0.17453] (2 structures)
+n=21 formula=181 best=181 D10 G I params=[1.0, 0.15708] (2 structures)

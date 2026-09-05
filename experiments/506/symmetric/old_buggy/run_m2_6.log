@@ -1,0 +1,124 @@
+230 families
+D2 A B I n=5 p=2 K=8: 10 roots, 11 evals, 0.1s
+D2 G I n=5 p=2 K=6: 0 roots, 6 evals, 0.0s
+  NEW n=5 best=5 (formula 5) D2 G C params=[1.0, 0.785398] nb=7 deg=2 lines=2 base
+D2 G C n=5 p=2 K=6: 0 roots, 6 evals, 0.0s
+D2 A A I n=5 p=2 K=14: 0 roots, 10 evals, 0.0s
+D2 A B C n=5 p=2 K=8: 10 roots, 11 evals, 0.1s
+D2 A A C n=5 p=2 K=14: 0 roots, 10 evals, 0.0s
+D3 A C I n=5 p=1 K=3: 0 roots, 1 evals, 0.0s
+D4 A C n=5 p=1 K=5: 0 roots, 1 evals, 0.0s
+D4 A I n=5 p=1 K=5: 0 roots, 1 evals, 0.0s
+D5 A n=5 p=1 K=7: 0 roots, 1 evals, 0.0s
+D2 A A B n=6 p=3 K=56: 169 roots, 69 evals, 2.0s
+D2 A B B n=6 p=3 K=56: 245 roots, 76 evals, 2.3s
+D2 A A A n=6 p=3 K=69: 0 roots, 24 evals, 1.0s
+D2 G C I n=6 p=2 K=6: 0 roots, 6 evals, 0.0s
+D2 A A C I n=6 p=2 K=14: 0 roots, 10 evals, 0.0s
+D2 A B C I n=6 p=2 K=8: 10 roots, 11 evals, 0.1s
+  NEW n=6 best=9 (formula 9) D2 A G params=[1.0, 1.414214, 0.785398] nb=11 deg=2 lines=2 base
+D2 A G n=6 p=3 K=24: 160 roots, 59 evals, 0.8s
+D3 G n=6 p=2 K=16: 6 roots, 6 evals, 0.0s
+  NEW n=6 best=8 (formula 9) D3 A B params=[1.0, 2.0] nb=11 deg=3 lines=3 base
+D3 A B n=6 p=2 K=20: 30 roots, 10 evals, 0.1s
+D3 A A n=6 p=2 K=65: 10 roots, 10 evals, 0.2s
+D4 A C I n=6 p=1 K=5: 0 roots, 1 evals, 0.0s
+D5 A C n=6 p=1 K=7: 0 roots, 1 evals, 0.0s
+D5 A I n=6 p=1 K=7: 0 roots, 1 evals, 0.0s
+D6 A n=6 p=1 K=12: 0 roots, 1 evals, 0.0s
+  NEW n=7 best=13 (formula 13) D2 A G C params=[1.0, 1.0, 0.785398] nb=16 deg=3 lines=3 root p1 lvl0
+D2 A G C n=7 p=3 K=24: 114 roots, 46 evals, 0.6s
+D2 A B B I n=7 p=3 K=56: 130 roots, 62 evals, 1.3s
+D2 A B B C n=7 p=3 K=56: 130 roots, 62 evals, 1.3s
+  NEW n=7 best=13 (formula 13) D2 A G I params=[1.0, 1.0, 0.785398] nb=16 deg=3 lines=15 root p1 lvl0
+D2 A G I n=7 p=3 K=24: 114 roots, 46 evals, 0.6s
+D2 A A B I n=7 p=3 K=56: 93 roots, 55 evals, 1.1s
+D2 A A A C n=7 p=3 K=69: 0 roots, 24 evals, 1.0s
+D2 A A B C n=7 p=3 K=56: 93 roots, 55 evals, 1.1s
+D2 A A A I n=7 p=3 K=69: 0 roots, 24 evals, 1.0s
+D3 A A I n=7 p=2 K=65: 10 roots, 10 evals, 0.3s
+  NEW n=7 best=11 (formula 13) D3 A B C params=[1.0, 2.0] nb=17 deg=6 lines=6 base
+D3 A B C n=7 p=2 K=20: 30 roots, 10 evals, 0.1s
+D3 A A C n=7 p=2 K=65: 10 roots, 10 evals, 0.3s
+  NEW n=7 best=11 (formula 13) D3 A B I params=[1.0, 2.0] nb=17 deg=6 lines=9 base
+D3 A B I n=7 p=2 K=20: 30 roots, 10 evals, 0.1s
+D3 G I n=7 p=2 K=16: 6 roots, 6 evals, 0.0s
+D3 G C n=7 p=2 K=16: 6 roots, 6 evals, 0.0s
+D5 A C I n=7 p=1 K=7: 0 roots, 1 evals, 0.0s
+D6 A C n=7 p=1 K=12: 0 roots, 1 evals, 0.0s
+D6 A I n=7 p=1 K=12: 0 roots, 1 evals, 0.0s
+D2 A A A C I n=8 p=3 K=69: 0 roots, 24 evals, 1.1s
+D2 A A B C I n=8 p=3 K=56: 93 roots, 55 evals, 1.2s
+D2 A G C I n=8 p=3 K=24: 96 roots, 46 evals, 0.6s
+D2 A B B C I n=8 p=3 K=56: 120 roots, 60 evals, 1.2s
+  NEW n=8 best=19 (formula 19) D2 A A G params=[1.0, 4.0, 2.0, 0.643501] nb=20 deg=1 lines=1 root p3 lvl1
+D2 A A G n=8 p=4 K=146: 337 roots, 273 evals, 5.6s
+  NEW n=8 best=18 (formula 19) D2 G G params=[1.0, 0.314159, 1.414214, 0.314159] nb=20 deg=2 lines=2 base
+  NEW n=8 best=17 (formula 19) D2 G G params=[1.0, 0.523599, 4.0, 0.523599] nb=20 deg=3 lines=2 base
+D2 G G n=8 p=4 K=195: 778 roots, 394 evals, 16.2s
+D2 A B G n=8 p=4 K=66: 789 roots, 702 evals, 3.8s
+D3 G C I n=8 p=2 K=16: 6 roots, 6 evals, 0.1s
+D3 A A C I n=8 p=2 K=65: 10 roots, 10 evals, 0.2s
+D3 A B C I n=8 p=2 K=20: 30 roots, 10 evals, 0.1s
+D4 A A n=8 p=2 K=195: 10 roots, 10 evals, 0.8s
+D4 G n=8 p=2 K=33: 0 roots, 6 evals, 0.1s
+D4 A B n=8 p=2 K=39: 30 roots, 11 evals, 0.2s
+D6 A C I n=8 p=1 K=12: 0 roots, 1 evals, 0.0s
+D2 A A G C n=9 p=4 K=146: 290 roots, 266 evals, 4.7s
+D2 A B G I n=9 p=4 K=66: 789 roots, 702 evals, 6.1s
+D2 A B G C n=9 p=4 K=66: 789 roots, 702 evals, 6.1s
+  NEW n=9 best=25 (formula 25) D2 G G I params=[1.0, 0.523599, 1.0, 0.314159] nb=29 deg=4 lines=28 root p2 lvl0
+D2 G G I n=9 p=4 K=195: 356 roots, 226 evals, 8.6s
+D2 A A G I n=9 p=4 K=146: 290 roots, 266 evals, 4.7s
+  NEW n=9 best=25 (formula 25) D2 G G C params=[1.0, 0.523599, 1.0, 0.314159] nb=29 deg=4 lines=4 root p2 lvl0
+D2 G G C n=9 p=4 K=195: 356 roots, 226 evals, 8.4s
+D3 A G n=9 p=3 K=66: 232 roots, 81 evals, 1.3s
+D3 A A B n=9 p=3 K=263: 376 roots, 145 evals, 6.0s
+D3 A B B n=9 p=3 K=263: 307 roots, 123 evals, 10.4s
+D3 A A A n=9 p=3 K=325: 96 roots, 48 evals, 13.6s
+D4 A B I n=9 p=2 K=39: 30 roots, 11 evals, 0.4s
+D4 A A C n=9 p=2 K=195: 10 roots, 10 evals, 1.4s
+D4 G C n=9 p=2 K=33: 0 roots, 6 evals, 0.1s
+D4 G I n=9 p=2 K=33: 0 roots, 6 evals, 0.1s
+D4 A B C n=9 p=2 K=39: 30 roots, 11 evals, 0.4s
+D4 A A I n=9 p=2 K=195: 10 roots, 10 evals, 1.3s
+D2 A G G n=10 p=5 K=426: 1448 roots, 1427 evals, 60.9s
+D2 A B G C I n=10 p=4 K=66: 789 roots, 702 evals, 30.9s
+D2 A A G C I n=10 p=4 K=146: 290 roots, 266 evals, 20.4s
+D2 G G C I n=10 p=4 K=195: 269 roots, 222 evals, 21.3s
+D3 A A B I n=10 p=3 K=263: 376 roots, 145 evals, 19.2s
+D3 A A A C n=10 p=3 K=325: 96 roots, 48 evals, 22.0s
+D3 A A B C n=10 p=3 K=263: 376 roots, 145 evals, 19.2s
+D3 A A A I n=10 p=3 K=325: 96 roots, 48 evals, 19.6s
+D3 A G C n=10 p=3 K=66: 278 roots, 81 evals, 8.1s
+D3 A B B I n=10 p=3 K=263: 307 roots, 123 evals, 21.5s
+D3 A B B C n=10 p=3 K=263: 307 roots, 123 evals, 20.8s
+D3 A G I n=10 p=3 K=66: 278 roots, 81 evals, 7.8s
+D4 G C I n=10 p=2 K=33: 0 roots, 6 evals, 0.3s
+D4 A A C I n=10 p=2 K=195: 10 roots, 10 evals, 2.7s
+D4 A B C I n=10 p=2 K=39: 30 roots, 11 evals, 0.9s
+D5 A B n=10 p=2 K=65: 50 roots, 15 evals, 1.2s
+D5 A A n=10 p=2 K=460: 30 roots, 13 evals, 7.8s
+D5 G n=10 p=2 K=57: 6 roots, 6 evals, 0.5s
+D2 A G G I n=11 p=5 K=426: 529 roots, 544 evals, 61.1s
+D2 A G G C n=11 p=5 K=426: 800 roots, 782 evals, 61.0s
+D3 A A A C I n=11 p=3 K=325: 96 roots, 48 evals, 17.2s
+D3 A A B C I n=11 p=3 K=263: 376 roots, 145 evals, 18.7s
+D3 A G C I n=11 p=3 K=66: 232 roots, 81 evals, 7.3s
+D3 A B B C I n=11 p=3 K=263: 307 roots, 123 evals, 18.3s
+  NEW n=11 best=41 (formula 41) D5 A B I params=[1.0, 1.0] nb=46 deg=5 lines=45 root p1 lvl0
+D5 A B I n=11 p=2 K=65: 50 roots, 15 evals, 1.2s
+  NEW n=11 best=41 (formula 41) D5 A B C params=[1.0, 1.0] nb=46 deg=5 lines=5 root p1 lvl0
+D5 A B C n=11 p=2 K=65: 50 roots, 15 evals, 1.2s
+D5 A A C n=11 p=2 K=460: 30 roots, 13 evals, 6.6s
+D5 G I n=11 p=2 K=57: 6 roots, 6 evals, 0.4s
+D5 G C n=11 p=2 K=57: 6 roots, 6 evals, 0.4s
+D5 A A I n=11 p=2 K=460: 30 roots, 13 evals, 6.6s
+D2 G G G n=12 p=6 K=986: 383 roots, 405 evals, 63.8s
+D2 A G G C I n=12 p=5 K=426: 345 roots, 367 evals, 61.6s
+D3 A B G n=12 p=4 K=190: 623 roots, 606 evals, 62.1s
+D3 A A G n=12 p=4 K=687: 370 roots, 394 evals, 61.8s
+D3 G G n=12 p=4 K=931: 294 roots, 302 evals, 62.5s
+D4 A G n=12 p=3 K=144: 263 roots, 91 evals, 10.8s
+D4 A A B n=12 p=3 K=796: 594 roots, 244 evals, 60.4s
+D4 A B B n=12 p=3 K=796: 526 roots, 235 evals, 60.7s

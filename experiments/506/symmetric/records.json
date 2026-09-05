@@ -1,0 +1,4403 @@
+[
+ {
+  "n": 5,
+  "circles": 5,
+  "formula_value": 5,
+  "float_best": 5,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: regular 2-gon (vertices at angles 2*pi*k/2) radius 1; regular 2-gon (vertices at angles (2k+1)*pi/2) radius 1; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 7 (sizes {4: 1, 3: 6}), deg(O) = 2.",
+  "family": "D2 A B C",
+  "m": 2,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 7,
+  "moebius_block_sizes": [
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 2,
+  "block_sizes": "circles: 4^1 3^4; lines: 3^2",
+  "collinear_triples": 2,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "0",
+    "1"
+   ],
+   [
+    "0",
+    "-1"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 6,
+  "circles": 8,
+  "formula_value": 9,
+  "float_best": 8,
+  "exact_matches_float": true,
+  "construction": "D_3-symmetric Moebius configuration: regular 3-gon (vertices at angles 2*pi*k/3) radius 1; regular 3-gon (vertices at angles (2k+1)*pi/3) radius 2. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 11 (sizes {4: 3, 3: 8}), deg(O) = 3.",
+  "family": "D3 A B",
+  "m": 3,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   2.0
+  ],
+  "params_exact": [
+   "1",
+   "2"
+  ],
+  "moebius_blocks": 11,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 3,
+  "block_sizes": "circles: 4^3 3^5; lines: 3^3",
+  "collinear_triples": 3,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1/2",
+    "sqrt(3)/2"
+   ],
+   [
+    "-1/2",
+    "-sqrt(3)/2"
+   ],
+   [
+    "1",
+    "sqrt(3)"
+   ],
+   [
+    "-2",
+    "0"
+   ],
+   [
+    "1",
+    "-sqrt(3)"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    -0.5,
+    0.8660254037844386
+   ],
+   [
+    -0.5,
+    -0.8660254037844386
+   ],
+   [
+    1.0,
+    1.7320508075688772
+   ],
+   [
+    -2.0,
+    0.0
+   ],
+   [
+    1.0,
+    -1.7320508075688772
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 6,
+  "circles": 8,
+  "formula_value": 9,
+  "float_best": 8,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: regular 2-gon (vertices at angles 2*pi*k/2) radius 1; generic D_2 orbit of 4 points, radius -1 + sqrt(2), angles +-(pi/4) + 2*pi*k/2. Inverted about the point O = (-0.171573, -0.000000) (exact: intersection of the blocks [[0, 2, 4], [0, 3, 5]]), which lies on 3 blocks. Moebius blocks: 11 (sizes {4: 3, 3: 8}), deg(O) = 3.",
+  "family": "D2 A G",
+  "m": 2,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "G"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.414213562,
+   0.7853981633974483
+  ],
+  "params_exact": [
+   "1",
+   "-1 + sqrt(2)",
+   "pi/4"
+  ],
+  "moebius_blocks": 11,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 3,
+  "block_sizes": "circles: 4^3 3^5; lines: 3^3",
+  "collinear_triples": 3,
+  "coordinates_exact": [
+   [
+    "-5/2 + 9*sqrt(2)/4",
+    "0"
+   ],
+   [
+    "-7/2 + 3*sqrt(2)/2",
+    "0"
+   ],
+   [
+    "-13/6 + 5*sqrt(2)/2",
+    "sqrt(2)/3 + 1/2"
+   ],
+   [
+    "-13/6 + 5*sqrt(2)/2",
+    "-1/2 - sqrt(2)/3"
+   ],
+   [
+    "-7/2 + 3*sqrt(2)/2",
+    "-3/2 - sqrt(2)"
+   ],
+   [
+    "-7/2 + 3*sqrt(2)/2",
+    "sqrt(2) + 3/2"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.6819805153394639,
+    0.0
+   ],
+   [
+    -1.3786796564403574,
+    0.0
+   ],
+   [
+    1.368867239266071,
+    0.9714045207910317
+   ],
+   [
+    1.368867239266071,
+    -0.9714045207910317
+   ],
+   [
+    -1.3786796564403574,
+    -2.914213562373095
+   ],
+   [
+    -1.3786796564403574,
+    2.914213562373095
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 7,
+  "circles": 11,
+  "formula_value": 13,
+  "float_best": 11,
+  "exact_matches_float": true,
+  "construction": "D_3-symmetric Moebius configuration: regular 3-gon (vertices at angles 2*pi*k/3) radius 1; regular 3-gon (vertices at angles (2k+1)*pi/3) radius 2; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 17 (sizes {4: 6, 3: 11}), deg(O) = 6.",
+  "family": "D3 A B C",
+  "m": 3,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   2.0
+  ],
+  "params_exact": [
+   "1",
+   "2"
+  ],
+  "moebius_blocks": 17,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 6,
+  "block_sizes": "circles: 4^6 3^5; lines: 3^6",
+  "collinear_triples": 6,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1/2",
+    "sqrt(3)/2"
+   ],
+   [
+    "-1/2",
+    "-sqrt(3)/2"
+   ],
+   [
+    "1",
+    "sqrt(3)"
+   ],
+   [
+    "-2",
+    "0"
+   ],
+   [
+    "1",
+    "-sqrt(3)"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    -0.5,
+    0.8660254037844386
+   ],
+   [
+    -0.5,
+    -0.8660254037844386
+   ],
+   [
+    1.0,
+    1.7320508075688772
+   ],
+   [
+    -2.0,
+    0.0
+   ],
+   [
+    1.0,
+    -1.7320508075688772
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 7,
+  "circles": 11,
+  "formula_value": 13,
+  "float_best": 11,
+  "exact_matches_float": true,
+  "construction": "D_3-symmetric Moebius configuration: regular 3-gon (vertices at angles 2*pi*k/3) radius 1; regular 3-gon (vertices at angles (2k+1)*pi/3) radius 2; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, 0.000000) (exact: intersection of the blocks [[0, 1, 3], [0, 2, 5]]), which lies on 6 blocks. Moebius blocks: 17 (sizes {4: 6, 3: 11}), deg(O) = 6.",
+  "family": "D3 A B I",
+  "m": 3,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   2.0
+  ],
+  "params_exact": [
+   "1",
+   "2"
+  ],
+  "moebius_blocks": 17,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 6,
+  "block_sizes": "circles: 4^6 3^5; lines: 3^6",
+  "collinear_triples": 6,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1/2",
+    "sqrt(3)/2"
+   ],
+   [
+    "-1/2",
+    "-sqrt(3)/2"
+   ],
+   [
+    "1/4",
+    "sqrt(3)/4"
+   ],
+   [
+    "-1/2",
+    "0"
+   ],
+   [
+    "1/4",
+    "-sqrt(3)/4"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    -0.5,
+    0.8660254037844386
+   ],
+   [
+    -0.5,
+    -0.8660254037844386
+   ],
+   [
+    0.25,
+    0.4330127018922193
+   ],
+   [
+    -0.5,
+    0.0
+   ],
+   [
+    0.25,
+    -0.4330127018922193
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 8,
+  "circles": 17,
+  "formula_value": 19,
+  "float_best": 17,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: generic D_2 orbit of 4 points, radius 1, angles +-(pi/6) + 2*pi*k/2; generic D_2 orbit of 4 points, radius 4, angles +-(pi/6) + 2*pi*k/2. Inverted about the point O = (-0.000000, 1.000000) (exact: intersection of the blocks [[0, 1, 2, 3], [0, 5, 7]]), which lies on 3 blocks. Moebius blocks: 20 (sizes {4: 12, 3: 8}), deg(O) = 3.",
+  "family": "D2 G G",
+  "m": 2,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "G"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.5235987755982988,
+   4.0,
+   0.5235987755982988
+  ],
+  "params_exact": [
+   "1",
+   "pi/6",
+   "4",
+   "pi/6"
+  ],
+  "moebius_blocks": 20,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 3,
+  "block_sizes": "circles: 4^11 3^6; lines: 4^1 3^2",
+  "collinear_triples": 6,
+  "coordinates_exact": [
+   [
+    "sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "sqrt(3)/6",
+    "1/2"
+   ],
+   [
+    "-sqrt(3)/6",
+    "1/2"
+   ],
+   [
+    "-sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "2*sqrt(3)/13",
+    "14/13"
+   ],
+   [
+    "2*sqrt(3)/21",
+    "6/7"
+   ],
+   [
+    "-2*sqrt(3)/21",
+    "6/7"
+   ],
+   [
+    "-2*sqrt(3)/13",
+    "14/13"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.8660254037844386,
+    0.5
+   ],
+   [
+    0.28867513459481287,
+    0.5
+   ],
+   [
+    -0.28867513459481287,
+    0.5
+   ],
+   [
+    -0.8660254037844386,
+    0.5
+   ],
+   [
+    0.2664693550105965,
+    1.0769230769230769
+   ],
+   [
+    0.1649572197684645,
+    0.8571428571428571
+   ],
+   [
+    -0.1649572197684645,
+    0.8571428571428571
+   ],
+   [
+    -0.2664693550105965,
+    1.0769230769230769
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 8,
+  "circles": 19,
+  "formula_value": 19,
+  "float_best": 19,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: regular 2-gon (vertices at angles 2*pi*k/2) radius 1; regular 2-gon (vertices at angles 2*pi*k/2) radius 3 - 2*sqrt(2); generic D_2 orbit of 4 points, radius -2*GoldenRatio + sqrt(2) + sqrt(5), angles +-(pi/4) + 2*pi*k/2. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 20 (sizes {4: 12, 3: 8}), deg(O) = 1.",
+  "family": "D2 A A G",
+  "m": 2,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "A"
+   ],
+   [
+    "G"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.17157287525380993,
+   0.41421356237309503,
+   0.7853981633974483
+  ],
+  "params_exact": [
+   "1",
+   "3 - 2*sqrt(2)",
+   "-2*GoldenRatio + sqrt(2) + sqrt(5)",
+   "pi/4"
+  ],
+  "moebius_blocks": 20,
+  "moebius_block_sizes": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 1,
+  "block_sizes": "circles: 4^11 3^8; lines: 4^1",
+  "collinear_triples": 4,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "3 - 2*sqrt(2)",
+    "0"
+   ],
+   [
+    "-3 + 2*sqrt(2)",
+    "0"
+   ],
+   [
+    "1 - sqrt(2)/2",
+    "1 - sqrt(2)/2"
+   ],
+   [
+    "1 - sqrt(2)/2",
+    "-1 + sqrt(2)/2"
+   ],
+   [
+    "-1 + sqrt(2)/2",
+    "-1 + sqrt(2)/2"
+   ],
+   [
+    "-1 + sqrt(2)/2",
+    "1 - sqrt(2)/2"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    0.1715728752538099,
+    0.0
+   ],
+   [
+    -0.1715728752538099,
+    0.0
+   ],
+   [
+    0.2928932188134525,
+    0.2928932188134525
+   ],
+   [
+    0.2928932188134525,
+    -0.2928932188134525
+   ],
+   [
+    -0.2928932188134525,
+    -0.2928932188134525
+   ],
+   [
+    -0.2928932188134525,
+    0.2928932188134525
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 9,
+  "circles": 25,
+  "formula_value": 25,
+  "float_best": 25,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: generic D_2 orbit of 4 points, radius 1, angles +-(pi/6) + 2*pi*k/2; generic D_2 orbit of 4 points, radius 1, angles +-(pi/10) + 2*pi*k/2; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, 0.000000) (exact: intersection of the blocks [[-1, 0, 2], [-1, 1, 3]]), which lies on 4 blocks. Moebius blocks: 29 (sizes {8: 1, 3: 28}), deg(O) = 4.",
+  "family": "D2 G G I",
+  "m": 2,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "G"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.5235987755982988,
+   1.0,
+   0.3141592653589793
+  ],
+  "params_exact": [
+   "1",
+   "pi/6",
+   "1",
+   "pi/10"
+  ],
+  "moebius_blocks": 29,
+  "moebius_block_sizes": [
+   8,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 4,
+  "block_sizes": "circles: 8^1 3^24; lines: 3^4",
+  "collinear_triples": 4,
+  "coordinates_exact": [
+   [
+    "sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "sqrt(3)/2",
+    "-1/2"
+   ],
+   [
+    "-sqrt(3)/2",
+    "-1/2"
+   ],
+   [
+    "-sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.8660254037844386,
+    0.5
+   ],
+   [
+    0.8660254037844386,
+    -0.5
+   ],
+   [
+    -0.8660254037844386,
+    -0.5
+   ],
+   [
+    -0.8660254037844386,
+    0.5
+   ],
+   [
+    0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    -0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    -0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 9,
+  "circles": 25,
+  "formula_value": 25,
+  "float_best": 25,
+  "exact_matches_float": true,
+  "construction": "D_2-symmetric Moebius configuration: generic D_2 orbit of 4 points, radius 1, angles +-(pi/6) + 2*pi*k/2; generic D_2 orbit of 4 points, radius 1, angles +-(pi/10) + 2*pi*k/2; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 29 (sizes {8: 1, 3: 28}), deg(O) = 4.",
+  "family": "D2 G G C",
+  "m": 2,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "G"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.5235987755982988,
+   1.0,
+   0.3141592653589793
+  ],
+  "params_exact": [
+   "1",
+   "pi/6",
+   "1",
+   "pi/10"
+  ],
+  "moebius_blocks": 29,
+  "moebius_block_sizes": [
+   8,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 4,
+  "block_sizes": "circles: 8^1 3^24; lines: 3^4",
+  "collinear_triples": 4,
+  "coordinates_exact": [
+   [
+    "sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "sqrt(3)/2",
+    "-1/2"
+   ],
+   [
+    "-sqrt(3)/2",
+    "-1/2"
+   ],
+   [
+    "-sqrt(3)/2",
+    "1/2"
+   ],
+   [
+    "sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(sqrt(5) + 5)/4",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.8660254037844386,
+    0.5
+   ],
+   [
+    0.8660254037844386,
+    -0.5
+   ],
+   [
+    -0.8660254037844386,
+    -0.5
+   ],
+   [
+    -0.8660254037844386,
+    0.5
+   ],
+   [
+    0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    -0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    -0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 11,
+  "circles": 41,
+  "formula_value": 41,
+  "float_best": 41,
+  "exact_matches_float": true,
+  "construction": "D_5-symmetric Moebius configuration: generic D_5 orbit of 10 points, radius 1, angles +-(pi/10) + 2*pi*k/5; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 46 (sizes {10: 1, 3: 45}), deg(O) = 5.",
+  "family": "D5 G C",
+  "m": 5,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.3141592653589793
+  ],
+  "params_exact": [
+   "1",
+   "pi/10"
+  ],
+  "moebius_blocks": 46,
+  "moebius_block_sizes": [
+   10,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 5,
+  "block_sizes": "circles: 10^1 3^40; lines: 3^5",
+  "collinear_triples": 5,
+  "coordinates_exact": [
+   [
+    "sqrt(2)*(sqrt(5 - sqrt(5)) + sqrt(5)*sqrt(5 - sqrt(5)))/8",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "sqrt(2)*(sqrt(5 - sqrt(5)) + sqrt(5)*sqrt(5 - sqrt(5)))/8",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "0",
+    "1"
+   ],
+   [
+    "sqrt(2)*sqrt(5 - sqrt(5))/4",
+    "1/4 + sqrt(5)/4"
+   ],
+   [
+    "sqrt(2)*(-sqrt(5)*sqrt(5 - sqrt(5)) - sqrt(5 - sqrt(5)))/8",
+    "-1/4 + sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(5 - sqrt(5))/4",
+    "1/4 + sqrt(5)/4"
+   ],
+   [
+    "-sqrt(2)*sqrt(5 - sqrt(5))/4",
+    "-sqrt(5)/4 - 1/4"
+   ],
+   [
+    "sqrt(2)*(-sqrt(5)*sqrt(5 - sqrt(5)) - sqrt(5 - sqrt(5)))/8",
+    "1/4 - sqrt(5)/4"
+   ],
+   [
+    "sqrt(2)*sqrt(5 - sqrt(5))/4",
+    "-sqrt(5)/4 - 1/4"
+   ],
+   [
+    "0",
+    "-1"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.5877852522924731,
+    0.8090169943749475
+   ],
+   [
+    -0.9510565162951535,
+    0.30901699437494745
+   ],
+   [
+    -0.5877852522924731,
+    0.8090169943749475
+   ],
+   [
+    -0.5877852522924731,
+    -0.8090169943749475
+   ],
+   [
+    -0.9510565162951535,
+    -0.30901699437494745
+   ],
+   [
+    0.5877852522924731,
+    -0.8090169943749475
+   ],
+   [
+    0.0,
+    -1.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 11,
+  "circles": 41,
+  "formula_value": 41,
+  "float_best": 41,
+  "exact_matches_float": true,
+  "construction": "D_5-symmetric Moebius configuration: regular 5-gon (vertices at angles 2*pi*k/5) radius 1; regular 5-gon (vertices at angles (2k+1)*pi/5) radius 1; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, 0.000000) (exact: intersection of the blocks [[-1, 0, 7], [-1, 1, 8]]), which lies on 5 blocks. Moebius blocks: 46 (sizes {10: 1, 3: 45}), deg(O) = 5.",
+  "family": "D5 A B I",
+  "m": 5,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 46,
+  "moebius_block_sizes": [
+   10,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 5,
+  "block_sizes": "circles: 10^1 3^40; lines: 3^5",
+  "collinear_triples": 5,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "-1/4 + sqrt(5)/4",
+    "sqrt(2)*(sqrt(5 - sqrt(5)) + sqrt(5)*sqrt(5 - sqrt(5)))/8"
+   ],
+   [
+    "-sqrt(5)/4 - 1/4",
+    "sqrt(2)*sqrt(5 - sqrt(5))/4"
+   ],
+   [
+    "-sqrt(5)/4 - 1/4",
+    "-sqrt(2)*sqrt(5 - sqrt(5))/4"
+   ],
+   [
+    "-1/4 + sqrt(5)/4",
+    "sqrt(2)*(-sqrt(5)*sqrt(5 - sqrt(5)) - sqrt(5 - sqrt(5)))/8"
+   ],
+   [
+    "1/4 + sqrt(5)/4",
+    "sqrt(2)*sqrt(5 - sqrt(5))/4"
+   ],
+   [
+    "1/4 - sqrt(5)/4",
+    "sqrt(2)*(sqrt(5 - sqrt(5)) + sqrt(5)*sqrt(5 - sqrt(5)))/8"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "1/4 - sqrt(5)/4",
+    "sqrt(2)*(-sqrt(5)*sqrt(5 - sqrt(5)) - sqrt(5 - sqrt(5)))/8"
+   ],
+   [
+    "1/4 + sqrt(5)/4",
+    "-sqrt(2)*sqrt(5 - sqrt(5))/4"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    0.30901699437494745,
+    0.9510565162951535
+   ],
+   [
+    -0.8090169943749475,
+    0.5877852522924731
+   ],
+   [
+    -0.8090169943749475,
+    -0.5877852522924731
+   ],
+   [
+    0.30901699437494745,
+    -0.9510565162951535
+   ],
+   [
+    0.8090169943749475,
+    0.5877852522924731
+   ],
+   [
+    -0.30901699437494745,
+    0.9510565162951535
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.30901699437494745,
+    -0.9510565162951535
+   ],
+   [
+    0.8090169943749475,
+    -0.5877852522924731
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 13,
+  "circles": 61,
+  "formula_value": 61,
+  "float_best": 61,
+  "exact_matches_float": true,
+  "construction": "D_3-symmetric Moebius configuration: generic D_3 orbit of 6 points, radius 1, angles +-(2*pi/9) + 2*pi*k/3; generic D_3 orbit of 6 points, radius 1, angles +-(pi/9) + 2*pi*k/3; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 67 (sizes {12: 1, 3: 66}), deg(O) = 6.",
+  "family": "D3 G G C",
+  "m": 3,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "G"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.6981317007977318,
+   1.0,
+   0.3490658503988659
+  ],
+  "params_exact": [
+   "1",
+   "2*pi/9",
+   "1",
+   "pi/9"
+  ],
+  "moebius_blocks": 67,
+  "moebius_block_sizes": [
+   12,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 6,
+  "block_sizes": "circles: 12^1 3^60; lines: 3^6",
+  "collinear_triples": 6,
+  "coordinates_exact": [
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "sin(pi/9)"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "-sin(pi/9)"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "sin(pi/9)"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "-sin(pi/9)"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    -0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    -0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    -0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    -0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    -0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    -0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 13,
+  "circles": 61,
+  "formula_value": 61,
+  "float_best": 61,
+  "exact_matches_float": true,
+  "construction": "D_3-symmetric Moebius configuration: generic D_3 orbit of 6 points, radius 1, angles +-(2*pi/9) + 2*pi*k/3; generic D_3 orbit of 6 points, radius 1, angles +-(pi/9) + 2*pi*k/3; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, 0.000000) (exact: intersection of the blocks [[-1, 0, 11], [-1, 1, 8]]), which lies on 6 blocks. Moebius blocks: 67 (sizes {12: 1, 3: 66}), deg(O) = 6.",
+  "family": "D3 G G I",
+  "m": 3,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "G"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.6981317007977318,
+   1.0,
+   0.3490658503988659
+  ],
+  "params_exact": [
+   "1",
+   "2*pi/9",
+   "1",
+   "pi/9"
+  ],
+  "moebius_blocks": 67,
+  "moebius_block_sizes": [
+   12,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 6,
+  "block_sizes": "circles: 12^1 3^60; lines: 3^6",
+  "collinear_triples": 6,
+  "coordinates_exact": [
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "sin(pi/9)"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "-sin(pi/9)"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "sin(pi/9)"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "-sin(pi/9)"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    -0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    -0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    -0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    -0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    -0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    -0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 15,
+  "circles": 85,
+  "formula_value": 85,
+  "float_best": 85,
+  "exact_matches_float": true,
+  "construction": "D_7-symmetric Moebius configuration: regular 7-gon (vertices at angles 2*pi*k/7) radius 1; regular 7-gon (vertices at angles (2k+1)*pi/7) radius 1; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 92 (sizes {14: 1, 3: 91}), deg(O) = 7.",
+  "family": "D7 A B C",
+  "m": 7,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 92,
+  "moebius_block_sizes": [
+   14,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 7,
+  "block_sizes": "circles: 14^1 3^84; lines: 3^7",
+  "collinear_triples": 7,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "1 - 2*sin(pi/7)**2",
+    "-20*sin(pi/7)**3 + 16*sin(pi/7)**5 + 5*sin(pi/7)"
+   ],
+   [
+    "-8*sin(pi/7)**2 + 8*sin(pi/7)**4 + 1",
+    "-4*sin(pi/7)**3 + 3*sin(pi/7)"
+   ],
+   [
+    "-5/2 - 8*sin(pi/7)**4 + 10*sin(pi/7)**2",
+    "sin(pi/7)"
+   ],
+   [
+    "-5/2 - 8*sin(pi/7)**4 + 10*sin(pi/7)**2",
+    "-sin(pi/7)"
+   ],
+   [
+    "-8*sin(pi/7)**2 + 8*sin(pi/7)**4 + 1",
+    "-3*sin(pi/7) + 4*sin(pi/7)**3"
+   ],
+   [
+    "1 - 2*sin(pi/7)**2",
+    "-5*sin(pi/7) - 16*sin(pi/7)**5 + 20*sin(pi/7)**3"
+   ],
+   [
+    "-10*sin(pi/7)**2 + 8*sin(pi/7)**4 + 5/2",
+    "sin(pi/7)"
+   ],
+   [
+    "-1 - 8*sin(pi/7)**4 + 8*sin(pi/7)**2",
+    "-4*sin(pi/7)**3 + 3*sin(pi/7)"
+   ],
+   [
+    "-1 + 2*sin(pi/7)**2",
+    "-20*sin(pi/7)**3 + 16*sin(pi/7)**5 + 5*sin(pi/7)"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "-1 + 2*sin(pi/7)**2",
+    "-5*sin(pi/7) - 16*sin(pi/7)**5 + 20*sin(pi/7)**3"
+   ],
+   [
+    "-1 - 8*sin(pi/7)**4 + 8*sin(pi/7)**2",
+    "-3*sin(pi/7) + 4*sin(pi/7)**3"
+   ],
+   [
+    "-10*sin(pi/7)**2 + 8*sin(pi/7)**4 + 5/2",
+    "-sin(pi/7)"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    0.6234898018587335,
+    0.7818314824680298
+   ],
+   [
+    -0.2225209339563144,
+    0.9749279121818236
+   ],
+   [
+    -0.9009688679024191,
+    0.4338837391175581
+   ],
+   [
+    -0.9009688679024191,
+    -0.4338837391175581
+   ],
+   [
+    -0.2225209339563144,
+    -0.9749279121818236
+   ],
+   [
+    0.6234898018587335,
+    -0.7818314824680298
+   ],
+   [
+    0.9009688679024191,
+    0.4338837391175581
+   ],
+   [
+    0.2225209339563144,
+    0.9749279121818236
+   ],
+   [
+    -0.6234898018587335,
+    0.7818314824680298
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.6234898018587335,
+    -0.7818314824680298
+   ],
+   [
+    0.2225209339563144,
+    -0.9749279121818236
+   ],
+   [
+    0.9009688679024191,
+    -0.4338837391175581
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 15,
+  "circles": 85,
+  "formula_value": 85,
+  "float_best": 85,
+  "exact_matches_float": true,
+  "construction": "D_7-symmetric Moebius configuration: regular 7-gon (vertices at angles 2*pi*k/7) radius 1; regular 7-gon (vertices at angles (2k+1)*pi/7) radius 1; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, -0.000000) (exact: intersection of the blocks [[-1, 0, 10], [-1, 1, 11]]), which lies on 7 blocks. Moebius blocks: 92 (sizes {14: 1, 3: 91}), deg(O) = 7.",
+  "family": "D7 A B I",
+  "m": 7,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 92,
+  "moebius_block_sizes": [
+   14,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 7,
+  "block_sizes": "circles: 14^1 3^84; lines: 3^7",
+  "collinear_triples": 7,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "1 - 2*sin(pi/7)**2",
+    "-20*sin(pi/7)**3 + 16*sin(pi/7)**5 + 5*sin(pi/7)"
+   ],
+   [
+    "-8*sin(pi/7)**2 + 8*sin(pi/7)**4 + 1",
+    "-4*sin(pi/7)**3 + 3*sin(pi/7)"
+   ],
+   [
+    "-5/2 - 8*sin(pi/7)**4 + 10*sin(pi/7)**2",
+    "sin(pi/7)"
+   ],
+   [
+    "-5/2 - 8*sin(pi/7)**4 + 10*sin(pi/7)**2",
+    "-sin(pi/7)"
+   ],
+   [
+    "-8*sin(pi/7)**2 + 8*sin(pi/7)**4 + 1",
+    "-3*sin(pi/7) + 4*sin(pi/7)**3"
+   ],
+   [
+    "1 - 2*sin(pi/7)**2",
+    "-5*sin(pi/7) - 16*sin(pi/7)**5 + 20*sin(pi/7)**3"
+   ],
+   [
+    "-10*sin(pi/7)**2 + 8*sin(pi/7)**4 + 5/2",
+    "sin(pi/7)"
+   ],
+   [
+    "-1 - 8*sin(pi/7)**4 + 8*sin(pi/7)**2",
+    "-4*sin(pi/7)**3 + 3*sin(pi/7)"
+   ],
+   [
+    "-1 + 2*sin(pi/7)**2",
+    "-20*sin(pi/7)**3 + 16*sin(pi/7)**5 + 5*sin(pi/7)"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "-1 + 2*sin(pi/7)**2",
+    "-5*sin(pi/7) - 16*sin(pi/7)**5 + 20*sin(pi/7)**3"
+   ],
+   [
+    "-1 - 8*sin(pi/7)**4 + 8*sin(pi/7)**2",
+    "-3*sin(pi/7) + 4*sin(pi/7)**3"
+   ],
+   [
+    "-10*sin(pi/7)**2 + 8*sin(pi/7)**4 + 5/2",
+    "-sin(pi/7)"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    0.6234898018587335,
+    0.7818314824680298
+   ],
+   [
+    -0.2225209339563144,
+    0.9749279121818236
+   ],
+   [
+    -0.9009688679024191,
+    0.4338837391175581
+   ],
+   [
+    -0.9009688679024191,
+    -0.4338837391175581
+   ],
+   [
+    -0.2225209339563144,
+    -0.9749279121818236
+   ],
+   [
+    0.6234898018587335,
+    -0.7818314824680298
+   ],
+   [
+    0.9009688679024191,
+    0.4338837391175581
+   ],
+   [
+    0.2225209339563144,
+    0.9749279121818236
+   ],
+   [
+    -0.6234898018587335,
+    0.7818314824680298
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.6234898018587335,
+    -0.7818314824680298
+   ],
+   [
+    0.2225209339563144,
+    -0.9749279121818236
+   ],
+   [
+    0.9009688679024191,
+    -0.4338837391175581
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 17,
+  "circles": 113,
+  "formula_value": 113,
+  "float_best": 113,
+  "exact_matches_float": true,
+  "construction": "D_8-symmetric Moebius configuration: regular 8-gon (vertices at angles 2*pi*k/8) radius 1; regular 8-gon (vertices at angles (2k+1)*pi/8) radius 1; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, -0.000000) (exact: intersection of the blocks [[-1, 0, 4], [-1, 1, 5]]), which lies on 8 blocks. Moebius blocks: 121 (sizes {16: 1, 3: 120}), deg(O) = 8.",
+  "family": "D8 A B I",
+  "m": 8,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 121,
+  "moebius_block_sizes": [
+   16,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 8,
+  "block_sizes": "circles: 16^1 3^112; lines: 3^8",
+  "collinear_triples": 8,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "0",
+    "1"
+   ],
+   [
+    "-sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "-sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "0",
+    "-1"
+   ],
+   [
+    "sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "(sqrt(2 - sqrt(2)) + sqrt(2)*sqrt(2 - sqrt(2)))/2",
+    "sqrt(2 - sqrt(2))/2"
+   ],
+   [
+    "sqrt(2 - sqrt(2))/2",
+    "(sqrt(2 - sqrt(2)) + sqrt(2)*sqrt(2 - sqrt(2)))/2"
+   ],
+   [
+    "-sqrt(2 - sqrt(2))/2",
+    "(sqrt(2 - sqrt(2)) + sqrt(2)*sqrt(2 - sqrt(2)))/2"
+   ],
+   [
+    "(-sqrt(2)*sqrt(2 - sqrt(2)) - sqrt(2 - sqrt(2)))/2",
+    "sqrt(2 - sqrt(2))/2"
+   ],
+   [
+    "(-sqrt(2)*sqrt(2 - sqrt(2)) - sqrt(2 - sqrt(2)))/2",
+    "-sqrt(2 - sqrt(2))/2"
+   ],
+   [
+    "-sqrt(2 - sqrt(2))/2",
+    "(-sqrt(2)*sqrt(2 - sqrt(2)) - sqrt(2 - sqrt(2)))/2"
+   ],
+   [
+    "sqrt(2 - sqrt(2))/2",
+    "(-sqrt(2)*sqrt(2 - sqrt(2)) - sqrt(2 - sqrt(2)))/2"
+   ],
+   [
+    "(sqrt(2 - sqrt(2)) + sqrt(2)*sqrt(2 - sqrt(2)))/2",
+    "-sqrt(2 - sqrt(2))/2"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    -0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    0.0,
+    -1.0
+   ],
+   [
+    0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    0.9238795325112867,
+    0.3826834323650898
+   ],
+   [
+    0.3826834323650898,
+    0.9238795325112867
+   ],
+   [
+    -0.3826834323650898,
+    0.9238795325112867
+   ],
+   [
+    -0.9238795325112867,
+    0.3826834323650898
+   ],
+   [
+    -0.9238795325112867,
+    -0.3826834323650898
+   ],
+   [
+    -0.3826834323650898,
+    -0.9238795325112867
+   ],
+   [
+    0.3826834323650898,
+    -0.9238795325112867
+   ],
+   [
+    0.9238795325112867,
+    -0.3826834323650898
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 17,
+  "circles": 113,
+  "formula_value": 113,
+  "float_best": 113,
+  "exact_matches_float": true,
+  "construction": "D_8-symmetric Moebius configuration: generic D_8 orbit of 16 points, radius 1, angles +-(pi/16) + 2*pi*k/8; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 121 (sizes {16: 1, 3: 120}), deg(O) = 8.",
+  "family": "D8 G C",
+  "m": 8,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.19634954084936207
+  ],
+  "params_exact": [
+   "1",
+   "pi/16"
+  ],
+  "moebius_blocks": 121,
+  "moebius_block_sizes": [
+   16,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 8,
+  "block_sizes": "circles: 16^1 3^112; lines: 3^8",
+  "collinear_triples": 8,
+  "coordinates_exact": [
+   [
+    "(-390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 509539653840*sin(3*pi/16)**3 - 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 103420900048*sqrt(2)*sin(3*pi/16)**2 - 321287565920*sqrt(2)*sin(3*pi/16)**4 - 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) - 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 190556766656*sin(3*pi/16)**5 - 29840473600*sqrt(2)*sin(3*pi/16)**6 - 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4262924800*sin(3*pi/16)**7 + 9249812096*sin(3*pi/16)**6 + 33118517376*sqrt(2)*sin(3*pi/16)**5 + 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 15970981792*sqrt(2)*sin(3*pi/16)**3 + 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 65633118528*sin(3*pi/16)**4 + 43646461736*sin(3*pi/16)**2 + 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 21355565886*sqrt(2) + 58516190068*sqrt(2)*sin(3*pi/16) + 96901490332*sin(3*pi/16) + 37213154726*sqrt(sqrt(2) + 2) + 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 10822232352/1292833951",
+    "(-113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 153016557200*sin(3*pi/16)**3 - 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 31000989648*sqrt(2)*sin(3*pi/16)**2 - 94617395840*sqrt(2)*sin(3*pi/16)**4 - 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) - 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 55842236928*sin(3*pi/16)**5 - 8845503232*sqrt(2)*sin(3*pi/16)**3 - 3695600856*sin(3*pi/16)**2 - 8787204608*sqrt(2)*sin(3*pi/16)**6 - 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1255314944*sin(3*pi/16)**7 + 2359919104*sin(3*pi/16)**6 + 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 7569111168*sqrt(2)*sin(3*pi/16)**5 + 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 8492366912*sin(3*pi/16)**4 + 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 7298527230*sqrt(2) + 14889510084*sqrt(2)*sin(3*pi/16) + 34196900596*sin(3*pi/16) + 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 14130099522*sqrt(sqrt(2) + 2) + 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16))/5171335804 + 4356470419/1292833951"
+   ],
+   [
+    "(-390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 509539653840*sin(3*pi/16)**3 - 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 103420900048*sqrt(2)*sin(3*pi/16)**2 - 321287565920*sqrt(2)*sin(3*pi/16)**4 - 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) - 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 190556766656*sin(3*pi/16)**5 - 29840473600*sqrt(2)*sin(3*pi/16)**6 - 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4262924800*sin(3*pi/16)**7 + 9249812096*sin(3*pi/16)**6 + 33118517376*sqrt(2)*sin(3*pi/16)**5 + 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 15970981792*sqrt(2)*sin(3*pi/16)**3 + 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 65633118528*sin(3*pi/16)**4 + 43646461736*sin(3*pi/16)**2 + 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 21355565886*sqrt(2) + 58516190068*sqrt(2)*sin(3*pi/16) + 96901490332*sin(3*pi/16) + 37213154726*sqrt(sqrt(2) + 2) + 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 10822232352/1292833951",
+    "-4356470419/1292833951 + (-19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 14130099522*sqrt(sqrt(2) + 2) - 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 34196900596*sin(3*pi/16) - 14889510084*sqrt(2)*sin(3*pi/16) - 7298527230*sqrt(2) - 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 8492366912*sin(3*pi/16)**4 - 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 7569111168*sqrt(2)*sin(3*pi/16)**5 - 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 2359919104*sin(3*pi/16)**6 + 1255314944*sin(3*pi/16)**7 + 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 8787204608*sqrt(2)*sin(3*pi/16)**6 + 3695600856*sin(3*pi/16)**2 + 8845503232*sqrt(2)*sin(3*pi/16)**3 + 55842236928*sin(3*pi/16)**5 + 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) + 94617395840*sqrt(2)*sin(3*pi/16)**4 + 31000989648*sqrt(2)*sin(3*pi/16)**2 + 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 153016557200*sin(3*pi/16)**3 + 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-3881312089/1292833951 + (-86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 21487476338*sqrt(sqrt(2) + 2) - 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 31789669124*sin(3*pi/16) - 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 16408089016*sqrt(2)*sin(3*pi/16) - 35288609912*sin(3*pi/16)**2 - 35781721024*sqrt(2)*sin(3*pi/16)**3 - 4850342682*sqrt(2) - 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 50033551456*sin(3*pi/16)**4 - 17309852160*sqrt(2)*sin(3*pi/16)**5 - 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 4289441920*sin(3*pi/16)**6 + 1605104640*sin(3*pi/16)**7 + 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 11235732480*sqrt(2)*sin(3*pi/16)**6 + 74543374720*sin(3*pi/16)**5 + 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) + 131916816800*sqrt(2)*sin(3*pi/16)**4 + 50237540624*sqrt(2)*sin(3*pi/16)**2 + 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 219314541216*sin(3*pi/16)**3 + 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804",
+    "-13114033331/1292833951 + (-125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37323325254*sqrt(sqrt(2) + 2) - 103958950508*sin(3*pi/16) - 63650495904*sqrt(2)*sin(3*pi/16) - 29235985870*sqrt(2) - 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 32138271008*sin(3*pi/16)**4 - 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 27066006336*sqrt(2)*sin(3*pi/16)**5 - 5712834248*sin(3*pi/16)**2 - 8348920064*sin(3*pi/16)**6 + 4386193152*sin(3*pi/16)**7 + 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 30703352064*sqrt(2)*sin(3*pi/16)**6 + 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) + 26585988768*sqrt(2)*sin(3*pi/16)**3 + 194033763904*sin(3*pi/16)**5 + 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 324793328000*sqrt(2)*sin(3*pi/16)**4 + 110942107280*sqrt(2)*sin(3*pi/16)**2 + 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 518949826048*sin(3*pi/16)**3 + 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-13114033331/1292833951 + (-125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37323325254*sqrt(sqrt(2) + 2) - 103958950508*sin(3*pi/16) - 63650495904*sqrt(2)*sin(3*pi/16) - 29235985870*sqrt(2) - 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 32138271008*sin(3*pi/16)**4 - 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 27066006336*sqrt(2)*sin(3*pi/16)**5 - 5712834248*sin(3*pi/16)**2 - 8348920064*sin(3*pi/16)**6 + 4386193152*sin(3*pi/16)**7 + 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 30703352064*sqrt(2)*sin(3*pi/16)**6 + 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) + 26585988768*sqrt(2)*sin(3*pi/16)**3 + 194033763904*sin(3*pi/16)**5 + 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 324793328000*sqrt(2)*sin(3*pi/16)**4 + 110942107280*sqrt(2)*sin(3*pi/16)**2 + 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 518949826048*sin(3*pi/16)**3 + 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "-3881312089/1292833951 + (-86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 21487476338*sqrt(sqrt(2) + 2) - 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 31789669124*sin(3*pi/16) - 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 16408089016*sqrt(2)*sin(3*pi/16) - 35288609912*sin(3*pi/16)**2 - 35781721024*sqrt(2)*sin(3*pi/16)**3 - 4850342682*sqrt(2) - 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 50033551456*sin(3*pi/16)**4 - 17309852160*sqrt(2)*sin(3*pi/16)**5 - 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 4289441920*sin(3*pi/16)**6 + 1605104640*sin(3*pi/16)**7 + 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 11235732480*sqrt(2)*sin(3*pi/16)**6 + 74543374720*sin(3*pi/16)**5 + 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) + 131916816800*sqrt(2)*sin(3*pi/16)**4 + 50237540624*sqrt(2)*sin(3*pi/16)**2 + 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 219314541216*sin(3*pi/16)**3 + 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804"
+   ],
+   [
+    "-4356470419/1292833951 + (-19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 14130099522*sqrt(sqrt(2) + 2) - 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 34196900596*sin(3*pi/16) - 14889510084*sqrt(2)*sin(3*pi/16) - 7298527230*sqrt(2) - 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 8492366912*sin(3*pi/16)**4 - 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 7569111168*sqrt(2)*sin(3*pi/16)**5 - 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 2359919104*sin(3*pi/16)**6 + 1255314944*sin(3*pi/16)**7 + 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 8787204608*sqrt(2)*sin(3*pi/16)**6 + 3695600856*sin(3*pi/16)**2 + 8845503232*sqrt(2)*sin(3*pi/16)**3 + 55842236928*sin(3*pi/16)**5 + 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) + 94617395840*sqrt(2)*sin(3*pi/16)**4 + 31000989648*sqrt(2)*sin(3*pi/16)**2 + 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 153016557200*sin(3*pi/16)**3 + 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "(-390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 509539653840*sin(3*pi/16)**3 - 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 103420900048*sqrt(2)*sin(3*pi/16)**2 - 321287565920*sqrt(2)*sin(3*pi/16)**4 - 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) - 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 190556766656*sin(3*pi/16)**5 - 29840473600*sqrt(2)*sin(3*pi/16)**6 - 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4262924800*sin(3*pi/16)**7 + 9249812096*sin(3*pi/16)**6 + 33118517376*sqrt(2)*sin(3*pi/16)**5 + 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 15970981792*sqrt(2)*sin(3*pi/16)**3 + 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 65633118528*sin(3*pi/16)**4 + 43646461736*sin(3*pi/16)**2 + 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 21355565886*sqrt(2) + 58516190068*sqrt(2)*sin(3*pi/16) + 96901490332*sin(3*pi/16) + 37213154726*sqrt(sqrt(2) + 2) + 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 10822232352/1292833951"
+   ],
+   [
+    "(-113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 153016557200*sin(3*pi/16)**3 - 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 31000989648*sqrt(2)*sin(3*pi/16)**2 - 94617395840*sqrt(2)*sin(3*pi/16)**4 - 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) - 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 55842236928*sin(3*pi/16)**5 - 8845503232*sqrt(2)*sin(3*pi/16)**3 - 3695600856*sin(3*pi/16)**2 - 8787204608*sqrt(2)*sin(3*pi/16)**6 - 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1255314944*sin(3*pi/16)**7 + 2359919104*sin(3*pi/16)**6 + 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 7569111168*sqrt(2)*sin(3*pi/16)**5 + 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 8492366912*sin(3*pi/16)**4 + 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 7298527230*sqrt(2) + 14889510084*sqrt(2)*sin(3*pi/16) + 34196900596*sin(3*pi/16) + 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 14130099522*sqrt(sqrt(2) + 2) + 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16))/5171335804 + 4356470419/1292833951",
+    "(-390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 509539653840*sin(3*pi/16)**3 - 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 103420900048*sqrt(2)*sin(3*pi/16)**2 - 321287565920*sqrt(2)*sin(3*pi/16)**4 - 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) - 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 190556766656*sin(3*pi/16)**5 - 29840473600*sqrt(2)*sin(3*pi/16)**6 - 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4262924800*sin(3*pi/16)**7 + 9249812096*sin(3*pi/16)**6 + 33118517376*sqrt(2)*sin(3*pi/16)**5 + 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 15970981792*sqrt(2)*sin(3*pi/16)**3 + 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 65633118528*sin(3*pi/16)**4 + 43646461736*sin(3*pi/16)**2 + 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 21355565886*sqrt(2) + 58516190068*sqrt(2)*sin(3*pi/16) + 96901490332*sin(3*pi/16) + 37213154726*sqrt(sqrt(2) + 2) + 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 10822232352/1292833951"
+   ],
+   [
+    "(-384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 518949826048*sin(3*pi/16)**3 - 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 110942107280*sqrt(2)*sin(3*pi/16)**2 - 324793328000*sqrt(2)*sin(3*pi/16)**4 - 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 194033763904*sin(3*pi/16)**5 - 26585988768*sqrt(2)*sin(3*pi/16)**3 - 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) - 30703352064*sqrt(2)*sin(3*pi/16)**6 - 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4386193152*sin(3*pi/16)**7 + 8348920064*sin(3*pi/16)**6 + 5712834248*sin(3*pi/16)**2 + 27066006336*sqrt(2)*sin(3*pi/16)**5 + 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 32138271008*sin(3*pi/16)**4 + 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 29235985870*sqrt(2) + 63650495904*sqrt(2)*sin(3*pi/16) + 103958950508*sin(3*pi/16) + 37323325254*sqrt(sqrt(2) + 2) + 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 13114033331/1292833951",
+    "-3881312089/1292833951 + (-86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 21487476338*sqrt(sqrt(2) + 2) - 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 31789669124*sin(3*pi/16) - 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 16408089016*sqrt(2)*sin(3*pi/16) - 35288609912*sin(3*pi/16)**2 - 35781721024*sqrt(2)*sin(3*pi/16)**3 - 4850342682*sqrt(2) - 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 50033551456*sin(3*pi/16)**4 - 17309852160*sqrt(2)*sin(3*pi/16)**5 - 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 4289441920*sin(3*pi/16)**6 + 1605104640*sin(3*pi/16)**7 + 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 11235732480*sqrt(2)*sin(3*pi/16)**6 + 74543374720*sin(3*pi/16)**5 + 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) + 131916816800*sqrt(2)*sin(3*pi/16)**4 + 50237540624*sqrt(2)*sin(3*pi/16)**2 + 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 219314541216*sin(3*pi/16)**3 + 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804"
+   ],
+   [
+    "(-143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219314541216*sin(3*pi/16)**3 - 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 50237540624*sqrt(2)*sin(3*pi/16)**2 - 131916816800*sqrt(2)*sin(3*pi/16)**4 - 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) - 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 74543374720*sin(3*pi/16)**5 - 11235732480*sqrt(2)*sin(3*pi/16)**6 - 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1605104640*sin(3*pi/16)**7 + 4289441920*sin(3*pi/16)**6 + 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 17309852160*sqrt(2)*sin(3*pi/16)**5 + 50033551456*sin(3*pi/16)**4 + 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 4850342682*sqrt(2) + 35781721024*sqrt(2)*sin(3*pi/16)**3 + 35288609912*sin(3*pi/16)**2 + 16408089016*sqrt(2)*sin(3*pi/16) + 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 31789669124*sin(3*pi/16) + 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 21487476338*sqrt(sqrt(2) + 2) + 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 3881312089/1292833951",
+    "-13114033331/1292833951 + (-125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37323325254*sqrt(sqrt(2) + 2) - 103958950508*sin(3*pi/16) - 63650495904*sqrt(2)*sin(3*pi/16) - 29235985870*sqrt(2) - 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 32138271008*sin(3*pi/16)**4 - 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 27066006336*sqrt(2)*sin(3*pi/16)**5 - 5712834248*sin(3*pi/16)**2 - 8348920064*sin(3*pi/16)**6 + 4386193152*sin(3*pi/16)**7 + 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 30703352064*sqrt(2)*sin(3*pi/16)**6 + 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) + 26585988768*sqrt(2)*sin(3*pi/16)**3 + 194033763904*sin(3*pi/16)**5 + 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 324793328000*sqrt(2)*sin(3*pi/16)**4 + 110942107280*sqrt(2)*sin(3*pi/16)**2 + 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 518949826048*sin(3*pi/16)**3 + 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-10822232352/1292833951 + (-155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37213154726*sqrt(sqrt(2) + 2) - 96901490332*sin(3*pi/16) - 58516190068*sqrt(2)*sin(3*pi/16) - 21355565886*sqrt(2) - 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 43646461736*sin(3*pi/16)**2 - 65633118528*sin(3*pi/16)**4 - 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 15970981792*sqrt(2)*sin(3*pi/16)**3 - 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 33118517376*sqrt(2)*sin(3*pi/16)**5 - 9249812096*sin(3*pi/16)**6 + 4262924800*sin(3*pi/16)**7 + 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 29840473600*sqrt(2)*sin(3*pi/16)**6 + 190556766656*sin(3*pi/16)**5 + 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) + 321287565920*sqrt(2)*sin(3*pi/16)**4 + 103420900048*sqrt(2)*sin(3*pi/16)**2 + 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 509539653840*sin(3*pi/16)**3 + 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "-4356470419/1292833951 + (-19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 14130099522*sqrt(sqrt(2) + 2) - 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 34196900596*sin(3*pi/16) - 14889510084*sqrt(2)*sin(3*pi/16) - 7298527230*sqrt(2) - 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 8492366912*sin(3*pi/16)**4 - 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 7569111168*sqrt(2)*sin(3*pi/16)**5 - 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 2359919104*sin(3*pi/16)**6 + 1255314944*sin(3*pi/16)**7 + 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 8787204608*sqrt(2)*sin(3*pi/16)**6 + 3695600856*sin(3*pi/16)**2 + 8845503232*sqrt(2)*sin(3*pi/16)**3 + 55842236928*sin(3*pi/16)**5 + 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) + 94617395840*sqrt(2)*sin(3*pi/16)**4 + 31000989648*sqrt(2)*sin(3*pi/16)**2 + 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 153016557200*sin(3*pi/16)**3 + 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-10822232352/1292833951 + (-155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37213154726*sqrt(sqrt(2) + 2) - 96901490332*sin(3*pi/16) - 58516190068*sqrt(2)*sin(3*pi/16) - 21355565886*sqrt(2) - 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 43646461736*sin(3*pi/16)**2 - 65633118528*sin(3*pi/16)**4 - 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 15970981792*sqrt(2)*sin(3*pi/16)**3 - 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 33118517376*sqrt(2)*sin(3*pi/16)**5 - 9249812096*sin(3*pi/16)**6 + 4262924800*sin(3*pi/16)**7 + 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 29840473600*sqrt(2)*sin(3*pi/16)**6 + 190556766656*sin(3*pi/16)**5 + 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) + 321287565920*sqrt(2)*sin(3*pi/16)**4 + 103420900048*sqrt(2)*sin(3*pi/16)**2 + 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 509539653840*sin(3*pi/16)**3 + 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "(-113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 153016557200*sin(3*pi/16)**3 - 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 31000989648*sqrt(2)*sin(3*pi/16)**2 - 94617395840*sqrt(2)*sin(3*pi/16)**4 - 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) - 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 55842236928*sin(3*pi/16)**5 - 8845503232*sqrt(2)*sin(3*pi/16)**3 - 3695600856*sin(3*pi/16)**2 - 8787204608*sqrt(2)*sin(3*pi/16)**6 - 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1255314944*sin(3*pi/16)**7 + 2359919104*sin(3*pi/16)**6 + 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 7569111168*sqrt(2)*sin(3*pi/16)**5 + 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 8492366912*sin(3*pi/16)**4 + 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 7298527230*sqrt(2) + 14889510084*sqrt(2)*sin(3*pi/16) + 34196900596*sin(3*pi/16) + 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 14130099522*sqrt(sqrt(2) + 2) + 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16))/5171335804 + 4356470419/1292833951"
+   ],
+   [
+    "(-143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219314541216*sin(3*pi/16)**3 - 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 50237540624*sqrt(2)*sin(3*pi/16)**2 - 131916816800*sqrt(2)*sin(3*pi/16)**4 - 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) - 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 74543374720*sin(3*pi/16)**5 - 11235732480*sqrt(2)*sin(3*pi/16)**6 - 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1605104640*sin(3*pi/16)**7 + 4289441920*sin(3*pi/16)**6 + 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 17309852160*sqrt(2)*sin(3*pi/16)**5 + 50033551456*sin(3*pi/16)**4 + 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 4850342682*sqrt(2) + 35781721024*sqrt(2)*sin(3*pi/16)**3 + 35288609912*sin(3*pi/16)**2 + 16408089016*sqrt(2)*sin(3*pi/16) + 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 31789669124*sin(3*pi/16) + 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 21487476338*sqrt(sqrt(2) + 2) + 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 3881312089/1292833951",
+    "(-384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 518949826048*sin(3*pi/16)**3 - 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 110942107280*sqrt(2)*sin(3*pi/16)**2 - 324793328000*sqrt(2)*sin(3*pi/16)**4 - 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 194033763904*sin(3*pi/16)**5 - 26585988768*sqrt(2)*sin(3*pi/16)**3 - 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) - 30703352064*sqrt(2)*sin(3*pi/16)**6 - 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4386193152*sin(3*pi/16)**7 + 8348920064*sin(3*pi/16)**6 + 5712834248*sin(3*pi/16)**2 + 27066006336*sqrt(2)*sin(3*pi/16)**5 + 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 32138271008*sin(3*pi/16)**4 + 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 29235985870*sqrt(2) + 63650495904*sqrt(2)*sin(3*pi/16) + 103958950508*sin(3*pi/16) + 37323325254*sqrt(sqrt(2) + 2) + 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 13114033331/1292833951"
+   ],
+   [
+    "(-384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 518949826048*sin(3*pi/16)**3 - 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 110942107280*sqrt(2)*sin(3*pi/16)**2 - 324793328000*sqrt(2)*sin(3*pi/16)**4 - 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 194033763904*sin(3*pi/16)**5 - 26585988768*sqrt(2)*sin(3*pi/16)**3 - 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) - 30703352064*sqrt(2)*sin(3*pi/16)**6 - 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4386193152*sin(3*pi/16)**7 + 8348920064*sin(3*pi/16)**6 + 5712834248*sin(3*pi/16)**2 + 27066006336*sqrt(2)*sin(3*pi/16)**5 + 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 32138271008*sin(3*pi/16)**4 + 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 29235985870*sqrt(2) + 63650495904*sqrt(2)*sin(3*pi/16) + 103958950508*sin(3*pi/16) + 37323325254*sqrt(sqrt(2) + 2) + 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 13114033331/1292833951",
+    "(-143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219314541216*sin(3*pi/16)**3 - 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 50237540624*sqrt(2)*sin(3*pi/16)**2 - 131916816800*sqrt(2)*sin(3*pi/16)**4 - 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) - 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 74543374720*sin(3*pi/16)**5 - 11235732480*sqrt(2)*sin(3*pi/16)**6 - 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1605104640*sin(3*pi/16)**7 + 4289441920*sin(3*pi/16)**6 + 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 17309852160*sqrt(2)*sin(3*pi/16)**5 + 50033551456*sin(3*pi/16)**4 + 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 4850342682*sqrt(2) + 35781721024*sqrt(2)*sin(3*pi/16)**3 + 35288609912*sin(3*pi/16)**2 + 16408089016*sqrt(2)*sin(3*pi/16) + 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 31789669124*sin(3*pi/16) + 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 21487476338*sqrt(sqrt(2) + 2) + 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 3881312089/1292833951"
+   ],
+   [
+    "(-113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 153016557200*sin(3*pi/16)**3 - 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 31000989648*sqrt(2)*sin(3*pi/16)**2 - 94617395840*sqrt(2)*sin(3*pi/16)**4 - 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) - 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 55842236928*sin(3*pi/16)**5 - 8845503232*sqrt(2)*sin(3*pi/16)**3 - 3695600856*sin(3*pi/16)**2 - 8787204608*sqrt(2)*sin(3*pi/16)**6 - 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1255314944*sin(3*pi/16)**7 + 2359919104*sin(3*pi/16)**6 + 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 7569111168*sqrt(2)*sin(3*pi/16)**5 + 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 8492366912*sin(3*pi/16)**4 + 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 7298527230*sqrt(2) + 14889510084*sqrt(2)*sin(3*pi/16) + 34196900596*sin(3*pi/16) + 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 14130099522*sqrt(sqrt(2) + 2) + 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16))/5171335804 + 4356470419/1292833951",
+    "-10822232352/1292833951 + (-155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37213154726*sqrt(sqrt(2) + 2) - 96901490332*sin(3*pi/16) - 58516190068*sqrt(2)*sin(3*pi/16) - 21355565886*sqrt(2) - 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 43646461736*sin(3*pi/16)**2 - 65633118528*sin(3*pi/16)**4 - 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 15970981792*sqrt(2)*sin(3*pi/16)**3 - 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 33118517376*sqrt(2)*sin(3*pi/16)**5 - 9249812096*sin(3*pi/16)**6 + 4262924800*sin(3*pi/16)**7 + 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 29840473600*sqrt(2)*sin(3*pi/16)**6 + 190556766656*sin(3*pi/16)**5 + 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) + 321287565920*sqrt(2)*sin(3*pi/16)**4 + 103420900048*sqrt(2)*sin(3*pi/16)**2 + 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 509539653840*sin(3*pi/16)**3 + 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-4356470419/1292833951 + (-19890781424*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 35768553984*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 14130099522*sqrt(sqrt(2) + 2) - 81257588864*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 34196900596*sin(3*pi/16) - 14889510084*sqrt(2)*sin(3*pi/16) - 7298527230*sqrt(2) - 29906783680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 8492366912*sin(3*pi/16)**4 - 7079757312*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 7569111168*sqrt(2)*sin(3*pi/16)**5 - 140090280*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 2359919104*sin(3*pi/16)**6 + 1255314944*sin(3*pi/16)**7 + 4393602304*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 8787204608*sqrt(2)*sin(3*pi/16)**6 + 3695600856*sin(3*pi/16)**2 + 8845503232*sqrt(2)*sin(3*pi/16)**3 + 55842236928*sin(3*pi/16)**5 + 26361613824*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 1509874810*sqrt(2)*sqrt(sqrt(2) + 2) + 94617395840*sqrt(2)*sin(3*pi/16)**4 + 31000989648*sqrt(2)*sin(3*pi/16)**2 + 117637580800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 153016557200*sin(3*pi/16)**3 + 67244048472*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 113162341120*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "-10822232352/1292833951 + (-155712960848*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 337172852096*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 47390333616*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37213154726*sqrt(sqrt(2) + 2) - 96901490332*sin(3*pi/16) - 58516190068*sqrt(2)*sin(3*pi/16) - 21355565886*sqrt(2) - 120096885440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 43646461736*sin(3*pi/16)**2 - 65633118528*sin(3*pi/16)**4 - 5280607848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 15970981792*sqrt(2)*sin(3*pi/16)**3 - 27749436288*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 33118517376*sqrt(2)*sin(3*pi/16)**5 - 9249812096*sin(3*pi/16)**6 + 4262924800*sin(3*pi/16)**7 + 14920236800*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 29840473600*sqrt(2)*sin(3*pi/16)**6 + 190556766656*sin(3*pi/16)**5 + 89521420800*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 6278450786*sqrt(2)*sqrt(sqrt(2) + 2) + 321287565920*sqrt(2)*sin(3*pi/16)**4 + 103420900048*sqrt(2)*sin(3*pi/16)**2 + 401790732640*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 509539653840*sin(3*pi/16)**3 + 245682496760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 390419456320*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804"
+   ],
+   [
+    "-13114033331/1292833951 + (-125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 37323325254*sqrt(sqrt(2) + 2) - 103958950508*sin(3*pi/16) - 63650495904*sqrt(2)*sin(3*pi/16) - 29235985870*sqrt(2) - 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 32138271008*sin(3*pi/16)**4 - 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 27066006336*sqrt(2)*sin(3*pi/16)**5 - 5712834248*sin(3*pi/16)**2 - 8348920064*sin(3*pi/16)**6 + 4386193152*sin(3*pi/16)**7 + 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 30703352064*sqrt(2)*sin(3*pi/16)**6 + 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) + 26585988768*sqrt(2)*sin(3*pi/16)**3 + 194033763904*sin(3*pi/16)**5 + 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 324793328000*sqrt(2)*sin(3*pi/16)**4 + 110942107280*sqrt(2)*sin(3*pi/16)**2 + 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 518949826048*sin(3*pi/16)**3 + 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 + 384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3)/5171335804",
+    "(-143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219314541216*sin(3*pi/16)**3 - 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 50237540624*sqrt(2)*sin(3*pi/16)**2 - 131916816800*sqrt(2)*sin(3*pi/16)**4 - 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) - 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 74543374720*sin(3*pi/16)**5 - 11235732480*sqrt(2)*sin(3*pi/16)**6 - 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 1605104640*sin(3*pi/16)**7 + 4289441920*sin(3*pi/16)**6 + 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 17309852160*sqrt(2)*sin(3*pi/16)**5 + 50033551456*sin(3*pi/16)**4 + 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 4850342682*sqrt(2) + 35781721024*sqrt(2)*sin(3*pi/16)**3 + 35288609912*sin(3*pi/16)**2 + 16408089016*sqrt(2)*sin(3*pi/16) + 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 31789669124*sin(3*pi/16) + 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 21487476338*sqrt(sqrt(2) + 2) + 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 3881312089/1292833951"
+   ],
+   [
+    "-3881312089/1292833951 + (-86067362656*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 169530008512*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 21487476338*sqrt(sqrt(2) + 2) - 12792659920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 31789669124*sin(3*pi/16) - 57319296000*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 16408089016*sqrt(2)*sin(3*pi/16) - 35288609912*sin(3*pi/16)**2 - 35781721024*sqrt(2)*sin(3*pi/16)**3 - 4850342682*sqrt(2) - 6607515640*sqrt(sqrt(2) + 2)*sin(3*pi/16) - 50033551456*sin(3*pi/16)**4 - 17309852160*sqrt(2)*sin(3*pi/16)**5 - 12868325760*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 4289441920*sin(3*pi/16)**6 + 1605104640*sin(3*pi/16)**7 + 5617866240*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 + 11235732480*sqrt(2)*sin(3*pi/16)**6 + 74543374720*sin(3*pi/16)**5 + 33707197440*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 4263510620*sqrt(2)*sqrt(sqrt(2) + 2) + 131916816800*sqrt(2)*sin(3*pi/16)**4 + 50237540624*sqrt(2)*sin(3*pi/16)**2 + 158269105600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 219314541216*sin(3*pi/16)**3 + 172923518400*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 143925791344*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804",
+    "(-384297735680*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 - 219916119808*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2 - 518949826048*sin(3*pi/16)**3 - 408326029600*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 - 110942107280*sqrt(2)*sin(3*pi/16)**2 - 324793328000*sqrt(2)*sin(3*pi/16)**4 - 92110056192*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 - 194033763904*sin(3*pi/16)**5 - 26585988768*sqrt(2)*sin(3*pi/16)**3 - 1524563680*sqrt(2)*sqrt(sqrt(2) + 2) - 30703352064*sqrt(2)*sin(3*pi/16)**6 - 15351676032*sqrt(sqrt(2) + 2)*sin(3*pi/16)**6 - 4386193152*sin(3*pi/16)**7 + 8348920064*sin(3*pi/16)**6 + 5712834248*sin(3*pi/16)**2 + 27066006336*sqrt(2)*sin(3*pi/16)**5 + 25046760192*sqrt(sqrt(2) + 2)*sin(3*pi/16)**5 + 32138271008*sin(3*pi/16)**4 + 4423059848*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 106044205920*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**4 + 29235985870*sqrt(2) + 63650495904*sqrt(2)*sin(3*pi/16) + 103958950508*sin(3*pi/16) + 37323325254*sqrt(sqrt(2) + 2) + 54032981328*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16) + 287820862016*sqrt(sqrt(2) + 2)*sin(3*pi/16)**3 + 125655282544*sqrt(2)*sqrt(sqrt(2) + 2)*sin(3*pi/16)**2)/5171335804 + 13114033331/1292833951"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.9807852804032304,
+    0.19509032201612828
+   ],
+   [
+    0.9807852804032304,
+    -0.19509032201612828
+   ],
+   [
+    0.5555702330196022,
+    0.8314696123025452
+   ],
+   [
+    0.8314696123025452,
+    0.5555702330196022
+   ],
+   [
+    -0.19509032201612828,
+    0.9807852804032304
+   ],
+   [
+    0.19509032201612828,
+    0.9807852804032304
+   ],
+   [
+    -0.8314696123025452,
+    0.5555702330196022
+   ],
+   [
+    -0.5555702330196022,
+    0.8314696123025452
+   ],
+   [
+    -0.9807852804032304,
+    -0.19509032201612828
+   ],
+   [
+    -0.9807852804032304,
+    0.19509032201612828
+   ],
+   [
+    -0.5555702330196022,
+    -0.8314696123025452
+   ],
+   [
+    -0.8314696123025452,
+    -0.5555702330196022
+   ],
+   [
+    0.19509032201612828,
+    -0.9807852804032304
+   ],
+   [
+    -0.19509032201612828,
+    -0.9807852804032304
+   ],
+   [
+    0.8314696123025452,
+    -0.5555702330196022
+   ],
+   [
+    0.5555702330196022,
+    -0.8314696123025452
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 19,
+  "circles": 145,
+  "formula_value": 145,
+  "float_best": 145,
+  "exact_matches_float": true,
+  "construction": "D_9-symmetric Moebius configuration: generic D_9 orbit of 18 points, radius 1, angles +-(pi/18) + 2*pi*k/9; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, -0.000000) (exact: intersection of the blocks [[-1, 0, 11], [-1, 1, 8]]), which lies on 9 blocks. Moebius blocks: 154 (sizes {18: 1, 3: 153}), deg(O) = 9.",
+  "family": "D9 G I",
+  "m": 9,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.17453292519943295
+  ],
+  "params_exact": [
+   "1",
+   "pi/18"
+  ],
+  "moebius_blocks": 154,
+  "moebius_block_sizes": [
+   18,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 9,
+  "block_sizes": "circles: 18^1 3^144; lines: 3^9",
+  "collinear_triples": 9,
+  "coordinates_exact": [
+   [
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)",
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1"
+   ],
+   [
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)",
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2"
+   ],
+   [
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)",
+    "1 - 2*sin(pi/9)**2"
+   ],
+   [
+    "-4*sin(pi/9)**3 + 3*sin(pi/9)",
+    "1/2"
+   ],
+   [
+    "0",
+    "1"
+   ],
+   [
+    "sin(pi/9)",
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2"
+   ],
+   [
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3",
+    "1 - 2*sin(pi/9)**2"
+   ],
+   [
+    "-sin(pi/9)",
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2"
+   ],
+   [
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3",
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1"
+   ],
+   [
+    "-3*sin(pi/9) + 4*sin(pi/9)**3",
+    "1/2"
+   ],
+   [
+    "-3*sin(pi/9) + 4*sin(pi/9)**3",
+    "-1/2"
+   ],
+   [
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3",
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2"
+   ],
+   [
+    "-sin(pi/9)",
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2"
+   ],
+   [
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3",
+    "-1 + 2*sin(pi/9)**2"
+   ],
+   [
+    "sin(pi/9)",
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2"
+   ],
+   [
+    "0",
+    "-1"
+   ],
+   [
+    "-4*sin(pi/9)**3 + 3*sin(pi/9)",
+    "-1/2"
+   ],
+   [
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)",
+    "-1 + 2*sin(pi/9)**2"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.984807753012208,
+    0.17364817766693036
+   ],
+   [
+    0.984807753012208,
+    -0.17364817766693036
+   ],
+   [
+    0.6427876096865394,
+    0.766044443118978
+   ],
+   [
+    0.8660254037844386,
+    0.5
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.3420201433256687,
+    0.9396926207859084
+   ],
+   [
+    -0.6427876096865394,
+    0.766044443118978
+   ],
+   [
+    -0.3420201433256687,
+    0.9396926207859084
+   ],
+   [
+    -0.984807753012208,
+    0.17364817766693036
+   ],
+   [
+    -0.8660254037844386,
+    0.5
+   ],
+   [
+    -0.8660254037844386,
+    -0.5
+   ],
+   [
+    -0.984807753012208,
+    -0.17364817766693036
+   ],
+   [
+    -0.3420201433256687,
+    -0.9396926207859084
+   ],
+   [
+    -0.6427876096865394,
+    -0.766044443118978
+   ],
+   [
+    0.3420201433256687,
+    -0.9396926207859084
+   ],
+   [
+    0.0,
+    -1.0
+   ],
+   [
+    0.8660254037844386,
+    -0.5
+   ],
+   [
+    0.6427876096865394,
+    -0.766044443118978
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 19,
+  "circles": 145,
+  "formula_value": 145,
+  "float_best": 145,
+  "exact_matches_float": true,
+  "construction": "D_9-symmetric Moebius configuration: regular 9-gon (vertices at angles 2*pi*k/9) radius 1; regular 9-gon (vertices at angles (2k+1)*pi/9) radius 1; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 154 (sizes {18: 1, 3: 153}), deg(O) = 9.",
+  "family": "D9 A B C",
+  "m": 9,
+  "orbits": [
+   [
+    "A"
+   ],
+   [
+    "B"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   1.0
+  ],
+  "params_exact": [
+   "1",
+   "1"
+  ],
+  "moebius_blocks": 154,
+  "moebius_block_sizes": [
+   18,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 9,
+  "block_sizes": "circles: 18^1 3^144; lines: 3^9",
+  "collinear_triples": 9,
+  "coordinates_exact": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-1/2",
+    "-4*sin(pi/9)**3 + 3*sin(pi/9)"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "sin(pi/9)"
+   ],
+   [
+    "-2 - 8*sin(pi/9)**4 + 10*sin(pi/9)**2",
+    "-sin(pi/9)"
+   ],
+   [
+    "-1/2",
+    "-3*sin(pi/9) + 4*sin(pi/9)**3"
+   ],
+   [
+    "-8*sin(pi/9)**2 + 8*sin(pi/9)**4 + 1",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "1 - 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "sin(pi/9)"
+   ],
+   [
+    "1/2",
+    "-4*sin(pi/9)**3 + 3*sin(pi/9)"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 5*sin(pi/9)"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-20*sin(pi/9)**3 + 16*sin(pi/9)**5 + 4*sin(pi/9)"
+   ],
+   [
+    "-1",
+    "0"
+   ],
+   [
+    "-1 + 2*sin(pi/9)**2",
+    "-4*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "-1 - 8*sin(pi/9)**4 + 8*sin(pi/9)**2",
+    "-5*sin(pi/9) - 16*sin(pi/9)**5 + 20*sin(pi/9)**3"
+   ],
+   [
+    "1/2",
+    "-3*sin(pi/9) + 4*sin(pi/9)**3"
+   ],
+   [
+    "-10*sin(pi/9)**2 + 8*sin(pi/9)**4 + 2",
+    "-sin(pi/9)"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    1.0,
+    0.0
+   ],
+   [
+    0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    -0.5,
+    0.8660254037844386
+   ],
+   [
+    -0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    -0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    -0.5,
+    -0.8660254037844386
+   ],
+   [
+    0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    0.9396926207859084,
+    0.3420201433256687
+   ],
+   [
+    0.5,
+    0.8660254037844386
+   ],
+   [
+    -0.17364817766693036,
+    0.984807753012208
+   ],
+   [
+    -0.766044443118978,
+    0.6427876096865394
+   ],
+   [
+    -1.0,
+    0.0
+   ],
+   [
+    -0.766044443118978,
+    -0.6427876096865394
+   ],
+   [
+    -0.17364817766693036,
+    -0.984807753012208
+   ],
+   [
+    0.5,
+    -0.8660254037844386
+   ],
+   [
+    0.9396926207859084,
+    -0.3420201433256687
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 21,
+  "circles": 181,
+  "formula_value": 181,
+  "float_best": 181,
+  "exact_matches_float": true,
+  "construction": "D_10-symmetric Moebius configuration: generic D_10 orbit of 20 points, radius 1, angles +-(pi/20) + 2*pi*k/10; point at infinity (becomes the inversion centre after inversion). Inverted about the point O = (-0.000000, -0.000000) (exact: intersection of the blocks [[-1, 0, 10], [-1, 1, 11]]), which lies on 10 blocks. Moebius blocks: 191 (sizes {20: 1, 3: 190}), deg(O) = 10.",
+  "family": "D10 G I",
+  "m": 10,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "I"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.15707963267948966
+  ],
+  "params_exact": [
+   "1",
+   "pi/20"
+  ],
+  "moebius_blocks": 191,
+  "moebius_block_sizes": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 10,
+  "block_sizes": "circles: 20^1 3^180; lines: 3^10",
+  "collinear_triples": 10,
+  "coordinates_exact": [
+   [
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "-sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "-sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.9876883405951378,
+    0.15643446504023087
+   ],
+   [
+    0.9876883405951378,
+    -0.15643446504023087
+   ],
+   [
+    0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    0.8910065241883679,
+    0.4539904997395468
+   ],
+   [
+    0.15643446504023087,
+    0.9876883405951378
+   ],
+   [
+    0.4539904997395468,
+    0.8910065241883679
+   ],
+   [
+    -0.4539904997395468,
+    0.8910065241883679
+   ],
+   [
+    -0.15643446504023087,
+    0.9876883405951378
+   ],
+   [
+    -0.8910065241883679,
+    0.4539904997395468
+   ],
+   [
+    -0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    -0.9876883405951378,
+    -0.15643446504023087
+   ],
+   [
+    -0.9876883405951378,
+    0.15643446504023087
+   ],
+   [
+    -0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    -0.8910065241883679,
+    -0.4539904997395468
+   ],
+   [
+    -0.15643446504023087,
+    -0.9876883405951378
+   ],
+   [
+    -0.4539904997395468,
+    -0.8910065241883679
+   ],
+   [
+    0.4539904997395468,
+    -0.8910065241883679
+   ],
+   [
+    0.15643446504023087,
+    -0.9876883405951378
+   ],
+   [
+    0.8910065241883679,
+    -0.4539904997395468
+   ],
+   [
+    0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ },
+ {
+  "n": 21,
+  "circles": 181,
+  "formula_value": 181,
+  "float_best": 181,
+  "exact_matches_float": true,
+  "construction": "D_10-symmetric Moebius configuration: generic D_10 orbit of 20 points, radius 1, angles +-(pi/20) + 2*pi*k/10; centre. No inversion needed (Euclidean count of the configuration itself). Moebius blocks: 191 (sizes {20: 1, 3: 190}), deg(O) = 10.",
+  "family": "D10 G C",
+  "m": 10,
+  "orbits": [
+   [
+    "G"
+   ],
+   [
+    "C"
+   ]
+  ],
+  "params_float": [
+   1.0,
+   0.15707963267948966
+  ],
+  "params_exact": [
+   "1",
+   "pi/20"
+  ],
+  "moebius_blocks": 191,
+  "moebius_block_sizes": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "deg_O": 10,
+  "block_sizes": "circles: 20^1 3^180; lines: 3^10",
+  "collinear_triples": 10,
+  "coordinates_exact": [
+   [
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "-sqrt(2)/2",
+    "sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "-sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) - sqrt(2)) - 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(10)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(10) + sqrt(2)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) + sqrt(2)))/32"
+   ],
+   [
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(sqrt(2) + sqrt(10)))/32",
+    "sqrt(2)*(-2*sqrt(10)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(10) - sqrt(2)) + 2*sqrt(2)*sqrt(sqrt(5) + 5))/32"
+   ],
+   [
+    "sqrt(2)*(2*sqrt(2)*(-sqrt(2) + sqrt(10)) + 4*sqrt(2)*sqrt(sqrt(5) + 5))/32",
+    "sqrt(2)*(-4*sqrt(2)*sqrt(sqrt(5) + 5) + 2*sqrt(2)*(-sqrt(2) + sqrt(10)))/32"
+   ],
+   [
+    "sqrt(2)/2",
+    "-sqrt(2)/2"
+   ],
+   [
+    "0",
+    "0"
+   ]
+  ],
+  "coordinates_float": [
+   [
+    0.9876883405951378,
+    0.15643446504023087
+   ],
+   [
+    0.9876883405951378,
+    -0.15643446504023087
+   ],
+   [
+    0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    0.8910065241883679,
+    0.4539904997395468
+   ],
+   [
+    0.15643446504023087,
+    0.9876883405951378
+   ],
+   [
+    0.4539904997395468,
+    0.8910065241883679
+   ],
+   [
+    -0.4539904997395468,
+    0.8910065241883679
+   ],
+   [
+    -0.15643446504023087,
+    0.9876883405951378
+   ],
+   [
+    -0.8910065241883679,
+    0.4539904997395468
+   ],
+   [
+    -0.7071067811865476,
+    0.7071067811865476
+   ],
+   [
+    -0.9876883405951378,
+    -0.15643446504023087
+   ],
+   [
+    -0.9876883405951378,
+    0.15643446504023087
+   ],
+   [
+    -0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    -0.8910065241883679,
+    -0.4539904997395468
+   ],
+   [
+    -0.15643446504023087,
+    -0.9876883405951378
+   ],
+   [
+    -0.4539904997395468,
+    -0.8910065241883679
+   ],
+   [
+    0.4539904997395468,
+    -0.8910065241883679
+   ],
+   [
+    0.15643446504023087,
+    -0.9876883405951378
+   ],
+   [
+    0.8910065241883679,
+    -0.4539904997395468
+   ],
+   [
+    0.7071067811865476,
+    -0.7071067811865476
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "code_path": "/home/user/Solving-hard-math-problems-/experiments/506/symmetric/search.py + verify.py"
+ }
+]

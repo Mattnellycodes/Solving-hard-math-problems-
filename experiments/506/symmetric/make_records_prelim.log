@@ -1,0 +1,118 @@
+== n=5 float best=5 formula=5 D2 A B C params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ (degree 1)
+  Moebius blocks (exact): circles 5, lines(>=3) 2, total 7; float said 7
+  EXACT: circles=5 collinear triples=2 degenerate=False circle sizes=[4, 3, 3, 3, 3] line sizes=[3, 3]
+== n=6 float best=8 formula=9 D3 A B params=[1.0, 2.0]
+  exact params: [1, 2]
+  field: QQ<sqrt(3)> (degree 2)
+  Moebius blocks (exact): circles 8, lines(>=3) 3, total 11; float said 11
+  EXACT: circles=8 collinear triples=3 degenerate=False circle sizes=[4, 4, 4, 3, 3, 3, 3, 3] line sizes=[3, 3, 3]
+== n=6 float best=8 formula=9 D2 A G params=[1.0, 0.414213562, 0.7853981633974483]
+  exact params: [1, -1 + sqrt(2), pi/4]
+  field: QQ<sqrt(2)> (degree 2)
+  Moebius blocks (exact): circles 11, lines(>=3) 0, total 11; float said 11
+  EXACT: circles=8 collinear triples=3 degenerate=False circle sizes=[4, 4, 4, 3, 3, 3, 3, 3] line sizes=[3, 3, 3]
+== n=7 float best=11 formula=13 D3 A B C params=[1.0, 2.0]
+  exact params: [1, 2]
+  field: QQ<sqrt(3)> (degree 2)
+  Moebius blocks (exact): circles 11, lines(>=3) 6, total 17; float said 17
+  EXACT: circles=11 collinear triples=6 degenerate=False circle sizes=[4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3]
+== n=7 float best=11 formula=13 D3 A B I params=[1.0, 2.0]
+  exact params: [1, 2]
+  field: QQ<sqrt(3)> (degree 2)
+  Moebius blocks (exact): circles 8, lines(>=3) 3, total 17; float said 17
+  EXACT: circles=11 collinear triples=6 degenerate=False circle sizes=[4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3]
+== n=8 float best=17 formula=19 D2 G G params=[1.0, 0.5235987755982988, 4.0, 0.5235987755982988]
+  exact params: [1, pi/6, 4, pi/6]
+  field: QQ<sqrt(3)> (degree 2)
+  Moebius blocks (exact): circles 18, lines(>=3) 2, total 20; float said 20
+  EXACT: circles=17 collinear triples=6 degenerate=False circle sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3] line sizes=[4, 3, 3]
+== n=8 float best=19 formula=19 D2 A A G params=[1.0, 0.17157287525380993, 0.41421356237309503, 0.7853981633974483]
+  exact params: [1, 3 - 2*sqrt(2), -2*GoldenRatio + sqrt(2) + sqrt(5), pi/4]
+  field: QQ<sqrt(2)> (degree 2)
+  Moebius blocks (exact): circles 19, lines(>=3) 1, total 20; float said 20
+  EXACT: circles=19 collinear triples=4 degenerate=False circle sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[4]
+== n=9 float best=25 formula=25 D2 G G I params=[1.0, 0.5235987755982988, 1.0, 0.3141592653589793]
+  exact params: [1, pi/6, 1, pi/10]
+  field: QQ<sqrt(sqrt(5)/8 + 5/8) + sqrt(3)> (degree 8)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 29; float said 29
+  EXACT: circles=25 collinear triples=4 degenerate=False circle sizes=[8, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3]
+== n=9 float best=25 formula=25 D2 G G C params=[1.0, 0.5235987755982988, 1.0, 0.3141592653589793]
+  exact params: [1, pi/6, 1, pi/10]
+  field: QQ<sqrt(sqrt(5)/8 + 5/8) + sqrt(3)> (degree 8)
+  Moebius blocks (exact): circles 25, lines(>=3) 4, total 29; float said 29
+  EXACT: circles=25 collinear triples=4 degenerate=False circle sizes=[8, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3]
+== n=11 float best=41 formula=41 D5 G C params=[1.0, 0.3141592653589793]
+  exact params: [1, pi/10]
+  field: QQ<sqrt(5/8 - sqrt(5)/8)> (degree 4)
+  Moebius blocks (exact): circles 41, lines(>=3) 5, total 46; float said 46
+  EXACT: circles=41 collinear triples=5 degenerate=False circle sizes=[10, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3]
+== n=11 float best=41 formula=41 D5 A B I params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ<sqrt(5/8 - sqrt(5)/8)> (degree 4)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 46; float said 46
+  EXACT: circles=41 collinear triples=5 degenerate=False circle sizes=[10, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3]
+== n=13 float best=61 formula=61 D3 G G C params=[1.0, 0.6981317007977318, 1.0, 0.3490658503988659]
+  exact params: [1, 2*pi/9, 1, pi/9]
+  field: QQ<sin(pi/9)> (degree 6)
+  Moebius blocks (exact): circles 61, lines(>=3) 6, total 67; float said 67
+  EXACT: circles=61 collinear triples=6 degenerate=False circle sizes=[12, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3]
+== n=13 float best=61 formula=61 D3 G G I params=[1.0, 0.6981317007977318, 1.0, 0.3490658503988659]
+  exact params: [1, 2*pi/9, 1, pi/9]
+  field: QQ<sin(pi/9)> (degree 6)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 67; float said 67
+  EXACT: circles=61 collinear triples=6 degenerate=False circle sizes=[12, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3]
+== n=15 float best=85 formula=85 D7 A B C params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ<sin(pi/7)> (degree 6)
+  Moebius blocks (exact): circles 85, lines(>=3) 7, total 92; float said 92
+  EXACT: circles=85 collinear triples=7 degenerate=False circle sizes=[14, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3]
+== n=15 float best=85 formula=85 D7 A B I params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ<sin(pi/7)> (degree 6)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 92; float said 92
+  EXACT: circles=85 collinear triples=7 degenerate=False circle sizes=[14, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3]
+== n=17 float best=113 formula=113 D8 A B I params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ<sqrt(1/2 - sqrt(2)/4) + sqrt(2)> (degree 4)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 121; float said 121
+  EXACT: circles=113 collinear triples=8 degenerate=False circle sizes=[16, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3]
+== n=17 float best=113 formula=113 D8 G C params=[1.0, 0.19634954084936207]
+  exact params: [1, pi/16]
+  field: QQ<sin(3*pi/16) + sqrt(sqrt(2)/4 + 1/2) + sqrt(2)> (degree 8)
+  Moebius blocks (exact): circles 113, lines(>=3) 8, total 121; float said 121
+  EXACT: circles=113 collinear triples=8 degenerate=False circle sizes=[16, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3]
+== n=19 float best=145 formula=145 D9 G I params=[1.0, 0.17453292519943295]
+  exact params: [1, pi/18]
+  field: QQ<sin(pi/9)> (degree 6)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 154; float said 154
+  EXACT: circles=145 collinear triples=9 degenerate=False circle sizes=[18, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3]
+== n=19 float best=145 formula=145 D9 A B C params=[1.0, 1.0]
+  exact params: [1, 1]
+  field: QQ<sin(pi/9)> (degree 6)
+  Moebius blocks (exact): circles 145, lines(>=3) 9, total 154; float said 154
+  EXACT: circles=145 collinear triples=9 degenerate=False circle sizes=[18, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3]
+== n=21 float best=181 formula=181 D10 G I params=[1.0, 0.15707963267948966]
+  exact params: [1, pi/20]
+  field: QQ<sqrt(sqrt(5)/8 + 5/8) + sqrt(2)> (degree 8)
+  Moebius blocks (exact): circles 1, lines(>=3) 0, total 191; float said 191
+  EXACT: circles=181 collinear triples=10 degenerate=False circle sizes=[20, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+== n=21 float best=181 formula=181 D10 G C params=[1.0, 0.15707963267948966]
+  exact params: [1, pi/20]
+  field: QQ<sqrt(sqrt(5)/8 + 5/8) + sqrt(2)> (degree 8)
+  Moebius blocks (exact): circles 181, lines(>=3) 10, total 191; float said 191
+  EXACT: circles=181 collinear triples=10 degenerate=False circle sizes=[20, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] line sizes=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
+BEST PER n (exact):
+n= 5 formula=  5 best=  5 tie
+n= 6 formula=  9 best=  8 <-- BELOW
+n= 7 formula= 13 best= 11 <-- BELOW
+n= 8 formula= 19 best= 17 <-- BELOW
+n= 9 formula= 25 best= 25 tie
+n=11 formula= 41 best= 41 tie
+n=13 formula= 61 best= 61 tie
+n=15 formula= 85 best= 85 tie
+n=17 formula=113 best=113 tie
+n=19 formula=145 best=145 tie
+n=21 formula=181 best=181 tie

@@ -1,0 +1,21 @@
+16 families
+D5 A n=5 p=1 K=7: 0 roots, 1 evals, 0.0s
+D5 A C n=6 p=1 K=7: 0 roots, 1 evals, 0.0s
+D5 A I n=6 p=1 K=7: 0 roots, 1 evals, 0.0s
+D5 A C I n=7 p=1 K=7: 0 roots, 1 evals, 0.0s
+D5 A B n=10 p=2 K=65: 50 roots, 15 evals, 0.3s
+D5 G n=10 p=2 K=57: 6 roots, 6 evals, 0.1s
+D5 A A n=10 p=2 K=460: 30 roots, 13 evals, 2.0s
+D5 A A I n=11 p=2 K=460: 30 roots, 13 evals, 1.7s
+  NEW n=11 best=41 (formula 41) D5 A B C params=[1.0, 1.0] nb=46 deg=5 lines=5 root p1 lvl0
+D5 A B C n=11 p=2 K=65: 50 roots, 15 evals, 0.4s
+  NEW n=11 best=41 (formula 41) D5 G I params=[1.0, 0.314159] nb=46 deg=5 lines=45 base
+D5 G I n=11 p=2 K=57: 6 roots, 6 evals, 0.1s
+D5 A A C n=11 p=2 K=460: 30 roots, 13 evals, 1.8s
+D5 G C n=11 p=2 K=57: 6 roots, 6 evals, 0.1s
+D5 A B I n=11 p=2 K=65: 50 roots, 15 evals, 0.4s
+D5 A B C I n=12 p=2 K=65: 50 roots, 15 evals, 0.6s
+D5 G C I n=12 p=2 K=57: 6 roots, 6 evals, 0.2s
+D5 A A C I n=12 p=2 K=460: 30 roots, 13 evals, 2.0s
+SUMMARY
+n=11 formula= 41 best= 41 D5 A B C params=[1.0, 1.0] (2 structures)
