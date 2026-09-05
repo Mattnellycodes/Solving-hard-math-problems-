@@ -1,0 +1,6 @@
+skeleton 1: sizes [6] D_skel=19 b4 in [19,22] cands=115 base clauses=47236 |Aut|=17280 cap=True mk=True LB=75
+  b4=22: 0 classes, 0 labelled solutions  (7.5s)
+  b4=21: 0 classes, 0 labelled solutions  (7.7s)
+  b4=20: 0 classes, 0 labelled solutions  (8.2s)
+  b4=19: 8 classes, 9840 labelled solutions  (16.7s)
+skeleton 1: 8 F-classes, 9840 labelled solutions, 16.7s

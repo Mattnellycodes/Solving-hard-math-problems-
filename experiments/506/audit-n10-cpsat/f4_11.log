@@ -1,0 +1,9 @@
+skeleton 11 [[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8, 9]] D_skel = 38
+candidate 4-blocks: 36
+|Aut(skeleton)| = 2304
+lex-leader constraints for 495 group elements
+aux vars: 33864 build time 0.9s
+status: OPTIMAL labelled solutions: 1  12s
+F-classes: 1
+  b4=12 D=74 deg4=[0, 0, 6, 6, 6, 6, 6, 6, 6, 6] labelled=1
+done 12s

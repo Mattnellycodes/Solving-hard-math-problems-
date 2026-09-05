@@ -1,0 +1,18 @@
+[
+ {
+  "index": 0,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 6,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    32
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ }
+]

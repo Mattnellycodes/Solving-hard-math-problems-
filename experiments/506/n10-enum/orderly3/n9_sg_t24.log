@@ -1,0 +1,20 @@
+n=9 target=24 mode=sg need D+ell>=60 Caps(n=9, mode=sg, capD=27, max4=9, capL=35, t3n=1000000000, ellmax=11) sizes=[5, 6, 7, 8]
+phase 1: 9 canonical big-block families (incl. empty), 334 canonicity tests
+phase 1 done in 0.1s
+[0] empty big family: skipped (all-4-block case handled separately)
+[1] sizes=[5] blocks=[[0, 1, 2, 3, 4]] D0=9 |Aut|=2880 root_bound=15 nodes=81 evals=0 candidates=0 [0.1s]
+[2] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]] D0=18 |Aut|=144 root_bound=13 nodes=6 evals=0 candidates=0 [0.0s]
+[3] sizes=[5, 5, 5] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] D0=27 |Aut|=48 root_bound=9 nodes=1 evals=0 candidates=0 [0.0s]
+    CANDIDATE: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=6 count=24 degrees=[2, 7, 7, 7, 7, 7, 7, 7, 7] #line_sets=24
+[4] sizes=[5, 5] blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]] D0=18 |Aut|=1152 root_bound=12 nodes=20 evals=2 candidates=1 [0.0s]
+[5] sizes=[5, 6] blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8]] D0=28 |Aut|=288 root_bound=6 nodes=0 evals=0 candidates=0 [0.0s]
+[6] sizes=[6] blocks=[[0, 1, 2, 3, 4, 5]] D0=19 |Aut|=4320 root_bound=12 nodes=7 evals=0 candidates=0 [0.0s]
+[7] sizes=[7] blocks=[[0, 1, 2, 3, 4, 5, 6]] D0=34 |Aut|=10080 root_bound=11 nodes=2 evals=0 candidates=0 [0.0s]
+[8] sizes=[8] blocks=[[0, 1, 2, 3, 4, 5, 6, 7]] D0=55 |Aut|=40320 root_bound=0 nodes=1 evals=1 candidates=0 [0.2s]
+TOTAL phase-2 nodes=118; candidate structures (count <= 24): 1 [0.5s]
+  cand 0: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=6 count=24 degrees=[2, 7, 7, 7, 7, 7, 7, 7, 7]
+     blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8], [1, 2, 5, 6], [1, 2, 7, 8], [1, 3, 5, 7], [1, 3, 6, 8], [1, 4, 5, 8], [1, 4, 6, 7], [2, 3, 5, 8], [2, 3, 6, 7], [2, 4, 5, 7], [2, 4, 6, 8], [3, 4, 5, 6], [3, 4, 7, 8]]
+
+real	0m0.716s
+user	0m0.539s
+sys	0m0.162s

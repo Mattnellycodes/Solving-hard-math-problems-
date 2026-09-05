@@ -1,0 +1,6 @@
+check 1 (degrees <= 10, >= 25 blocks, >= 13 lines): status INFEASIBLE [12.3s]
+check 2 (degrees <= 11, 3*b4 + ell >= 89, i.e. count <= 31): status UNKNOWN [1500.0s]
+
+real	25m13.474s
+user	22m15.860s
+sys	0m0.651s

@@ -1,0 +1,12 @@
+skeleton -1 [] D_skel = 0
+candidate 4-blocks: 210
+empty skeleton: Aut = S_10, using 3911 elements
+lex-leader constraints for 685 group elements
+aux vars: 251344 build time 7.4s
+status: OPTIMAL labelled solutions: 141  158s
+F-classes: 4
+  b4=25 D=75 deg4=[10, 10, 10, 10, 10, 10, 10, 10, 10, 10] labelled=82
+  b4=25 D=75 deg4=[10, 10, 10, 10, 10, 10, 10, 10, 10, 10] labelled=6
+  b4=25 D=75 deg4=[10, 10, 10, 10, 10, 10, 10, 10, 10, 10] labelled=15
+  b4=25 D=75 deg4=[10, 10, 10, 10, 10, 10, 10, 10, 10, 10] labelled=38
+done 216s

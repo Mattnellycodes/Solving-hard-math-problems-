@@ -208,3 +208,28 @@ set. The complete enumeration of case-A and two-pentagon 4-block families was st
 usage limit interrupted the workflow; the other three attack agents (orderly enumeration, two construction
 searches), the audit and the write-up never ran. Status: c(10) ≥ 33 NOT yet established; no candidate
 structure with ≤ 32 circles has survived any check so far.
+
+**20:45 UTC — n = 10 resolved (pending final audit): c(10) = 33 = f(10).**
+Workflow `erdos-506-n10-and-beyond` (resumed twice across usage-limit resets):
+- `n10-continue` (`experiments/506/n10-continue/`): proves c(10) ≥ 33 using only theorem-level inputs —
+  Sylvester–Gallai with o ≥ 1, the Möbius–Kantor lemma plus its own check that every 11-packing of triples
+  on 9 points contains an (8_3) (hence t₃(9) ≤ 10), Miquel's theorem (cross-ratio identity re-verified),
+  a self-proved parity bound t₃(10) ≤ 13, hereditary SG with the correct hypothesis, and exact Gröbner
+  computations. All skeletons are enumerated (largest block 5, 6, 7, 8, 9 and the all-4-block case); the
+  single abstract structure surviving every necessary condition (two disjoint 5-blocks + the 20 four-blocks
+  of the concentric-pentagon family + 10 three-point lines, count 32) is proved unrealisable by an exact
+  two-circle analysis. It also found that the earlier v2 §4.0 hand proof for the single-5-block skeleton is
+  wrong (a slack of 2 was overlooked); the case is nevertheless excluded by CP-SAT infeasibility.
+- `n10-enum` (independent orderly enumeration) + its auditor (CONFIRMED): combinatorially, c(10) ≥ 31 with
+  SG + (8_3) only, ≥ 32 with Kelly–Moser; exactly two abstract structures with 32 circles survive all
+  combinatorial checks — both are the two-concentric-pentagon family — so geometry is required and
+  sufficient.
+- Auditor of the first CP-SAT attack: verdict GAP on that agent's hand proof, but its own independent
+  enumeration (37 classes, 36 killed by theorem-only filters) plus exact algebra excludes the same single
+  survivor: the same conclusion c(10) ≥ 33 by a third route.
+- Construction searches (`search-inversion`, `search-local`, the former audited and CONFIRMED): no n-point set
+  with fewer than f(n) circles for any 9 ≤ n ≤ 16 across 68 coincidence-rich universes, lattice spheres,
+  polyhedra and parameter-family scans; every record is the antipodal configuration.
+Status: c(10) = 33 established by one agent and corroborated by two independent enumerations that reduce
+the question to the same single geometric structure; the dedicated audit of `n10-continue` is running now.
+So far the exceptions to the Elliott–Purdy–Smith formula are exactly n = 6, 7, 8 for n ≤ 10.

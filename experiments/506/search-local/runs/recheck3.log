@@ -1,0 +1,8 @@
+icosaID-generic 12 recheck: old true 62 -> tightened 62; certification failed: TimeoutError(); -> proxy value used
+icosaIDE-vertex 15 recheck: old true 156 -> tightened 156; certification failed: CoercionFailed('nan is not in any domain'); -> proxy value used
+octa1-2-3-vertex 10 recheck: old true 45 -> tightened 45; exact certificate: 45
+octa1-2-3-vertex 14 recheck: old true 144 -> tightened 144; exact certificate: 144
+octa1-2-3-vertex 15 recheck: old true 194 -> tightened 194; exact certificate: 194
+icosaIDE-generic 13 recheck: old true 22 -> tightened 61
+octa1-2-3-generic 12 recheck: old true 74 -> tightened 74; certification failed: KeyError(y); -> proxy value used
+octa1-2-3-generic 14 recheck: old true 144 -> tightened 144; certification failed: KeyError(y); -> proxy value used

@@ -1,0 +1,8 @@
+n=6: 81 labelled nonempty families, 4 brute-force classes [0.0s]
+   orderly visited 4 nonempty families; distinct=4
+   canonical forms match brute force: True; each class exactly once: True;  V1 OK
+n=7: 6148 labelled nonempty families, 17 brute-force classes [2.3s]
+   orderly visited 17 nonempty families; distinct=17
+   canonical forms match brute force: True; each class exactly once: True;  V1 OK
+V2 n=7: 300 canonicity tests, 0 disagreements  OK
+V2 n=8: 300 canonicity tests, 0 disagreements  OK

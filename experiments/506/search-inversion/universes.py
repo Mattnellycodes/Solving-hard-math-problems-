@@ -270,6 +270,63 @@ def two_circle_pencil_universe(d, r2, R_positions, angles, name=None):
     return (name or f"pencil-d{d}-r{r2}-R{len(R_positions)}-a{len(angles)}", pts, lab, None)
 
 
+# ---------------------------------------------------------------- conics with additive parameters
+def ellipse_universe(m=24, a=2, b=1, extra=('C', 'F', 'I'), name=None):
+    """Points (a cos t, b sin t) at t = 2 pi k / m: four of them are concyclic iff the eccentric angles
+    sum to 0 mod 2 pi (the Moebius analogue of the cubic-curve orchard configurations), plus the centre
+    'C', the foci 'F' (needs a^2 - b^2 a rational square for exactness) and infinity 'I'.
+    Exact for m | 24 (coordinates in Q(sqrt2, sqrt3))."""
+    pts, lab = [], []
+    ex = []
+    for k in range(m):
+        t = 2 * sympy.pi * k / m
+        X = sympy.nsimplify(sympy.cos(t)) * a; Y = sympy.nsimplify(sympy.sin(t)) * b
+        pts.append((float(X), float(Y))); lab.append(f"E{k}"); ex.append((X, Y))
+    if 'C' in extra:
+        pts.append((0.0, 0.0)); lab.append('C'); ex.append((sympy.Integer(0), sympy.Integer(0)))
+    if 'F' in extra:
+        c2 = a * a - b * b
+        c = sympy.sqrt(sympy.Rational(c2))
+        for s in (1, -1):
+            pts.append((s * float(c), 0.0)); lab.append(f"F{'+' if s > 0 else '-'}"); ex.append((s * c, sympy.Integer(0)))
+    if 'I' in extra:
+        pts.append('inf'); lab.append('inf'); ex.append('inf')
+    pts, lab = _dedupe(pts, lab)
+    rads = (2, 3) + (() if sympy.sqrt(sympy.Rational(a * a - b * b)).is_rational else (a * a - b * b,))
+    return (name or f"ellipse{m}-{a}-{b}", pts, lab, {'planar': ex, 'radicands': rads})
+
+
+def parabola_universe(xs=range(-6, 7), extra=('F', 'I'), name=None):
+    """Points (x, x^2): four are concyclic iff the abscissae sum to 0; focus (0, 1/4); infinity."""
+    pts, lab, ex = [], [], []
+    for x in xs:
+        pts.append((float(x), float(x * x))); lab.append(f"P{x}"); ex.append((sympy.Integer(x), sympy.Integer(x * x)))
+    if 'F' in extra:
+        pts.append((0.0, 0.25)); lab.append('F'); ex.append((sympy.Integer(0), sympy.Rational(1, 4)))
+    if 'D' in extra:      # a few points of the directrix y = -1/4
+        for x in (-2, -1, 0, 1, 2):
+            pts.append((float(x), -0.25)); lab.append(f"D{x}"); ex.append((sympy.Integer(x), sympy.Rational(-1, 4)))
+    if 'I' in extra:
+        pts.append('inf'); lab.append('inf'); ex.append('inf')
+    return (name or f"parabola{len(list(xs))}", pts, lab, {'planar': ex, 'radicands': ()})
+
+
+def hyperbola_universe(ts=None, extra=('C', 'I'), name=None):
+    """Points (t, 1/t) on xy = 1: four are concyclic iff the parameters multiply to 1; the centre and
+    infinity add the 4-blocks {inf, C, (t,1/t), (-t,-1/t)}."""
+    if ts is None:
+        ts = [Fr(1), Fr(2), Fr(3), Fr(4), Fr(1, 2), Fr(1, 3), Fr(1, 4), Fr(2, 3), Fr(3, 2), Fr(6), Fr(1, 6)]
+        ts = ts + [-t for t in ts]
+    pts, lab, ex = [], [], []
+    for t in ts:
+        pts.append((float(t), float(1 / t))); lab.append(f"H{t}"); ex.append((Rational(t.numerator, t.denominator), Rational(t.denominator, t.numerator)))
+    if 'C' in extra:
+        pts.append((0.0, 0.0)); lab.append('C'); ex.append((sympy.Integer(0), sympy.Integer(0)))
+    if 'I' in extra:
+        pts.append('inf'); lab.append('inf'); ex.append('inf')
+    return (name or f"hyperbola{len(ts)}", pts, lab, {'planar': ex, 'radicands': ()})
+
+
 # ---------------------------------------------------------------- Klein-model regular polygon
 def klein_polygon_universe(m2, a, name=None):
     """Regular m2-gon on the unit circle with its centre and the chord-direction points at infinity,

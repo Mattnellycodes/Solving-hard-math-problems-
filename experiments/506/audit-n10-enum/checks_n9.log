@@ -1,0 +1,125 @@
+structure 0: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=6 count_min=24 degrees=[2, 7, 7, 7, 7, 7, 7, 7, 7] #line_sets=168
+   line sets surviving tier AB: 0 counts=[]
+structure 1: sizes=[8] D=55 ell_max=4 count_min=25 degrees=[1, 1, 1, 1, 1, 1, 1, 1, 0] #line_sets=105
+   line sets surviving tier AB: 105 counts=[25]
+      A+B+K survivor: line set 0 count=25 lines=[[0, 1, 8], [2, 3, 8], [4, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 1 count=25 lines=[[0, 1, 8], [2, 3, 8], [4, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 2 count=25 lines=[[0, 1, 8], [2, 3, 8], [4, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 3 count=25 lines=[[0, 1, 8], [2, 4, 8], [3, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 4 count=25 lines=[[0, 1, 8], [2, 4, 8], [3, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 5 count=25 lines=[[0, 1, 8], [2, 4, 8], [3, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 6 count=25 lines=[[0, 1, 8], [2, 5, 8], [3, 4, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 7 count=25 lines=[[0, 1, 8], [2, 5, 8], [3, 6, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 8 count=25 lines=[[0, 1, 8], [2, 5, 8], [3, 7, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 9 count=25 lines=[[0, 1, 8], [2, 6, 8], [3, 4, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 10 count=25 lines=[[0, 1, 8], [2, 6, 8], [3, 5, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 11 count=25 lines=[[0, 1, 8], [2, 6, 8], [3, 7, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 12 count=25 lines=[[0, 1, 8], [2, 7, 8], [3, 4, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 13 count=25 lines=[[0, 1, 8], [2, 7, 8], [3, 5, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 14 count=25 lines=[[0, 1, 8], [2, 7, 8], [3, 6, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 15 count=25 lines=[[0, 2, 8], [1, 3, 8], [4, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 16 count=25 lines=[[0, 2, 8], [1, 3, 8], [4, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 17 count=25 lines=[[0, 2, 8], [1, 3, 8], [4, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 18 count=25 lines=[[0, 2, 8], [1, 4, 8], [3, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 19 count=25 lines=[[0, 2, 8], [1, 4, 8], [3, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 20 count=25 lines=[[0, 2, 8], [1, 4, 8], [3, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 21 count=25 lines=[[0, 2, 8], [1, 5, 8], [3, 4, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 22 count=25 lines=[[0, 2, 8], [1, 5, 8], [3, 6, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 23 count=25 lines=[[0, 2, 8], [1, 5, 8], [3, 7, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 24 count=25 lines=[[0, 2, 8], [1, 6, 8], [3, 4, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 25 count=25 lines=[[0, 2, 8], [1, 6, 8], [3, 5, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 26 count=25 lines=[[0, 2, 8], [1, 6, 8], [3, 7, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 27 count=25 lines=[[0, 2, 8], [1, 7, 8], [3, 4, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 28 count=25 lines=[[0, 2, 8], [1, 7, 8], [3, 5, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 29 count=25 lines=[[0, 2, 8], [1, 7, 8], [3, 6, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 30 count=25 lines=[[0, 3, 8], [1, 2, 8], [4, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 31 count=25 lines=[[0, 3, 8], [1, 2, 8], [4, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 32 count=25 lines=[[0, 3, 8], [1, 2, 8], [4, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 33 count=25 lines=[[0, 3, 8], [1, 4, 8], [2, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 34 count=25 lines=[[0, 3, 8], [1, 4, 8], [2, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 35 count=25 lines=[[0, 3, 8], [1, 4, 8], [2, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 36 count=25 lines=[[0, 3, 8], [1, 5, 8], [2, 4, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 37 count=25 lines=[[0, 3, 8], [1, 5, 8], [2, 6, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 38 count=25 lines=[[0, 3, 8], [1, 5, 8], [2, 7, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 39 count=25 lines=[[0, 3, 8], [1, 6, 8], [2, 4, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 40 count=25 lines=[[0, 3, 8], [1, 6, 8], [2, 5, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 41 count=25 lines=[[0, 3, 8], [1, 6, 8], [2, 7, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 42 count=25 lines=[[0, 3, 8], [1, 7, 8], [2, 4, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 43 count=25 lines=[[0, 3, 8], [1, 7, 8], [2, 5, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 44 count=25 lines=[[0, 3, 8], [1, 7, 8], [2, 6, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 45 count=25 lines=[[0, 4, 8], [1, 2, 8], [3, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 46 count=25 lines=[[0, 4, 8], [1, 2, 8], [3, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 47 count=25 lines=[[0, 4, 8], [1, 2, 8], [3, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 48 count=25 lines=[[0, 4, 8], [1, 3, 8], [2, 5, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 49 count=25 lines=[[0, 4, 8], [1, 3, 8], [2, 6, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 50 count=25 lines=[[0, 4, 8], [1, 3, 8], [2, 7, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 51 count=25 lines=[[0, 4, 8], [1, 5, 8], [2, 3, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 52 count=25 lines=[[0, 4, 8], [1, 5, 8], [2, 6, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 53 count=25 lines=[[0, 4, 8], [1, 5, 8], [2, 7, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 54 count=25 lines=[[0, 4, 8], [1, 6, 8], [2, 3, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 55 count=25 lines=[[0, 4, 8], [1, 6, 8], [2, 5, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 56 count=25 lines=[[0, 4, 8], [1, 6, 8], [2, 7, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 57 count=25 lines=[[0, 4, 8], [1, 7, 8], [2, 3, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 58 count=25 lines=[[0, 4, 8], [1, 7, 8], [2, 5, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 59 count=25 lines=[[0, 4, 8], [1, 7, 8], [2, 6, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 60 count=25 lines=[[0, 5, 8], [1, 2, 8], [3, 4, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 61 count=25 lines=[[0, 5, 8], [1, 2, 8], [3, 6, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 62 count=25 lines=[[0, 5, 8], [1, 2, 8], [3, 7, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 63 count=25 lines=[[0, 5, 8], [1, 3, 8], [2, 4, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 64 count=25 lines=[[0, 5, 8], [1, 3, 8], [2, 6, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 65 count=25 lines=[[0, 5, 8], [1, 3, 8], [2, 7, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 66 count=25 lines=[[0, 5, 8], [1, 4, 8], [2, 3, 8], [6, 7, 8]]  passes C: True
+      A+B+K survivor: line set 67 count=25 lines=[[0, 5, 8], [1, 4, 8], [2, 6, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 68 count=25 lines=[[0, 5, 8], [1, 4, 8], [2, 7, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 69 count=25 lines=[[0, 5, 8], [1, 6, 8], [2, 3, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 70 count=25 lines=[[0, 5, 8], [1, 6, 8], [2, 4, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 71 count=25 lines=[[0, 5, 8], [1, 6, 8], [2, 7, 8], [3, 4, 8]]  passes C: True
+      A+B+K survivor: line set 72 count=25 lines=[[0, 5, 8], [1, 7, 8], [2, 3, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 73 count=25 lines=[[0, 5, 8], [1, 7, 8], [2, 4, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 74 count=25 lines=[[0, 5, 8], [1, 7, 8], [2, 6, 8], [3, 4, 8]]  passes C: True
+      A+B+K survivor: line set 75 count=25 lines=[[0, 6, 8], [1, 2, 8], [3, 4, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 76 count=25 lines=[[0, 6, 8], [1, 2, 8], [3, 5, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 77 count=25 lines=[[0, 6, 8], [1, 2, 8], [3, 7, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 78 count=25 lines=[[0, 6, 8], [1, 3, 8], [2, 4, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 79 count=25 lines=[[0, 6, 8], [1, 3, 8], [2, 5, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 80 count=25 lines=[[0, 6, 8], [1, 3, 8], [2, 7, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 81 count=25 lines=[[0, 6, 8], [1, 4, 8], [2, 3, 8], [5, 7, 8]]  passes C: True
+      A+B+K survivor: line set 82 count=25 lines=[[0, 6, 8], [1, 4, 8], [2, 5, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 83 count=25 lines=[[0, 6, 8], [1, 4, 8], [2, 7, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 84 count=25 lines=[[0, 6, 8], [1, 5, 8], [2, 3, 8], [4, 7, 8]]  passes C: True
+      A+B+K survivor: line set 85 count=25 lines=[[0, 6, 8], [1, 5, 8], [2, 4, 8], [3, 7, 8]]  passes C: True
+      A+B+K survivor: line set 86 count=25 lines=[[0, 6, 8], [1, 5, 8], [2, 7, 8], [3, 4, 8]]  passes C: True
+      A+B+K survivor: line set 87 count=25 lines=[[0, 6, 8], [1, 7, 8], [2, 3, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 88 count=25 lines=[[0, 6, 8], [1, 7, 8], [2, 4, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 89 count=25 lines=[[0, 6, 8], [1, 7, 8], [2, 5, 8], [3, 4, 8]]  passes C: True
+      A+B+K survivor: line set 90 count=25 lines=[[0, 7, 8], [1, 2, 8], [3, 4, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 91 count=25 lines=[[0, 7, 8], [1, 2, 8], [3, 5, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 92 count=25 lines=[[0, 7, 8], [1, 2, 8], [3, 6, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 93 count=25 lines=[[0, 7, 8], [1, 3, 8], [2, 4, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 94 count=25 lines=[[0, 7, 8], [1, 3, 8], [2, 5, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 95 count=25 lines=[[0, 7, 8], [1, 3, 8], [2, 6, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 96 count=25 lines=[[0, 7, 8], [1, 4, 8], [2, 3, 8], [5, 6, 8]]  passes C: True
+      A+B+K survivor: line set 97 count=25 lines=[[0, 7, 8], [1, 4, 8], [2, 5, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 98 count=25 lines=[[0, 7, 8], [1, 4, 8], [2, 6, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 99 count=25 lines=[[0, 7, 8], [1, 5, 8], [2, 3, 8], [4, 6, 8]]  passes C: True
+      A+B+K survivor: line set 100 count=25 lines=[[0, 7, 8], [1, 5, 8], [2, 4, 8], [3, 6, 8]]  passes C: True
+      A+B+K survivor: line set 101 count=25 lines=[[0, 7, 8], [1, 5, 8], [2, 6, 8], [3, 4, 8]]  passes C: True
+      A+B+K survivor: line set 102 count=25 lines=[[0, 7, 8], [1, 6, 8], [2, 3, 8], [4, 5, 8]]  passes C: True
+      A+B+K survivor: line set 103 count=25 lines=[[0, 7, 8], [1, 6, 8], [2, 4, 8], [3, 5, 8]]  passes C: True
+      A+B+K survivor: line set 104 count=25 lines=[[0, 7, 8], [1, 6, 8], [2, 5, 8], [3, 4, 8]]  passes C: True
+structure 2: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=48 ell_max=11 count_min=25 degrees=[7, 8, 7, 7, 8, 7, 7, 6, 7] #line_sets=1
+   line sets surviving tier AB: 0 counts=[]
+structure 3: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=48 ell_max=11 count_min=25 degrees=[8, 8, 8, 7, 6, 7, 6, 7, 7] #line_sets=12
+   line sets surviving tier AB: 0 counts=[]
+structure 4: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=51 ell_max=11 count_min=22 degrees=[8, 8, 8, 8, 7, 7, 7, 8, 7] #line_sets=977
+   line sets surviving tier AB: 0 counts=[]
+structure 5: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=54 ell_max=11 count_min=19 degrees=[8, 8, 8, 8, 8, 8, 8, 8, 8] #line_sets=3745
+   line sets surviving tier AB: 0 counts=[]
+structure 6: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=48 ell_max=11 count_min=25 degrees=[8, 8, 7, 7, 7, 7, 6, 6, 8] #line_sets=12
+   line sets surviving tier AB: 0 counts=[]
+structure 7: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=48 ell_max=11 count_min=25 degrees=[8, 8, 7, 7, 7, 7, 7, 7, 6] #line_sets=12
+   line sets surviving tier AB: 0 counts=[]
+structure 8: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=48 ell_max=11 count_min=25 degrees=[8, 7, 7, 7, 7, 7, 7, 7, 7] #line_sets=12
+   line sets surviving tier AB: 0 counts=[]
+SUMMARY [(0, 2, {'A': 0, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (1, 0, {'A': 105, 'AB': 105, 'ABK': 105, 'ABKC': 105}), (2, 0, {'A': 0, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (3, 0, {'A': 0, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (4, 0, {'A': 300, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (5, 0, {'A': 2209, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (6, 0, {'A': 1, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (7, 0, {'A': 1, 'AB': 0, 'ABK': 0, 'ABKC': 0}), (8, 0, {'A': 4, 'AB': 0, 'ABK': 0, 'ABKC': 0})]
+real	3m46.425s

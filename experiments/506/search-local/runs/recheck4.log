@@ -1,0 +1,2 @@
+octa1-2-3-generic 16 recheck: old true 241 -> tightened 241; far above f(n): certification skipped; no exact coordinates available; -> proxy value used
+checked records: 586

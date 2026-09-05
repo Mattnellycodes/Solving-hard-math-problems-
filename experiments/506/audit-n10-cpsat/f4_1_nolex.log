@@ -1,0 +1,25 @@
+skeleton 1 [[0, 1, 2, 3, 4, 5]] D_skel = 19
+candidate 4-blocks: 115
+|Aut(skeleton)| = 17280
+lex-leader constraints for 0 group elements
+aux vars: 0 build time 3.3s
+  ... 500 solutions  23s
+  ... 1000 solutions  42s
+  ... 1500 solutions  59s
+  ... 2000 solutions  73s
+  ... 2500 solutions  82s
+  ... 3000 solutions  90s
+  ... 3500 solutions  96s
+  ... 4000 solutions  102s
+  ... 4500 solutions  109s
+  ... 5000 solutions  120s
+  ... 5500 solutions  128s
+  ... 6000 solutions  137s
+  ... 6500 solutions  144s
+  ... 7000 solutions  157s
+  ... 7500 solutions  166s
+  ... 8000 solutions  176s
+  ... 8500 solutions  189s
+  ... 9000 solutions  199s
+  ... 9500 solutions  211s
+status: OPTIMAL labelled solutions: 9840  219s

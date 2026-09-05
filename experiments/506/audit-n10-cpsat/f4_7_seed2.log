@@ -1,0 +1,67 @@
+skeleton 7 [[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]] D_skel = 18
+candidate 4-blocks: 100
+|Aut(skeleton)| = 28800
+lex-leader constraints for 650 group elements
+aux vars: 122552 build time 7.0s
+status: OPTIMAL labelled solutions: 207  90s
+F-classes: 59
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 7, 8] labelled=3
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=7
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=8
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 7, 8] labelled=7
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 8, 7] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 7, 8, 8] labelled=11
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 8, 7] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=5
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 7, 8] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=2
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=2
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=2
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=2
+  b4=20 D=78 deg4=[8, 8, 8, 8, 8, 8, 8, 8, 8, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 7, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 8, 7] labelled=8
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 8, 7] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 8, 7] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 7, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 7, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 8, 7] labelled=7
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 8, 7] labelled=5
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 8, 7] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 7, 8, 8] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 7, 8] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 7, 8, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 8, 7] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 7, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 8, 7] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=4
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 8, 7] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 7, 8, 8] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 8, 7, 7] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 7, 8] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 8, 7] labelled=3
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 8, 8, 7] labelled=1
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 8, 7, 7, 8] labelled=2
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 8, 7, 8, 8] labelled=7
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 8, 7, 8, 8, 7] labelled=6
+  b4=19 D=75 deg4=[7, 7, 8, 8, 8, 7, 7, 8, 8, 8] labelled=2
+done 189s

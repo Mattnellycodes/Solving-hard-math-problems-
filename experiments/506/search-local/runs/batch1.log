@@ -1,0 +1,66 @@
+[grid4] grid4x4: N=16 inf=True extraO=0 blocks=285 sizes={3: 212, 4: 58, 5: 10, 6: 4, 8: 1} build=0.0s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[2.999999999999999, 0.0] t=2.5s
+  n=10 f= 33 proxy= 45 true= 45 [+12] structure={3: 48, 4: 4, 8: 1} deg=8 centre=[1.0, 2.0] t=1.5s
+  n=11 f= 41 proxy= 61 true= 61 [+20] structure={3: 61, 4: 12, 8: 1} deg=13 centre=[2.0, 2.0] t=1.3s
+  n=12 f= 51 proxy= 82 true= 82 [+31] structure={3: 64, 4: 25, 8: 1} deg=8 centre=inf t=1.4s
+  n=13 f= 61 proxy=111 true=106 [+45] structure={3: 90, 4: 25, 5: 4, 8: 1} deg=14 centre=[1.5, 1.5] t=3.4s
+  n=14 f= 73 proxy=152 true=151 [+78] structure={3: 128, 4: 30, 5: 6, 8: 1} deg=14 centre=[1.5, 1.5] t=6.5s
+  n=15 f= 85 proxy=186 true=186 [+101] structure={3: 155, 4: 46, 5: 2, 6: 2, 8: 1} deg=20 centre=[3.0, -6.280369834735101e-16] t=9.3s
+  n=16 f= 99 proxy=228 true=228 [+129] structure={3: 190, 4: 46, 5: 9, 6: 2, 8: 1} deg=20 centre=[3.0, 3.0] t=12.5s
+[grid4] done in 38s
+[grid5] grid5x5: N=25 inf=True extraO=0 blocks=1137 sizes={3: 888, 4: 208, 5: 12, 6: 24, 8: 5} build=0.0s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.9999999999999999, 2.0000000000000027] t=4.4s
+  n=10 f= 33 proxy= 45 true= 45 [+12] structure={3: 48, 4: 4, 8: 1} deg=8 centre=[2.0, 2.0] t=5.1s
+  n=11 f= 41 proxy= 61 true= 61 [+20] structure={3: 61, 4: 12, 8: 1} deg=13 centre=[0.0, 0.0] t=6.1s
+  n=12 f= 51 proxy= 82 true= 82 [+31] structure={3: 64, 4: 25, 8: 1} deg=8 centre=inf t=5.3s
+  n=13 f= 61 proxy=106 true=106 [+45] structure={3: 90, 4: 25, 5: 4, 8: 1} deg=14 centre=[2.0, 2.0000000000000004] t=6.9s
+  n=14 f= 73 proxy=143 true=143 [+70] structure={3: 112, 4: 33, 6: 6} deg=8 centre=[1.0, 2.0] t=8.6s
+  n=15 f= 85 proxy=185 true=185 [+100] structure={3: 147, 4: 37, 5: 12, 6: 2} deg=13 centre=[2.0, 4.0] t=12.8s
+  n=16 f= 99 proxy=223 true=223 [+124] structure={3: 168, 4: 64, 6: 4, 8: 1} deg=14 centre=inf t=16.2s
+[grid5] done in 65s
+[grid6] grid6x6: N=36 inf=True extraO=0 blocks=3708 sizes={3: 3028, 4: 583, 5: 28, 6: 40, 7: 14, 8: 15} build=0.1s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[4.0, -1.0000000000000018] t=7.6s
+  n=10 f= 33 proxy= 45 true= 45 [+12] structure={3: 48, 4: 4, 8: 1} deg=8 centre=[0.0, 0.0] t=10.5s
+  n=11 f= 41 proxy= 61 true= 61 [+20] structure={3: 61, 4: 12, 8: 1} deg=13 centre=[1.0, 4.0] t=11.4s
+  n=12 f= 51 proxy= 82 true= 82 [+31] structure={3: 64, 4: 25, 8: 1} deg=8 centre=inf t=12.0s
+  n=13 f= 61 proxy=106 true=106 [+45] structure={3: 90, 4: 25, 5: 4, 8: 1} deg=14 centre=[3.0, 2.999999999999999] t=14.5s
+  n=14 f= 73 proxy=143 true=143 [+70] structure={3: 112, 4: 33, 6: 6} deg=8 centre=[1.0, 2.0] t=19.4s
+  n=15 f= 85 proxy=185 true=185 [+100] structure={3: 147, 4: 37, 5: 12, 6: 2} deg=13 centre=[2.0, -0.0] t=31.3s
+  n=16 f= 99 proxy=228 true=228 [+129] structure={3: 190, 4: 46, 5: 9, 6: 2, 8: 1} deg=20 centre=[3.0, 4.0] t=43.4s
+[grid6] done in 150s
+[rect4x6] grid4x6: N=24 inf=True extraO=0 blocks=1097 sizes={3: 888, 4: 176, 5: 12, 6: 14, 7: 4, 8: 3} build=0.0s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.0000000000000007, 1.9999999999999993] t=7.0s
+  n=10 f= 33 proxy= 45 true= 45 [+12] structure={3: 48, 4: 4, 8: 1} deg=8 centre=[0.0, -4.440892098500626e-16] t=7.2s
+  n=11 f= 41 proxy= 61 true= 61 [+20] structure={3: 61, 4: 12, 8: 1} deg=13 centre=[2.0, 3.0] t=7.9s
+  n=12 f= 51 proxy= 82 true= 82 [+31] structure={3: 64, 4: 25, 8: 1} deg=8 centre=inf t=8.1s
+  n=13 f= 61 proxy=111 true=106 [+45] structure={3: 90, 4: 25, 5: 4, 8: 1} deg=14 centre=[1.5000000000000002, 2.5000000000000004] t=7.9s
+  n=14 f= 73 proxy=149 true=149 [+76] structure={3: 112, 4: 43, 5: 4, 6: 2} deg=12 centre=[3.0, 3.0] t=9.5s
+  n=15 f= 85 proxy=186 true=186 [+101] structure={3: 155, 4: 46, 5: 2, 6: 2, 8: 1} deg=20 centre=[3.0, 4.0] t=18.3s
+  n=16 f= 99 proxy=228 true=228 [+129] structure={3: 190, 4: 46, 5: 9, 6: 2, 8: 1} deg=20 centre=[0.0, 5.0] t=27.1s
+[rect4x6] done in 93s
+[rect3x7] grid3x7: N=21 inf=True extraO=0 blocks=758 sizes={3: 592, 4: 155, 6: 8, 8: 3} build=0.0s
+  n= 9 f= 25 proxy= 26 true= 26 [+1] structure={3: 28, 8: 1} deg=3 centre=[0.7999999999999995, 1.6000000000000005] t=4.9s
+  n=10 f= 33 proxy= 49 true= 49 [+16] structure={3: 52, 4: 3, 8: 1} deg=7 centre=[0.0, 2.0] t=4.9s
+  n=11 f= 41 proxy= 67 true= 67 [+26] structure={3: 55, 4: 20, 5: 1, 6: 1} deg=10 centre=[1.0, 5.000000000000001] t=5.4s
+  n=12 f= 51 proxy= 88 true= 88 [+37] structure={3: 64, 4: 29, 6: 2} deg=7 centre=[1.0, -0.9999999999999996] t=5.7s
+  n=13 f= 61 proxy=115 true=115 [+54] structure={3: 91, 4: 35, 6: 1, 7: 1} deg=13 centre=[0.0, 5.999999999999998] t=7.5s
+  n=14 f= 73 proxy=157 true=157 [+84] structure={3: 126, 4: 37, 5: 3, 6: 3} deg=12 centre=[0.0, 0.0] t=10.7s
+  n=15 f= 85 proxy=197 true=197 [+112] structure={3: 156, 4: 46, 5: 4, 6: 2, 7: 1} deg=12 centre=[0.0, 0.0] t=12.8s
+  n=16 f= 99 proxy=247 true=246 [+147] structure={3: 196, 4: 56, 6: 7} deg=13 centre=[4.0, 4.0] t=26.6s
+[rect3x7] done in 79s
+[grid5inv-c] grid5inv-c: N=97 inf=True extraO=0 blocks=112871 sizes={3: 105136, 4: 6638, 5: 716, 6: 292, 7: 24, 8: 53, 10: 4, 12: 4, 16: 4} build=5.0s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[2.200000000000247, 1.6000000000000068] t=93.8s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[3.0, 3.0000000000000004] t=72.2s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[2.000000000000001, -0.5000000000000002] t=64.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[2.3999999999996766, 1.7999999999999883] t=79.4s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[3.9999999999999956, 2.000000000000007] t=74.9s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[3.6000000000000023, -1.1999999999999993] t=98.0s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-2.220446049250313e-16, 1.0000000000000007] t=94.5s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[1.5999999999910872, 1.800000000000047] t=83.5s
+[grid5inv-c] done in 667s
+[grid5inv-corner] grid5inv-corner: N=122 inf=True extraO=0 blocks=248300 sizes={3: 237844, 4: 8828, 5: 1083, 6: 408, 7: 52, 8: 61, 9: 8, 10: 12, 12: 1, 19: 3} build=7.5s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.153846153846154, 0.7692307692307689] t=115.2s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[2.5000000000000004, 2.499999999999999] t=117.2s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.25, 0.0] t=116.3s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[3.3333333333333357, 0.0] t=120.1s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[2.6666666666666665, 0.0] t=119.9s

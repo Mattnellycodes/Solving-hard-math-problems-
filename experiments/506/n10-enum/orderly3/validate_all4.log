@@ -1,0 +1,8 @@
+validate_all4 n=7: 800 canonicity tests agree with brute force
+validate_all4 n=8: 400 canonicity tests agree with brute force
+validate_all4 n=7: labelled 4-block families=5596, brute-force classes=14, orderly visited=14 distinct classes=14 => MATCH
+VALIDATION OK
+
+real	0m8.376s
+user	0m8.164s
+sys	0m0.220s

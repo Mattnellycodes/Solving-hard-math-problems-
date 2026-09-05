@@ -1,0 +1,18 @@
+skeleton 13 [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]] D_skel = 27
+candidate 4-blocks: 72
+|Aut(skeleton)| = 48
+lex-leader constraints for 47 group elements
+aux vars: 6144 build time 0.1s
+status: OPTIMAL labelled solutions: 10  2s
+F-classes: 10
+  b4=16 D=75 deg4=[5, 5, 5, 6, 8, 5, 5, 7, 8, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 6, 5, 7, 6, 5, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 5, 6, 7, 6, 5, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 5, 6, 7, 5, 6, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 5, 6, 7, 6, 5, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[6, 5, 5, 6, 7, 5, 6, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[6, 5, 6, 5, 7, 6, 5, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 6, 5, 7, 6, 5, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 6, 5, 6, 7, 5, 6, 7, 7, 10] labelled=1
+  b4=16 D=75 deg4=[5, 5, 5, 6, 8, 5, 5, 7, 8, 10] labelled=1
+done 2s

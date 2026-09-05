@@ -1,0 +1,122 @@
+37 distinct (F, L) classes from 18 files
+structure 0: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=13 count=31 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 10], [1, 4, 6, 7], [1, 2, 7, 8], [0, 1, 2, 4], [0, 4, 6, 10], [6, 7, 8, 10])
+     ordinary-lines (cited) e.g. ("('derived10', 6)", (3, 5))
+structure 1: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 10], [1, 4, 6, 7], [1, 2, 7, 8], [0, 1, 2, 4], [0, 4, 6, 10], [6, 7, 8, 10])
+     ordinary-lines (cited) e.g. ("('derived10', 7)", (3, 5))
+structure 2: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 10], [1, 4, 6, 7], [1, 2, 7, 8], [0, 1, 2, 4], [0, 4, 6, 10], [6, 7, 8, 10])
+     ordinary-lines (cited) e.g. ("('derived10', 6)", (3, 5))
+structure 3: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 10], [1, 4, 6, 7], [1, 2, 7, 8], [0, 1, 2, 4], [0, 4, 6, 10], [6, 7, 8, 10])
+     ordinary-lines (cited) e.g. ("('derived10', 6)", (3, 5))
+structure 4: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORCH(cited)']
+     Miquel cube faces ([2, 4, 8, 9], [0, 1, 6, 10], [0, 1, 8, 9], [0, 4, 6, 8], [1, 2, 9, 10], [2, 4, 6, 10])
+structure 5: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=13 count=31 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 9], [1, 3, 6, 7], [0, 3, 7, 8], [1, 2, 6, 9], [0, 1, 2, 3], [6, 7, 8, 9])
+     ordinary-lines (cited) e.g. ("('derived10', 6)", (3, 5))
+structure 6: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 8, 9], [1, 3, 6, 7], [0, 3, 7, 8], [1, 2, 6, 9], [0, 1, 2, 3], [6, 7, 8, 9])
+     ordinary-lines (cited) e.g. ("('derived10', 6)", (3, 5))
+structure 7: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 6] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=76 l=12 count=32 -> theorems: ['MIQ']; +cited: ['ORCH(cited)']
+     Miquel cube faces ([0, 2, 8, 9], [1, 3, 6, 7], [0, 3, 7, 8], [1, 2, 6, 9], [0, 1, 2, 3], [6, 7, 8, 9])
+structure 8: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=11 count=31 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([5, 6, 7, 8], [1, 5, 7, 10], [0, 2, 6, 8], [0, 1, 2, 10], [0, 5, 8, 10], [1, 2, 6, 7])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 9: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([5, 6, 7, 8], [1, 5, 7, 10], [0, 2, 6, 8], [0, 1, 2, 10], [0, 5, 8, 10], [1, 2, 6, 7])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 10: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['ORCH']; +cited: ['ORCH(cited)', 'ORD(cited)']
+     orchard e.g. ("('derived10', 0)", [((1, 2, 3, 5, 7, 8, 9, 10), 8, 7)])
+     ordinary-lines (cited) e.g. ("('derived10', 2)", (3, 5))
+structure 11: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([0, 2, 7, 10], [1, 3, 7, 10], [0, 2, 5, 9], [2, 3, 9, 10], [1, 3, 5, 9], [0, 1, 5, 7])
+     ordinary-lines (cited) e.g. ("('derived10', 0)", (3, 5))
+structure 12: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: SURVIVES; +cited: SURVIVES
+structure 13: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=11 count=31 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 14: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 15: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 16: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 17: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 0)", (3, 5))
+structure 18: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 0)", (3, 5))
+structure 19: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 1)", (3, 5))
+structure 20: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=11 count=31 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 21: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 5] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 5)", (3, 5))
+structure 22: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: ['ORD(cited)']
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+     ordinary-lines (cited) e.g. ("('derived10', 0)", (3, 5))
+structure 23: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3] D=78 l=10 count=32 -> theorems: ['MIQ']; +cited: SURVIVES
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 7, 8], [0, 1, 2, 3], [0, 2, 5, 8], [1, 3, 6, 7], [5, 6, 7, 8])
+structure 24: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([0, 2, 6, 9], [0, 1, 5, 9], [1, 3, 5, 10], [0, 2, 5, 10], [2, 3, 6, 10], [1, 3, 6, 9])
+structure 25: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 9, 10], [0, 1, 2, 3], [0, 2, 5, 10], [1, 3, 6, 9], [5, 6, 9, 10])
+structure 26: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 9, 10], [0, 1, 2, 3], [0, 2, 5, 10], [1, 3, 6, 9], [5, 6, 9, 10])
+structure 27: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 9, 10], [0, 1, 2, 3], [0, 2, 5, 10], [1, 3, 6, 9], [5, 6, 9, 10])
+structure 28: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([1, 2, 6, 8], [0, 1, 6, 10], [0, 1, 2, 3], [2, 3, 5, 8], [0, 3, 5, 10], [5, 6, 8, 10])
+structure 29: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([1, 2, 6, 8], [0, 1, 6, 10], [0, 1, 2, 3], [2, 3, 5, 8], [0, 3, 5, 10], [5, 6, 8, 10])
+structure 30: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([1, 2, 6, 8], [0, 1, 6, 10], [0, 1, 2, 3], [2, 3, 5, 8], [0, 3, 5, 10], [5, 6, 8, 10])
+structure 31: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([0, 2, 8, 10], [1, 3, 5, 6], [1, 2, 6, 8], [0, 1, 2, 3], [0, 3, 5, 10], [5, 6, 8, 10])
+structure 32: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([0, 2, 6, 9], [0, 1, 5, 9], [1, 3, 5, 10], [0, 2, 5, 10], [2, 3, 6, 10], [1, 3, 6, 9])
+structure 33: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 9, 10], [0, 1, 2, 3], [0, 2, 5, 10], [1, 3, 6, 9], [5, 6, 9, 10])
+structure 34: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([2, 3, 5, 6], [0, 1, 9, 10], [0, 1, 2, 3], [0, 2, 5, 10], [1, 3, 6, 9], [5, 6, 9, 10])
+structure 35: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([0, 2, 6, 9], [0, 1, 5, 9], [1, 3, 5, 10], [0, 2, 5, 10], [2, 3, 6, 10], [1, 3, 6, 9])
+structure 36: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] lines=[3, 3, 3, 3, 3, 3, 3, 3, 4, 4] D=78 l=10 count=32 -> theorems: ['HSG', 'ORCH', 'MIQ']; +cited: ['HSG', 'ORCH(cited)']
+     HSG e.g. ("('derived9', 0)", [[1, 2, 3, 6, 7, 8, 9]])
+     orchard e.g. ("('derived9', 0)", [((1, 2, 3, 6, 7, 8, 9), 7, 6)])
+     Miquel cube faces ([1, 2, 6, 8], [0, 1, 6, 10], [0, 1, 2, 3], [2, 3, 5, 8], [0, 3, 5, 10], [5, 6, 8, 10])
+survivors (theorems only): [12]
+survivors (theorems + cited tables): [12]   [29s]

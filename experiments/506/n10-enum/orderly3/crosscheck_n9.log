@@ -1,0 +1,16 @@
+n9_all4_sg_t25.json: 7 structures, 7 distinct classes
+n9_sg_t25.json: 9 structures, 9 distinct classes
+  n9_all4_sg_t25.json[0] (count 25, ell 11) -> n9_sg_t25.json[0] (count 25, ell 11)
+  n9_all4_sg_t25.json[1] (count 25, ell 11) -> n9_sg_t25.json[1] (count 25, ell 11)
+  n9_all4_sg_t25.json[2] (count 22, ell 11) -> n9_sg_t25.json[2] (count 22, ell 11)
+  n9_all4_sg_t25.json[3] (count 19, ell 11) -> n9_sg_t25.json[3] (count 19, ell 11)
+  n9_all4_sg_t25.json[4] (count 25, ell 11) -> n9_sg_t25.json[4] (count 25, ell 11)
+  n9_all4_sg_t25.json[5] (count 25, ell 11) -> n9_sg_t25.json[5] (count 25, ell 11)
+  n9_all4_sg_t25.json[6] (count 25, ell 11) -> n9_sg_t25.json[6] (count 25, ell 11)
+  n9_sg_t25.json[7] has NO counterpart in n9_all4_sg_t25.json
+  n9_sg_t25.json[8] has NO counterpart in n9_all4_sg_t25.json
+  => classes DIFFER (7 vs 9)
+
+real	0m6.608s
+user	0m5.814s
+sys	0m0.328s

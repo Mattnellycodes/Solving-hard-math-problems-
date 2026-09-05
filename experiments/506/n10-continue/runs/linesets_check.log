@@ -1,0 +1,9 @@
+runs/enum_1.json F-class 0: need l>=12: DFS 28, CP-SAT 28: OK
+Traceback (most recent call last):
+  File "/home/user/Solving-hard-math-problems-/experiments/506/n10-continue/linesets_cpsat_check.py", line 26, in <module>
+    a = len(line_sets(rec['blocks'], need)); b = cpsat_count(rec['blocks'], need)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Solving-hard-math-problems-/experiments/506/n10-continue/linesets_cpsat_check.py", line 20, in cpsat_count
+    st = s.Solve(m, CB()); assert st == cp_model.OPTIMAL
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

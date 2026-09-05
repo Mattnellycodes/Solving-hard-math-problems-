@@ -1,0 +1,13 @@
+V1 n=5 mode=none: labelled families=6, brute-force classes=2 [0.0s]; generator classes=2 [0.0s] => MATCH
+V1 n=5 mode=table: labelled families=6, brute-force classes=2 [0.0s]; generator classes=2 [0.0s] => MATCH
+V1 n=6 mode=none: labelled families=82, brute-force classes=5 [0.0s]; generator classes=5 [0.0s] => MATCH
+V1 n=6 mode=table: labelled families=82, brute-force classes=5 [0.0s]; generator classes=5 [0.0s] => MATCH
+V1 n=7 mode=none: labelled families=6149, brute-force classes=18 [7.0s]; generator classes=18 [0.0s] => MATCH
+V1 n=7 mode=table: labelled families=6149, brute-force classes=18 [7.0s]; generator classes=18 [0.0s] => MATCH
+V2 n=7: 600 families tested, 305 canonical, automorphism groups verified => OK
+V2 n=8: 600 families tested, 304 canonical, automorphism groups verified => OK
+ALL OK
+
+real	0m18.218s
+user	0m16.852s
+sys	0m0.730s

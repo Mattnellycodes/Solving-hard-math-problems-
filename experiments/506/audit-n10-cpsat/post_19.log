@@ -1,0 +1,15 @@
+== fl_19.json 13 classes
+class 0 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 1 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 2 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 3 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 4 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 5 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'MK', 'T3'] ; +cited -> ['HSG', 'MIQ', 'MK', 'T3']
+class 6 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'MK', 'T3'] ; +cited -> ['HSG', 'MIQ', 'MK', 'T3']
+class 7 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'MK', 'T3'] ; +cited -> ['HSG', 'MIQ', 'MK', 'T3']
+class 8 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 9 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 10 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 11 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'T3'] ; +cited -> ['HSG', 'MIQ', 'T3']
+class 12 count=32 l=10: proved-filters -> ['HSG', 'MIQ', 'MK', 'T3'] ; +cited -> ['HSG', 'MIQ', 'MK', 'T3']
+survivors (proved filters): 0  (1s)

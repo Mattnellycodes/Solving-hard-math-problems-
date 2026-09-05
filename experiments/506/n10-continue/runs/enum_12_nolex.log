@@ -1,0 +1,5 @@
+skeleton [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9]]: D_skel=27, b4 >= 16, 71 candidate 4-blocks, |Aut|=48, 3 generators, 3 transpositions
+   stage 1: status OPTIMAL, 32 labelled solutions, 2 classes  [1s]
+   F-class 0: b4=16 D=75 degrees=[7, 7, 7, 9, 8, 7, 9, 8, 8, 9] copies=8: need l>=13: 0 line sets, (F,L) classes so far 0  [1s]
+   F-class 1: b4=16 D=75 degrees=[7, 7, 7, 9, 8, 7, 9, 8, 8, 9] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [1s]
+TOTAL: stage1 OPTIMAL; 2 F-classes; 0 (F,L) classes; time 1s

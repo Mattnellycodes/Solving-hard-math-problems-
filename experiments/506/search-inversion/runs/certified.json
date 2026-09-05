@@ -1,0 +1,108 @@
+[
+ {
+  "universe": "S2lat-5",
+  "n": 9,
+  "claimed": 25,
+  "result": {
+   "ok": true,
+   "n": 9,
+   "blocks": 29,
+   "lines": 4,
+   "circles": 25,
+   "degenerate": false,
+   "centre_exact": [
+    "(2 + 0*sqrt(1))",
+    "(1/2 + -1/2*sqrt(1))",
+    "(-1/2 + -1/2*sqrt(1))"
+   ],
+   "centre_float_err": 7.065416064076988e-16,
+   "circle_sizes": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    8
+   ],
+   "line_sizes": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "field_disc": 1
+  }
+ },
+ {
+  "universe": "S2lat-6",
+  "n": 9,
+  "claimed": 25,
+  "result": {
+   "ok": true,
+   "n": 9,
+   "blocks": 29,
+   "lines": 4,
+   "circles": 25,
+   "degenerate": false,
+   "centre_exact": [
+    "(-2 + 0*sqrt(1))",
+    "(0 + -1*sqrt(1))",
+    "(0 + 1*sqrt(1))"
+   ],
+   "centre_float_err": 7.043575467574348e-16,
+   "circle_sizes": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    8
+   ],
+   "line_sizes": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "field_disc": 1
+  }
+ }
+]

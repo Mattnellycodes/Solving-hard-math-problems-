@@ -1,0 +1,38 @@
+n10_sg_t32.json: 9 structures, 9 distinct classes
+../n10_sg.json: 9 structures, 9 distinct classes
+../indep/n10_sg_t32.json: 9 structures, 9 distinct classes
+n10_table_t32.json: 9 structures, 9 distinct classes
+  n10_sg_t32.json[0] (count 32, ell 10) -> ../n10_sg.json[0] (count 32, ell 10)
+  n10_sg_t32.json[1] (count 30, ell 12) -> ../n10_sg.json[1] (count 30, ell 12)
+  n10_sg_t32.json[2] (count 32, ell 10) -> ../n10_sg.json[2] (count 32, ell 10)
+  n10_sg_t32.json[3] (count 32, ell 10) -> ../n10_sg.json[3] (count 32, ell 10)
+  n10_sg_t32.json[4] (count 31, ell 11) -> ../n10_sg.json[4] (count 31, ell 11)
+  n10_sg_t32.json[5] (count 31, ell 11) -> ../n10_sg.json[5] (count 31, ell 11)
+  n10_sg_t32.json[6] (count 31, ell 11) -> ../n10_sg.json[6] (count 31, ell 11)
+  n10_sg_t32.json[7] (count 31, ell 13) -> ../n10_sg.json[7] (count 31, ell 13)
+  n10_sg_t32.json[8] (count 31, ell 13) -> ../n10_sg.json[8] (count 31, ell 13)
+  => classes IDENTICAL (9 vs 9)
+  n10_sg_t32.json[0] (count 32, ell 10) -> ../indep/n10_sg_t32.json[2] (count 32, ell 10)
+  n10_sg_t32.json[1] (count 30, ell 12) -> ../indep/n10_sg_t32.json[6] (count 30, ell 12)
+  n10_sg_t32.json[2] (count 32, ell 10) -> ../indep/n10_sg_t32.json[7] (count 32, ell 10)
+  n10_sg_t32.json[3] (count 32, ell 10) -> ../indep/n10_sg_t32.json[8] (count 32, ell 10)
+  n10_sg_t32.json[4] (count 31, ell 11) -> ../indep/n10_sg_t32.json[3] (count 31, ell 11)
+  n10_sg_t32.json[5] (count 31, ell 11) -> ../indep/n10_sg_t32.json[4] (count 31, ell 11)
+  n10_sg_t32.json[6] (count 31, ell 11) -> ../indep/n10_sg_t32.json[5] (count 31, ell 11)
+  n10_sg_t32.json[7] (count 31, ell 13) -> ../indep/n10_sg_t32.json[0] (count 31, ell 13)
+  n10_sg_t32.json[8] (count 31, ell 13) -> ../indep/n10_sg_t32.json[1] (count 31, ell 13)
+  => classes IDENTICAL (9 vs 9)
+  n10_sg_t32.json[0] (count 32, ell 10) -> n10_table_t32.json[0] (count 32, ell 10)
+  n10_sg_t32.json[1] (count 30, ell 12) -> n10_table_t32.json[1] (count 31, ell 11)
+  n10_sg_t32.json[2] (count 32, ell 10) -> n10_table_t32.json[2] (count 32, ell 10)
+  n10_sg_t32.json[3] (count 32, ell 10) -> n10_table_t32.json[3] (count 32, ell 10)
+  n10_sg_t32.json[4] (count 31, ell 11) -> n10_table_t32.json[4] (count 31, ell 11)
+  n10_sg_t32.json[5] (count 31, ell 11) -> n10_table_t32.json[5] (count 31, ell 11)
+  n10_sg_t32.json[6] (count 31, ell 11) -> n10_table_t32.json[6] (count 31, ell 11)
+  n10_sg_t32.json[7] (count 31, ell 13) -> n10_table_t32.json[7] (count 32, ell 12)
+  n10_sg_t32.json[8] (count 31, ell 13) -> n10_table_t32.json[8] (count 32, ell 12)
+  => classes IDENTICAL (9 vs 9)
+
+real	7m39.939s
+user	5m28.464s
+sys	1m26.387s

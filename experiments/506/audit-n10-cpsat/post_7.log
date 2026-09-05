@@ -1,0 +1,35 @@
+== fl_7.json 16 classes
+class 0 count=31 l=11: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 1 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 2 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 3 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 4 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 5 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 6 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 8, 5, 6), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 7, 8], [1, 2, 5, 8], [2, 3, 5, 6], [0, 3, 6, 7]], [True, True, True, False, True, True])
+class 7 count=31 l=11: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (6, 8, 5, 7), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 6, 8], [1, 2, 5, 8], [2, 3, 5, 7], [0, 3, 6, 7]], [True, True, False, True, True, True])
+class 8 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (6, 8, 5, 7), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 6, 8], [1, 2, 5, 8], [2, 3, 5, 7], [0, 3, 6, 7]], [True, True, False, True, True, True])
+class 9 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (6, 8, 5, 7), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 6, 8], [1, 2, 5, 8], [2, 3, 5, 7], [0, 3, 6, 7]], [True, True, False, True, True, True])
+class 10 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (6, 8, 5, 7), [[0, 1, 2, 3], [5, 6, 7, 8], [0, 1, 6, 8], [1, 2, 5, 8], [2, 3, 5, 7], [0, 3, 6, 7]], [True, True, False, True, True, True])
+class 11 count=31 l=11: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 'oo'), (6, 9, 7, 5), [[0, 1, 2, 'oo'], [5, 6, 7, 9], [0, 1, 6, 9], [1, 2, 7, 9], [2, 5, 7, 'oo'], [0, 5, 6, 'oo']], [True, True, True, False, True, True])
+class 12 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 'oo'), (6, 9, 7, 5), [[0, 1, 2, 'oo'], [5, 6, 7, 9], [0, 1, 6, 9], [1, 2, 7, 9], [2, 5, 7, 'oo'], [0, 5, 6, 'oo']], [True, True, True, False, True, True])
+class 13 count=32 l=10: proved-filters -> ['MK', 'T3'] ; +cited -> ['MK', 'T3']
+     e.g. Q@0 MK (1, 2, 3, 5, 6, 8, 9, 'oo')
+     e.g. Q@0 T3 (8, (1, 2, 3, 5, 6, 8, 9, 'oo'), 8)
+     e.g. Q@1 MK (0, 3, 4, 5, 6, 7, 9, 'oo')
+class 14 count=32 l=10: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 5, 'oo'), (6, 9, 2, 4), [[0, 1, 5, 'oo'], [2, 4, 6, 9], [0, 1, 6, 9], [1, 2, 5, 9], [2, 4, 5, 'oo'], [0, 4, 6, 'oo']], [True, True, True, False, True, True])
+class 15 count=32 l=10: proved-filters -> SURVIVES ; +cited -> SURVIVES
+survivors (proved filters): 1  (2s)

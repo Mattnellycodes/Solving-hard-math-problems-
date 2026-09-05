@@ -1,0 +1,29 @@
+N=5: |U|=24, planes=679, centre candidates=110533 (39.9s)
+  subsets: 2496144 (46.3s)
+  min #blocks over subsets: 59; survivors with R <= 63: 48 (56.6s)
+  RESULT N=5 n=11: min circles = 45; #subsets with <= 45: 48 (56.8s)
+hit structures (R, L, circles): Counter({(59, 14, 45): 48})
+  example: [(-2, -1, 0), (-2, 0, -1), (-1, -2, 0), (-1, 0, -2), (0, -2, -1), (0, -1, -2), (0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1)] R= 59 L= 14 circles= 45
+  example: [(-2, -1, 0), (-2, 0, -1), (-1, -2, 0), (-1, 0, -2), (0, -2, -1), (0, -1, -2), (0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 1, 0)] R= 59 L= 14 circles= 45
+  example: [(-2, -1, 0), (-2, 0, -1), (-1, -2, 0), (-1, 0, -2), (0, -2, -1), (0, -1, -2), (0, 1, 2), (0, 2, 1), (1, 0, 2), (2, 0, 1), (2, 1, 0)] R= 59 L= 14 circles= 45
+N=5: |U|=24, planes=679, centre candidates=110533 (0.0s)
+  subsets: 2704156 (7.3s)
+  min #blocks over subsets: 65; survivors with R <= 83: 8 (19.2s)
+  RESULT N=5 n=12: min circles = 61; #subsets with <= 61: 4 (19.3s)
+hit structures (R, L, circles): Counter({(65, 4, 61): 4})
+  example: [(-2, -1, 0), (-2, 0, -1), (-1, -2, 0), (-1, 0, -2), (0, -2, -1), (0, -1, -2), (0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)] R= 65 L= 4 circles= 61
+  example: [(-2, -1, 0), (-2, 0, 1), (-1, -2, 0), (-1, 0, 2), (0, -2, 1), (0, -1, 2), (0, 1, -2), (0, 2, -1), (1, 0, -2), (1, 2, 0), (2, 0, -1), (2, 1, 0)] R= 65 L= 4 circles= 61
+  example: [(-2, 0, -1), (-2, 1, 0), (-1, 0, -2), (-1, 2, 0), (0, -2, 1), (0, -1, 2), (0, 1, -2), (0, 2, -1), (1, -2, 0), (1, 0, 2), (2, -1, 0), (2, 0, 1)] R= 65 L= 4 circles= 61
+N=10: |U|=24, planes=799, centre candidates=205377 (63.5s)
+  subsets: 1307504 (68.9s)
+  min #blocks over subsets: 29; survivors with R <= 37: 48 (77.8s)
+  RESULT N=10 n=9: min circles = 25; #subsets with <= 25: 48 (77.9s)
+hit structures (R, L, circles): Counter({(29, 4, 25): 48})
+  example: [(-3, -1, 0), (-3, 0, -1), (-3, 0, 1), (-1, 0, -3), (-1, 0, 3), (1, 0, -3), (1, 0, 3), (3, 0, -1), (3, 0, 1)] R= 29 L= 4 circles= 25
+  example: [(-3, -1, 0), (-3, 0, -1), (-3, 1, 0), (-1, -3, 0), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] R= 29 L= 4 circles= 25
+  example: [(-3, -1, 0), (-3, 0, 1), (-3, 1, 0), (-1, -3, 0), (-1, 3, 0), (1, -3, 0), (1, 3, 0), (3, -1, 0), (3, 1, 0)] R= 29 L= 4 circles= 25
+N=10: |U|=24, planes=799, centre candidates=205377 (0.0s)
+  subsets: 1961256 (8.2s)
+  min #blocks over subsets: 53; survivors with R <= 54: 144 (20.8s)
+  RESULT N=10 n=10: min circles = 45; #subsets with <= 39: 0 (21.8s)
+hit structures (R, L, circles): Counter()

@@ -1,0 +1,4 @@
+(a) 8-packings of triples on 8 points: 840 ; not isomorphic to MK: 0
+(b) remaining incidence equations: [a + c - 1, b*c - b - c, -a + b]
+    Groebner basis: [a + c - 1, b + c - 1, c**2 - c + 1]
+    solutions: [{a: 1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2}, {a: 1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2}]  real: [False, False]

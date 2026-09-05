@@ -1,0 +1,6 @@
+structure 4: |Aut(F)| = 8
+structure 5: |Aut(F)| = 40
+structure 6: |Aut(F)| = 40
+structure 7: |Aut(F)| = 8
+structure 8: |Aut(F)| = 48
+(8_3): 840 labelled families of 8 pairwise <=1-intersecting triples on 8 points, 1 isomorphism class(es); 8!/48 = 840

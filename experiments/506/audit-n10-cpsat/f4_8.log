@@ -1,0 +1,8 @@
+skeleton 8 [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7, 8]] D_skel = 28
+candidate 4-blocks: 72
+|Aut(skeleton)| = 288
+lex-leader constraints for 287 group elements
+aux vars: 39168 build time 0.9s
+status: INFEASIBLE labelled solutions: 0  15s
+F-classes: 0
+done 15s

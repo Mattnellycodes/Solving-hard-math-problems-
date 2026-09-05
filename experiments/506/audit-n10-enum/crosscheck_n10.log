@@ -1,0 +1,15 @@
+my classes: 9 (from 9 structures); their classes: 9 (from 9)
+in both: 9  only mine: []  only theirs: []
+  match: [('mine', 0, 32, 3)] <-> [('theirs', 0, 32, 3)]
+  match: [('mine', 1, 30, 342)] <-> [('theirs', 1, 30, 342)]
+  match: [('mine', 2, 32, 32)] <-> [('theirs', 2, 32, 32)]
+  match: [('mine', 3, 32, 20)] <-> [('theirs', 3, 32, 20)]
+  match: [('mine', 4, 31, 30)] <-> [('theirs', 4, 31, 30)]
+  match: [('mine', 5, 31, 31)] <-> [('theirs', 5, 31, 31)]
+  match: [('mine', 6, 31, 26)] <-> [('theirs', 6, 31, 26)]
+  match: [('mine', 7, 31, 28)] <-> [('theirs', 7, 31, 28)]
+  match: [('mine', 8, 31, 28)] <-> [('theirs', 8, 31, 28)]
+
+real	1m57.924s
+user	0m48.269s
+sys	0m3.349s

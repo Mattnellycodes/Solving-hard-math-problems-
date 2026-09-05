@@ -1,0 +1,172 @@
+[
+ {
+  "index": 0,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 1,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 32,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    32
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 2,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 3,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 4,
+  "verdict": "killed by tier K (Kelly-Moser o(m) >= 3m/7)",
+  "surv_A": 30,
+  "surv_AB": 30,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    31,
+    32
+   ],
+   "B": [
+    31,
+    32
+   ],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 5,
+  "verdict": "SURVIVES all tiers",
+  "surv_A": 31,
+  "surv_AB": 26,
+  "surv_ABK": 2,
+  "surv_ABKC": 2,
+  "counts": {
+   "A": [
+    31,
+    32
+   ],
+   "B": [
+    31,
+    32
+   ],
+   "K": [
+    32
+   ],
+   "C": [
+    32
+   ]
+  }
+ },
+ {
+  "index": 6,
+  "verdict": "SURVIVES all tiers",
+  "surv_A": 26,
+  "surv_AB": 26,
+  "surv_ABK": 2,
+  "surv_ABKC": 2,
+  "counts": {
+   "A": [
+    31,
+    32
+   ],
+   "B": [
+    31,
+    32
+   ],
+   "K": [
+    32
+   ],
+   "C": [
+    32
+   ]
+  }
+ },
+ {
+  "index": 7,
+  "verdict": "killed by tier C only (orchard / exact o-table)",
+  "surv_A": 28,
+  "surv_AB": 28,
+  "surv_ABK": 2,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    31,
+    32
+   ],
+   "B": [
+    31,
+    32
+   ],
+   "K": [
+    32
+   ],
+   "C": []
+  }
+ },
+ {
+  "index": 8,
+  "verdict": "killed by tier C only (orchard / exact o-table)",
+  "surv_A": 28,
+  "surv_AB": 28,
+  "surv_ABK": 2,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    31,
+    32
+   ],
+   "B": [
+    31,
+    32
+   ],
+   "K": [
+    32
+   ],
+   "C": []
+  }
+ }
+]

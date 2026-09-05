@@ -1,0 +1,152 @@
+[
+ {
+  "index": 0,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 1,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 2,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 300,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    23,
+    24,
+    25
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 3,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 2209,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 4,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 1,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    25
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 5,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 1,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    25
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 6,
+  "verdict": "killed by tier B ((8_3) lemma)",
+  "surv_A": 4,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [
+    25
+   ],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 7,
+  "verdict": "killed by tier A (hereditary SG)",
+  "surv_A": 0,
+  "surv_AB": 0,
+  "surv_ABK": 0,
+  "surv_ABKC": 0,
+  "counts": {
+   "A": [],
+   "B": [],
+   "K": [],
+   "C": []
+  }
+ },
+ {
+  "index": 8,
+  "verdict": "SURVIVES all tiers",
+  "surv_A": 105,
+  "surv_AB": 105,
+  "surv_ABK": 105,
+  "surv_ABKC": 105,
+  "counts": {
+   "A": [
+    25
+   ],
+   "B": [
+    25
+   ],
+   "K": [
+    25
+   ],
+   "C": [
+    25
+   ]
+  }
+ }
+]

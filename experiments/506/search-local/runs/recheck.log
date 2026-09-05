@@ -1,0 +1,36 @@
+grid4x4 13 universe rebuild failed (KeyError('grid4x4')); proxy value used
+grid4x4 14 universe rebuild failed (KeyError('grid4x4')); proxy value used
+grid4x6 13 universe rebuild failed (KeyError('grid4x6')); proxy value used
+grid3x7 16 universe rebuild failed (KeyError('grid3x7')); proxy value used
+ortho-A1 12 recheck: old true 93 -> tightened 93; exact certificate: 93
+ortho-A1 13 recheck: old true 142 -> tightened 142; exact certificate: 142
+ortho-A1 14 recheck: old true 194 -> tightened 194; exact certificate: 194
+ortho-A1 15 recheck: old true 257 -> tightened 257; exact certificate: 257
+ortho-A1 16 recheck: old true 329 -> tightened 329; exact certificate: 329
+hyperbola14 14 recheck: old true 182 -> tightened 182; exact certificate: 182
+hyperbola14 15 recheck: old true 273 -> tightened 273; exact certificate: 273
+hyperbola23 10 recheck: old true 61 -> tightened 61; exact certificate: 61
+hyperbola23 12 recheck: old true 135 -> tightened 135; exact certificate: 135
+hyperbola23 14 recheck: old true 245 -> tightened 245; exact certificate: 245
+hyperbola23 16 recheck: old true 412 -> tightened 412; exact certificate: 412
+poly20 15 recheck: old true 81 -> tightened 85
+poly20 16 recheck: old true 95 -> tightened 99
+ortho-H2 13 recheck: old true 40 -> tightened 61
+ortho-H2 15 recheck: old true 82 -> tightened 85
+ortho-H2 16 recheck: old true 96 -> tightened 99
+icosaID-vertex 12 universe rebuild failed (KeyError('icosaID-vertex')); proxy value used
+icosaID-face 12 universe rebuild failed (KeyError('icosaID-face')); proxy value used
+icosaID-generic 12 universe rebuild failed (KeyError('icosaID-generic')); proxy value used
+icosaIDE-vertex 15 universe rebuild failed (KeyError('icosaIDE-vertex')); proxy value used
+octa1-2-3-vertex 10 universe rebuild failed (KeyError('octa1-2-3-vertex')); proxy value used
+octa1-2-3-vertex 14 universe rebuild failed (KeyError('octa1-2-3-vertex')); proxy value used
+octa1-2-3-vertex 15 universe rebuild failed (KeyError('octa1-2-3-vertex')); proxy value used
+icosaIDE-generic 13 universe rebuild failed (KeyError('icosaIDE-generic')); proxy value used
+octa1-2-3-generic 12 universe rebuild failed (KeyError('octa1-2-3-generic')); proxy value used
+octa1-2-3-generic 14 universe rebuild failed (KeyError('octa1-2-3-generic')); proxy value used
+octa1-2-3-generic 16 universe rebuild failed (KeyError('octa1-2-3-generic')); proxy value used
+poly6-s3+X 14 recheck: old true 71 -> tightened 73
+hyperbola-pow 10 recheck: old true 61 -> tightened 61; exact certificate: 61
+hyperbola-pow 12 recheck: old true 122 -> tightened 122; exact certificate: 122
+hyperbola-pow 14 recheck: old true 211 -> tightened 211; exact certificate: 211
+checked records: 472

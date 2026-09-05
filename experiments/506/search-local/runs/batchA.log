@@ -1,0 +1,357 @@
+===== BATCHA START Sat Sep  5 17:34:15 UTC 2026
+[grid5inv-corner] grid5inv-corner: N=122 inf=True extraO=0 blocks=248300 mode=exact sizes={3: 237844, 4: 8828, 5: 1083, 6: 408, 7: 52, 8: 61, 9: 8, 10: 12, 12: 1, 19: 3} build=3.7s
+  avg blocks/point=6161; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.9999999999999876, 4.0000000000000036] t=9.6s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.8000000000000005, 0.6000000000000003] t=11.7s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[3.3306690738754696e-16, 1.6666666666666665] t=13.1s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.0, 2.5000000000000036] t=17.3s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[1.0000000000000002, 4.0] t=22.9s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.0, 2.499999999999998] t=28.2s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.3333333333333357, 0.0] t=46.6s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[2.499999999999998, 0.0] t=61.6s
+[grid5inv-corner] done in 217s
+[grid4inv-multi] grid4inv-multi: N=170 inf=True extraO=0 blocks=677502 mode=exact sizes={3: 651200, 4: 21841, 5: 3011, 6: 934, 7: 308, 8: 131, 9: 39, 10: 19, 11: 7, 12: 4, 13: 3, 14: 1, 16: 1, 19: 2, 24: 1} build=16.7s
+  avg blocks/point=12080; triple-table kernel; iters per restart=300000
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[2.9999999999999996, 2.5] t=24.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[2.3846153846153846, 2.0769230769230744] t=25.9s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[1.2, 0.4] t=25.0s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.6666666666666667, 4.440892098500626e-16] t=24.7s
+  n=15 f= 85 proxy=173 true=173 [+88] structure={3: 137, 4: 47, 5: 3, 6: 5} deg=19 centre=[2.0, -0.0] t=34.2s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[2.999999999999999, -1.0000000000000018] t=34.9s
+[grid4inv-multi] done in 193s
+[grid5inv-multi] grid5inv-multi: N=258 inf=True extraO=0 blocks=2406124 mode=exact sizes={3: 2322888, 4: 69494, 5: 8952, 6: 2964, 7: 1016, 8: 461, 9: 181, 10: 95, 11: 31, 12: 18, 13: 8, 14: 8, 15: 3, 18: 1, 19: 1, 22: 2, 30: 1} build=35.8s
+  avg blocks/point=28276; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.5, 1.5] t=19.3s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-6.661338147750939e-16, 2.0] t=23.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.5999999999999999, 0.8] t=26.2s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[2.0, -3.0] t=28.8s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[1.4999999999999993, 4.440892098500626e-16] t=37.4s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[3.5000000000000235, -1.4999999999999898] t=39.4s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.0000000000000004, -3.0000000000000004] t=48.5s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[2.0, 0.5] t=62.1s
+[grid5inv-multi] done in 335s
+[grid6inv-c] grid6inv-c: N=211 inf=True extraO=0 blocks=1239861 mode=exact sizes={3: 1180508, 4: 49903, 5: 5898, 6: 2206, 7: 668, 8: 441, 9: 118, 10: 63, 11: 32, 12: 10, 14: 8, 16: 1, 19: 4, 24: 1} build=15.8s
+  avg blocks/point=17898; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.749999999999999, 4.25] t=17.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[3.769230769230769, 1.846153846153846] t=19.0s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.5000000000000004, 2.5] t=23.1s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[3.25, 0.7499999999999999] t=22.2s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[2.2, 2.4] t=25.4s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[2.799999999999998, 2.5999999999999996] t=27.2s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-1.0, 3.0] t=34.6s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[3.0, 4.999999999999999] t=54.9s
+[grid6inv-c] done in 247s
+[trilat3] trilat3: N=37 inf=True extraO=0 blocks=3725 mode=float sizes={3: 3018, 4: 561, 5: 36, 6: 94, 7: 6, 8: 9, 12: 1} build=0.2s
+  avg blocks/point=320; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.4999999999999787, -0.8660254037844664] t=7.5s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[1.9999999999999996, -8.881784197001252e-16] t=10.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-1.0000000000000018, 1.7320508075688759] t=13.6s
+===== RELAUNCH Sat Sep  5 17:51:56 UTC 2026
+===== BATCHA START Sat Sep  5 17:51:56 UTC 2026
+[grid5inv-corner] grid5inv-corner: N=122 inf=True extraO=0 blocks=248300 mode=exact sizes={3: 237844, 4: 8828, 5: 1083, 6: 408, 7: 52, 8: 61, 9: 8, 10: 12, 12: 1, 19: 3} build=4.3s
+  avg blocks/point=6161; triple-table kernel; iters per restart=300000
+[grid5inv-corner] done in 7s
+[grid4inv-multi] grid4inv-multi: N=170 inf=True extraO=0 blocks=677502 mode=exact sizes={3: 651200, 4: 21841, 5: 3011, 6: 934, 7: 308, 8: 131, 9: 39, 10: 19, 11: 7, 12: 4, 13: 3, 14: 1, 16: 1, 19: 2, 24: 1} build=11.4s
+  avg blocks/point=12080; triple-table kernel; iters per restart=300000
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[3.0000000000000018, -1.0] t=49.5s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[1.1999999999998203, 1.4000000000000057] t=41.8s
+[grid4inv-multi] done in 108s
+[grid5inv-multi] grid5inv-multi: N=258 inf=True extraO=0 blocks=2406124 mode=exact sizes={3: 2322888, 4: 69494, 5: 8952, 6: 2964, 7: 1016, 8: 461, 9: 181, 10: 95, 11: 31, 12: 18, 13: 8, 14: 8, 15: 3, 18: 1, 19: 1, 22: 2, 30: 1} build=32.2s
+  avg blocks/point=28276; triple-table kernel; iters per restart=300000
+[grid5inv-multi] done in 48s
+[grid6inv-c] grid6inv-c: N=211 inf=True extraO=0 blocks=1239861 mode=exact sizes={3: 1180508, 4: 49903, 5: 5898, 6: 2206, 7: 668, 8: 441, 9: 118, 10: 63, 11: 32, 12: 10, 14: 8, 16: 1, 19: 4, 24: 1} build=14.3s
+  avg blocks/point=17898; triple-table kernel; iters per restart=300000
+[grid6inv-c] done in 22s
+[trilat3] trilat3: N=37 inf=True extraO=0 blocks=3725 mode=float sizes={3: 3018, 4: 561, 5: 36, 6: 94, 7: 6, 8: 9, 12: 1} build=0.1s
+  avg blocks/point=320; triple-table kernel; iters per restart=300000
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.9999999999999993, -5.551115123125783e-16] t=11.9s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[5.551115123125783e-16, 1.7320508075688774] t=14.8s
+  n=14 f= 73 proxy=115 true=115 [+42] structure={3: 120, 4: 6, 12: 1} deg=12 centre=[-1.5, -0.8660254037844386] t=19.3s
+  n=15 f= 85 proxy=163 true=163 [+78] structure={3: 163, 4: 18, 12: 1} deg=19 centre=[-1.5000000000000004, -2.598076211353316] t=28.4s
+  n=16 f= 99 proxy=205 true=205 [+106] structure={3: 192, 4: 37, 12: 1} deg=25 centre=[-3.0000000000000004, 0.0] t=38.8s
+[trilat3] done in 114s
+[trilat4] trilat4: N=61 inf=True extraO=0 blocks=18230 mode=float sizes={3: 15006, 4: 2778, 5: 102, 6: 285, 7: 18, 8: 18, 9: 6, 10: 9, 12: 8} build=0.8s
+  avg blocks/point=949; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.4999999999999978, 2.598076211353315] t=6.5s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[3.0, -8.881784197001252e-16] t=7.9s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[2.0000000000000018, 1.7320508075688763] t=9.7s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.0000000000000009, 1.7320508075688748] t=13.5s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[0.9999999999999933, -1.7320508075688767] t=18.6s
+  n=14 f= 73 proxy=115 true=115 [+42] structure={3: 120, 4: 6, 12: 1} deg=12 centre=[1.4999999999999998, 2.598076211353316] t=23.1s
+  n=15 f= 85 proxy=163 true=163 [+78] structure={3: 163, 4: 18, 12: 1} deg=19 centre=[3.0, -2.220446049250313e-16] t=33.0s
+  n=16 f= 99 proxy=205 true=205 [+106] structure={3: 192, 4: 37, 12: 1} deg=25 centre=[1.4999999999999998, 2.598076211353316] t=58.5s
+[trilat4] done in 172s
+[trilat5] trilat5: N=91 inf=True extraO=0 blocks=65177 mode=float sizes={3: 54678, 4: 9234, 5: 402, 6: 694, 7: 48, 8: 48, 9: 12, 10: 24, 11: 6, 12: 31} build=4.1s
+  avg blocks/point=2268; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.5000000000000004, 0.8660254037844379] t=12.1s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-0.03846153846153921, 2.7313108888586135] t=13.6s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[3.500000000000001, -0.8660254037844399] t=16.1s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.4999999999999999, 0.866025403784439] t=14.5s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-1.000000000000032, 3.464101615137733] t=25.4s
+  n=14 f= 73 proxy=115 true=115 [+42] structure={3: 120, 4: 6, 12: 1} deg=12 centre=[2.0, 1.7320508075688772] t=34.6s
+  n=15 f= 85 proxy=163 true=163 [+78] structure={3: 163, 4: 18, 12: 1} deg=19 centre=[2.0000000000000013, -1.1102230246251565e-16] t=48.9s
+  n=16 f= 99 proxy=205 true=205 [+106] structure={3: 192, 4: 37, 12: 1} deg=25 centre=[2.0000000000000004, 1.7320508075688772] t=73.9s
+[trilat5] done in 244s
+[hyperbola14] hyperbola14: N=15 inf=True extraO=0 blocks=368 mode=exact sizes={3: 304, 4: 64} build=0.0s
+  avg blocks/point=73; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 42 true= 42 [+17] structure={3: 36, 4: 12} deg=6 centre=[1.0000000000000002, 1.0000000000000002] t=4.0s
+  n=10 f= 33 proxy= 61 true= 61 [+28] structure={3: 48, 4: 18} deg=5 centre=[0.125, 8.0] t=3.7s
+  n=11 f= 41 proxy= 86 true= 86 [+45] structure={3: 73, 4: 23} deg=10 centre=[0.125, 8.0] t=3.9s
+  n=12 f= 51 proxy=114 true=114 [+63] structure={3: 92, 4: 32} deg=10 centre=[-8.0, -0.125] t=4.9s
+  n=13 f= 61 proxy=145 true=145 [+84] structure={3: 118, 4: 42} deg=15 centre=[-0.12499999999999994, -8.0] t=8.8s
+  n=14 f= 73 proxy=193 true=182 [+109] structure={3: 136, 4: 57} deg=11 centre=[-16.0, -0.06249999999999534] t=11.1s
+  n=15 f= 85 proxy=277 true=273 [+188] structure={3: 227, 4: 57} deg=11 centre=[-16.0, -0.06249999999999534] t=18.5s
+[hyperbola14] done in 55s
+[hyperbola23] hyperbola23: N=19 inf=True extraO=0 blocks=909 mode=exact sizes={3: 832, 4: 77} build=0.0s
+  avg blocks/point=140; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 42 true= 42 [+17] structure={3: 36, 4: 12} deg=6 centre=[1.0000000000000002, 1.0000000000000002] t=5.9s
+  n=10 f= 33 proxy= 66 true= 61 [+28] structure={3: 48, 4: 18} deg=5 centre=[-8.0, -0.125] t=6.7s
+  n=11 f= 41 proxy=102 true=102 [+61] structure={3: 93, 4: 18} deg=9 centre=[4.0, 0.25] t=8.6s
+  n=12 f= 51 proxy=137 true=135 [+84] structure={3: 112, 4: 27} deg=4 centre=[72.0, 0.013888888888872186] t=9.7s
+  n=13 f= 61 proxy=191 true=191 [+130] structure={3: 170, 4: 29} deg=8 centre=[-1.0000000000000002, -1.0000000000000002] t=16.2s
+  n=14 f= 73 proxy=252 true=245 [+172] structure={3: 216, 4: 37} deg=8 centre=[6.0, 0.16666666666666707] t=26.0s
+  n=15 f= 85 proxy=325 true=325 [+240] structure={3: 299, 4: 39} deg=13 centre=[0.11111111111111072, 9.0] t=56.9s
+  n=16 f= 99 proxy=415 true=412 [+313] structure={3: 376, 4: 46} deg=10 centre=[6.0, 0.16666666666666707] t=104.7s
+[hyperbola23] done in 235s
+[poly5-phi] poly5-phi: N=51 inf=True extraO=0 blocks=10671 mode=float sizes={3: 8460, 4: 1810, 5: 302, 6: 90, 10: 4, 12: 5} build=0.5s
+  avg blocks/point=669; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.11803398874989446, 0.08575671257690487] t=7.9s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.8090169943749479, 2.48989828488278] t=9.6s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.30901699437494745, 0.9510565162951533] t=11.3s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.0000000000000002, 0.0] t=14.7s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[0.49999999999999944, -0.3632712640026804] t=20.3s
+  n=14 f= 73 proxy=118 true=118 [+45] structure={3: 120, 4: 6, 12: 1} deg=9 centre=[0.9999999999999998, 0.0] t=32.9s
+  n=15 f= 85 proxy=155 true=155 [+70] structure={3: 112, 4: 63, 7: 1, 8: 1} deg=22 centre=[-1.6180339887498947, 0.0] t=41.4s
+  n=16 f= 99 proxy=182 true=182 [+83] structure={3: 129, 4: 78, 7: 1, 9: 1} deg=27 centre=[0.3090169943749473, -0.9510565162951536] t=53.5s
+[poly5-phi] done in 193s
+[poly8-s2] poly8-s2: N=89 inf=True extraO=0 blocks=84519 mode=float sizes={3: 76032, 4: 8256, 5: 64, 6: 152, 8: 3, 12: 4, 14: 4, 16: 4} build=5.0s
+  avg blocks/point=2917; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.5411961001461975, 1.3065629648763764] t=9.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-0.5411961001461975, 1.3065629648763764] t=10.8s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-1.7071067811865492, -1.7071067811865461] t=12.5s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[2.6131259297527536, 1.0823922002923936] t=16.1s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-1.7071067811865461, 1.7071067811865483] t=18.9s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-3.6030331070815935e-16, -1.6568542494923806] t=15.6s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.3065629648763761, -0.5411961001461979] t=23.2s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-5.51091059616309e-16, -4.0] t=28.7s
+[poly8-s2] done in 141s
+[poly6-s3] poly6-s3: N=67 inf=True extraO=0 blocks=32766 mode=float sizes={3: 28500, 4: 4122, 5: 60, 6: 67, 8: 6, 12: 8, 14: 3} build=1.6s
+  avg blocks/point=1513; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.7320508075688759, 3.0000000000000004] t=7.9s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.4999999999999774, -2.5980762113533267] t=9.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.5000000000000009, 2.598076211353316] t=12.0s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.7320508075688812, -2.9999999999999982] t=17.5s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.8660254037844383, 0.4999999999999972] t=22.6s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[2.1094237467877974e-15, 1.7320508075688754] t=30.0s
+  n=15 f= 85 proxy= 86 true= 86 [+1] structure={3: 91, 14: 1} deg=6 centre=[2.1094237467877974e-15, 1.7320508075688754] t=42.4s
+  n=16 f= 99 proxy=172 true=172 [+73] structure={3: 172, 4: 6, 14: 1} deg=7 centre=[-1.7320508075688772, 1.6728986382985834e-16] t=66.7s
+[poly6-s3] done in 211s
+[poly12] poly12: N=133 inf=True extraO=0 blocks=262578 mode=float sizes={3: 227592, 4: 34224, 5: 192, 6: 516, 7: 24, 8: 12, 12: 7, 14: 6, 24: 5} build=20.9s
+  avg blocks/point=6151; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.3877787807814457e-16, 1.7320508075688772] t=17.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.8660254037844399, -1.4999999999999982] t=21.8s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-0.1339745962155618, -0.23205080756887658] t=24.5s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-8.881784197001252e-15, 1.9318516525781386] t=27.0s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[1.2247448713915894, -1.2247448713915896] t=29.3s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[1.2247448713915894, -1.2247448713915896] t=33.4s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[0.44828773608402683, 1.673032607475614] t=39.8s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[0.4482877360840264, -1.6730326074756174] t=49.9s
+[poly12] done in 266s
+[poly7] poly7: N=71 inf=True extraO=0 blocks=34438 mode=float sizes={3: 28686, 4: 5376, 5: 140, 6: 210, 7: 14, 12: 7, 14: 5} build=2.0s
+  avg blocks/point=1525; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.0000000000000004, -4.385380947269368e-15] t=10.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.123489801858733, 0.5410441730642661] t=12.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-1.2469796037174659, 1.5543122344752192e-15] t=13.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.6234898018587343, -0.7818314824680286] t=15.8s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[0.22252093395631467, 0.9749279121818233] t=18.6s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[1.0000000000000102, 1.0769163338864018e-14] t=16.3s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.8019377358048383, 2.220446049250313e-15] t=18.4s
+  n=16 f= 99 proxy=163 true=163 [+64] structure={3: 168, 4: 7, 14: 1} deg=13 centre=[0.2774790660436832, -1.215715221585587] t=34.4s
+[poly7] done in 143s
+[poly9] poly9: N=82 inf=True extraO=0 blocks=52952 mode=float sizes={3: 44046, 4: 8271, 5: 342, 6: 243, 7: 18, 8: 18, 9: 1, 11: 9, 18: 4} build=2.8s
+  avg blocks/point=2034; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.3472963553338715, 1.9696155060244145] t=8.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-0.34729635533386216, 1.9696155060244154] t=10.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-1.0000000000000009, -1.7320508075688767] t=11.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[1.8793852415718169, -0.6840402866513372] t=10.0s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.4999999999999965, 0.8660254037844398] t=12.1s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[1.5320888862379551, -1.28557521937308] t=18.7s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.0000000000000022, -1.7320508075688763] t=23.0s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-0.7660444431189758, -1.326827896337879] t=29.0s
+[poly9] done in 127s
+[poly10] poly10: N=101 inf=True extraO=0 blocks=100735 mode=float sizes={3: 82000, 4: 18100, 5: 300, 6: 320, 12: 10, 20: 5} build=5.8s
+  avg blocks/point=3157; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.9510565162951533, 0.3090169943749478] t=9.1s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.3090169943749483, -0.9510565162951538] t=11.9s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-0.9510565162951528, -0.3090169943749469] t=13.2s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.30901699437492913, 0.9510565162951603] t=15.8s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-1.309016994374948, -0.9510565162951534] t=18.5s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.9510565162951521, 1.309016994374948] t=22.2s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.1755705045849472, 1.6180339887498956] t=30.4s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[1.1755705045849332, -1.618033988749887] t=27.1s
+[poly10] done in 155s
+[poly14] poly14: N=99 inf=True extraO=0 blocks=91494 mode=float sizes={3: 72800, 4: 18424, 5: 126, 6: 126, 8: 7, 10: 7, 14: 1, 28: 3} build=5.1s
+  avg blocks/point=2937; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.27747906604370204, -1.2157152215855827] t=9.4s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.9009688679024188, -0.43388373911755806] t=10.4s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.9009688679024187, 0.4338837391175584] t=12.2s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[1.5636629649360598, -1.2469796037174663] t=13.9s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.9749279121818161, -0.22252093395632044] t=16.1s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.43388373911755773, -0.9009688679024197] t=19.0s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-0.6234898018587344, -0.7818314824680297] t=22.4s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[1.949855824363647, -0.44504186791262934] t=24.8s
+[poly14] done in 134s
+[poly16] poly16: N=113 inf=True extraO=0 blocks=135124 mode=float sizes={3: 106944, 4: 27888, 5: 32, 6: 240, 8: 8, 10: 8, 16: 1, 32: 3} build=7.6s
+  avg blocks/point=3809; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.1111404660392048, 1.6629392246050894] t=9.6s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.8477590650225764, 0.7653668647301719] t=11.4s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.3901806440322525, 1.9615705608064606] t=13.0s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.3901806440322525, 1.9615705608064606] t=15.7s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.9807852804032311, 0.19509032201612736] t=17.5s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-1.8477590650225773, -0.7653668647301761] t=20.9s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-0.5555702330196021, -0.8314696123025451] t=24.2s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-0.5555702330196021, -0.8314696123025451] t=27.3s
+[poly16] done in 148s
+[poly18] poly18: N=109 inf=True extraO=0 blocks=92109 mode=float sizes={3: 59112, 4: 32760, 5: 108, 6: 108, 8: 18, 36: 3} build=5.5s
+  avg blocks/point=2817; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.9396926207859086, -1.6275953626987478] t=9.1s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.9396926207859089, 1.6275953626987474] t=11.4s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.7660444431189761, -0.6427876096865395] t=14.0s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.7660444431189761, -0.6427876096865395] t=15.8s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-2.220446049250313e-16, -0.9999999999999997] t=17.4s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.6427876096865588, 1.7660444431189712] t=20.1s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-0.5000000000000003, -0.8660254037844386] t=22.1s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-0.5000000000000003, -0.8660254037844386] t=25.5s
+[poly18] done in 142s
+[poly20] poly20: N=121 inf=True extraO=0 blocks=126343 mode=float sizes={3: 80640, 4: 45560, 5: 80, 6: 40, 8: 20, 40: 3} build=7.4s
+  avg blocks/point=3484; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.45399049973954675, 0.8910065241883679] t=11.5s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.4142135623730976, -1.4142135623730927] t=13.6s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[-0.6180339887498948, -1.902113032590306] t=15.5s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-0.6180339887498948, -1.902113032590306] t=19.1s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-1.975376681190276, -0.31286893008046146] t=21.7s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-1.975376681190276, -0.31286893008046146] t=25.8s
+  n=15 f= 85 proxy= 85 true= 81 [BELOW f!] structure={3: 91, 14: 1} deg=11 centre=[-1.4142707973232054, 1.4141632787760596] t=31.3s
+  n=16 f= 99 proxy= 99 true= 95 [BELOW f!] structure={3: 105, 15: 1} deg=11 centre=[-1.4142707973232054, 1.4141632787760596] t=33.3s
+[poly20] done in 180s
+[poly24] poly24: N=145 inf=True extraO=0 blocks=214587 mode=float sizes={3: 135072, 4: 79344, 5: 48, 6: 96, 8: 24, 48: 3} build=16.6s
+  avg blocks/point=4957; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.982889722747545, -0.26105238444017953] t=14.2s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.982889722747545, -0.26105238444017953] t=12.8s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.2175228580174557, 1.5867066805824872] t=15.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[1.84297022087776e-14, 0.9999999999999962] t=19.2s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.5176380902050428, -1.931851652578136] t=20.9s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-0.5176380902050428, -1.931851652578136] t=25.7s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-0.25881904510252196, -0.9659258262890671] t=33.4s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-1.847759065022588, -0.7653668647302554] t=23.3s
+[poly24] done in 184s
+[poly30] poly30: N=151 inf=True extraO=0 blocks=264873 mode=float sizes={3: 187380, 4: 77070, 5: 330, 6: 75, 8: 15, 30: 1, 60: 2} build=11.7s
+  avg blocks/point=5742; triple-table kernel; iters per restart=300000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-1.4781476007338026, 0.6581137129666943] t=12.2s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-1.4781476007338026, 0.6581137129666943] t=17.5s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.3382612127177347, -1.486289650954796] t=20.2s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-0.33640818240159376, 1.582676064001459] t=27.8s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-1.6091702292618297, 0.1691306063588588] t=30.1s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-1.0826760640014594, -1.2024335861860325] t=26.5s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-0.9510565162951545, -1.309016994374947] t=39.5s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-0.9510565162951545, -1.309016994374947] t=34.8s
+[poly30] done in 223s
+[grid4] grid4x4: N=16 inf=True extraO=0 blocks=285 mode=exact sizes={3: 212, 4: 58, 5: 10, 6: 4, 8: 1} build=0.0s
+  avg blocks/point=56; triple-table kernel; iters per restart=200000
+[grid4+X] grid4+X: N=166 inf=True extraO=0 blocks=550299 mode=float sizes={3: 513005, 4: 31679, 5: 3344, 6: 1287, 7: 449, 8: 294, 9: 99, 10: 77, 11: 27, 12: 32, 13: 2, 14: 3, 16: 1} build=35.0s
+  avg blocks/point=10168; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[-0.999999999999996, 6.661338147750939e-16] t=7.7s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[1.7999999999999972, 2.4000000000000026] t=8.0s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.6000000000000005, 1.799999999999998] t=8.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.666666666666676, 2.3333333333333406] t=9.3s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[0.5999999999999989, 1.7999999999999894] t=13.3s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.923076923076924, 1.3846153846153832] t=16.3s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[4.440892098500626e-16, 1.5000000000000004] t=22.1s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[1.6153846153846156, 2.0769230769230766] t=29.5s
+[grid4] done in 155s
+[ortho-A1] ortho-A1: N=19 inf=True extraO=0 blocks=807 mode=exact sizes={3: 753, 4: 42, 5: 10, 7: 1, 9: 1} build=0.0s
+  avg blocks/point=125; triple-table kernel; iters per restart=200000
+[ortho-A1+X] ortho-A1+X: N=169 inf=True extraO=0 blocks=635328 mode=float sizes={3: 606750, 4: 23261, 5: 3457, 6: 1064, 7: 419, 8: 187, 9: 93, 10: 49, 11: 27, 12: 14, 13: 4, 14: 2, 16: 1} build=28.1s
+  avg blocks/point=11431; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.0588235294117623, 1.2352941176470575] t=6.2s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.6153846153846155, 2.0769230769230775] t=7.0s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.8275862068965529, 0.9310344827586203] t=7.8s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-0.11764705882353332, 0.5294117647058807] t=9.4s
+  n=13 f= 61 proxy= 99 true= 99 [+38] structure={3: 101, 4: 5, 11: 1} deg=8 centre=[-0.0, 3.0] t=13.5s
+  n=14 f= 73 proxy=138 true=138 [+65] structure={3: 100, 4: 41, 5: 6, 6: 2} deg=11 centre=[4.0, 1.0000000000000002] t=17.5s
+  n=15 f= 85 proxy=172 true=172 [+87] structure={3: 132, 4: 47, 5: 6, 6: 2, 7: 1} deg=16 centre=[3.0, 1.5] t=23.4s
+  n=16 f= 99 proxy=221 true=221 [+122] structure={3: 172, 4: 52, 5: 6, 6: 6} deg=15 centre=[-1.0, 0.0] t=33.3s
+[ortho-A1] done in 159s
+[icosa-I-v] icosaI-vertex: N=11 inf=True extraO=0 blocks=67 mode=float sizes={3: 40, 4: 15, 5: 12} build=0.0s
+  avg blocks/point=20; triple-table kernel; iters per restart=200000
+[icosa-I-v+X] icosa-I-v+X: N=151 inf=True extraO=0 blocks=430841 mode=float sizes={3: 397540, 4: 31620, 5: 732, 6: 840, 9: 20, 10: 54, 15: 20, 16: 15} build=18.3s
+  avg blocks/point=8744; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.786610204550514, -0.25558514871625726] t=5.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[0.8076744942756735, -0.39582686325144767] t=6.2s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.41055532632502706, 0.5650809285069088] t=7.0s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-0.7866102045505141, -0.25558514871625726] t=8.1s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.5877852522924742, 2.427050983124842] t=11.2s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-0.3992737561339174, -0.030625549034124455] t=17.3s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[1.2047936622263238, -3.0899396311771454] t=11.4s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[0.15250900402725043, 0.3702680924432462] t=28.6s
+[icosa-I-v] done in 117s
+[octa-123-v] octa1-2-3-vertex: N=25 inf=True extraO=0 blocks=1417 mode=float sizes={3: 1200, 4: 204, 6: 4, 8: 9} build=0.0s
+  avg blocks/point=174; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.3660254037844393, -1.3660254037844393] t=2.0s
+  n=10 f= 33 proxy= 46 true= 45 [+12] structure={3: 36, 4: 11, 5: 4} deg=6 centre=[-0.7629742793221848, -0.19074356983054613] t=3.1s
+  n=11 f= 41 proxy= 58 true= 58 [+17] structure={3: 49, 4: 14, 5: 2, 6: 2} deg=9 centre=[0.0, 0.4142135623730949] t=4.1s
+  n=12 f= 51 proxy= 83 true= 83 [+32] structure={3: 72, 4: 17, 6: 4} deg=10 centre=inf t=4.9s
+  n=13 f= 61 proxy=111 true=111 [+50] structure={3: 94, 4: 23, 5: 2, 6: 4} deg=12 centre=[0.0, 0.0] t=6.9s
+  n=14 f= 73 proxy=149 true=144 [+71] structure={3: 112, 4: 33, 6: 6} deg=7 centre=[-0.8660254037844385, 0.49999999999999994] t=9.5s
+  n=15 f= 85 proxy=200 true=194 [+109] structure={3: 168, 4: 39, 5: 2, 6: 1, 7: 1, 8: 1} deg=18 centre=[-1.0, -1.414213562373095] t=16.8s
+  n=16 f= 99 proxy=241 true=241 [+142] structure={3: 208, 4: 45, 6: 3, 8: 2} deg=17 centre=[-0.7071067811865474, -0.7071067811865474] t=26.8s
+[octa-123-v+X] octa-123-v+X: N=175 inf=True extraO=0 blocks=708945 mode=float sizes={3: 673478, 4: 30211, 5: 3413, 6: 1334, 7: 308, 8: 124, 9: 30, 10: 36, 12: 1, 14: 1, 16: 2, 20: 6, 32: 1} build=33.8s
+  avg blocks/point=12331; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.0, -0.41421356237309503] t=6.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-0.40824829046386535, 1.2844570503761812] t=6.9s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.9756630355021702, 0.21927526343546277] t=10.0s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[0.41421356237309515, 0.0] t=12.2s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.7071067811865478, 0.7071067811865478] t=11.2s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[0.5658262487936925, -0.5658262487936923] t=12.5s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[0.40997761055293386, 0.9120955864630169] t=16.8s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-0.9120955864630096, -0.40997761055293097] t=21.1s
+[octa-123-v] done in 247s
+[poly8-s2] poly8-s2: N=89 inf=True extraO=0 blocks=84519 mode=float sizes={3: 76032, 4: 8256, 5: 64, 6: 152, 8: 3, 12: 4, 14: 4, 16: 4} build=3.6s
+  avg blocks/point=2917; triple-table kernel; iters per restart=200000
+[poly8-s2+X] failed: AssertionError((2278416, 240))
+[poly8-s2] done in 406s
+[poly6-s3] poly6-s3: N=67 inf=True extraO=0 blocks=32766 mode=float sizes={3: 28500, 4: 4122, 5: 60, 6: 67, 8: 6, 12: 8, 14: 3} build=1.4s
+  avg blocks/point=1513; triple-table kernel; iters per restart=200000
+[poly6-s3+X] poly6-s3+X: N=217 inf=True extraO=0 blocks=1474943 mode=float sizes={3: 1429020, 4: 40521, 5: 3451, 6: 1233, 7: 376, 8: 217, 9: 52, 10: 31, 11: 6, 12: 19, 13: 1, 14: 5, 16: 5, 18: 3, 23: 2, 28: 1} build=115.8s
+  avg blocks/point=20548; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[0.0, -1.7320508075688774] t=12.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[2.500000000000001, 0.8660254037844373] t=17.2s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[0.5000000000000281, -0.28867513459481137] t=21.1s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.4999999999999996, -2.5980762113533165] t=22.9s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.4532542188779457, 1.1681948830364002] t=25.6s
+  n=14 f= 73 proxy= 73 true= 71 [BELOW f!] structure={3: 78, 13: 1} deg=8 centre=[0.36625099731231797, -2.366000864840275] t=28.2s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-3.0, 2.0587384780546566e-16] t=29.9s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[0.49487165930539334, 0.4285714285714278] t=35.0s
+[poly6-s3] done in 583s
+[poly5-phi] poly5-phi: N=51 inf=True extraO=0 blocks=10671 mode=float sizes={3: 8460, 4: 1810, 5: 302, 6: 90, 10: 4, 12: 5} build=0.5s
+  avg blocks/point=669; triple-table kernel; iters per restart=200000
+[poly5-phi+X] poly5-phi+X: N=201 inf=True extraO=0 blocks=999233 mode=float sizes={3: 935537, 4: 54194, 5: 5680, 6: 2282, 7: 715, 8: 424, 9: 200, 10: 120, 11: 48, 12: 21, 13: 3, 14: 4, 16: 1, 18: 4} build=62.4s
+  avg blocks/point=15237; triple-table kernel; iters per restart=200000
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.1180339887498847, -0.36327126400267623] t=10.2s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[-3.4270509831248406, 2.4898982848827798] t=11.7s
+  n=11 f= 41 proxy= 41 true= 41 [= f] structure={3: 45, 10: 1} deg=5 centre=[1.3090169943749472, 0.9510565162951535] t=13.7s
+  n=12 f= 51 proxy= 51 true= 51 [= f] structure={3: 55, 11: 1} deg=5 centre=[-1.3090169943749492, -0.9510565162951552] t=17.5s
+  n=13 f= 61 proxy= 61 true= 61 [= f] structure={3: 66, 12: 1} deg=6 centre=[-0.4999999999999974, -0.6881909602355856] t=21.5s
+  n=14 f= 73 proxy= 73 true= 73 [= f] structure={3: 78, 13: 1} deg=6 centre=[-0.49999999999998734, 0.36327126400267296] t=27.3s
+  n=15 f= 85 proxy= 85 true= 85 [= f] structure={3: 91, 14: 1} deg=7 centre=[-1.809016994374884, 0.5877852522924515] t=29.6s
+  n=16 f= 99 proxy= 99 true= 99 [= f] structure={3: 105, 15: 1} deg=7 centre=[-1.3090169943749461, -4.028740053470406] t=47.4s
+[poly5-phi] done in 522s
+[hyperbola14] hyperbola14: N=15 inf=True extraO=0 blocks=368 mode=exact sizes={3: 304, 4: 64} build=0.0s
+  avg blocks/point=73; triple-table kernel; iters per restart=200000
+[hyperbola14+X] failed: AssertionError((748798, 166))
+[hyperbola14] done in 59s
+[ellipse24-2-1] ellipse24-2-1: N=25 inf=True extraO=0 blocks=1229 mode=float sizes={3: 772, 4: 457} build=0.1s
+  avg blocks/point=159; triple-table kernel; iters per restart=200000
+[ellipse24-2-1+X] failed: AssertionError((893285, 176))
+[ellipse24-2-1] done in 118s
+===== BATCHA DONE Sat Sep  5 19:25:41 UTC 2026

@@ -1,0 +1,24 @@
+===== BATCH2 START Sat Sep  5 17:07:43 UTC 2026
+[ortho-A1] ortho-A1: N=19 inf=True extraO=0 blocks=807 sizes={3: 753, 4: 42, 5: 10, 7: 1, 9: 1} build=0.1s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[2.0000000000000004, 2.0000000000000004] t=4.0s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[2.0000000000000004, 1.0] t=3.4s
+  n=11 f= 41 proxy= 63 true= 63 [+22] structure={3: 65, 4: 4, 9: 1} deg=7 centre=[2.0000000000000004, 2.0000000000000004] t=3.4s
+  n=12 f= 51 proxy= 99 true= 93 [+42] structure={3: 92, 4: 11, 9: 1} deg=11 centre=[2.0, -2.9999999999999987] t=3.1s
+  n=13 f= 61 proxy=147 true=142 [+81] structure={3: 140, 4: 13, 5: 1, 9: 1} deg=13 centre=[2.0, -2.9999999999999987] t=4.4s
+  n=14 f= 73 proxy=200 true=194 [+121] structure={3: 186, 4: 21, 5: 1, 9: 1} deg=15 centre=[2.0, 3.0] t=3.8s
+  n=15 f= 85 proxy=264 true=257 [+172] structure={3: 247, 4: 21, 5: 4, 9: 1} deg=16 centre=[2.0, 3.0] t=12.7s
+  n=16 f= 99 proxy=341 true=329 [+230] structure={3: 314, 4: 28, 5: 5, 9: 1} deg=19 centre=[2.0, 3.0] t=55.8s
+[ortho-A1] done in 91s
+[ortho-A2] build failed: AssertionError((2604139, 251))
+[ortho-B2] build failed: AssertionError((2604137, 251))
+[ortho-C2] build failed: AssertionError((2604129, 251))
+[ortho-D2] build failed: AssertionError((2604137, 251))
+[ortho-E2] build failed: AssertionError((2604176, 251))
+[ortho-F1] ortho-F1: N=94 inf=True extraO=0 blocks=126568 sizes={3: 123988, 4: 2315, 5: 190, 6: 44, 7: 12, 8: 9, 9: 2, 10: 7, 15: 1} build=2.9s
+  n= 9 f= 25 proxy= 25 true= 25 [= f] structure={3: 28, 8: 1} deg=4 centre=[1.9999999999999996, 4.0] t=66.7s
+  n=10 f= 33 proxy= 33 true= 33 [= f] structure={3: 36, 9: 1} deg=4 centre=[1.5000000000000007, 1.5] t=67.9s
+  n=11 f= 41 proxy= 42 true= 42 [+1] structure={3: 45, 10: 1} deg=4 centre=[0.8000000000000003, 1.5999999999999994] t=67.9s
+  n=12 f= 51 proxy= 52 true= 52 [+1] structure={3: 55, 11: 1} deg=4 centre=[2.4999999999999964, 1.5000000000000022] t=69.6s
+  n=13 f= 61 proxy= 63 true= 63 [+2] structure={3: 66, 12: 1} deg=4 centre=[1.5000000000000007, 1.5] t=72.9s
+  n=14 f= 73 proxy= 75 true= 75 [+2] structure={3: 78, 13: 1} deg=4 centre=[1.5000000000000007, 1.5] t=74.6s
+  n=15 f= 85 proxy=186 true=186 [+101] structure={3: 155, 4: 46, 5: 2, 6: 2, 8: 1} deg=20 centre=[0.8000000000000003, 1.5999999999999999] t=86.5s

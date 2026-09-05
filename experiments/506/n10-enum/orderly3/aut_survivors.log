@@ -1,0 +1,19 @@
+structure 4: |Aut(F)| = 8
+   tier A+B: 30 surviving line sets, 7 orbits under Aut(F)
+   tier A+B+C: 0 surviving line sets, 0 orbits under Aut(F)
+structure 5: |Aut(F)| = 40
+   tier A+B: 26 surviving line sets, 4 orbits under Aut(F)
+   tier A+B+C: 2 surviving line sets, 1 orbits under Aut(F)
+structure 6: |Aut(F)| = 40
+   tier A+B: 26 surviving line sets, 4 orbits under Aut(F)
+   tier A+B+C: 2 surviving line sets, 1 orbits under Aut(F)
+structure 7: |Aut(F)| = 8
+   tier A+B: 28 surviving line sets, 5 orbits under Aut(F)
+   tier A+B+C: 0 surviving line sets, 0 orbits under Aut(F)
+structure 8: |Aut(F)| = 48
+   tier A+B: 28 surviving line sets, 3 orbits under Aut(F)
+   tier A+B+C: 0 surviving line sets, 0 orbits under Aut(F)
+
+real	0m29.760s
+user	0m24.859s
+sys	0m4.508s

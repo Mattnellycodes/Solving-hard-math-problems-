@@ -1,0 +1,18 @@
+== fl_1.json 8 classes
+class 0 count=31 l=13: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 1 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 2 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ', 'T3']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 3 count=31 l=13: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 4 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 5 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 6 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+class 7 count=32 l=12: proved-filters -> ['MIQ'] ; +cited -> ['MIQ', 'T3']
+     e.g. mobius MIQ ((0, 1, 2, 3), (7, 9, 6, 8), [[0, 1, 2, 3], [6, 7, 8, 9], [0, 1, 7, 9], [1, 2, 6, 9], [2, 3, 6, 8], [0, 3, 7, 8]], [True, True, False, True, True, True])
+survivors (proved filters): 0  (1s)

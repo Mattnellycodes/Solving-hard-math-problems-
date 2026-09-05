@@ -1,0 +1,23 @@
+  n=8: 1 triples: 1 classes
+  n=8: 2 triples: 2 classes
+  n=8: 3 triples: 4 classes
+  n=8: 4 triples: 6 classes
+  n=8: 5 triples: 7 classes
+  n=8: 6 triples: 6 classes
+  n=8: 7 triples: 4 classes
+  n=8: 8 triples: 1 classes
+classes of 8-triple packings on 8 points: 1 == MK: True
+  n=9: 1 triples: 1 classes
+  n=9: 2 triples: 2 classes
+  n=9: 3 triples: 5 classes
+  n=9: 4 triples: 11 classes
+  n=9: 5 triples: 19 classes
+  n=9: 6 triples: 34 classes
+  n=9: 7 triples: 41 classes
+  n=9: 8 triples: 31 classes
+  n=9: 9 triples: 12 classes
+  n=9: 10 triples: 4 classes
+  n=9: 11 triples: 1 classes
+classes of 11-triple packings on 9 points: 1
+classes WITHOUT an (8_3) sub-configuration: 0
+t3(9) <= 10 follows from the (8_3) lemma

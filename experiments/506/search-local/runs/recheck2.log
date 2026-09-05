@@ -1,0 +1,6 @@
+grid4x4 13 recheck: old true 106 -> tightened 106; exact certificate: 106
+grid4x4 14 recheck: old true 151 -> tightened 151; exact certificate: 151
+grid4x6 13 recheck: old true 106 -> tightened 106; exact certificate: 106
+grid3x7 16 recheck: old true 246 -> tightened 246; exact certificate: 246
+icosaID-vertex 12 recheck: old true 62 -> tightened 62; certification failed: AssertionError('centre identification failed None'); -> proxy value used
+icosaID-face 12 recheck: old true 62 -> tightened 62; certification failed: KeyError(y); -> proxy value used

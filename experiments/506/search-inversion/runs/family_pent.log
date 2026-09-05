@@ -1,0 +1,5 @@
+[2x5gon rot=0 extra=()] t=0.051253000297 E2 count=39 (f=33) blocks=42 sizes={3: 20, 4: 20, 5: 2} deg=3
+[2x5gon rot=0 extra=()] t=0.100099393186 E2 count=38 (f=33) blocks=42 sizes={3: 20, 4: 20, 5: 2} deg=4
+[2x5gon rot=0 extra=()] t=0.250932497802 E2 count=37 (f=33) blocks=42 sizes={3: 20, 4: 20, 5: 2} deg=5
+   ==> {'family': '2x5gon rot=0 extra=()', 'n': 10, 'formula': 33, 'best': 37, 'nevents': 15, 'seconds': 196.8}
+[2x5gon rot=0 extra=('C',)] t=0.020003256047 E2 count=82 (f=41) blocks=87 sizes={3: 65, 4: 20, 5: 2} deg=5

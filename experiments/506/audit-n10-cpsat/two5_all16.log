@@ -1,0 +1,88 @@
+== class 0 count=31 L=[[0, 1, 2, 3, 4], [0, 5, 6], [0, 7, 9], [1, 5, 8], [1, 6, 7], [2, 6, 9], [2, 7, 8], [3, 5, 7], [3, 8, 9], [4, 5, 9], [4, 6, 8]]
+class 0: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 0: NO realisation (all labellings give (1) for finite and infinite O)
+== class 1 count=32 L=[[0, 1, 2, 3, 4], [0, 5, 6], [0, 7, 9], [1, 5, 8], [1, 6, 7], [2, 6, 9], [2, 7, 8], [3, 5, 7], [3, 8, 9], [4, 5, 9]]
+class 1: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 1: NO realisation (all labellings give (1) for finite and infinite O)
+== class 2 count=32 L=[[0, 1, 2, 3, 4], [0, 5, 6], [0, 7, 9], [1, 5, 8], [1, 6, 7], [2, 6, 9], [2, 7, 8], [3, 5, 7], [3, 8, 9], [4, 6, 8]]
+class 2: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 2: NO realisation (all labellings give (1) for finite and infinite O)
+== class 3 count=32 L=[[0, 1, 2, 3, 4], [0, 5, 6], [1, 5, 8], [1, 6, 7], [2, 6, 9], [2, 7, 8], [3, 5, 7], [3, 8, 9], [4, 5, 9], [4, 6, 8]]
+class 3: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 3: NO realisation (all labellings give (1) for finite and infinite O)
+== class 4 count=32 L=[[0, 1, 5], [0, 2, 7], [0, 3, 9], [0, 4, 6], [1, 2, 6], [1, 3, 7], [1, 4, 8], [2, 3, 8], [2, 4, 9], [3, 4, 5]]
+class 4: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 4: NO realisation (all labellings give (1) for finite and infinite O)
+== class 5 count=32 L=[[0, 1, 5], [0, 2, 7], [0, 3, 9], [0, 4, 6], [1, 4, 8], [1, 6, 7], [2, 3, 8], [2, 6, 9], [3, 5, 7], [4, 5, 9]]
+class 5: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 5: NO realisation (all labellings give (1) for finite and infinite O)
+== class 6 count=32 L=[[0, 1, 5], [0, 4, 6], [0, 7, 9], [1, 2, 6], [1, 3, 7], [1, 4, 8], [2, 4, 9], [2, 7, 8], [3, 4, 5], [3, 8, 9]]
+class 6: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 6: NO realisation (all labellings give (1) for finite and infinite O)
+== class 7 count=31 L=[[0, 1, 2, 3, 4], [0, 5, 7], [0, 8, 9], [1, 5, 9], [1, 6, 7], [2, 5, 6], [2, 7, 8], [3, 6, 8], [3, 7, 9], [4, 5, 8], [4, 6, 9]]
+class 7: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 7: NO realisation (all labellings give (1) for finite and infinite O)
+== class 8 count=32 L=[[0, 1, 2, 3, 4], [0, 5, 7], [0, 8, 9], [1, 5, 9], [1, 6, 7], [2, 5, 6], [2, 7, 8], [3, 6, 8], [3, 7, 9], [4, 5, 8]]
+class 8: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 8: NO realisation (all labellings give (1) for finite and infinite O)
+== class 9 count=32 L=[[0, 1, 5], [0, 2, 7], [0, 3, 9], [0, 4, 8], [1, 2, 6], [1, 3, 7], [1, 4, 9], [2, 3, 8], [2, 4, 5], [3, 4, 6]]
+class 9: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 9: NO realisation (all labellings give (1) for finite and infinite O)
+== class 10 count=32 L=[[0, 1, 5], [0, 2, 7], [0, 8, 9], [1, 4, 9], [1, 6, 7], [2, 3, 8], [2, 5, 6], [3, 4, 6], [3, 7, 9], [4, 5, 8]]
+class 10: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 2] exponent 2 admissible labellings 0
+== class 10: NO realisation (all labellings give (1) for finite and infinite O)
+== class 11 count=31 L=[[0, 1, 2, 3, 4], [0, 5, 6], [0, 7, 9], [1, 5, 9], [1, 6, 8], [2, 5, 7], [2, 8, 9], [3, 6, 9], [3, 7, 8], [4, 5, 8], [4, 6, 7]]
+class 11: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 10] exponent 10 admissible labellings 8
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '1/10', '9/10', '7/10', '1/2', '3/10']: finite O -> (1) ; O = oo -> (1)  (5s)
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '3/5', '2/5', '1/5', '0', '4/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '1/5', '4/5', '2/5', '0', '3/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '7/10', '3/10', '9/10', '1/2', '1/10']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '3/10', '7/10', '1/10', '1/2', '9/10']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '4/5', '1/5', '3/5', '0', '2/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '2/5', '3/5', '4/5', '0', '1/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '9/10', '1/10', '3/10', '1/2', '7/10']: finite O -> (1) ; O = oo -> (1)  (4s)
+== class 11: NO realisation (all labellings give (1) for finite and infinite O)
+== class 12 count=32 L=[[0, 1, 2, 3, 4], [0, 5, 6], [0, 7, 9], [1, 5, 9], [1, 6, 8], [2, 5, 7], [2, 8, 9], [3, 6, 9], [3, 7, 8], [4, 5, 8]]
+class 12: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 10] exponent 10 admissible labellings 8
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '1/10', '9/10', '7/10', '1/2', '3/10']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '3/5', '2/5', '1/5', '0', '4/5']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '1/5', '4/5', '2/5', '0', '3/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '7/10', '3/10', '9/10', '1/2', '1/10']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '3/10', '7/10', '1/10', '1/2', '9/10']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '4/5', '1/5', '3/5', '0', '2/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '2/5', '3/5', '4/5', '0', '1/5']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '9/10', '1/10', '3/10', '1/2', '7/10']: finite O -> (1) ; O = oo -> (1)  (4s)
+== class 12: NO realisation (all labellings give (1) for finite and infinite O)
+== class 13 count=32 L=[[0, 1, 7, 8], [2, 4, 6, 9], [0, 3, 9], [0, 5, 6], [1, 3, 6], [1, 5, 9], [2, 3, 8], [2, 5, 7], [3, 4, 7], [4, 5, 8]]
+class 13: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 10] exponent 10 admissible labellings 8
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '1/10', '9/10', '7/10', '1/2', '3/10']: finite O -> (1) ; O = oo -> (1)  (6s)
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '3/5', '2/5', '1/5', '0', '4/5']: finite O -> (1) ; O = oo -> (1)  (4s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '1/5', '4/5', '2/5', '0', '3/5']: finite O -> (1) ; O = oo -> (1)  (5s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '7/10', '3/10', '9/10', '1/2', '1/10']: finite O -> (1) ; O = oo -> (1)  (6s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '3/10', '7/10', '1/10', '1/2', '9/10']: finite O -> (1) ; O = oo -> (1)  (6s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '4/5', '1/5', '3/5', '0', '2/5']: finite O -> (1) ; O = oo -> (1)  (5s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '2/5', '3/5', '4/5', '0', '1/5']: finite O -> (1) ; O = oo -> (1)  (5s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '9/10', '1/10', '3/10', '1/2', '7/10']: finite O -> (1) ; O = oo -> (1)  (6s)
+== class 13: NO realisation (all labellings give (1) for finite and infinite O)
+== class 14 count=32 L=[[0, 1, 5], [0, 2, 7], [0, 3, 9], [0, 4, 6], [1, 2, 9], [1, 3, 6], [1, 4, 8], [2, 3, 8], [2, 4, 5], [3, 4, 7]]
+class 14: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 10] exponent 10 admissible labellings 8
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '1/10', '9/10', '7/10', '1/2', '3/10']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '3/5', '2/5', '1/5', '0', '4/5']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '1/5', '4/5', '2/5', '0', '3/5']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '7/10', '3/10', '9/10', '1/2', '1/10']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '3/10', '7/10', '1/10', '1/2', '9/10']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '4/5', '1/5', '3/5', '0', '2/5']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '2/5', '3/5', '4/5', '0', '1/5']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '9/10', '1/10', '3/10', '1/2', '7/10']: finite O -> (1) ; O = oo -> (1)  (2s)
+== class 14: NO realisation (all labellings give (1) for finite and infinite O)
+== class 15 count=32 L=[[0, 1, 5], [0, 4, 6], [0, 7, 9], [1, 2, 9], [1, 6, 8], [2, 3, 8], [2, 5, 7], [3, 4, 7], [3, 6, 9], [4, 5, 8]]
+class 15: Smith diagonal [1, 1, 1, 1, 1, 1, 1, 1, 10] exponent 10 admissible labellings 8
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '1/10', '9/10', '7/10', '1/2', '3/10']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '1/5', '2/5', '3/5', '4/5', '3/5', '2/5', '1/5', '0', '4/5']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '1/5', '4/5', '2/5', '0', '3/5']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '2/5', '4/5', '1/5', '3/5', '7/10', '3/10', '9/10', '1/2', '1/10']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '3/10', '7/10', '1/10', '1/2', '9/10']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '3/5', '1/5', '4/5', '2/5', '4/5', '1/5', '3/5', '0', '2/5']: finite O -> (1) ; O = oo -> (1)  (3s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '2/5', '3/5', '4/5', '0', '1/5']: finite O -> (1) ; O = oo -> (1)  (2s)
+   labelling ['0', '4/5', '3/5', '2/5', '1/5', '9/10', '1/10', '3/10', '1/2', '7/10']: finite O -> (1) ; O = oo -> (1)  (3s)
+== class 15: NO realisation (all labellings give (1) for finite and infinite O)

@@ -1,0 +1,88 @@
+n10_sg_t32.json: 9 candidate structures (n=10, target=32, mode=sg)
+structure 0: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 count_min=32 degrees=[8, 8, 9, 9, 9, 9, 9, 9, 10, 10] #line_sets=3
+   blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 1, 8, 9], [0, 2, 5, 8], [0, 2, 6, 9], [0, 3, 5, 9], [0, 3, 6, 8], [0, 4, 7, 8], [1, 2, 5, 9], [1, 2, 7, 8], [1, 3, 6, 9], [1, 4, 5, 8], [1, 4, 7, 9], [2, 3, 5, 6], [2, 3, 7, 9], [2, 4, 5, 7], [2, 4, 6, 8], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 8], [4, 5, 6, 9], [6, 7, 8, 9]]
+   F alone, tier A: violated at 2 points, e.g. p=0: SG-closed subset [0, 1, 2, 4, 5, 7, 8] lines [[0, 1, 2], [0, 4, 5], [0, 7, 8], [1, 4, 7], [1, 5, 8], [2, 4, 8], [2, 5, 7]]
+   F alone, tier B: violated at 4 points, e.g. p=3: (8_3) on [0, 2, 3, 4, 5, 6, 7, 8] lines [[0, 2, 3], [0, 4, 8], [0, 5, 7], [2, 4, 5], [2, 6, 8], [3, 5, 6], [3, 7, 8], [4, 6, 7]]
+   F alone, tier K: violated at 2 points, e.g. p=0: subset [0, 1, 2, 4, 5, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   F alone, tier C: violated at 6 points, e.g. p=0: subset [0, 1, 2, 4, 5, 7, 8] has 7 three-point lines > t3(7)=6
+   line sets surviving: tier A: 0 (counts []); A+B: 0 (counts []); A+B+K: 0 (counts []); A+B+K+C: 0 (counts [])
+   line set 0, tier A: e.g. at 0: SG-closed subset [0, 1, 2, 4, 5, 7, 8] lines [[0, 1, 2], [0, 4, 5], [0, 7, 8], [1, 4, 7], [1, 5, 8], [2, 4, 8], [2, 5, 7]]
+   line set 0, tier B: e.g. at 3: (8_3) on [0, 2, 3, 4, 5, 6, 7, 8] lines [[0, 2, 3], [0, 4, 8], [0, 5, 7], [2, 4, 5], [2, 6, 8], [3, 5, 6], [3, 7, 8], [4, 6, 7]]
+   line set 0, tier K: e.g. at 0: subset [0, 1, 2, 4, 5, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   line set 0, tier C: e.g. at 0: subset [0, 1, 2, 4, 5, 7, 8] has 7 three-point lines > t3(7)=6
+   => killed by tier A (hereditary SG)
+structure 1: sizes=[5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=12 count_min=30 degrees=[5, 8, 8, 9, 9, 8, 9, 9, 9, 9] #line_sets=342
+   blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [0, 3, 6, 8], [0, 4, 7, 9], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 8], [1, 3, 6, 9], [1, 4, 5, 9], [1, 4, 7, 8], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 7], [2, 4, 6, 9], [3, 4, 6, 7], [3, 4, 8, 9], [3, 5, 7, 9], [4, 5, 6, 8], [6, 7, 8, 9]]
+   F alone, tier B: violated at 9 points, e.g. p=1: (8_3) on [1, 2, 3, 4, 5, 6, 7, 8] lines [[1, 2, 3], [4, 5, 6], [1, 5, 7], [1, 6, 8], [2, 4, 7], [2, 5, 8], [3, 4, 8], [3, 6, 7]]
+   F alone, tier C: violated at 9 points, e.g. p=1: subset [1, 2, 3, 4, 5, 6, 7, 8] has 8 three-point lines > t3(8)=7
+   line sets surviving: tier A: 32 (counts [32]); A+B: 0 (counts []); A+B+K: 0 (counts []); A+B+K+C: 0 (counts [])
+   line set 0, tier A: e.g. at 2: SG-closed subset [1, 2, 3, 4, 5, 6, 7, 8, 9] lines [[1, 2, 3], [4, 7, 8], [1, 5, 7], [1, 6, 8], [2, 4, 5], [2, 6, 7], [3, 4, 6], [3, 5, 8], [1, 4, 9], [5, 6, 9], [3, 7, 9], [2, 8, 9]]
+   line set 0, tier B: e.g. at inf: (8_3) on [1, 2, 3, 4, 5, 6, 7, 8] lines [[3, 6, 8], [1, 2, 5], [3, 4, 5], [1, 4, 6], [1, 3, 7], [2, 6, 7], [2, 4, 8], [5, 7, 8]]
+   line set 0, tier K: e.g. at 1: subset [1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*9/7)=4
+   line set 0, tier C: e.g. at inf: subset [1, 2, 3, 4, 5, 6, 7, 8] has 8 three-point lines > t3(8)=7
+   => killed by tier B ((8_3) lemma)
+structure 2: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 count_min=32 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8] #line_sets=32
+   blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9], [0, 1, 8, 9], [0, 2, 6, 8], [0, 2, 7, 9], [0, 3, 6, 9], [0, 3, 7, 8], [0, 4, 5, 8], [1, 2, 6, 9], [1, 2, 7, 8], [1, 3, 6, 8], [1, 3, 7, 9], [1, 4, 5, 9], [2, 3, 6, 7], [2, 4, 5, 6], [3, 4, 5, 7]]
+   F alone, tier A: violated at 8 points, e.g. p=0: SG-closed subset [0, 1, 2, 5, 6, 7, 8] lines [[0, 1, 2], [0, 5, 6], [0, 7, 8], [1, 5, 7], [1, 6, 8], [2, 5, 8], [2, 6, 7]]
+   F alone, tier K: violated at 8 points, e.g. p=0: subset [0, 1, 2, 5, 6, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   F alone, tier C: violated at 8 points, e.g. p=0: subset [0, 1, 2, 5, 6, 7, 8] has 7 three-point lines > t3(7)=6
+   line sets surviving: tier A: 0 (counts []); A+B: 0 (counts []); A+B+K: 0 (counts []); A+B+K+C: 0 (counts [])
+   line set 0, tier A: e.g. at 0: SG-closed subset [0, 1, 2, 5, 6, 7, 8] lines [[0, 1, 2], [0, 5, 6], [0, 7, 8], [1, 5, 7], [1, 6, 8], [2, 5, 8], [2, 6, 7]]
+   line set 0, tier K: e.g. at 0: subset [0, 1, 2, 5, 6, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   line set 0, tier C: e.g. at 0: subset [0, 1, 2, 5, 6, 7, 8] has 7 three-point lines > t3(7)=6
+   => killed by tier A (hereditary SG)
+structure 3: sizes=[5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=10 count_min=32 degrees=[8, 8, 8, 8, 6, 6, 8, 8, 8, 8] #line_sets=20
+   blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9], [0, 1, 8, 9], [0, 2, 6, 8], [0, 2, 7, 9], [0, 3, 6, 9], [0, 3, 7, 8], [0, 4, 5, 8], [1, 2, 6, 9], [1, 2, 7, 8], [1, 3, 6, 8], [1, 3, 7, 9], [1, 4, 5, 9], [2, 3, 6, 7], [2, 4, 5, 7], [3, 4, 5, 6]]
+   F alone, tier A: violated at 8 points, e.g. p=0: SG-closed subset [0, 1, 2, 5, 6, 7, 8] lines [[0, 1, 2], [0, 5, 6], [0, 7, 8], [1, 5, 7], [1, 6, 8], [2, 5, 8], [2, 6, 7]]
+   F alone, tier K: violated at 8 points, e.g. p=0: subset [0, 1, 2, 5, 6, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   F alone, tier C: violated at 8 points, e.g. p=0: subset [0, 1, 2, 5, 6, 7, 8] has 7 three-point lines > t3(7)=6
+   line sets surviving: tier A: 0 (counts []); A+B: 0 (counts []); A+B+K: 0 (counts []); A+B+K+C: 0 (counts [])
+   line set 0, tier A: e.g. at 0: SG-closed subset [0, 1, 2, 5, 6, 7, 8] lines [[0, 1, 2], [0, 5, 6], [0, 7, 8], [1, 5, 7], [1, 6, 8], [2, 5, 8], [2, 6, 7]]
+   line set 0, tier K: e.g. at 0: subset [0, 1, 2, 5, 6, 7, 8] has 0 ordinary lines < ceil(3*7/7)=3
+   line set 0, tier C: e.g. at 0: subset [0, 1, 2, 5, 6, 7, 8] has 7 three-point lines > t3(7)=6
+   => killed by tier A (hereditary SG)
+structure 4: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] #line_sets=30
+   blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 5, 8], [1, 2, 7, 9], [1, 3, 5, 9], [1, 3, 6, 8], [1, 4, 6, 7], [1, 4, 8, 9], [2, 3, 6, 7], [2, 3, 8, 9], [2, 4, 5, 6], [2, 4, 7, 8], [3, 4, 5, 7], [3, 4, 6, 9]]
+   line sets surviving: tier A: 30 (counts [31, 32]); A+B: 30 (counts [31, 32]); A+B+K: 0 (counts []); A+B+K+C: 0 (counts [])
+   line set 0, tier K: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*10/7)=5
+   line set 0, tier C: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < o(10)=5
+   => killed by tier K (Kelly-Moser o(m) >= 3m/7)
+structure 5: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] #line_sets=31
+   blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 6, 7], [1, 2, 8, 9], [1, 3, 5, 9], [1, 3, 6, 8], [1, 4, 5, 7], [1, 4, 6, 9], [2, 3, 5, 6], [2, 3, 7, 8], [2, 4, 5, 8], [2, 4, 7, 9], [3, 4, 6, 7], [3, 4, 8, 9]]
+   line sets surviving: tier A: 31 (counts [31, 32]); A+B: 26 (counts [31, 32]); A+B+K: 2 (counts [32]); A+B+K+C: 2 (counts [32])
+   line set 0, tier K: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*10/7)=5
+   line set 0, tier C: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < o(10)=5
+   => SURVIVES all tiers
+structure 6: sizes=[5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=78 ell_max=11 count_min=31 degrees=[9, 9, 9, 9, 9, 9, 9, 9, 9, 9] #line_sets=26
+   blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [0, 1, 5, 6], [0, 1, 7, 8], [0, 2, 5, 7], [0, 2, 6, 9], [0, 3, 5, 8], [0, 3, 7, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 6, 8], [1, 2, 7, 9], [1, 3, 5, 9], [1, 3, 6, 7], [1, 4, 5, 7], [1, 4, 8, 9], [2, 3, 5, 6], [2, 3, 8, 9], [2, 4, 5, 8], [2, 4, 6, 7], [3, 4, 6, 9], [3, 4, 7, 8]]
+   line sets surviving: tier A: 26 (counts [31, 32]); A+B: 26 (counts [31, 32]); A+B+K: 2 (counts [32]); A+B+K+C: 2 (counts [32])
+   line set 0, tier K: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*10/7)=5
+   line set 0, tier C: e.g. at 5: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < o(10)=5
+   => SURVIVES all tiers
+structure 7: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ell_max=13 count_min=31 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10] #line_sets=28
+   blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7], [0, 1, 8, 9], [0, 2, 6, 8], [0, 3, 6, 9], [0, 4, 7, 8], [0, 5, 7, 9], [1, 2, 6, 9], [1, 3, 7, 8], [1, 4, 7, 9], [1, 5, 6, 8], [2, 3, 7, 9], [2, 4, 6, 7], [2, 4, 8, 9], [2, 5, 7, 8], [3, 4, 6, 8], [3, 5, 6, 7], [3, 5, 8, 9], [4, 5, 6, 9], [6, 7, 8, 9]]
+   line sets surviving: tier A: 28 (counts [31, 32]); A+B: 28 (counts [31, 32]); A+B+K: 2 (counts [32]); A+B+K+C: 0 (counts [])
+   line set 0, tier K: e.g. at 6: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*10/7)=5
+   line set 0, tier C: e.g. at 6: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < o(10)=5
+   => killed by tier C only (orchard / exact o-table)
+structure 8: sizes=[6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=76 ell_max=13 count_min=31 degrees=[7, 7, 7, 7, 7, 7, 10, 10, 10, 10] #line_sets=28
+   blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7], [0, 1, 8, 9], [0, 2, 6, 8], [0, 3, 6, 9], [0, 4, 7, 8], [0, 5, 7, 9], [1, 2, 7, 9], [1, 3, 7, 8], [1, 4, 6, 9], [1, 5, 6, 8], [2, 3, 6, 7], [2, 4, 8, 9], [2, 5, 6, 9], [2, 5, 7, 8], [3, 4, 6, 8], [3, 4, 7, 9], [3, 5, 8, 9], [4, 5, 6, 7], [6, 7, 8, 9]]
+   line sets surviving: tier A: 28 (counts [31, 32]); A+B: 28 (counts [31, 32]); A+B+K: 2 (counts [32]); A+B+K+C: 0 (counts [])
+   line set 0, tier K: e.g. at 6: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < ceil(3*10/7)=5
+   line set 0, tier C: e.g. at 6: subset [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] has 3 ordinary lines < o(10)=5
+   => killed by tier C only (orchard / exact o-table)
+
+SUMMARY (structure, #5-blocks, #6-blocks, #blocks, count_min, surviving line sets A / A+B / A+B+K / A+B+K+C, counts, verdict)
+   (0, 2, 0, 22, 32, 0, 0, 0, 0, {'A': [], 'B': [], 'K': [], 'C': []}, 'killed by tier A (hereditary SG)')
+   (1, 3, 0, 20, 30, 32, 0, 0, 0, {'A': [32], 'B': [], 'K': [], 'C': []}, 'killed by tier B ((8_3) lemma)')
+   (2, 4, 0, 18, 32, 0, 0, 0, 0, {'A': [], 'B': [], 'K': [], 'C': []}, 'killed by tier A (hereditary SG)')
+   (3, 4, 0, 18, 32, 0, 0, 0, 0, {'A': [], 'B': [], 'K': [], 'C': []}, 'killed by tier A (hereditary SG)')
+   (4, 2, 0, 22, 31, 30, 30, 0, 0, {'A': [31, 32], 'B': [31, 32], 'K': [], 'C': []}, 'killed by tier K (Kelly-Moser o(m) >= 3m/7)')
+   (5, 2, 0, 22, 31, 31, 26, 2, 2, {'A': [31, 32], 'B': [31, 32], 'K': [32], 'C': [32]}, 'SURVIVES all tiers')
+   (6, 2, 0, 22, 31, 26, 26, 2, 2, {'A': [31, 32], 'B': [31, 32], 'K': [32], 'C': [32]}, 'SURVIVES all tiers')
+   (7, 0, 1, 20, 31, 28, 28, 2, 0, {'A': [31, 32], 'B': [31, 32], 'K': [32], 'C': []}, 'killed by tier C only (orchard / exact o-table)')
+   (8, 0, 1, 20, 31, 28, 28, 2, 0, {'A': [31, 32], 'B': [31, 32], 'K': [32], 'C': []}, 'killed by tier C only (orchard / exact o-table)')
+
+real	0m29.830s
+user	0m29.602s
+sys	0m0.048s

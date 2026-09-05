@@ -1,0 +1,13 @@
+skeleton [[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]]: D_skel=27, b4 >= 16, 72 candidate 4-blocks, |Aut|=48, 5 generators, 3 transpositions
+   stage 1: status OPTIMAL, 176 labelled solutions, 10 classes  [3s]
+   F-class 0: b4=16 D=75 degrees=[8, 7, 7, 7, 9, 7, 7, 9, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 1: b4=16 D=75 degrees=[7, 8, 7, 7, 9, 7, 7, 9, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 2: b4=16 D=75 degrees=[7, 8, 8, 7, 8, 8, 7, 8, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 3: b4=16 D=75 degrees=[7, 8, 8, 7, 8, 7, 8, 8, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 4: b4=16 D=75 degrees=[7, 8, 7, 8, 8, 7, 8, 8, 8, 10] copies=8: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 5: b4=16 D=75 degrees=[8, 7, 8, 7, 8, 7, 8, 8, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 6: b4=16 D=75 degrees=[8, 7, 7, 8, 8, 7, 8, 8, 8, 10] copies=8: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 7: b4=16 D=75 degrees=[7, 8, 7, 8, 8, 8, 7, 8, 8, 10] copies=24: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 8: b4=16 D=75 degrees=[7, 8, 7, 8, 8, 8, 7, 8, 8, 10] copies=8: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+   F-class 9: b4=16 D=75 degrees=[7, 8, 8, 7, 8, 8, 7, 8, 8, 10] copies=8: need l>=13: 0 line sets, (F,L) classes so far 0  [3s]
+TOTAL: stage1 OPTIMAL; 10 F-classes; 0 (F,L) classes; time 3s

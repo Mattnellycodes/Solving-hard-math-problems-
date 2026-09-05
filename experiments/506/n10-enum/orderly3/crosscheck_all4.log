@@ -1,0 +1,8 @@
+n10_all4_sg_t32.json: 1 structures, 1 distinct classes
+../n10_sg_marked4.json: 4 structures, 1 distinct classes
+  n10_all4_sg_t32.json[0] (count 32, ell 7) -> ../n10_sg_marked4.json[3] (count 32, ell 7)
+  => classes IDENTICAL (1 vs 1)
+
+real	1m20.836s
+user	1m4.461s
+sys	0m16.178s
