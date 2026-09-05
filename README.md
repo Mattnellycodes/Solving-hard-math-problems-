@@ -22,7 +22,9 @@ had ever been computed, and no OEIS sequence existed.
 | 7 | **11** | 13 | **proved; formula fails** — orthocentric system + its three diagonal points |
 | 8 | **17** | 19 | **proved; formula fails** — beats Segre's classical cube example (18) |
 | 9 | 25 | 25 | proved; independently re-verified (complete enumeration) |
-| ≥ 10 | ? | | conjectured equal to the formula |
+| 10 | 33 | 33 | proved (theorem-level inputs + exact algebra); two independent enumerations reduce to the same single geometric case; final audit in progress |
+| 11–16 | ≤ f(n) | | no configuration below the formula found by two searches; conjectured equal |
+| ≥ 11 | ? | | conjectured equal to the formula |
 
 Certificates: exact integer coordinates for every upper bound (`experiments/506/circles_exact.py` recounts
 them in rational arithmetic); computer-assisted lower bounds via a Möbius-plane reformulation

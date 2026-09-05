@@ -68,3 +68,20 @@ or 9-block is excluded regardless of the other blocks (m = 8: Lemma B gives ≥ 
 ≥ f(10) = 33). What remains for c(10) ≥ 33 is exactly: the single-6-block skeleton (feasible in the CP-SAT
 relaxation), the two-disjoint-5-blocks skeleton (feasible), the single-5-block skeleton (CP-SAT UNKNOWN;
 hand counting argument to be verified), and the all-4-block case (excluded via t₃(9) ≤ 10 and t₃(10) ≤ 12).
+
+## n = 10 — the decisive geometric step (`n10/pentagon_check2.py`, `n10/pentagon_scan.py`, 2026-09-05)
+The n10-enum and n10-continue agents agree (by different enumerations) that the only abstract structure with
+≤ 32 circles surviving all theorem-level combinatorial filters is: two disjoint 5-blocks + 20 four-blocks +
+10 three-point lines (count 32). Checks by the main agent:
+* The 20-four-block family is exactly the block structure of two concentric regular pentagons (aligned or
+  rotated by π/5): computed numerically for sample radius ratios, 20 four-point circles, and 20 labelled
+  isomorphisms with the n10-enum "structure 5" family (`pentagon_check2.py`). (The block list I transcribed
+  from the truncated n10-continue summary was a different labelling and is not the family; the agent's own
+  files use the correct one.)
+* Deterministic scan (`pentagon_scan.py`) on the n10-continue survivor (`n10-continue/runs/post_7.json`, entry 4)
+  with its 8 torsion labellings: for ρ ∈ [0.01, 0.97] ∪ [1.03, 60] the two intersection points of the first two
+  line-circumcircles are never on the other eight (max relative distance ≥ 0.036, and larger away from the
+  degenerate ends ρ → 0, ρ → 1); at ρ = 1 (all ten points concyclic, excluded) the residual → 0; O = ∞ fails
+  by ≥ 0.16. This is numerical support for the agent's exact Gröbner verdict (basis (1) after saturating
+  ρ(ρ² − 1)), not a replacement for it.
+Conclusion: with the agent's exact algebra (audited separately), c(10) = 33 = f(10).
