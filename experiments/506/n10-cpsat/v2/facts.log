@@ -5,3 +5,6 @@ F1 packing bounds on 9 points:
    with 2 four-lines: max three-lines = 7
    with 3 four-lines: max three-lines = 4
 F2: 7-triple packings on 7 points: 30 labelled, 1 class(es); all cover all 21 pairs: True
+F3: 8-triple packings on 8 points: 840 labelled; |Aut(MK)| = 48; 8!/|Aut| = 840 -> single isomorphism class: True  [34s]
+   MK residual equations: [t**2 - t + 1]  Groebner basis: [t**2 - t + 1]
+   solutions t: [1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2]  real: [False, False]

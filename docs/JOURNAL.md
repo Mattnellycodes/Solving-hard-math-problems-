@@ -164,3 +164,13 @@ uniform bound argument) — a second promising target if time permits.
 720 labelled copies fail hereditary Sylvester–Gallai. Together with the antipodal configuration this gives
 c(9) = 25 = f(9), using only Sylvester–Gallai and the Möbius–Kantor lemma. So the exceptions to the
 Elliott–Purdy–Smith formula among n ≤ 9 are exactly n = 6, 7, 8.
+
+**11:20 UTC — survey synthesis complete** (`docs/PROBLEM_SELECTION.md`). 91 candidates, 8 refereed. Ranking:
+1. OEIS A067857 sign conjecture (Robert Israel 2015; formalised as research-open in formal-conjectures):
+   three independent scout/referee computations find it FALSE at the primorials 479# (ω = 92) and 487# (ω = 93),
+   and a uniform monotone bound shows failure for every primorial with ≥ 92 prime factors. Cheap, fully
+   certifiable — adopted as a second target.
+2. Exact values of A341822(n) (Gowers–Long 2-increasing sequences of triples), n = 8.
+3–5. Spencer constant C10c, ring-loading constant (AlphaEvolve P61), covering-design records.
+Amusingly, Erdős #506 ranked 17th in the scouts' scoring ("not advanced" to referees) — a reminder that
+tractability is hard to judge before trying.
