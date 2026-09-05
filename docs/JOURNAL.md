@@ -64,3 +64,34 @@ C(n−1,2) + 1 − ⌊(n−1)/2⌋: it is attained by n−1 points on a circle i
 ⌊(n−1)/2⌋ collinear triples through the centre determine no circle). For n = 4 the minimum is 3 (matches).
 Open question for n ≤ 393 is whether some configuration with many concyclic quadruples beats this. This is a
 "find a construction" problem — attractive because any construction is a certificate.
+
+## 2026-09-05
+
+**Survey workflow slowed by the 2-agent concurrency cap** (two scouts finished in ~40 min). Stopped it,
+cut the judge phase to one merged referee for the top 8 candidates, and resumed (cached scouts reused).
+Scout findings so far: Erdős #475 (Graham's rearrangement conjecture) is now verified for |A| ≤ 20
+(Costa–Della Fiore–Fontana–Vena, arXiv 2603.20961) and settled for all large p (Pham–Sauermann), so the
+"extend |A| ≤ 12 to 13" idea is dead. #23 (Ferudun, arXiv 2606.28041, June 2026) proved a(5n) = n² for n ≤ 40
+by flag algebras; extending is beyond 4 CPUs.
+
+**Independent lead: Erdős #506 (minimum number of circles determined by n points).** While waiting I worked
+this problem by hand and by computer (details in `experiments/506/README.md`):
+- Möbius reformulation: circles(P) = |B(P)| − deg(O) where B(P) are the circles-or-lines through ≥ 3 points and
+  O is the inversion centre (O = ∞ gives the Euclidean count, deg(∞) = number of ≥3-point lines). Equivalently
+  circles(P) = C(n,3) − Σ_{circle blocks}(C(k,3) − 1) − Σ_{line blocks} C(k,3).
+- **n = 8: two concentric axis-aligned squares determine exactly 18 circles** (verified with exact rational
+  arithmetic, `experiments/506/circles_exact.py`), one below the large-n formula value 19. This is probably
+  Segre's "projected cube" (perspective projection along a 4-fold axis) — to be confirmed by the literature agent.
+- Hand analysis: any configuration with two or more points off the main circle costs Θ(n²) extra circles, so
+  exceptions to the formula can only live at small n (block-size-4 designs beat n²/2 only for n ≲ 15).
+  SQS(8) is not realisable (its derived design is the Fano plane); the 7-block "anti-Fano" quadruple system on
+  7 points would tie, not beat, the formula at n = 7 (two of its blocks share two points, so at most one can be a line).
+- Not previously tabulated as far as web search shows: Bálintová–Bálint (1994), Zhang (2011) and
+  Lin–Makhul–Mojarrad–Naslund–Swanepoel (2017) concern *ordinary* circles; the erdosproblems database lists
+  no OEIS sequence for #506 ("possible").
+
+**Workflow 2 launched — Erdős #506 deep dive** (`erdos-506-deep-dive`, run wf_cdf13f56-0d0): literature scout,
+lower-bound theorist (rigorous c(n) for n = 5,6,7, attempt 8, computer-assisted plan), four construction
+searchers (symmetric orbits with continuous parameters; subset/local search over rich universes incl. exhaustive
+8-subsets of 4×4 and 5×5 grids; classical configurations and stereographic projections of polyhedra; hybrid
+near-pencil families), an independent exact verifier per searcher, and a synthesis agent.
