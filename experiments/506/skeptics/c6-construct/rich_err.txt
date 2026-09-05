@@ -1,0 +1,15 @@
+N=97 triples=144246 distinct circles=95386
+subsets=988172368 degenerate=18111 found(<=7)=0
+  circles=8 : 199
+  circles=9 : 68187
+  circles=10 : 961858
+  circles=11 : 1480041
+  circles=12 : 633914
+  circles=13 : 3548182
+  circles=14 : 2895682
+  circles=15 : 7842099
+  circles=16 : 56316185
+  circles=17 : 79946128
+  circles=18 : 28561434
+  circles=19 : 246387100
+  circles=20 : 559513248

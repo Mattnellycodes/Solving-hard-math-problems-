@@ -1,0 +1,9 @@
+n=6 regime=none: max D+ell = 13  -> combinatorial minimum circles = 7
+   labelled solutions with circles <= 7: 30; isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 circles=7 labelled copies=30
+n=6 regime=weak: max D+ell = 13  -> combinatorial minimum circles = 7
+   labelled solutions with circles <= 7: 30; isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 circles=7 labelled copies=30
+n=6 regime=strong: max D+ell = 13  -> combinatorial minimum circles = 7
+   labelled solutions with circles <= 7: 30; isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 circles=7 labelled copies=30

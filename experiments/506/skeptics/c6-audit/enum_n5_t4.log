@@ -1,0 +1,6 @@
+n=5 target=4 regime=none: families of rich blocks scanned=6, labelled (F,L) with count<=4: 0, isomorphism classes: 0
+   minimum combinatorial count under regime none: 5
+n=5 target=4 regime=weak: families of rich blocks scanned=6, labelled (F,L) with count<=4: 0, isomorphism classes: 0
+   minimum combinatorial count under regime weak: 5
+n=5 target=4 regime=strong: families of rich blocks scanned=6, labelled (F,L) with count<=4: 0, isomorphism classes: 0
+   minimum combinatorial count under regime strong: 5

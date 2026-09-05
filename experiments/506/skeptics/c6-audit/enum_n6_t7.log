@@ -1,0 +1,9 @@
+n=6 target=7 regime=none: families of rich blocks scanned=82, labelled (F,L) with count<=7: 30, isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 count=7 (labelled copies: 30)
+   minimum combinatorial count under regime none: 7
+n=6 target=7 regime=weak: families of rich blocks scanned=82, labelled (F,L) with count<=7: 30, isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 count=7 (labelled copies: 30)
+   minimum combinatorial count under regime weak: 7
+n=6 target=7 regime=strong: families of rich blocks scanned=82, labelled (F,L) with count<=7: 30, isomorphism classes: 1
+   class: blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]] D=9 ell=4 count=7 (labelled copies: 30)
+   minimum combinatorial count under regime strong: 7
