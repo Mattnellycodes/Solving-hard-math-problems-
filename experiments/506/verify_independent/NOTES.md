@@ -55,3 +55,16 @@ the integer construction.
   the antipodal configuration (25) we get **c(9) = 25**, independently verified with SG-only caps.
   Dependencies: Sylvester–Gallai (for the caps and the hereditary check) and the (8_3) non-realisability
   lemma (`mk_unrealisable2.py`). No orchard or Kelly–Moser values are used.
+
+## n = 10 — skeleton completeness check (`n10/skeletons_check.py`, 2026-09-05)
+Independent orderly enumeration of all families of blocks of size ≥ 5 on 10 points, pairwise sharing ≤ 2
+points, under only the per-point Sylvester–Gallai cap Σ_{B∋p} C(|B|−1,2) ≤ 35: **22 isomorphism classes**
+(sizes: [5] [6] [7] [8] [9]; [5,5]×3 [5,6]×2 [5,7] [6,6]; [5,5,5]×3 [5,5,6]; [5,5,5,5]×3 [5,5,5,6];
+[5⁵]; [5⁶]). The n10-cpsat agent's `skeletons.json` (22 entries) contains all of these except **[5,7]**
+(a 5-block and a 7-block sharing two points) and instead lists a "largest block 4" case. The omission is
+harmless: any structure containing a block of size m = 7 has, by the chunk lemma (Lemma C, confirmed by the
+adjudicator), at least 1 + 3·C(7,2) − 7·3·2/4 − ℓ ≥ 53.5 − 14 > 32 circles, so every skeleton with a 7-, 8-
+or 9-block is excluded regardless of the other blocks (m = 8: Lemma B gives ≥ 45; m = 9: Lemma A gives
+≥ f(10) = 33). What remains for c(10) ≥ 33 is exactly: the single-6-block skeleton (feasible in the CP-SAT
+relaxation), the two-disjoint-5-blocks skeleton (feasible), the single-5-block skeleton (CP-SAT UNKNOWN;
+hand counting argument to be verified), and the all-4-block case (excluded via t₃(9) ≤ 10 and t₃(10) ≤ 12).
