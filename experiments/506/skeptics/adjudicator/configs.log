@@ -1,0 +1,45 @@
+(A) labelled families of 8 triples on 8 points pairwise sharing <=1 point: 840
+(A) families of 9 such triples: 0
+(A) every family isomorphic to MK: True ; every point has degree exactly 3 in every family: True
+(A) |Aut(MK)| = 8!/#labelled = 48
+(B) frame {0,1,2,5} contains an MK line: False
+(B) p3 = line(0,1) x line(2,5) = [-1, -1, 0]
+    line [0, 1, 3]: incidence polynomial 0
+    line [1, 2, 4]: incidence polynomial 0
+    line [2, 3, 5]: incidence polynomial 0
+    line [3, 4, 6]: incidence polynomial -a - c + 1
+    line [4, 5, 7]: incidence polynomial b*c - b - c
+    line [0, 5, 6]: incidence polynomial 0
+    line [1, 6, 7]: incidence polynomial -a + b
+    line [0, 2, 7]: incidence polynomial 0
+(B) Groebner basis (lex a>b>c): [a + c - 1, b + c - 1, c**2 - c + 1]
+(B) univariate: [c**2 - c + 1]  real roots: [[]]
+(B) all complex solutions: [{a: 1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2}, {a: 1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2}]
+     solution {a: 1/2 - sqrt(3)*I/2, b: 1/2 - sqrt(3)*I/2, c: 1/2 + sqrt(3)*I/2} -> 8 distinct coordinate vectors: True
+     solution {a: 1/2 + sqrt(3)*I/2, b: 1/2 + sqrt(3)*I/2, c: 1/2 - sqrt(3)*I/2} -> 8 distinct coordinate vectors: True
+(B) p4=(0,c,1) equals p2 iff c=0 ; p6=(a,1,1) never equals p5 unless a=1 ; p7=(b,0,1) equals p2 iff b=0 ; none of these are roots of c^2-c+1 (c=0? no).
+(B) numerical: best min-separation among zero-residual NON-collinear 8-point solutions over 300 restarts: 5.999499476891568e-08 (a real realisation would give a value bounded away from 0)
+(C) labelled 7-triple systems on 7 points pairwise <=1: 30 ; all cover all 21 pairs: True
+(C) forced Fano coordinates: {3: [1, 0, 0], 4: [0, 1, 0], 5: [0, 0, 1], 6: [1, 1, 1], 0: [-1, -1, 0], 1: [1, 0, 1], 2: [0, 1, 1]} ; det(p0,p1,p2) = 2 (must be 0 for the 7th line: impossible over R)
+(D) candidate degrees: {0: 7, 1: 7, 2: 7, 3: 7, 4: 2, 5: 7, 6: 7, 7: 7, 8: 7}  D = 54
+    p=0: S=[1, 2, 3, 5, 6, 7, 8] restricted lines=[[1, 2, 3], [1, 5, 6], [2, 5, 7], [3, 6, 7], [3, 5, 8], [2, 6, 8], [1, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=1: S=[0, 2, 3, 5, 6, 7, 8] restricted lines=[[0, 2, 3], [0, 5, 6], [3, 5, 7], [2, 6, 7], [2, 5, 8], [3, 6, 8], [0, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=2: S=[0, 1, 3, 5, 6, 7, 8] restricted lines=[[0, 1, 3], [3, 5, 6], [0, 5, 7], [1, 6, 7], [1, 5, 8], [0, 6, 8], [3, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=3: S=[0, 1, 2, 5, 6, 7, 8] restricted lines=[[0, 1, 2], [2, 5, 6], [1, 5, 7], [0, 6, 7], [0, 5, 8], [1, 6, 8], [2, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=5: S=[0, 1, 2, 3, 6, 7, 8] restricted lines=[[0, 1, 6], [2, 3, 6], [0, 2, 7], [1, 3, 7], [1, 2, 8], [0, 3, 8], [6, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=6: S=[0, 1, 2, 3, 5, 7, 8] restricted lines=[[0, 1, 5], [2, 3, 5], [1, 2, 7], [0, 3, 7], [0, 2, 8], [1, 3, 8], [5, 7, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=7: S=[0, 1, 2, 3, 5, 6, 8] restricted lines=[[0, 2, 5], [1, 3, 5], [1, 2, 6], [0, 3, 6], [0, 1, 8], [2, 3, 8], [5, 6, 8]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+    p=8: S=[0, 1, 2, 3, 5, 6, 7] restricted lines=[[1, 2, 5], [0, 3, 5], [0, 2, 6], [1, 3, 6], [0, 1, 7], [2, 3, 7], [5, 6, 7]] #lines=7 sizes=[3, 3, 3, 3, 3, 3, 3] pairs covered=21/21 S inside one block through p: False
+(D) own ell_max (no cap) = 6  count = 24
+(E) p=0: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=1: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=2: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=3: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=4: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=5: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) p=6: complete quadrilateral=True; blocks avoiding p are exactly the 3 diagonal quadruples=True
+(E) reduction to the Angle Lemma holds at every point: True
+
+real	0m33.232s
+user	0m14.488s
+sys	0m0.112s

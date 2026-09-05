@@ -30,7 +30,18 @@ def derived(F, p):
 
 
 def derived11(F, L, p):
-    return derived(F, p) + [(frozenset(S) - {p}) | {INF} for S in L if p in S]
+    """>= 3-point lines of the real 10-point set obtained by inverting P ∪ {∞} about p: a rich block B ∋ p gives
+    B - p, extended by ∞' (= INF) iff B is also a line; a 3-line S ∋ p gives (S - p) ∪ {∞'}.  (A rich line is ONE
+    line of the derived set.)"""
+    Fs = {frozenset(B) for B in F}; Ls = {frozenset(S) for S in L}
+    out = []
+    for B in Fs:
+        if p in B:
+            out.append((B - {p}) | ({INF} if B in Ls else frozenset()))
+    for S in Ls:
+        if p in S and S not in Fs:
+            out.append((S - {p}) | {INF})
+    return out
 
 
 def sg_closed(points, lines):

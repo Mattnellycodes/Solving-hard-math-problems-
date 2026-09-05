@@ -4,3 +4,5 @@ control Pappus (realisable) [R]: restarts=40 65s  best residual=1.22e-17 (sep 0.
 control Mobius-Kantor over C (realisable over C) [C]: restarts=40 44s  best residual=1.55e-17 (sep 0.080); runs with residual<1e-10, distinct, bounded: 11
 control 9-point candidate over C [C]: restarts=40 2451s  best residual=4.03e-16 (sep 0.895); runs with residual<1e-10, distinct, bounded: 2
 TARGET Mobius-Kantor (8_3) over R [R]: restarts=150 1353s  no run ended with points >= 0.05 apart and |coords| <= 30.0
+TARGET Fano over R [R]: restarts=150 757s  no run ended with points >= 0.05 apart and |coords| <= 30.0
+TARGET 9-point candidate (2x5-block+12 four-blocks) over R [R]: restarts=150 1749s  no run ended with points >= 0.05 apart and |coords| <= 30.0

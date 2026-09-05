@@ -1,0 +1,13 @@
+skeleton 6 case B k=1 blocks=[[0, 1, 2, 3, 4]]: status=UNKNOWN (build 5.8s, solve 2400s)
+skeleton 7 case B k=2 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7]]: status=INFEASIBLE (build 3.8s, solve 948s)
+skeleton 8 case B k=2 blocks=[[0, 1, 2, 3, 4], [0, 5, 6, 7, 8]]: status=INFEASIBLE (build 5.3s, solve 17s)
+skeleton 9 case B k=2 blocks=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]]: status=OPTIMAL (build 4.8s, solve 135s)
+    example: count=32 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6], [0, 1, 7, 9], [0, 2, 5, 8], [0, 2, 6, 7], [0, 3, 5, 7], [0, 3, 8, 9], [0, 4, 5, 9], [0, 4, 6, 8], [1, 2, 5, 9], [1, 2, 6, 8], [1, 3, 5, 8], [1, 3, 6, 7], [1, 4, 6, 9], [1, 4, 7, 8], [2, 3, 6, 9], [2, 3, 7, 8], [2, 4, 5, 7], [2, 4, 8, 9], [3, 4, 5, 6], [3, 4, 7, 9], [5, 6, 7, 8, 9]] lines=[[0, 2, 9], [0, 3, 6], [0, 7, 8], [1, 2, 7], [1, 4, 5], [1, 8, 9], [2, 5, 6], [3, 4, 8], [3, 5, 9], [4, 6, 7]]
+skeleton 10 case B k=3 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9]]: status=INFEASIBLE (build 3.0s, solve 24s)
+skeleton 11 case B k=3 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 6, 8]]: status=INFEASIBLE (build 3.0s, solve 39s)
+skeleton 12 case B k=3 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9]]: status=INFEASIBLE (build 4.1s, solve 8s)
+skeleton 13 case B k=4 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9]]: status=INFEASIBLE (build 4.5s, solve 3s)
+skeleton 14 case B k=4 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [3, 4, 6, 7, 8]]: status=INFEASIBLE (build 4.7s, solve 2s)
+skeleton 15 case B k=4 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [2, 3, 5, 8, 9], [4, 6, 7, 8, 9]]: status=INFEASIBLE (build 4.4s, solve 6s)
+skeleton 16 case B k=5 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9], [2, 4, 6, 7, 8]]: status=INFEASIBLE (build 5.0s, solve 1s)
+skeleton 17 case B k=6 blocks=[[0, 1, 2, 3, 4], [0, 1, 5, 6, 7], [0, 2, 5, 8, 9], [1, 3, 6, 8, 9], [2, 4, 6, 7, 8], [3, 4, 5, 7, 9]]: status=INFEASIBLE (build 5.3s, solve 1s)

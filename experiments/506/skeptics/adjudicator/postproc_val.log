@@ -1,0 +1,26 @@
+== val_n7_m4_t10_c1.txt: 6 labelled families, n=7
+   isomorphism classes: 1
+   CLASS x6: sizes=[4, 4, 4, 4, 4, 4, 4] D=21 ell_max=6 count=8 degrees=[4, 4, 4, 4, 4, 4, 4]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6], [0, 3, 5, 6]]
+      Angle-Lemma pattern (complete quadrilateral + 3 diagonal blocks) at points [0, 1, 2, 3, 4, 5, 6]
+== val_n7_m4_t10_c0.txt: 42 labelled families, n=7
+   isomorphism classes: 2
+   CLASS x36: sizes=[4, 4, 4, 4, 4, 4] D=18 ell_max=7 count=10 degrees=[3, 4, 4, 3, 4, 3, 3]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6]]
+      NOT killed by derived Fano / (8_3) / Angle pattern at block level
+   CLASS x6: sizes=[4, 4, 4, 4, 4, 4, 4] D=21 ell_max=7 count=7 degrees=[4, 4, 4, 4, 4, 4, 4]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6], [0, 3, 5, 6]]
+      Angle-Lemma pattern (complete quadrilateral + 3 diagonal blocks) at points [0, 1, 2, 3, 4, 5, 6]
+== val_n8_m4_t17_c1.txt: 36 labelled families, n=8
+   isomorphism classes: 1
+   CLASS x36: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=36 ell_max=3 count=17 degrees=[6, 6, 6, 6, 6, 6, 6, 6]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6], [0, 3, 4, 7], [0, 2, 5, 7], [1, 3, 5, 7], [0, 1, 6, 7], [2, 3, 6, 7], [4, 5, 6, 7]]
+      NOT killed by derived Fano / (8_3) / Angle pattern at block level
+== val_n8_m4_t18_c1.txt: 216 labelled families, n=8
+   isomorphism classes: 2
+   CLASS x36: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=36 ell_max=3 count=17 degrees=[6, 6, 6, 6, 6, 6, 6, 6]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 4, 6], [1, 2, 5, 6], [0, 3, 4, 7], [0, 2, 5, 7], [1, 3, 5, 7], [0, 1, 6, 7], [2, 3, 6, 7], [4, 5, 6, 7]]
+      NOT killed by derived Fano / (8_3) / Angle pattern at block level
+   CLASS x180: sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4] D=30 ell_max=8 count=18 degrees=[5, 5, 5, 5, 5, 5, 5, 5]
+      blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 3, 5, 6], [1, 2, 4, 7], [0, 3, 5, 7], [0, 1, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7]]
+      NOT killed by derived Fano / (8_3) / Angle pattern at block level

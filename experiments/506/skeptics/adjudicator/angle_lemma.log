@@ -1,0 +1,16 @@
+non-degeneracy factors: [m2 - m3, m2 - m4, m3 - m4, c4, c4 - 1, -c4*m2 + c4*m3 + m2 - m4]
+Q1 = c4*(c4 - 1)*(c4*m2 - c4*m3 - m2 + m4)*(m2*m3 - m2*m4 - m3*m4 - 1)
+Q2 = -c4*(c4 - 1)*(c4*m2 - c4*m3 - m2 + m4)*(m2*m3 - m2*m4 + m3*m4 + 1)
+Q3 = -c4*(c4 - 1)*(c4*m2 - c4*m3 - m2 + m4)*(m2*m3 + m2*m4 - m3*m4 + 1)
+essential factors: [[m2*m3 - m2*m4 - m3*m4 - 1], [m2*m3 - m2*m4 + m3*m4 + 1], [m2*m3 + m2*m4 - m3*m4 + 1]]
+Groebner(Q1,Q2,Q3, t*nondeg-1) = [1]
+ANGLE LEMMA CERTIFIED (unit ideal): True
+lex Groebner(Q1,Q2, nondeg): [m2, m3*m4 + 1, c4**3*m3*t - c4**3*m4*t - c4**2*m3*t - c4**2*m4**3*t + c4*m4**3*t + c4*m4*t - m4, c4**3*m4**2*t + c4**3*t + c4**2*m4**4*t - c4**2*t - c4*m4**4*t - c4*m4**2*t + m4**2]
+lex Groebner(Q1,Q3, nondeg): [m2*m4 + 1, c4**3*m2*t - c4**3*m4*t - 2*c4**2*m2*t + c4**2*m4**3*t + 3*c4**2*m4*t + c4*m2*t - c4*m4**3*t - 2*c4*m4*t - m4, m3, -c4**3*m4**2*t - c4**3*t + c4**2*m4**4*t + 3*c4**2*m4**2*t + 2*c4**2*t - c4*m4**4*t - 2*c4*m4**2*t - c4*t - m4**2]
+lex Groebner(Q2,Q3, nondeg): [m2*m3 + 1, c4**3*m2*t - c4**3*m3**3*t - 2*c4**3*m3*t - 2*c4**2*m2*t + c4**2*m3**3*t + 3*c4**2*m3*t + c4*m2*t - c4*m3*t + m3, c4**3*m3**4*t + 2*c4**3*m3**2*t + c4**3*t - c4**2*m3**4*t - 3*c4**2*m3**2*t - 2*c4**2*t + c4*m3**2*t + c4*t - m3**2, m4]
+numeric: min over random non-degenerate quadrilaterals of max|Q_k| = 0.0005989962242721113
+two-condition family (L1 perp L2, L3 perp L4): Q1,Q2,Q3 = [0, 0, 78]  nondeg = -195/2
+
+real	9m18.327s
+user	4m31.827s
+sys	0m0.147s

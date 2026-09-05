@@ -8,3 +8,9 @@ F2: 7-triple packings on 7 points: 30 labelled, 1 class(es); all cover all 21 pa
 F3: 8-triple packings on 8 points: 840 labelled; |Aut(MK)| = 48; 8!/|Aut| = 840 -> single isomorphism class: True  [17s]
    MK residual equations: [t**2 - t + 1]  Groebner basis: [t**2 - t + 1]
    solutions t: [1/2 - sqrt(3)*I/2, 1/2 + sqrt(3)*I/2]  real: [False, False]
+F4: 11-triple packings on 9 points: 10080 labelled (expected 10080 = 840 STS(9) x 12 lines)  [957s]
+   every 11-packing = STS(9) minus a line: True;  every 11-packing contains an (8_3): True
+   => 9 real points carry at most 10 three-point lines (t3(9) <= 10), given F3.
+F5: Miquel: product of the six oriented edge cross-ratios = 1
+   each factor is a cross-ratio (a,c;b,d) or its inverse of its face's cyclic order (a,b,c,d): True
+done [959s]

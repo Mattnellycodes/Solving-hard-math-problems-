@@ -1,0 +1,3 @@
+z3 skeleton 1 [[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8]] omode=sg orchard10=False: unknown  [900s]
+z3 skeleton 2 [[0, 1, 2, 3, 4, 5], [0, 6, 7, 8, 9]] omode=sg orchard10=False: unknown  [900s]
+z3 skeleton 3 [[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8, 9]] omode=sg orchard10=False: unsat  [3s]

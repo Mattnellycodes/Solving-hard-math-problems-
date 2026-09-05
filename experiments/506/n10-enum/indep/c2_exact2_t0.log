@@ -1,0 +1,9 @@
+type 0.0 lineset 27 |L|=10: NO CLEAN TRIPLE FOUND  [11s]
+type 0.0 lineset 28 |L|=10: NO CLEAN TRIPLE FOUND  [12s]
+type 0.0 lineset 29 |L|=10: NO CLEAN TRIPLE FOUND  [12s]
+type 0.0 lineset 30 |L|=10: NO CLEAN TRIPLE FOUND  [12s]
+SUMMARY: 0 of 4 open cases excluded
+
+real	0m50.676s
+user	0m22.103s
+sys	0m0.055s

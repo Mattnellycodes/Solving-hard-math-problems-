@@ -1,0 +1,3 @@
+n9_m4_t24_c1.txt families: 6480 histogram (D,ell,count,maxdeg): {(51, 11, 22, 8): 6120, (54, 11, 19, 8): 360}
+families with NO point in >= 8 four-blocks: 0 ; minimum over families of the max degree: 8
+END line: ['END n=9 m=4 target=24 capmode=1 nodes=714105490 checked=6480 found=6480']

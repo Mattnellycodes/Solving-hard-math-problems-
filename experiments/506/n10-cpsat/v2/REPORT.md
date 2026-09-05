@@ -70,3 +70,17 @@ off B5 contribute <= 2 each and the total is <= 30 < 39, contradiction.  If ther
 5-line) then the total must be exactly 40 = 39 + 1, so every point has exactly 4 lines, so every point off B5 lies
 on a 4-line — but the unique 4-line has only 4 points.  Contradiction.  So no structure with largest block 5 and a
 single 5-block reaches D + l >= 88.  (The CP-SAT run proves the same without O10 if it terminates; see 4.1.)
+
+### Implementation notes (bugs found and fixed during development)
+* First version of the E11 constraints double-counted a rich line through p (as B - p and as (B - p) ∪ {∞'}),
+  which made the constraints too strict (invalid).  Fixed before the runs reported below (the first, invalid
+  run was killed; its log is `skel_sg_buggyE11_killed.log`).  The same double counting was then found and fixed
+  in `filters.derived11`; a consistency test (the CP-SAT solution for skeleton 0 must pass every filter that the
+  model encodes) is what caught it.
+* The naive bundle filter was removed after it flagged the (realisable) antipodal configuration.
+* Tests: `analyse_two5.py` on the concentric-pentagon block family with a realisable 2-line set returns a
+  non-trivial ideal (finite O) and (1) for O = ∞, as it must; with a full 10-line set it returns (1) everywhere.
+  `analyse_six.py` on the skeleton-0 example structure returns (1) (6 involution conditions).
+* Robustness: the case-A skeletons 1–5 are infeasible also WITHOUT the E11 constraints (`skel_sg_noe11_A.log`),
+  and z3 (independent pseudo-Boolean encoding, `z3_check.py`) confirms infeasibility of skeleton 17 in 4 s
+  (`z3_easy.log` for the others).

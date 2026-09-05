@@ -1,0 +1,1 @@
+END n=9 m=6 target=24 capmode=1 nodes=120970 checked=0 found=0

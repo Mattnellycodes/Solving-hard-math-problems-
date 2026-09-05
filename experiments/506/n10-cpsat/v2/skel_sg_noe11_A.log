@@ -1,0 +1,6 @@
+skeleton 1 case A k=2 blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8]]: status=INFEASIBLE (build 2.3s, solve 1s)
+skeleton 2 case A k=2 blocks=[[0, 1, 2, 3, 4, 5], [0, 6, 7, 8, 9]]: status=INFEASIBLE (build 2.3s, solve 1s)
+skeleton 3 case A k=2 blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8, 9]]: status=INFEASIBLE (build 2.2s, solve 0s)
+skeleton 4 case A k=3 blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8], [2, 3, 6, 7, 9]]: status=INFEASIBLE (build 2.1s, solve 1s)
+skeleton 5 case A k=4 blocks=[[0, 1, 2, 3, 4, 5], [0, 1, 6, 7, 8], [2, 3, 6, 7, 9], [4, 5, 6, 8, 9]]: status=INFEASIBLE (build 2.4s, solve 0s)
+done

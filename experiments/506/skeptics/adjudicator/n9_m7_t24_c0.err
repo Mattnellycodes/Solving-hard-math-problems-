@@ -1,0 +1,2 @@
+enum_big n=9 m=7 target=24 capmode=0: C3n=84 cap_point=28 cap_lines=36 ellcap=12 Dmin=48 ncand=22 ratio=34/105
+END n=9 m=7 target=24 capmode=0 nodes=172 checked=0 found=0

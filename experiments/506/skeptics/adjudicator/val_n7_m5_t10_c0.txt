@@ -1,0 +1,1 @@
+END n=7 m=5 target=10 capmode=0 nodes=26 checked=0 found=0

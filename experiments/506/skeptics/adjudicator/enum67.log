@@ -1,0 +1,13 @@
+n=5 target=5 regime=none: families visited=6, labelled (F,L_max) with count<=target: 5, iso classes: 1
+   count=5 D=3 ell_max=2 blocks=[[0, 1, 2, 3]] lines(example max set)=[[0, 1, 4], [2, 3, 4]]
+n=5 target=5 regime=sg: families visited=6, labelled (F,L_max) with count<=target: 5, iso classes: 1
+   count=5 D=3 ell_max=2 blocks=[[0, 1, 2, 3]] lines(example max set)=[[0, 1, 4], [2, 3, 4]]
+n=6 target=7 regime=none: families visited=82, labelled (F,L_max) with count<=target: 15, iso classes: 1
+   count=7 D=9 ell_max=4 blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines(example max set)=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]]
+n=6 target=7 regime=sg: families visited=82, labelled (F,L_max) with count<=target: 15, iso classes: 1
+   count=7 D=9 ell_max=4 blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [2, 3, 4, 5]] lines(example max set)=[[0, 2, 4], [0, 3, 5], [1, 2, 5], [1, 3, 4]]
+n=7 target=10 regime=none: families visited=6149, labelled (F,L_max) with count<=target: 240, iso classes: 2
+   count=7 D=21 ell_max=7 blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [0, 2, 4, 6], [0, 3, 5, 6], [1, 2, 5, 6], [1, 3, 4, 6], [2, 3, 4, 5]] lines(example max set)=[[0, 1, 6], [0, 2, 5], [0, 3, 4], [1, 2, 4], [1, 3, 5], [2, 3, 6], [4, 5, 6]]
+   count=10 D=18 ell_max=7 blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [0, 2, 4, 6], [0, 3, 5, 6], [1, 2, 5, 6], [1, 3, 4, 6]] lines(example max set)=[[0, 1, 6], [0, 2, 5], [0, 3, 4], [1, 2, 4], [1, 3, 5], [2, 3, 6], [4, 5, 6]]
+n=7 target=10 regime=sg: families visited=6149, labelled (F,L_max) with count<=target: 30, iso classes: 1
+   count=8 D=21 ell_max=6 blocks=[[0, 1, 2, 3], [0, 1, 4, 5], [0, 2, 4, 6], [0, 3, 5, 6], [1, 2, 5, 6], [1, 3, 4, 6], [2, 3, 4, 5]] lines(example max set)=[[0, 1, 6], [0, 2, 5], [0, 3, 4], [1, 2, 4], [1, 3, 5], [2, 3, 6]]
