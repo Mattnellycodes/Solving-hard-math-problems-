@@ -339,3 +339,29 @@ is therefore exhaustive over isomorphism classes; validated against brute force 
   12 diagonal-antipodal); the record configuration realises the diagonal-adjacent kind (the altitude
   line AHF∞, the circumcircle ABC and the nine-point circle DEF; ∞ = (1,1,1) in cube coordinates,
   bipartition {A,B,C,H} | {D,E,F,∞}).
+
+---
+
+## Errata and audit notes (added by the orchestrating agent after adjudication, 2026-09-05)
+
+The adjudicator (`../skeptics/ADJUDICATION.md`) confirmed every claim of this report (c(5)=5, c(6)=8,
+c(7)=11, c(8)=17, c(9)=25 and Lemmas (i)–(viii)) by independent code, and recorded the following
+non-load-bearing defects, which are left in place above for the record:
+
+1. `angle_lemma_check.py` fixes L1 horizontal and uses finite slopes for L2..L4, so its chart omits a line
+   perpendicular to L1 — exactly the case the synthetic proof passes through. The synthetic directed-angle
+   proof (Lemma 2.3) is complete; complete algebraic certificates are in `../skeptics/c6-audit/`,
+   `../skeptics/lemmas-audit/` and `../skeptics/adjudicator/angle_lemma.py` (chart L1: y = 0, L_i: x = m_i y + c_i).
+2. `cpsat_hereditary.py`: the hereditary constraints (H1)/(H2)/(H1')/(H2') omit the hypothesis "S is not
+   contained in one block through p" (resp. one line). As written the model declares the realisable
+   antipodal 9-point structure infeasible and would wrongly exclude any n = 10 structure with a block of
+   size ≥ 9. **Do not use it for n = 10 without the fix** (add 7·x_{S∪{p}}, resp. 8·x_{S∪{p}}, and the
+   analogous y-terms for lines, to the right-hand sides, or skip subsets contained in a block through p).
+   It was not used for any result in this report (n = 9 was settled by the two-phase enumeration).
+3. §3.5: the Lemma C bound for n = 9, m = 6 is 27 (26 with Sylvester–Gallai-only caps), not 28.
+4. Lemma 2.5 (A): the clause "equality iff B is a circle and …" holds for n ≥ 5 (at n = 4 a 3-point line
+   plus one point also attains f(4) = 3).
+5. Lemma 2.4: the realisability statement is for 8 distinct, not-all-collinear points whose 3-point lines
+   are exactly the 8 lines of the configuration (as used); alternatively cite t₃(8) = 7.
+6. Convention: all results use Elliott's convention (points not all on one line or one circle; collinear
+   triples determine no circle); erdosproblems.com is ambiguous between this and "no three collinear".

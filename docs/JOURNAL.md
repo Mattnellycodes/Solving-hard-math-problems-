@@ -188,3 +188,23 @@ Workflow `a067857-refutation` (certificate builder + proof writer, each hostilel
 - Audits: both CONFIRMED with no gap (independent MPFR directed-rounding intervals; own uniform bound).
 - My own sanity check (`main_agent_check/check.py`) reproduced G(92) = −5.67698e−5 before the workflow ran.
 Not claimed: that 479# is the least counterexample (only ω ≥ 52 is proved for any counterexample).
+
+**15:45 UTC — adjudication of the #506 claims: all CONFIRMED** (`experiments/506/skeptics/ADJUDICATION.md`).
+Ten skeptics (two per claim) plus an adjudicator with its own from-scratch code confirmed c(5)=5, c(6)=8,
+c(7)=11, c(8)=17, c(9)=25 and all eight supporting lemmas. Every load-bearing step was reproduced by at
+least two skeptics and by the adjudicator; Kelly–Moser/Csima–Sawyer values and Lemmas A/B/C are not
+load-bearing for n ≤ 9. Defects found are cosmetic or in non-load-bearing certificate programs of the
+theory agent (recorded as errata in `experiments/506/theory/REPORT.md`; notably `cpsat_hereditary.py`
+is unsound as written and must not be used for n = 10).
+
+**n = 10 (conjecture c(10) = 33).** The CP-SAT attack agent proved, with its own code and only
+Sylvester–Gallai plus re-verified packing facts: (i) with a 6-block present, every skeleton with ≥ 2 big
+blocks is infeasible for D + ℓ ≥ 88, so a case-A structure has exactly one big block; (ii) the
+all-4-block case is impossible (t₃(9) ≤ 10 derived from the (8_3) lemma, t₃(10) ≤ 12 re-proved);
+(iii) for largest block 5, the single-5-block skeleton is excluded by counting, and the multi-5-block
+skeletons 2–17 are all INFEASIBLE (skel_sg_part2.log) except the two-disjoint-5-blocks family, whose
+realisations are concentric regular pentagons, for which a Gröbner analysis excludes the tested 10-line
+set. The complete enumeration of case-A and two-pentagon 4-block families was still queued when the
+usage limit interrupted the workflow; the other three attack agents (orderly enumeration, two construction
+searches), the audit and the write-up never ran. Status: c(10) ≥ 33 NOT yet established; no candidate
+structure with ≤ 32 circles has survived any check so far.
